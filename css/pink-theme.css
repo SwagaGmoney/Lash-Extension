@@ -5991,7 +5991,7 @@ blockquote {
 .caret-down i {
   position: absolute;
   top:1rem;
-  left: 27em; /* Adjust this value as needed */
+  left: 10em; /* Adjust this value as needed */
 }
 
 
@@ -6001,7 +6001,7 @@ blockquote {
 .caret-down i {
   position: absolute;
   top:1rem;
-  left: 14.5em; /* Adjust this value as needed */
+  left: 10.5em; /* Adjust this value as needed */
 }
 }
 @media screen and  (min-width:500px) and (max-width:768px) {
@@ -6040,9 +6040,105 @@ blockquote {
 .pricing-container {
   border: 1px solid #ddd; /* Thin border */
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  box-shadow: 0px 10px 30px 0px rgba(0,0,0,.1);
   padding: 20px ; /* Add some padding */
   width:60%;
  margin-left:20%;
   justify-content: center;
+}
+.main-title{ 
+   box-shadow: 0px 10px 30px 0px rgba(0,0,0,.1);
+}
+
+
+/* home page -> welcome section  */
+
+/* Tabs Box */
+.tabs-box {
+    position: relative;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    top:2em;
+}
+
+.tabs-box .tab {
+    display: none;
+    transition: all .5s ease; /* Add transition for smooth display */
+}
+
+.tabs-box .tab.active-tab {
+    display: block;
+}
+
+/* Tab Buttons */
+.tab-btns {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    top:-5em;
+}
+
+.tab-btns li {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 104px; /* Adjust height to match the content padding */
+    background: #ebeced;
+    border-radius: 30px;
+    padding: 36px 20px 32px;
+    cursor: pointer;
+    margin: 0 3.5px;
+    z-index: 1;
+    overflow: hidden; /* Ensure gradient overflow is hidden */
+    transition: background-color 0.3s ease, background-position 0.3s ease, box-shadow 0.3s ease; /* Adjust transition for smoothness */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.tab-btns li.active-btn {
+    background: #ff0000; /* Set active tab background color */
+}
+
+.tab-btns li:hover,
+.tab-btns li.active-btn {
+    background: linear-gradient(to bottom, #ebeced 50%, #ff0000 50%);
+    background-size: 100% 200%; /* Double the height for smooth animation */
+    background-position: 0 -100%; /* Start background position from top */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust box shadow on hover/active */
+}
+
+.tab-btns li.active-btn:before,
+.tab-btns li:hover:before {
+    height: 100%;
+}
+
+.tab-btns li.active-btn:after,
+.tab-btns li:hover:after {
+    opacity: 1;
+    bottom: -7px;
+    transition-delay: .4s; /* Simplify transition delay */
+}
+
+/* Content and Image Columns */
+.content-column {
+    width: calc(50% - 20px); /* Adjust width for responsiveness */
+    float: left; /* Float content column to the left */
+    padding-right: 20px; /* Add padding for spacing */
+}
+
+.image-column {
+    width: calc(50% - 20px); /* Adjust width for responsiveness */
+    float: left; /* Float image column to the left */
+    padding-left: 20px; /* Add padding for spacing */
+}
+
+@media screen and (max-width: 768px) {
+    .content-column,
+    .image-column {
+        width: 100%; /* Adjust width for smaller screens */
+        float: none; /* Remove float for stacking on smaller screens */
+        padding: 0; /* Remove padding for stacking on smaller screens */
+    }
 }

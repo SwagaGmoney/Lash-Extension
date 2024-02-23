@@ -17,7 +17,7 @@ get_header();
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
-                <div class="caption-txt white-color text-center ">
+                <div class="caption-txt white-color  ">
                     <!-- Title -->
                     <h2 class="d-inline-block ">Lash Extention By Fiona </h2>
                     <!-- Text -->
@@ -58,30 +58,9 @@ get_header();
                     <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
 
                     <!-- Text -->
-                    <p class="txt-color-05">Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus
-                        feugiat dolor lacinia cubilia curae integer orci congue and metus mollislorem primis in integer metus
-                        mollis faucibus
+                    <p class="txt-color-05">At Lash Extensions by Fiona, we specialize in providing high-quality lash extensions that will boost your beauty and confidence. Our lash extensions are precisely manufactured from the highest quality materials, appealing to a wide range of preferences and ethical considerations. Every set of lashes is intended to replicate the natural look and feel of your own lashes, resulting in a smooth and pleasant wear.
+
                     </p>
-
-                    <!-- List -->
-                    <ul class="txt-list txt-color-05">
-
-                        <li class="list-item">
-                            <i class="fas fa-genderless"></i>
-                            <p>Fringilla risus nec, luctus mauris orci auctor purus euismod at pretium purus
-                                pretium ligula rutrum tempor sapien
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <i class="fas fa-genderless"></i>
-                            <p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien
-                                undo pretium purus
-                            </p>
-                        </li>
-
-                    </ul>
-
                 </div>
             </div> <!-- END TEXT BLOCK -->
 
@@ -95,7 +74,7 @@ get_header();
 
 <!-- ABOUT-4
 			============================================= -->
-<section id="about-4" class="bg-color-02 wide-100 about-section division">
+<section id="about-4" class="bg-color-02 wide-100 about-section division p-relative ">
     <div class="container">
 
 
@@ -108,128 +87,147 @@ get_header();
                     <h2 class="tra-header txt-color-02">Welcome To</h2>
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Massage Therapy Center</h3>
+                    <h3 class="h3-xl txt-color-01"> Lash Extension By Fiona </h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">At Lash Extension by Fiona, we offer meticulously crafted lash extensions made from top-quality materials, meeting diverse preferences and ethical standards.
                     </p>
 
                 </div>
             </div>
-        </div>
-
-
-        <!-- ABOUT BOX #1 -->
-        <div class="row d-flex align-items-center bg-color-05">
-
-            <!-- Image -->
-            <div class="col-lg-6 a4-img">
-                <div class="img-block">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-06.jpg'; ?>" alt="about-image" />
-                </div>
-            </div>
-
-            <!-- Text -->
-            <div class="col-lg-6">
-                <div id="a4-1" class="abox-2">
-
-                    <!-- Title -->
-                    <h4 class="h4-sm txt-color-01">Skincare and Face Masks</h4>
-
-                    <!-- List -->
-                    <ul class="txt-list txt-color-01">
-
-                        <li class="list-item">
-                            <i class="fas fa-genderless"></i>
-                            <p>Fringilla risus nec, luctus mauris an auctor purus blandit</p>
-                        </li>
-
-                        <li class="list-item">
-                            <i class="fas fa-genderless"></i>
-                            <p>An enim nullam tempor sapien gravida donec ipsum and blandit an egestas porta justo integer
-                                odio vitae auctor
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <i class="fas fa-genderless"></i>
-                            <p>Magna at pretium purus pretium and ligula rutrum laoreet augue in cubilia laoreet an augue egestas
-                                ipsum vitae
-                            </p>
-                        </li>
-
-                    </ul> <!-- End Text List -->
-
-                    <!-- Button -->
-                    <a href="demo-1.html#" class="btn btn-md btn-color-02 tra-01-hover mt-20">Read More</a>
-
-                </div>
-            </div>
 
         </div>
 
+        <div class="tabs-box">
 
-        <!-- ABOUT BOXES WRAPPER -->
-        <div class="abox-2-wrapper">
-            <div class="row d-flex align-items-center">
+            <div class="tab-btn-box p-relative d-block mb-70 centred">
+                <ul class="tab-btns tab-buttons clearfix">
+                    <li class="tab-btn active-btn" data-tab="#tab-1"></li>
+                    <li class="tab-btn " data-tab="#tab-2"></li>
+                    <li class="tab-btn " data-tab="#tab-3"></li>
+                    <li class="tab-btn " data-tab="#tab-4"></li>
+                </ul>
+            </div>
 
+            <div class="tabs-content">
+                <div class="tab active-tab" id="tab-1" style="display: block;">
+                    <div class="inner-box">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                                <div class="content_block_box">
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h3>About Lash Extensions </h3>
+                                            <p>hello there</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <!-- ABOUT BOX #2 -->
-                <div class="col-lg-6 bg-color-03 white-color">
-                    <div class="row d-flex align-items-center">
-
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-07.jpg'; ?>" alt="about-image" />
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div class="image_block_two">
+                                    <div class="image-box p-relative d-block">
+                                        <figure class="image p-relative d-block">
+                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                        </figure>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="tab" id="tab-2" style="display: none;">
 
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-2" class="abox-2">
-                                <h5 class="h5-md">SPA Facials</h5>
-                                <p>Magnis nulla dolor a suscipit augue iaculis purus tempor at magna ipsum and primis vitae
-                                    purus ipsum a congue magna dictum diam pulvinar
-                                </p>
+                    <div class="inner-box">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                                <div class="content_block_box">
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h3>About Lash Extensions </h3>
+                                            <p>hello there</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div class="image_block_two">
+                                    <div class="image-box p-relative d-block">
+                                        <figure class="image p-relative d-block">
+                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                        </figure>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                <div class="tab" id="tab-3" style="display: none;">
+                    <div class="inner-box">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                                <div class="content_block_box">
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h3>About Lash Extensions </h3>
+                                            <p>hello there</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div class="image_block_two">
+                                    <div class="image-box p-relative d-block">
+                                        <figure class="image p-relative d-block">
+                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
 
-                <!-- ABOUT BOX #3 -->
-                <div class="col-lg-6 bg-color-04 white-color">
-                    <div class="row d-flex align-items-center">
+                <div class="tab" id="tab-4" style="display: none;">
+                    <div class="inner-box">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                                <div class="content_block_box">
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h3>About Lash Extensions </h3>
+                                            <p>hello there</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-08.jpg'; ?>" alt="about-image" />
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div class="image_block_two">
+                                    <div class="image-box p-relative d-block">
+                                        <figure class="image p-relative d-block">
+                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                        </figure>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-3" class="abox-2">
-                                <h5 class="h5-md">Aromatherapy</h5>
-                                <p>Magnis nulla dolor a suscipit augue iaculis purus tempor at magna ipsum and primis vitae
-                                    purus ipsum a congue magna dictum diam pulvinar
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
+
                 </div>
 
-
-            </div> <!-- End row -->
-        </div> <!-- END ABOUT BOXES WRAPPER -->
+            </div>
 
 
-    </div> <!-- End container -->
+
+        </div>  
+<!--   End of Tabs-box -->
+
+     </div> <!-- End container -->
 </section> <!-- END ABOUT-4 -->
 
 
@@ -286,7 +284,7 @@ get_header();
                     <h3 class="h3-xl txt-color-01">The Art of Waxing</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill and precision, but also a sense of beauty and aesthetics. At the heart of this art is the idea that brow waxing is more than just a cosmetic process; it's a form of self-expression, a means to highlight your inherent beauty and traits while allowing your individuality to shine through.
+                    <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill and precision, but also a sense of beauty and aesthetics.
                     </p>
 
                 </div>
@@ -314,13 +312,13 @@ get_header();
                         <div class="sbox-10-txt">
 
                             <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Eyebrow waxing </h5>
+                            <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing Services </h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Refine Your Style with Our Precision Eyebrow Waxing Services. Achieve Flawless Definition Today.</p>
+                            <p class="txt-color-05">Experience flawless definition and radiant skin with our expert face and eyebrow waxing services. Enhance your style and glow today.</p>
 
                             <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Find Out More</a>
+                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
 
                         </div>
 
@@ -344,13 +342,69 @@ get_header();
 
 
                             <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Face Waxing.</h5>
+                            <h5 class="h5-sm txt-color-01">Microblading Services</h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Enhance Your Radiance: Expert Face Waxing Services for Smooth, Glowing Skin. Experience the Difference.</p>
+                            <p class="txt-color-05">Elevate your beauty with microblading, crafting perfect brows for a lasting, natural glow. Experience the Difference.</p>
 
                             <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Find Out More</a>
+                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="sbox-10 bg-white text-center">
+
+                        <!-- Image -->
+                        <div class="sbox-10-img">
+                            <div class="hover-overlay">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="sbox-10-txt">
+
+
+                            <!-- Title -->
+                            <h5 class="h5-sm txt-color-01">Featured Services </h5>
+
+                            <!-- Text -->
+                            <p class="txt-color-05">Discover our premier featured service, tailored to elevate your beauty and enhance your confidence.</p>
+
+                            <!-- Button -->
+                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="sbox-10 bg-white text-center">
+
+                        <!-- Image -->
+                        <div class="sbox-10-img">
+                            <div class="hover-overlay">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="sbox-10-txt">
+
+
+                            <!-- Title -->
+                            <h5 class="h5-sm txt-color-01">Brow & Lash Services</h5>
+
+                            <!-- Text -->
+                            <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing your eyes for effortless allure. Experience the Difference.</p>
+
+                            <!-- Button -->
+                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
 
                         </div>
 
@@ -455,29 +509,32 @@ get_header();
         <!-- PRICING TABLES WRAPPER -->
         <div class="container p-4 w-100 flex ">
             <div class="row justify-content-md-center">
-                <div class=" col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Featured <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class=" col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title  ">
+                    <span class="ml-4">Featured</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
             </div> <!-- End container 1 -->
             <div class="pricing-container mt-2">
                 <ul class="pricing-list pt-4">
                     <li class="pricing-list-txt">
-                        <h5 class="h5-md txt-color-01">Title 1</h5>
-                        <p class="txt-color-05">This is some text describing the service.</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                        <h5 class="h5-md txt-color-01">Classic Full Set </h5>
+                        <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> One Sale</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$78</span>
                     </li>
                     <li class="pricing-list-txt">
-                        <h5 class="h5-md txt-color-01">Title 2</h5>
-                        <p class="txt-color-05">This is some text describing another service.</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$75</span>
+                        <h5 class="h5-md txt-color-01">Classic Season </h5>
+                        <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
                     </li>
                     <li class="pricing-list-txt">
-                        <h5 class="h5-md txt-color-01">Title 1</h5>
-                        <p class="txt-color-05">This is some text describing the service.</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                        <h5 class="h5-md txt-color-01"> YY Lashes Refill </h5>
+                        <p class="txt-color-05">35 mins</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$68</span>
                     </li>
                     <li class="pricing-list-txt">
-                        <h5 class="h5-md txt-color-01">Title 1</h5>
-                        <p class="txt-color-05">This is some text describing the service.</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                        <h5 class="h5-md txt-color-01">Classic Refill </h5>
+                        <p class="txt-color-05">40 mins</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$58</span>
                     </li>
 
                 </ul>
@@ -485,27 +542,168 @@ get_header();
         </div>
         <div class="container p-4 w-100 flex ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  "> Microblading <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title  ">
+                    <span class="ml-4">Microblading</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
             </div> <!-- End container 2 -->
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Microblading Fill</h5>
+                        <p class="txt-color-05">1 Hour </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$150</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Microblading Set</h5>
+                        <p class="txt-color-05">3 Hour(s) </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$350</span>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container p-4 w-100 flex ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Members Fee <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title ">
+                    <span class="ml-4">Members Fee</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
             </div> <!-- End container 3 -->
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Classic Season</h5>
+                        <p class="txt-color-05">45 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Dramatic Member</h5>
+                        <p class="txt-color-05">1 Hour </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Volume Member</h5>
+                        <p class="txt-color-05">50 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$148</span>
+                    </li>
+
+                </ul>
+            </div>
         </div>
         <div class="container p-4 w-100 flex ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Brows & Lashes <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title ">
+                    <span class="ml-4">Brows & Lashes</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+
             </div> <!-- End container 4 -->
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01"> Bottom Lashes </h5>
+                        <p class="txt-color-05">30 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$38</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Classic Full Set </h5>
+                        <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> One Sale </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$78</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Classic Refill </h5>
+                        <p class="txt-color-05">40 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$58</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Classic Mini Touch </h5>
+                        <p class="txt-color-05"> 30 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$48</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01"> YY Lash Full Set</h5>
+                        <p class="txt-color-05">45 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Female Only </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$88</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01"> YY Lash Refill </h5>
+                        <p class="txt-color-05">35 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$68</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Hybrid Full Set</h5>
+                        <p class="txt-color-05">50 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$98</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Hybrid Refill </h5>
+                        <p class="txt-color-05">1 hour </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$78</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Volume Full Set</h5>
+                        <p class="txt-color-05">50 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$128</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Volume Refill </h5>
+                        <p class="txt-color-05">50 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$88</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Dramatic Full Set ( > 17mm ) </h5>
+                        <p class="txt-color-05">1 hour </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$158</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Dramatic Refill ( > 17mm ) </h5>
+                        <p class="txt-color-05">1 hour </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$108</span>
+                    </li>
+
+                </ul>
+            </div>
         </div>
         <div class="container p-4 w-100 flex  ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Face Cleansing <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title ">
+                    <span class="ml-4">Face Cleansing</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+
             </div> <!-- End container 5 -->
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Hydra-Facial</h5>
+                        <p class="txt-color-05">55 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$88</span>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container p-4 w-100 flex  ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Waxing <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill main-title ">
+                    <span class="ml-4">Waxing</span>
+                    <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+
+            </div>
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Eyebrow Waxing </h5>
+                        <p class="txt-color-05">15 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$10</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Face Waxing </h5>
+                        <p class="txt-color-05">30 mins </p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$30</span>
+                    </li>
+
+                </ul>
             </div>
         </div> <!-- End container 6 -->
 
@@ -977,3 +1175,43 @@ get_header();
 
 
 <?php get_footer(); ?>
+
+
+<script> 
+document.addEventListener("DOMContentLoaded", function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabs = document.querySelectorAll('.tab');
+
+    tabButtons.forEach(function(tabButton, index) {
+        tabButton.addEventListener('click', function() {
+            // Remove active class from all tab buttons
+            tabButtons.forEach(function(btn) {
+                btn.classList.remove('active-btn');
+            });
+
+            // Add active class to clicked tab button
+            tabButton.classList.add('active-btn');
+
+            // Hide all tabs
+            tabs.forEach(function(tab) {
+                tab.style.display = 'none';
+            });
+
+            // Display the corresponding tab content
+            const tabId = tabButton.getAttribute('data-tab');
+            document.querySelector(tabId).style.display = 'block';
+        });
+
+        // Immediate color change upon clicking each tab
+        tabButton.addEventListener('click', function() {
+            tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
+            setTimeout(function() {
+                tabButton.style.backgroundImage = '';
+            }, 500);
+        });
+    });
+});
+
+
+
+</script> 
