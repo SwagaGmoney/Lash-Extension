@@ -25,7 +25,7 @@
                         <p>Houston, TX 77057</p>
 
                         <!-- Email -->
-                        <p class="foo-email">E: <a
+                        <p class="foo-email"><a
                                 href="mailto:contact@lashextensionsbyfiona.com">contact@lashextensionsbyfiona.com</a>
                         </p>
 
