@@ -13,7 +13,8 @@ get_header();
 
 <!-- HERO-1
 			============================================= -->
-<section id="hero-1" class="hero-section division" style="background-image: url('<?php echo get_template_directory_uri() . '/images/slider/slide-1.jpg'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
+<section id="hero-1" class="hero-section division"
+    style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
@@ -45,7 +46,8 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>" alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                        alt="about-image">
                 </div>
             </div>
 
@@ -58,7 +60,11 @@ get_header();
                     <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
 
                     <!-- Text -->
-                    <p class="txt-color-05">At Lash Extensions by Fiona, we specialize in providing high-quality lash extensions that will boost your beauty and confidence. Our lash extensions are precisely manufactured from the highest quality materials, appealing to a wide range of preferences and ethical considerations. Every set of lashes is intended to replicate the natural look and feel of your own lashes, resulting in a smooth and pleasant wear.
+                    <p class="txt-color-05">At Lash Extensions by Fiona, we specialize in providing high-quality lash
+                        extensions that will boost your beauty and confidence. Our lash extensions are precisely
+                        manufactured from the highest quality materials, appealing to a wide range of preferences and
+                        ethical considerations. Every set of lashes is intended to replicate the natural look and feel
+                        of your own lashes, resulting in a smooth and pleasant wear.
 
                     </p>
                 </div>
@@ -90,7 +96,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01"> Lash Extension By Fiona </h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">At Lash Extension by Fiona, we offer meticulously crafted lash extensions made from top-quality materials, meeting diverse preferences and ethical standards.
+                    <p class="p-lg txt-color-05">At Lash Extension by Fiona, we offer meticulously crafted lash
+                        extensions made from top-quality materials, meeting diverse preferences and ethical standards.
                     </p>
 
                 </div>
@@ -224,10 +231,10 @@ get_header();
 
 
 
-        </div>  
-<!--   End of Tabs-box -->
+        </div>
+        <!--   End of Tabs-box -->
 
-     </div> <!-- End container -->
+    </div> <!-- End container -->
 </section> <!-- END ABOUT-4 -->
 
 
@@ -247,7 +254,8 @@ get_header();
             <!-- VIDEO LINK -->
             <div class="col-md-8 offset-md-2">
                 <div class="video-1-preview">
-                    <a class="video-popup2" href="https://www.youtube.com/embed/7e90gBu4pas"> <!-- Change the link HERE!!! -->
+                    <a class="video-popup2" href="https://www.youtube.com/embed/7e90gBu4pas">
+                        <!-- Change the link HERE!!! -->
 
                         <!-- Play Icon -->
                         <div class="video-btn bg-color-09">
@@ -284,7 +292,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">The Art of Waxing</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill and precision, but also a sense of beauty and aesthetics.
+                    <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill
+                        and precision, but also a sense of beauty and aesthetics.
                     </p>
 
                 </div>
@@ -304,7 +313,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -315,7 +326,8 @@ get_header();
                             <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing Services </h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Experience flawless definition and radiant skin with our expert face and eyebrow waxing services. Enhance your style and glow today.</p>
+                            <p class="txt-color-05">Experience flawless definition and radiant skin with our expert face
+                                and eyebrow waxing services. Enhance your style and glow today.</p>
 
                             <!-- Button -->
                             <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
@@ -333,7 +345,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -345,7 +359,8 @@ get_header();
                             <h5 class="h5-sm txt-color-01">Microblading Services</h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Elevate your beauty with microblading, crafting perfect brows for a lasting, natural glow. Experience the Difference.</p>
+                            <p class="txt-color-05">Elevate your beauty with microblading, crafting perfect brows for a
+                                lasting, natural glow. Experience the Difference.</p>
 
                             <!-- Button -->
                             <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
@@ -361,7 +376,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -373,7 +390,8 @@ get_header();
                             <h5 class="h5-sm txt-color-01">Featured Services </h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Discover our premier featured service, tailored to elevate your beauty and enhance your confidence.</p>
+                            <p class="txt-color-05">Discover our premier featured service, tailored to elevate your
+                                beauty and enhance your confidence.</p>
 
                             <!-- Button -->
                             <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
@@ -389,7 +407,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -401,7 +421,8 @@ get_header();
                             <h5 class="h5-sm txt-color-01">Brow & Lash Services</h5>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing your eyes for effortless allure. Experience the Difference.</p>
+                            <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing
+                                your eyes for effortless allure. Experience the Difference.</p>
 
                             <!-- Button -->
                             <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
@@ -463,7 +484,8 @@ get_header();
             <!-- ABOUT IMAGE -->
             <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
                 <div class="about-5-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>" alt="about-image" />
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>"
+                        alt="about-image" />
                 </div>
             </div>
 
@@ -523,7 +545,8 @@ get_header();
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Classic Season </h5>
-                        <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon</p>
+                        <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon
+                        </p>
                         <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
                     </li>
                     <li class="pricing-list-txt">
@@ -573,7 +596,8 @@ get_header();
                 <ul class="pricing-list pt-4">
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Classic Season</h5>
-                        <p class="txt-color-05">45 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon</p>
+                        <p class="txt-color-05">45 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon
+                        </p>
                         <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
                     </li>
                     <li class="pricing-list-txt">
@@ -728,7 +752,8 @@ get_header();
                     <h3 class="h3-sm">Aroma and Jet Hydrotherapy!</h3>
 
                     <!-- Text -->
-                    <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus dolor
+                    <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus
+                        dolor
                         velna auctor congue tempus an integer
                     </p>
 
@@ -783,7 +808,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-1.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-1.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -807,7 +833,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-2.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-2.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -831,7 +858,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-3.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-3.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -855,7 +883,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-4.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-4.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -879,7 +908,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-5.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-5.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -903,7 +933,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-6.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-6.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -914,7 +945,8 @@ get_header();
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Mauris donec ociis et magnis sapien an etiam sapien sem sagittis congue augue. An orci nullam
+                            <p>Mauris donec ociis et magnis sapien an etiam sapien sem sagittis congue augue. An orci
+                                nullam
                                 tempor sapien, eget orci gravida donec porta
                             </p>
                         </div>
@@ -927,7 +959,8 @@ get_header();
 
                         <!-- Testimonial Author Avatar -->
                         <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-7.jpg'; ?>" alt="testimonial-avatar">
+                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-7.jpg'; ?>"
+                                alt="testimonial-avatar">
                         </div>
 
                         <!-- Testimonial Author -->
@@ -972,7 +1005,8 @@ get_header();
                     <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                     <!-- Text -->
-                    <p class="p-xl txt-color-01">Call us : <span>+12 9 8765 4321</span> or fill out our online booking & equiry
+                    <p class="p-xl txt-color-01">Call us : <span>+12 9 8765 4321</span> or fill out our online booking &
+                        equiry
                         form and we will contact you
                     </p>
 
@@ -986,7 +1020,8 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>" alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
+                        alt="about-image">
                 </div>
             </div>
 
@@ -1035,7 +1070,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TITLE -->
@@ -1050,7 +1087,8 @@ get_header();
                         </h5>
 
                         <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor at
+                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
+                            tempor at
                             blandit sapien gravida donec ipsum undo porta justo...
                         </p>
 
@@ -1069,7 +1107,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1084,7 +1124,8 @@ get_header();
                         </h5>
 
                         <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor at
+                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
+                            tempor at
                             blandit sapien gravida donec ipsum undo porta justo...
                         </p>
 
@@ -1103,7 +1144,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1113,12 +1156,14 @@ get_header();
                         <span class="txt-color-06">Aromatherapy</span>
 
                         <!-- Post Title -->
-                        <h5 class="h5-sm txt-color-01"><a href="single-post.html">Neque dolor primis a libero tempus an impedit
+                        <h5 class="h5-sm txt-color-01"><a href="single-post.html">Neque dolor primis a libero tempus an
+                                impedit
                                 tempor</a>
                         </h5>
 
                         <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor at
+                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
+                            tempor at
                             blandit sapien gravida donec ipsum undo porta justo...
                         </p>
 
@@ -1156,7 +1201,8 @@ get_header();
                     <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
 
                     <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor an tempus
+                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor
+                        an tempus
                         feugiat dolor undo lacinia cubilia curae
                     </p>
 
@@ -1177,7 +1223,7 @@ get_header();
 <?php get_footer(); ?>
 
 
-<script> 
+<script>
 document.addEventListener("DOMContentLoaded", function() {
     const tabButtons = document.querySelectorAll('.tab-btn');
     const tabs = document.querySelectorAll('.tab');
@@ -1204,14 +1250,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Immediate color change upon clicking each tab
         tabButton.addEventListener('click', function() {
-            tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
+            tabButton.style.backgroundImage =
+                'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
             setTimeout(function() {
                 tabButton.style.backgroundImage = '';
             }, 500);
         });
     });
 });
-
-
-
-</script> 
+</script>
