@@ -10,7 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <section id="about-page" class="bg-fixed wide-100  page-hero-section division" style="background-image: url('<?php echo get_template_directory_uri() . '/images/about-page.jpg'; ?>'); ">
+    <section id="about-page" class="bg-fixed wide-100  page-hero-section division"
+        style="background-image: url('<?php echo get_template_directory_uri() . '/images/lashes-03.jpg'; ?>'); ">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2">
@@ -23,25 +24,30 @@
 
             <!-- BREADCRUMB -->
             <div id="breadcrumb">
-                <div class="row">                        
+                <div class="row">
                     <div class="col">
                         <div class="breadcrumb-nav">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+                                    </li>
                                     <?php if (is_single()) : ?>
-                                    <li class="breadcrumb-item"><a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">Blog</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page"><?php single_post_title(); ?></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">Blog</a>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page"><?php single_post_title(); ?>
+                                    </li>
                                     <?php elseif (is_page()) : ?>
-                                    <li class="breadcrumb-item active" aria-current="page"><?php single_post_title(); ?></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><?php single_post_title(); ?>
+                                    </li>
                                     <?php endif; ?>
                                 </ol>
                             </nav>
                         </div>
                     </div>
-                </div> 
-            </div>  <!-- END BREADCRUMB -->
-        </div> <!-- End container --> 
+                </div>
+            </div> <!-- END BREADCRUMB -->
+        </div> <!-- End container -->
     </section> <!-- END PAGE HERO -->
 </article>
 
