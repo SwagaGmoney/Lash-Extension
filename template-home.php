@@ -7,6 +7,17 @@
  */
 
 
+
+
+$active_tab = isset($_GET['active_tab']) ? $_GET['active_tab'] : 'default_tab';
+$image_url = '';
+if ($active_tab === 'tab1') {
+    $image_url = 'http://lashextensionbyfiona.local/wp-content/uploads/2024/02/logo-white-e1708725072531.png';
+} else {
+    $image_url = 'http://lashextensionbyfiona.local/wp-content/uploads/2024/02/Lash_Extension_By_Fiona__2_-removebg-preview-e1708724682802.png';
+}
+
+
 get_header();
 
 ?>
@@ -102,10 +113,25 @@ get_header();
 
             <div class="tab-btn-box p-relative d-block mb-70 centred">
                 <ul class="tab-btns tab-buttons clearfix">
-                    <li class="tab-btn active-btn" data-tab="#tab-1"></li>
-                    <li class="tab-btn " data-tab="#tab-2"></li>
-                    <li class="tab-btn " data-tab="#tab-3"></li>
-                    <li class="tab-btn " data-tab="#tab-4"></li>
+                    <li class="tab-btn active-btn" data-tab="#tab-1">
+                        <div class="icon-box">
+                        <img src="<?php echo esc_url( $image_url ); ?>" alt="lash" />
+                        </div>
+                        <h4 class="text-black"> Lash Extension </h4>
+                    </li>
+
+                    <li class="tab-btn " data-tab="#tab-2">
+                        <div class="icon-box"> </div>
+                        <h4 class="text-black">Process Overview </h4>
+                    </li>
+                    <li class="tab-btn " data-tab="#tab-3">
+                        <div class="icon-box"> </div>
+                        <h4 class="text-black"> Lash Care Tips </h4>
+                    </li>
+                    <li class="tab-btn " data-tab="#tab-4">
+                        <div class="icon-box"> </div>
+                        <h4 class="text-black"> Benefits </h4>
+                    </li>
                 </ul>
             </div>
 
@@ -224,10 +250,10 @@ get_header();
 
 
 
-        </div>  
-<!--   End of Tabs-box -->
+        </div>
+        <!--   End of Tabs-box -->
 
-     </div> <!-- End container -->
+    </div> <!-- End container -->
 </section> <!-- END ABOUT-4 -->
 
 
@@ -1177,41 +1203,38 @@ get_header();
 <?php get_footer(); ?>
 
 
-<script> 
-document.addEventListener("DOMContentLoaded", function() {
-    const tabButtons = document.querySelectorAll('.tab-btn');
-    const tabs = document.querySelectorAll('.tab');
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabs = document.querySelectorAll('.tab');
 
-    tabButtons.forEach(function(tabButton, index) {
-        tabButton.addEventListener('click', function() {
-            // Remove active class from all tab buttons
-            tabButtons.forEach(function(btn) {
-                btn.classList.remove('active-btn');
+        tabButtons.forEach(function(tabButton, index) {
+            tabButton.addEventListener('click', function() {
+                // Remove active class from all tab buttons
+                tabButtons.forEach(function(btn) {
+                    btn.classList.remove('active-btn');
+                });
+
+                // Add active class to clicked tab button
+                tabButton.classList.add('active-btn');
+
+                // Hide all tabs
+                tabs.forEach(function(tab) {
+                    tab.style.display = 'none';
+                });
+
+                // Display the corresponding tab content
+                const tabId = tabButton.getAttribute('data-tab');
+                document.querySelector(tabId).style.display = 'block';
             });
 
-            // Add active class to clicked tab button
-            tabButton.classList.add('active-btn');
-
-            // Hide all tabs
-            tabs.forEach(function(tab) {
-                tab.style.display = 'none';
+            // Immediate color change upon clicking each tab
+            tabButton.addEventListener('click', function() {
+                tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
+                setTimeout(function() {
+                    tabButton.style.backgroundImage = '';
+                }, 500);
             });
-
-            // Display the corresponding tab content
-            const tabId = tabButton.getAttribute('data-tab');
-            document.querySelector(tabId).style.display = 'block';
-        });
-
-        // Immediate color change upon clicking each tab
-        tabButton.addEventListener('click', function() {
-            tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
-            setTimeout(function() {
-                tabButton.style.backgroundImage = '';
-            }, 500);
         });
     });
-});
-
-
-
-</script> 
+</script>

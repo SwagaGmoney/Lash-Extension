@@ -6052,7 +6052,6 @@ blockquote {
 
 
 /* home page -> welcome section  */
-
 /* Tabs Box */
 .tabs-box {
     position: relative;
@@ -6060,7 +6059,7 @@ blockquote {
     border-radius: 50px;
     padding: 20px;
     text-align: center;
-    top:2em;
+    top: 2em;
 }
 
 .tabs-box .tab {
@@ -6078,14 +6077,14 @@ blockquote {
     padding: 0;
     display: inline-block;
     position: relative;
-    top:-5em;
+    top: -5em;
 }
 
 .tab-btns li {
     position: relative;
     display: inline-block;
     width: 180px;
-    height: 104px; /* Adjust height to match the content padding */
+    height: 240px; /* Adjust height to match the content padding */
     background: #ebeced;
     border-radius: 30px;
     padding: 36px 20px 32px;
@@ -6093,12 +6092,13 @@ blockquote {
     margin: 0 3.5px;
     z-index: 1;
     overflow: hidden; /* Ensure gradient overflow is hidden */
-    transition: background-color 0.3s ease, background-position 0.3s ease, box-shadow 0.3s ease; /* Adjust transition for smoothness */
+    transition: background-color 0.3s ease, background-position 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Adjust transition for smoothness */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .tab-btns li.active-btn {
     background: #ff0000; /* Set active tab background color */
+    color: #fff; /* Set text color to white */
 }
 
 .tab-btns li:hover,
@@ -6107,6 +6107,7 @@ blockquote {
     background-size: 100% 200%; /* Double the height for smooth animation */
     background-position: 0 -100%; /* Start background position from top */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust box shadow on hover/active */
+    color: #fff; /* Set text color to white */
 }
 
 .tab-btns li.active-btn:before,
@@ -6142,3 +6143,4 @@ blockquote {
         padding: 0; /* Remove padding for stacking on smaller screens */
     }
 }
+
