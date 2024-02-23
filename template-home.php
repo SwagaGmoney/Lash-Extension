@@ -296,7 +296,7 @@ get_header();
 
         <!-- SERVICES-10 WRAPPER -->
         <div class="sbox-10-wrapper">
-            <div class="row">
+            <div class="row justify-content-center">
 
 
                 <!-- SERVICE BOX #1 -->
@@ -453,11 +453,63 @@ get_header();
 
 
         <!-- PRICING TABLES WRAPPER -->
-        <div class="container">
+        <div class="container p-4 w-100 flex ">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-4 border border-primary text-secondary p-2 rounded-pill">Featured <span><i class="fal fa-caret-down"></i></span></div>
+                <div class=" col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Featured <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div> <!-- End container 1 -->
+            <div class="pricing-container mt-2">
+                <ul class="pricing-list pt-4">
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Title 1</h5>
+                        <p class="txt-color-05">This is some text describing the service.</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Title 2</h5>
+                        <p class="txt-color-05">This is some text describing another service.</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$75</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Title 1</h5>
+                        <p class="txt-color-05">This is some text describing the service.</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                    </li>
+                    <li class="pricing-list-txt">
+                        <h5 class="h5-md txt-color-01">Title 1</h5>
+                        <p class="txt-color-05">This is some text describing the service.</p>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$50</span>
+                    </li>
 
-        </div> <!-- End container -->
+                </ul>
+            </div>
+        </div>
+        <div class="container p-4 w-100 flex ">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  "> Microblading <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div> <!-- End container 2 -->
+        </div>
+        <div class="container p-4 w-100 flex ">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Members Fee <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div> <!-- End container 3 -->
+        </div>
+        <div class="container p-4 w-100 flex ">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Brows & Lashes <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div> <!-- End container 4 -->
+        </div>
+        <div class="container p-4 w-100 flex  ">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Face Cleansing <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div> <!-- End container 5 -->
+        </div>
+        <div class="container p-4 w-100 flex  ">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-8 border border-primary text-secondary p-2 rounded-pill  ">Waxing <span class="caret-down"><i class="fa-solid fa-caret-down"></i></span></div>
+            </div>
+        </div> <!-- End container 6 -->
+
+
 </section> <!-- END PRICING-1 -->
 
 

@@ -5983,3 +5983,66 @@ blockquote {
 
 /* best deals section */
 
+.caret-down {
+  font-size: 25px;
+}
+
+/* Adjust the positioning as needed */
+.caret-down i {
+  position: absolute;
+  top:1rem;
+  left: 27em; /* Adjust this value as needed */
+}
+
+
+@media screen and  (min-width:300px) and (max-width:500px) {
+
+
+.caret-down i {
+  position: absolute;
+  top:1rem;
+  left: 14.5em; /* Adjust this value as needed */
+}
+}
+@media screen and  (min-width:500px) and (max-width:768px) {
+
+
+  .caret-down i {
+    position: absolute;
+    top:1rem;
+    left: 18em; /* Adjust this value as needed */
+  }
+  }
+
+@media screen and  (min-width:768px) and (max-width:900px) {
+
+
+  .caret-down i {
+    position: absolute;
+    top:1rem;
+    left: 25em; /* Adjust this value as needed */
+  }
+  }
+  
+
+
+@media screen and (min-width:900px) and (max-width:1460px) { 
+  
+  .caret-down i {
+    position: absolute;
+    top:1rem;
+    left: 22em; /* Adjust this value as needed */
+  }
+}
+
+
+
+.pricing-container {
+  border: 1px solid #ddd; /* Thin border */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 20px ; /* Add some padding */
+  width:60%;
+ margin-left:20%;
+  justify-content: center;
+}
