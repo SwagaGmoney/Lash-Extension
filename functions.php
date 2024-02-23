@@ -145,7 +145,7 @@ function lash_extension_scripts() {
      wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 
      // Enqueue Font Awesome CSS
-     wp_enqueue_style( 'font-awesome', 'https://use.fontawesome.com/releases/v5.11.0/css/all.css' );
+	 wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
  
      // Enqueue other stylesheets
      wp_enqueue_style( 'menu', get_template_directory_uri() . '/css/menu.css' );
@@ -156,14 +156,36 @@ function lash_extension_scripts() {
      wp_enqueue_style( 'datetimepicker', get_template_directory_uri() . '/css/jquery.datetimepicker.min.css' );
      wp_enqueue_style( 'pink-theme', get_template_directory_uri() . '/css/pink-theme.css' );
      wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
+	 
 
      wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css' );
 
-     // Enqueue your theme's main stylesheet
-     wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
-
-
       // Enqueue JS files
+    wp_enqueue_script( 'jquery-3.4.1', get_template_directory_uri() . '/js/jquery-3.4.1.min.js', array(), null, true );
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), null, true );
+    wp_enqueue_script( 'modernizr-custom', get_template_directory_uri() . '/js/modernizr.custom.js', array(), null, true );
+    wp_enqueue_script( 'jquery.easing', get_template_directory_uri() . '/js/jquery.easing.js', array(), null, true );
+    wp_enqueue_script( 'jquery.appear', get_template_directory_uri() . '/js/jquery.appear.js', array(), null, true );
+    wp_enqueue_script( 'jquery.scrollto', get_template_directory_uri() . '/js/jquery.scrollto.js', array(), null, true );
+    wp_enqueue_script( 'menu', get_template_directory_uri() . '/js/menu.js', array(), null, true );
+    wp_enqueue_script( 'materialize', get_template_directory_uri() . '/js/materialize.js', array(), null, true );
+    wp_enqueue_script( 'tweenmax', get_template_directory_uri() . '/js/tweenmax.min.js', array(), null, true );
+    wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array(), null, true );
+    wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), null, true );
+    wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), null, true );
+    wp_enqueue_script( 'jquery.flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array(), null, true );
+    wp_enqueue_script( 'owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true );
+    wp_enqueue_script( 'jquery.magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true );
+    wp_enqueue_script( 'hero-form', get_template_directory_uri() . '/js/hero-form.js', array(), null, true );
+    wp_enqueue_script( 'contact-form', get_template_directory_uri() . '/js/contact-form.js', array(), null, true );
+    wp_enqueue_script( 'comment-form', get_template_directory_uri() . '/js/comment-form.js', array(), null, true );
+    wp_enqueue_script( 'booking-form', get_template_directory_uri() . '/js/booking-form.js', array(), null, true );
+    wp_enqueue_script( 'jquery.datetimepicker.full', get_template_directory_uri() . '/js/jquery.datetimepicker.full.js', array(), null, true );
+    wp_enqueue_script( 'jquery.validate', get_template_directory_uri() . '/js/jquery.validate.min.js', array(), null, true );
+    wp_enqueue_script( 'jquery.ajaxchimp', get_template_directory_uri() . '/js/jquery.ajaxchimp.min.js', array(), null, true );
+    wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true );
+    wp_enqueue_script( 'changer', get_template_directory_uri() . '/js/changer.js', array(), null, true );
+    wp_enqueue_script( 'styleswitch', get_template_directory_uri() . '/js/styleswitch.js', array(), null, true );
 
 
 
@@ -217,3 +239,6 @@ function discard_menu_classes($classes, $item) {
         (array)get_post_meta( $item->ID, '_menu_item_classes', true )
         );
     }
+
+
+	add_post_type_support( 'page', 'excerpt' );

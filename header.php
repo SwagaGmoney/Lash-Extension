@@ -1,26 +1,33 @@
 <?php
 
 /**
- * The header of our theme
+ * 
+ * Main header theme
  * 
  * @package LashExtension
  */
-
 ?>
 <!DOCTYPE html>
+
 <html <?php language_attributes(); ?>>
 
-
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="lashextension" />
 
 <head>
 
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="lashextension" />
+    <meta name="author" content="Jthemes" />
+    <meta name="description" content="Spa Magic - Spa, Hair & Beauty Salon Landing Page Template" />
+    <meta name="keywords" content="Jthemes, Beauty, Cosmetic, Girly, Health, Healthy Care, Massage, Make Up, Salon, Spa, Skincare, Wellness">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SITE TITLE -->
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>
+
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/favicon.ico'); ?>" type="image/x-icon">
@@ -44,28 +51,24 @@
 
 
 
-<body <?php body_class(); ?>>
-    <?php wp_body_open(); ?>
+<body>
+
 
 
 
     <!-- PRELOADER SPINNER
 		============================================= -->
-    <!-- <div id="loader-wrapper">
-			<div id="loading">
-				<div class="cssload-loader">
-					<div class="fancy-spinner">
-					  	<div class="ring"></div>
-					  	<div class="ring"></div>
-					  	<div class="dot"></div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-
-
-
+    <div id="loader-wrapper">
+        <div id="loading">
+            <div class="cssload-loader">
+                <div class="fancy-spinner">
+                    <div class="ring"></div>
+                    <div class="ring"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -80,12 +83,46 @@
         <!-- HEADER
 			============================================= -->
         <header id="header" class="header tra-menu navbar-light">
+            <!-- Top bar  -->
+
+            <div class="top-bar" style="background-color: #ff007f;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12" >
+                            <!-- Email icon with link -->
+                            <a href="mailto:fiona160715@yahoo.com"  style="color: white;">
+                                <i class="fas fa-envelope"></i> fiona160715@yahoo.com
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <!-- Location icon with address -->
+                            <span class="top-bar-link"  style="color: white;">
+                                <i class="fas fa-map-marker-alt"></i> 4131 Highway 6 Sugar Land, 77478
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 ">
+                            <!-- Call icon with phone number -->
+                            <a href="tel:2816903563"  style="color: white;">
+                                <i class="fas fa-phone"></i> +1(281)-690-3563
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
             <div class="header-wrapper">
 
 
                 <!-- MOBILE HEADER -->
                 <div class="wsmobileheader clearfix">
-                    <span class="smllogo"><img src="images/logo-01.png" width="170" height="50" alt="mobile-logo" /></span>
+                    <span class="smllogo"><img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="200" alt="mobile-logo" /></span>
                     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                 </div>
 
@@ -97,23 +134,20 @@
 
                         <!-- LOGO IMAGE -->
                         <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 346 x 100 pixels) -->
-                        <div class="desktoplogo"><a href="demo-1.html#hero-1" class="logo-black"><img src="images/logo-01.png" width="170" height="50" alt="header-logo"></a></div>
-                        <div class="desktoplogo"><a href="demo-1.html#hero-1" class="logo-white"><img src="images/logo-white.png" width="170" height="50" alt="header-logo"></a></div>
+                        <div class="desktoplogo"><a href="/" class="logo-black"><img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="200" alt="header-logo"></a></div>
+                        <div class="desktoplogo"><a href="/" class="logo-white"><img src="<?php echo get_template_directory_uri() . '/images/logo-white.png'; ?>" width="200" alt="header-logo"></a></div>
 
 
                         <!-- MAIN MENU -->
                         <nav class="wsmenu clearfix">
+                            <?php wp_nav_menu(array('menu_class' => 'wsmenu-list', 'container' => 'ul',)); ?>
 
-                            <?php wp_nav_menu(array('menu_class' => 'wsmenu-list ', 'container' => 'ul',)); ?>
-
-
-                            <!-- HEADER CALL BUTTON -->
-                            <ul class="wsmenu-list ">
-                                <li class="nl-simple header-phone"  aria-haspopup="true">
-                                    <a href="tel:123456789"><span class="bg-color-09 white-color"><i class="fas fa-phone"></i></span>+12 9 8765 4321</a>
+                            <ul class="wsmenu-list">
+                                <!-- HEADER CALL BUTTON -->
+                                <li class="nl-simple header-phone" aria-haspopup="true">
+                                    <a href="about.html#" class="btn btn-color-02 tra-01-hover last-link rounded-pill">Book Now</a>
                                 </li>
                             </ul>
-
                         </nav> <!-- END MAIN MENU -->
 
                     </div>

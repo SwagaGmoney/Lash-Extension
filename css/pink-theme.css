@@ -433,7 +433,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: #333;
   text-decoration: none;
 }
 
@@ -1374,7 +1374,8 @@ ol.digit-list p {
 
 .tra-menu .wsmainfull {
   background-color: transparent!important;
-  padding: 20px 0;
+  background:white;
+  padding-top:2rem;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1637,6 +1638,7 @@ ol.digit-list p {
 .dark-menu.dark-scroll .wsmainfull.scroll {
   background-color: #fff!important;
   padding: 2px 0;
+  margin-top:-3rem;
   -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
   -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
   box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
@@ -5897,4 +5899,87 @@ nav a#pull {
 }
 
 
+
+
+.top-bar{ 
+  z-index:50;
+  padding:10px;
+}
+
+/*  About Page quote style */
+.quote-block {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* Apply transition effect */
+}
+
+.quote-txt {
+  font-size: 3rem; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+  color: #333; /* Change text color */
+  font-style: italic; /* Apply italic style */
+}
+
+blockquote {
+  border-left: none; /* Remove default border */
+  font-family: 'Arial', sans-serif; /* Choose a fancy font */
+  padding-left: 0; /* Adjust padding */
+}
+
+.info-block {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+}
+.info-block.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.quote-block.scrolled {
+  opacity: 1;
+  position:relative;
+}
+.quote-block.scrolled blockquote {
+  border-left: none;
+  padding-left: 2rem; /* Adjust padding */
+}
+
+.quote-block.scrolled blockquote::before {
+  content: '\201C'; /* Unicode for left double quotation mark */
+  position: absolute;
+  font-size: 5rem; /* Adjust font size */
+  left: 0;
+  top: -1rem; /* Adjust vertical position */
+}
+
+.quote-block.scrolled blockquote::after {
+  content: '\201D'; /* Unicode for right double quotation mark */
+  position: absolute;
+  font-size: 5rem; /* Adjust font size */
+  right: 0;
+  bottom: -1rem; /* Adjust vertical position */
+}
+.blockquote-footer {
+  font-style: italic; /* Italicize the text */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #777; /* Choose a suitable color */
+  text-align: right; /* Align the text to the right */
+  margin-top: 1rem; /* Add some top margin */
+}
+
+.image-hidden {
+  opacity: 0;
+  transform: translateX(-50px); /* Move the image to the left */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition effect */
+}
+
+/* Show the image when scrolled */
+.image-visible {
+  opacity: 1;
+  transform: translateX(0); /* Reset the position */
+}
+
+
+/* best deals section */
 
