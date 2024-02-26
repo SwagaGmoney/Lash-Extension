@@ -32,8 +32,7 @@ get_header();
                     <h3 class="h3-xl txt-color-01">The Art Of Natural Beauty</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">At Lash Extensions by Fiona, we believe that beauty is in the details. This is why our expertise extends beyond lashes.
                     </p>
 
                 </div>
@@ -57,9 +56,10 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <h5 class="h5-md">Hot Stones Therapy</h5>
-                                    <p class="p-lg">SPA & Massage Therapy</p>
-                                    <a href="service-details.html" class="btn btn-color-02 tra-white-hover">Find Out More</a>
+                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
+                                    <h5 class="h5-md">Face & Eyebrow Waxing Services </h5>
+                                    <p class="p-lg">Lash Extension By Fiona</p>
+                                </a>   
                                 </div>
                             </div>
 
@@ -78,8 +78,10 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <h5 class="h5-md">Relaxing Massage</h5>
-                                    <p class="p-lg">SPA & Wellness</p>
+                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/"  class="h-link">
+                                    <h5 class="h5-md">Microblading Services</h5>
+                                    <p class="p-lg">Lash Extension By Fiona</p>
+                                </a>
                                 </div>
                             </div>
 
@@ -98,9 +100,10 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <h5 class="h5-md">Supreme Skincare</h5>
-                                    <p class="p-lg">Aroma & Skin Care</p>
-                                    <a href="service-details.html" class="btn btn-color-02 tra-white-hover">Find Out More</a>
+                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
+                                    <h5 class="h5-md">Brow & Lash Services</h5>
+                                    <p class="p-lg">Lash Extension By Fiona</p>
+                                </a>   
                                 </div>
                             </div>
 
@@ -119,8 +122,10 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <h5 class="h5-md">Herbal Care</h5>
-                                    <p class="p-lg">SPA & Aromatherapy</p>
+                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
+                                    <h5 class="h5-md">Featured Services</h5>
+                                    <p class="p-lg">Lash Extension By Fiona</p>
+                                </a>
                                 </div>
                             </div>
 
@@ -284,17 +289,15 @@ get_header();
                         <!-- Title -->
                         <h5 class="h5-xl">Open Hours:</h5>
 
-                        <!-- Text -->
-                        <p>An magnis nulla dolor sapien augue porta iaculis a purus tempor magna and vitae purus primis ipsum</p>
 
                         <h6 class="h6-xl">Monday – Friday</h6>
-                        <span>9:00 AM - 7:00 PM</span>
+                        <span>8:00 AM - 9:00 PM</span>
 
                         <h6 class="h6-xl">Saturday</h6>
-                        <span>10:00 AM - 6:00 PM</span>
+                        <span>9:00 AM - 7:30 PM</span>
 
                         <h6 class="h6-xl">Sunday</h6>
-                        <span>Closed</span>
+                        <span>9:00 AM - 7:30 PM</span>
 
                         <!-- Button -->
                         <a href="booking.html" class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
