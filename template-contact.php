@@ -24,10 +24,6 @@ get_header();
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
-
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Contact Us</h2>
-
                     <!-- Title 	-->
                     <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
 
@@ -40,16 +36,17 @@ get_header();
             </div>
         </div>
 
-
         <!-- GOOGLE MAP -->
-        
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="google-map mb-80">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.6079765327563!2d-95.5889299!3d29.5860076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1708635965212!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="google-map mb-80">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.6079765327563!2d-95.5889299!3d29.5860076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1708635965212!5m2!1sen!2sus"
+                        width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+        </div>
 
 
 
@@ -68,39 +65,7 @@ get_header();
 
                 <!-- Form -->
                 <div class="form-holder">
-                    <form name="contactform" class="row contact-form">
 
-                        <!-- Form Input -->
-                        <div class="col-lg-6">
-                            <input type="text" name="name" class="form-control name" placeholder="Your Name*">
-                        </div>
-
-                        <!-- Form Input -->
-                        <div class="col-lg-6">
-                            <input type="email" name="email" class="form-control email" placeholder="Email Address*">
-                        </div>
-
-                        <!-- Form Input -->
-                        <div class="col-md-12">
-                            <input type="text" name="subject" class="form-control subject" placeholder="What's this about?">
-                        </div>
-
-                        <!-- Form Textarea -->
-                        <div class="col-md-12">
-                            <textarea name="message" class="form-control message" rows="6" placeholder="Your Message ..."></textarea>
-                        </div>
-
-                        <!-- Form Button -->
-                        <div class="col-md-12 mt-5 text-right">
-                            <button type="submit" class="btn btn-md btn-color-02 tra-02-hover submit">Send Message</button>
-                        </div>
-
-                        <!-- Form Message -->
-                        <div class="col-md-12 contact-form-msg text-center">
-                            <div class="sending-msg"><span class="loading"></span></div>
-                        </div>
-
-                    </form>
 
                 </div>
             </div> <!-- END CONTACT FORM -->
@@ -114,23 +79,26 @@ get_header();
                     <h4 class="h4-xs txt-color-01">Contact Details</h4>
 
                     <!-- Text -->
-                    <p class="txt-color-05">Integer congue magna pretium ligula at rutrum risus luctus a dolor auctor ipsum
+                    <p class="txt-color-05">Integer congue magna pretium ligula at rutrum risus luctus a dolor auctor
+                        ipsum
                         blandit purus. Curabitur ac dapibus libero mauris donec
                     </p>
 
                     <!-- LOCATION -->
                     <div class="cbox-1 mt-25 mb-25">
                         <h5 class="h5-xs txt-color-01">Our Location</h5>
-                        <p class="txt-color-05">121 King Street, Melbourne,</p>
-                        <p class="txt-color-05">Victoria 3000 Australia</p>
+                        <p class="txt-color-05">4131 Highway 6 Sugar Land, TX 77478</p>
+                        <p class="txt-color-05">2400 Augusta DrHouston, TX 77057 </p>
                     </div>
 
                     <!-- PHONES -->
                     <div class="cbox-1 mb-25">
                         <h5 class="h5-xs txt-color-01">Contact Info</h5>
-                        <p class="txt-color-05"><span>Phone :</span> +12 3 3456 7890</p>
-                        <p class="txt-color-05"><span>Email :</span> <a href="mailto:yourdomain@mail.com">hello@yourdomain.com</a></p>
-                        <p class="txt-color-05"><span>Skype :</span> <a href="tel:123456789">support.spamagic</a></p>
+                        <p class="txt-color-05"><span>Phone </span> +1(281)-690-3563</p>
+                        <p class="txt-color-05"><span>Phone </span> +1(713)-392-0281</p>
+                        <p class="txt-color-05"><span>Email </span> <a
+                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
+                        </p>
                     </div>
 
                     <!-- WORKING HOURS -->
@@ -170,7 +138,8 @@ get_header();
                     <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
 
                     <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor an tempus
+                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor
+                        an tempus
                         feugiat dolor undo lacinia cubilia curae
                     </p>
 
