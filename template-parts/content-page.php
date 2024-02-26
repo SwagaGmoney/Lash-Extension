@@ -52,7 +52,4 @@
 
 
 <!--End Page Title-->
-
-<?php lash_extension_post_thumbnail(); ?>
-
 </article><!-- #post-<?php the_ID(); ?> -->
