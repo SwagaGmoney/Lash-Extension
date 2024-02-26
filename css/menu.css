@@ -1180,7 +1180,7 @@ body.wsactive {
 .wsmobileheader .smllogo {
   display: inline-block;
   margin-top: 12px;
-  padding-left: 18px;
+  padding-left: auto;
 }
 
 /* Mobile Search Bar*/
@@ -1299,21 +1299,22 @@ body.wsactive {
 
 .overlapblackbg {
   left: 0;
-  width: calc(100% - 240px);
-  width: calc(100% - 350px);
+  width: calc(100% - 100px);
+  width: calc(100% - 100px);
   height: 100vh;
   min-height: 100%;
   position: fixed;
   top: 0;
   opacity: 0;
   visibility: hidden;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: white;
   cursor: pointer;
 }
 
 .wsactive .wsmenu .overlapblackbg {
   opacity: 1;
   visibility: visible;
+  width:100%;
   -webkit-transition: opacity 1.5s ease-in-out;
   -moz-transition: opacity 1.5s ease-in-out;
   -ms-transition: opacity 1.5s ease-in-out;
