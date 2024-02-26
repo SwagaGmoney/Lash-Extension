@@ -22,43 +22,43 @@
             // Display the Post Title with Hyperlink
             ?>
 
-            <!--News Block Two -->
-            <div class="news-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
-                    </div>
-                    <div class="lower-content ">
-                        <div class="upper-box clearfix">
-                            <div class="pull-left">
-                                <div class="posted-date"><?php the_time('d M. Y'); ?></div>
-                            </div>
-                            <div class="pull-right">
-                                <ul class="post-meta">
-                                    <li>By: <?php the_author_posts_link(); ?></li>
-                                    <li><?php the_category(', '); ?></li>
-                                    <li>Comments: <?php comments_number('0', '1', '%'); ?></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                            <div class="text"><?php the_excerpt(); ?></div>
-                            <a href="<?php the_permalink() ?>" class="read-more">Continue Reading</a>
-                        </div>
-                    </div>
+        <!--News Block Two -->
+        <div class="col-lg-8">
+            <div class="single-blog-post pr-30">
+                <div class="blog-post-img">
+                    <!-- BLOG POST IMAGE -->
+                    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
+                </div>
+
+                <!-- SINGLE POST TITLE -->
+                <div class="single-post-title">
+                    <!-- Post Data -->
+                    <span class="txt-color-06"><?php the_category(', '); ?></span>
+                    <!-- Post Title -->
+                    <h3 class="txt-color-01"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    <!-- Post Author -->
+                    <p class="post-author txt-color-01"> By: <?php the_author_posts_link(); ?></p>
+                    <div class="posted-date"><?php the_time('d M. Y'); ?></div>
+
+                </div>
+                <div class="lower-box">
+                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    <div class="text"><?php the_excerpt(); ?></div>
+                    <a href="<?php the_permalink() ?>" class="read-more">Continue Reading</a>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <?php
+    <?php
             // Repeat the process and reset once it hits the limit
         endwhile;
         wp_reset_postdata();
         ?>
 
-        <!--Styled Pagination-->
-        <ul class="styled-pagination">
-            <?php
+    <!--Styled Pagination-->
+    <ul class="styled-pagination">
+        <?php
             // Posts Pagination
             if (get_next_posts_link()) {
                 echo '<li>';
@@ -71,8 +71,8 @@
                 echo '</li>';
             }
             ?>
-        </ul>
-        <!--End Styled Pagination-->
+    </ul>
+    <!--End Styled Pagination-->
 
-    </div>
+</div>
 </div>

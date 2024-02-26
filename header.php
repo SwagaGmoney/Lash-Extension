@@ -18,13 +18,6 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Jthemes" />
-    <meta name="description" content="Spa Magic - Spa, Hair & Beauty Salon Landing Page Template" />
-    <meta name="keywords"
-        content="Jthemes, Beauty, Cosmetic, Girly, Health, Healthy Care, Massage, Make Up, Salon, Spa, Skincare, Wellness">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SITE TITLE -->
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>
@@ -66,9 +59,6 @@
     <!-- PAGE CONTENT
 		============================================= -->
     <div id="page" class="page">
-
-
-
 
         <!-- HEADER
 			============================================= -->

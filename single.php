@@ -19,46 +19,40 @@ get_header();
 
 get_header(); ?>
 
-<div class="sidebar-page-container">
-    <div class="auto-container">
-        <div class="row clearfix">
-
-            <!--Content Side / Blog Single -->
-            <div class="content-side col-lg-9 col-md-12 col-sm-12">
-
-                <div class="blog-single padding-right">
+<section id="single-post" class="bg-color-01 wide-90 blog-page-section division">
+    <div class="container">
+        <div class="row">
+            <!-- POST CONTENT -->
+            <div class="col-lg-8">
+                <div class="single-blog-post pr-30">
                     <?php 
                     while ( have_posts() ) : the_post(); 
                         // Check if the post has a Post Thumbnail assigned to it.
                         if ( has_post_thumbnail() ) { 
                             ?>
-                    <div class="image">
+                    <div class="blog-post-img">
+
                         <?php the_post_thumbnail(); ?>
                     </div>
                     <?php 
                         } 
                     ?>
+                    <div class="single-post-title meta">
+                        <span class="txt-color-06"><?php the_category(', '); ?></span>
+                        <h3 class="txt-color-01"><?php the_title(); ?></h3>
+                        <p class="post-author txt-color-01">By: <?php the_author(); ?> - <?php the_time('d M. Y'); ?>
+                        </p>
 
-                    <div class="inner-box">
-                        <div class="lower-content">
-                            <div class="upper-box clearfix">
-                                <div class="posted-date pull-left"><?php the_time('d M. Y'); ?></div>
-                                <ul class="post-meta pull-right">
-                                    <li>By: <?php the_author(); ?></li>
-                                    <li><?php the_category(', '); ?></li>
-                                    <li>Comments: <?php comments_number('0', '1', '%'); ?></li>
-                                </ul>
-                            </div>
-                            <div class="lower-box">
-                                <h3><?php the_title(); ?></h3>
-                                <div class="text">
-                                    <?php the_content(); ?>
-                                </div>
+                        <div class="single-post-txt">
+
+                            <div class="txt-color-05">
+                                <?php the_content(); ?>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <?php 
+                <?php 
                     // If comments are open or we have at least one comment, load up the comment template.
                     if ( comments_open() || get_comments_number() ) :
                         comments_template();
@@ -66,15 +60,15 @@ get_header(); ?>
                     
                     endwhile; // End of the loop.
                     ?>
-                </div>
             </div>
-
-            <!--Sidebar-->
-            <?php get_sidebar(); ?>
-            <!--End Sidebar-->
-
         </div>
-    </div>
-</div>
 
-<?php get_footer(); ?>
+        <!--Sidebar-->
+        <?php get_sidebar(); ?>
+        <!--End Sidebar-->
+
+    </div>
+    </div>
+    </div>
+
+    <?php get_footer(); ?>
