@@ -43,7 +43,7 @@
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01">About Us</h6>
+                    <h6 class="h6-lg txt-color-01">Services</h6>
 
                     <!-- Footer Links -->
                     <ul class="clearfix txt-color-05">
