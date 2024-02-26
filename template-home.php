@@ -1332,21 +1332,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 btn.classList.remove('active-btn');
             });
 
-<<<<<<< Updated upstream
             // Add active class to clicked tab button
             tabButton.classList.add('active-btn');
 
             // Hide all tabs
             tabs.forEach(function(tab) {
                 tab.style.display = 'none';
-=======
             // Immediate color change upon clicking each tab
             tabButton.addEventListener('click', function() {  
                 tabButton.style.backgroundImage = 'linear-gradient(to bottom,#d6aadb 0%, #7982d5 100%  )';
                 setTimeout(function() {
                     tabButton.style.backgroundImage = '';
                 }, 500);
->>>>>>> Stashed changes
             });
 
             // Display the corresponding tab content
@@ -1363,6 +1360,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 500);
         });
     });
+})
 });
 $(document).ready(function() {
     // Add click event listener to .main-title and .caret-down elements
