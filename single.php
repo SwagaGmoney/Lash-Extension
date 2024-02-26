@@ -19,6 +19,9 @@ get_header();
 
 get_header(); ?>
 
+<?php get_template_part( 'template-parts/content-page', get_post_type() ); ?>
+
+
 <section id="single-post" class="bg-color-01 wide-90 blog-page-section division">
     <div class="container">
         <div class="row">
@@ -42,6 +45,7 @@ get_header(); ?>
                         <h3 class="txt-color-01"><?php the_title(); ?></h3>
                         <p class="post-author txt-color-01">By: <?php the_author(); ?> - <?php the_time('d M. Y'); ?>
                         </p>
+
 
                         <div class="single-post-txt">
 
@@ -69,6 +73,9 @@ get_header(); ?>
 
     </div>
     </div>
+    <!-- BANNER-5 ============================================= -->
+    <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+
     </div>
 
     <?php get_footer(); ?>

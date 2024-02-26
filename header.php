@@ -15,14 +15,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="lashextension" />
-
 <head>
-
-
     <!-- SITE TITLE -->
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>
-
-
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/favicon.ico'); ?>"
         type="image/x-icon">
@@ -38,20 +33,13 @@
         href="<?php echo esc_url(get_template_directory_uri() . '/images/apple-touch-icon.png'); ?>">
     <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/apple-touch-icon.png'); ?>"
         type="image/x-icon">
-
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
     <!-- Enqueue stylesheets -->
     <?php wp_head(); ?>
-
 </head>
-
-
-
-
 <body>
 
 
@@ -64,7 +52,6 @@
 			============================================= -->
         <header id="header" class="header tra-menu navbar-light">
             <!-- Top bar  -->
-
             <div class="top-bar" style="background-color: #7982d5;">
                 <div class="container">
                     <div class="row">
@@ -89,30 +76,16 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
             <div class="header-wrapper">
-
-
                 <!-- MOBILE HEADER -->
                 <div class="wsmobileheader clearfix">
                     <span class="smllogo"><img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>"
                             width="200" alt="mobile-logo" /></span>
                     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                 </div>
-
-
                 <!-- NAVIGATION MENU -->
                 <div class="wsmainfull menu clearfix">
                     <div class="wsmainwp clearfix">
-
-
                         <!-- LOGO IMAGE -->
                         <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 346 x 100 pixels) -->
                         <div class="desktoplogo"><a href="/" class="logo-black"><img
@@ -121,7 +94,6 @@
                         <div class="desktoplogo"><a href="/" class="logo-white"><img
                                     src="<?php echo get_template_directory_uri() . '/images/logo-white.png'; ?>"
                                     width="200" alt="header-logo"></a></div>
-
 
                         <!-- MAIN MENU -->
                         <nav class="wsmenu clearfix">
@@ -135,10 +107,7 @@
                                 </li>
                             </ul>
                         </nav> <!-- END MAIN MENU -->
-
                     </div>
                 </div> <!-- END NAVIGATION MENU -->
-
-
             </div> <!-- End header-wrapper -->
         </header> <!-- END HEADER -->

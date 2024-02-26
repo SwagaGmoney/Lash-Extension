@@ -12,7 +12,6 @@
 <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
     <div class="blog-classic padding-right  ">
 
-
         <?php
         // Define our WP Query Parameters
         $the_query = new WP_Query('posts_per_page=5');

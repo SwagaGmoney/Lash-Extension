@@ -10,14 +10,13 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <section id="about-page" class="bg-fixed wide-100  page-hero-section division"
+    <section class="bg-fixed wide-100  page-hero-section division"
         style="background-image: url('<?php echo get_template_directory_uri() . '/images/lashes-03.jpg'; ?>'); ">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2">
                     <div class="hero-txt text-center white-color">
                         <?php the_title( '<h2 class="h2-lg">', '</h2>' ); ?>
-                        <p class="p-lg"><?php echo get_the_excerpt(); ?></p>
                     </div>
                 </div>
             </div>
