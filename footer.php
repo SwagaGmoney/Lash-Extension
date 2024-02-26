@@ -108,7 +108,6 @@
 
             <div class="col-md-3 col-lg-2">
                 <div class="footer-links mb-40">
-
                     <!-- Title -->
                     <h6 class="h6-lg txt-color-01 ">Service Areas</h6>
                     <ul class="simple-lists w-hours mb-20">
@@ -116,12 +115,11 @@
                         <li class="list-item">Galleria, Texas</li>
                         <li class="list-item">Houston, Texas</li>
                     </ul> <!-- End Text List -->
-
                 </div>
 
                 <div class="col-md-3 col-lg-2">
                     <div class="footer-links mb-40">
-                        <h6 class="h6-lg txt-color-01">Services</h6>
+                        <h6 class="h6-lg txt-color-01">Our Services</h6>
                         <ul class="simple-listz w-hours mb-20">
                             <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
                             <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
