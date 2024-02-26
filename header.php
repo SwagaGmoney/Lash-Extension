@@ -52,6 +52,7 @@
 			============================================= -->
         <header id="header" class="header tra-menu navbar-light">
             <!-- Top bar  -->
+<<<<<<< Updated upstream
             <div class="top-bar" style="background-color: #7982d5;">
                 <div class="container">
                     <div class="row">
@@ -77,6 +78,44 @@
                 </div>
             </div>
             <div class="header-wrapper">
+=======
+            <div class="header-wrapper ">
+
+                <div class="top-bar" style="background-color: #7982d5;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <!-- Email icon with link -->
+                                <a href="mailto:fiona160715@yahoo.com" style="color: white;">
+                                    <i class="fas fa-envelope"></i> fiona160715@yahoo.com
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <!-- Location icon with address -->
+                                <span class="top-bar-link" style="color: white;">
+                                    <i class="fas fa-map-marker-alt"></i> 4131 Highway 6 Sugar Land, 77478
+                                </span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                <!-- Call icon with phone number -->
+                                <a href="tel:2816903563" style="color: white;">
+                                    <i class="fas fa-phone"></i> +1(281)-690-3563
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
                 <!-- MOBILE HEADER -->
                 <div class="wsmobileheader clearfix">
                     <span class="smllogo"><img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>"
@@ -100,6 +139,9 @@
                             <?php wp_nav_menu(array('menu_class' => 'wsmenu-list', 'container' => 'ul',)); ?>
 
                             <ul class="wsmenu-list">
+                                <!-- drop-down menu -->
+
+
                                 <!-- HEADER CALL BUTTON -->
                                 <li class="nl-simple header-phone" aria-haspopup="true">
                                     <a href="about.html#"

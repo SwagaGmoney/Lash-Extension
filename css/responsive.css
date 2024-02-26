@@ -383,6 +383,11 @@
 
 @media (min-width: 768px) and (max-width: 991.95px) { 
 
+
+  /*  Top Bar hide on scroll  */
+
+
+
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
@@ -548,6 +553,7 @@
 
   .wsmenu > .wsmenu-list > li a.btn { 
     height: 60px; 
+   
     font-size: 19px;
     line-height: 60px; 
     font-weight: 500;
@@ -853,7 +859,11 @@
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
-
+  .top-bar{
+    padding:10px;
+    z-index:999;
+    margin-top:-2.5em;
+  }
   .wide-100 { padding-top: 80px; padding-bottom: 80px; }
   .wide-90 { padding-top: 80px; padding-bottom: 70px; }
   .wide-80 { padding-top: 80px; padding-bottom: 60px; }
@@ -889,7 +899,7 @@
 
   .headtoppart { display: none; }
 
-  .wsmobileheader { height: 80px; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); } 
+  .wsmobileheader { height: 80px; margin-top:5.2em; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); } 
   .tra-menu .wsmobileheader, .white-menu .wsmobileheader { background-color: #fff; }
   .dark-menu .wsmobileheader { background-color: #222438; }
 
