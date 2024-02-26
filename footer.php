@@ -112,12 +112,8 @@
             </div>
 
             <div class="col-md-3 col-lg-2">
-<<<<<<< Updated upstream
-                <div class="footer-links mb-40">
-=======
                 <div class="footer-links mb-40 foot-inks">
 
->>>>>>> Stashed changes
                     <!-- Title -->
                     <h6 class="h6-lg txt-color-01 ">Service Areas</h6>
                     <ul class="simple-lists w-hours mb-20">
@@ -128,17 +124,6 @@
                 </div>
 
                 <div class="col-md-3 col-lg-2">
-<<<<<<< Updated upstream
-                    <div class="footer-links mb-40">
-                        <h6 class="h6-lg txt-color-01">Our Services</h6>
-                        <ul class="simple-listz w-hours mb-20">
-                            <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
-                            <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
-                            <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
-                            <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
-                        </ul>
-                    </div>
-=======
                 <div class="footer-links mb-40 foot-inks">
                     <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
                     <ul class="simple-listz w-hours mb-20">
@@ -147,7 +132,6 @@
                         <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
                         <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
                     </ul>
->>>>>>> Stashed changes
                 </div>
             </div>
 
