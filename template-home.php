@@ -13,7 +13,8 @@ get_header();
 
 <!-- HERO-1
 			============================================= -->
-<section id="hero-1" class="hero-section division" style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
+<section id="hero-1" class="hero-section division"
+    style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
@@ -21,9 +22,7 @@ get_header();
                     <!-- Title -->
                     <h2 class="d-inline-block ">Lash Extention By Fiona </h2>
                     <!-- Text -->
-                    <p>Feugiat primis ligula gravida auctor mauri egestas undo augue viverra tortor in iaculis a
-                        placerat eugiat ipsum
-                    </p>
+                    <p>Feugiat primis ligula gravida auctor mauri egestas undo augue viverra tortor in iaculis</p>
                     <!-- Button -->
                     <a href="" class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
@@ -45,7 +44,8 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>" alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                        alt="about-image">
                 </div>
             </div>
 
@@ -108,7 +108,7 @@ get_header();
             <div class="tab-btn-box p-relative d-block mb-70 centred">
                 <ul class="tab-btns tab-buttons clearfix">
                     <li class="tab-btn active-btn" data-tab="#tab-1">
-                        
+
                         <h4 class="text-black"> Lash Extension </h4>
                     </li>
                     <li class="tab-btn " data-tab="#tab-2">
@@ -132,8 +132,20 @@ get_header();
                                     <div class="content-box text-center ">
                                         <div class="text">
                                             <h3> What are Lash Extensions?</h3>
-                                            <p class=" text-md-start inline-block ">Lash extensions are semi-permanent fibers that are applied to your natural eyelashes to increase their length, curliness, fullness, and thickness. They are precisely affixed, one-lash extension to one natural eyelash, with a specially developed semi-permanent glue that does not irritate or harm the natural eyelash.The extensions can be created from a variety of materials, including silk, mink, or synthetic materials, and are designed to resemble the appearance and feel of actual eyelashes.
-                                                The basic goal of lash extensions is to make the lashes appear longer and thicker, which highlights the eyes without the need for mascara or other eye makeup. Lash extensions come in a variety of lengths, diameters, and curls, so they may be tailored to your desired look, whether you want a subtle, natural augmentation or a more dramatic effect</p>
+                                            <p class=" text-md-start inline-block ">Lash extensions are semi-permanent
+                                                fibers that are applied to your natural eyelashes to increase their
+                                                length, curliness, fullness, and thickness. They are precisely affixed,
+                                                one-lash extension to one natural eyelash, with a specially developed
+                                                semi-permanent glue that does not irritate or harm the natural
+                                                eyelash.The extensions can be created from a variety of materials,
+                                                including silk, mink, or synthetic materials, and are designed to
+                                                resemble the appearance and feel of actual eyelashes.
+                                                The basic goal of lash extensions is to make the lashes appear longer
+                                                and thicker, which highlights the eyes without the need for mascara or
+                                                other eye makeup. Lash extensions come in a variety of lengths,
+                                                diameters, and curls, so they may be tailored to your desired look,
+                                                whether you want a subtle, natural augmentation or a more dramatic
+                                                effect</p>
                                         </div>
                                     </div>
                                 </div>
@@ -143,7 +155,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -160,14 +173,54 @@ get_header();
                                     <div class="content-box">
                                         <div class="text">
                                             <h3>What Does the Process Involve?</h3>
-                                            <p>The procedure is complex, requiring skillful hands and patience from both the lash technician and the customer. Here's a thorough look at what you may expect throughout the eyelash extension procedure:</p>
+                                            <p>The procedure is complex, requiring skillful hands and patience from both
+                                                the lash technician and the customer. Here's a thorough look at what you
+                                                may expect throughout the eyelash extension procedure:</p>
                                             <ul class="text-left tracking-wider custom-bullets">
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;">Consultation:- </span> process starts with a personalized consultation, during which the lash specialist discusses the client's desired look, assesses their natural lashes, and advises the best type of lash extensions. This includes selecting the material length, curl type, and thickness of the extensions to generate an appearance that is appropriate for the client's eye shape and lifestyle.</li>
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Preparation:- </span> Next, the technician cleanses the client's lashes to remove any makeup, oils, or residue, ensuring that the extensions adhere properly. Lower eyelashes are carefully fixed with a special under-eye pad, tape, or both to keep them from clinging to the upper lashes.</li>
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Application:- </span> The lash technician uses delicate tweezers to dab the end of each individual lash extension in a small drop of adhesive before carefully applying it to one of the client's natural lashes. The extension is positioned 1-2 mm from the eyelid to avoid direct contact with the skin. This method is continued, lash by lash, until the desired fullness is reached. Depending on the number of extensions applied, this can take anywhere from 90 minutes to more than 2 hours.</li>
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Post-application Care Instructions:- </span> Following the application, the technician will go over aftercare recommendations with the customer to ensure the endurance of the extensions. Key suggestions often include avoiding water or steam for the first 24-48 hours, not using oil-based products around the eyes, and avoiding mascara or eyelash curlers, which can shorten the life of the extensions.</li>
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Curing and Drying:- </span> After applying the extensions, the technician may use a handheld fan or a specialist blowing gear to speed up the adhesive's cure and drying time. To avoid discomfort, keep your eyes closed throughout the procedure.</li>
-                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Touch-ups:- </span> Clients are usually advised to return for touch-ups every two to four weeks. During these appointments, the technician will replace any extensions that have come out due to the natural lash cycle, ensuring that the lashes retain their desired fullness.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;">Consultation:- </span>
+                                                    process starts with a personalized consultation, during which the
+                                                    lash specialist discusses the client's desired look, assesses their
+                                                    natural lashes, and advises the best type of lash extensions. This
+                                                    includes selecting the material length, curl type, and thickness of
+                                                    the extensions to generate an appearance that is appropriate for the
+                                                    client's eye shape and lifestyle.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;"> Preparation:- </span> Next,
+                                                    the technician cleanses the client's lashes to remove any makeup,
+                                                    oils, or residue, ensuring that the extensions adhere properly.
+                                                    Lower eyelashes are carefully fixed with a special under-eye pad,
+                                                    tape, or both to keep them from clinging to the upper lashes.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;"> Application:- </span> The
+                                                    lash technician uses delicate tweezers to dab the end of each
+                                                    individual lash extension in a small drop of adhesive before
+                                                    carefully applying it to one of the client's natural lashes. The
+                                                    extension is positioned 1-2 mm from the eyelid to avoid direct
+                                                    contact with the skin. This method is continued, lash by lash, until
+                                                    the desired fullness is reached. Depending on the number of
+                                                    extensions applied, this can take anywhere from 90 minutes to more
+                                                    than 2 hours.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;"> Post-application Care
+                                                        Instructions:- </span> Following the application, the technician
+                                                    will go over aftercare recommendations with the customer to ensure
+                                                    the endurance of the extensions. Key suggestions often include
+                                                    avoiding water or steam for the first 24-48 hours, not using
+                                                    oil-based products around the eyes, and avoiding mascara or eyelash
+                                                    curlers, which can shorten the life of the extensions.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;"> Curing and Drying:- </span>
+                                                    After applying the extensions, the technician may use a handheld fan
+                                                    or a specialist blowing gear to speed up the adhesive's cure and
+                                                    drying time. To avoid discomfort, keep your eyes closed throughout
+                                                    the procedure.</li>
+                                                <li> <span class="font-weight-bold tracking-wide"
+                                                        style="text-decoration:underline;"> Touch-ups:- </span> Clients
+                                                    are usually advised to return for touch-ups every two to four weeks.
+                                                    During these appointments, the technician will replace any
+                                                    extensions that have come out due to the natural lash cycle,
+                                                    ensuring that the lashes retain their desired fullness.</li>
                                             </ul>
 
                                         </div>
@@ -180,7 +233,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -197,14 +251,36 @@ get_header();
                                     <div class="content-box">
                                         <div class="text">
                                             <h3> How to Care for Your Lashes between visits? </h3>
-                                            <p>Caring for lash extensions in between appointments is critical for their appearance and endurance. The longevity of your lash extensions is primarily dependent on how well you care for them at home. </p>
+                                            <p>Caring for lash extensions in between appointments is critical for their
+                                                appearance and endurance. The longevity of your lash extensions is
+                                                primarily dependent on how well you care for them at home. </p>
                                             <ul class="text-left tracking-wider custom-bullets">
-                                                <li>First and foremost, keep your lash extensions clean. Every day, gently cleanse your lashes with a lash extension-safe cleanser. Apply the cleanser with your fingertips or a soft brush, working gently through the lashes to remove any natural oils or makeup residue. To avoid tugging or pulling, properly rinse the lashes with cool water and pat them dry with a clean, soft cloth or allow them to air dry.</li>
-                                                <li>It is vital to avoid all forms of dampness for the first 24-48 hours following treatment. After this period, it is still recommended that you limit your lashes' contact to water and steam. For example, when showering, try not to aim the water directly at your face, and when swimming, consider wearing goggles.</li>
-                                                <li>Be cautious with your eyelash extensions. Rubbing your eyes or pulling on your lashes can damage not only the extensions but also your natural lashes. When wiping your face, pat it lightly rather than rubbing it dry.</li>
-                                                <li>Use oil-free items around your eyes since oil can weaken the adhesive bond of lash extensions, causing them to shed prematurely. Similarly, do not use waterproof mascara or eyeliner, as these require oil-based removers. If you do decide to use mascara, do it lightly and only on the tips of your extensions. <br />
-                                                    Sleeping on your back is another way to increase the life of your lash extensions.</li>
-                                                <li>Always schedule frequent fill-ins every 2 to 4 weeks, depending on your natural lash development cycle and how well for you care for the extensions at home.</li>
+                                                <li>First and foremost, keep your lash extensions clean. Every day,
+                                                    gently cleanse your lashes with a lash extension-safe cleanser.
+                                                    Apply the cleanser with your fingertips or a soft brush, working
+                                                    gently through the lashes to remove any natural oils or makeup
+                                                    residue. To avoid tugging or pulling, properly rinse the lashes with
+                                                    cool water and pat them dry with a clean, soft cloth or allow them
+                                                    to air dry.</li>
+                                                <li>It is vital to avoid all forms of dampness for the first 24-48 hours
+                                                    following treatment. After this period, it is still recommended that
+                                                    you limit your lashes' contact to water and steam. For example, when
+                                                    showering, try not to aim the water directly at your face, and when
+                                                    swimming, consider wearing goggles.</li>
+                                                <li>Be cautious with your eyelash extensions. Rubbing your eyes or
+                                                    pulling on your lashes can damage not only the extensions but also
+                                                    your natural lashes. When wiping your face, pat it lightly rather
+                                                    than rubbing it dry.</li>
+                                                <li>Use oil-free items around your eyes since oil can weaken the
+                                                    adhesive bond of lash extensions, causing them to shed prematurely.
+                                                    Similarly, do not use waterproof mascara or eyeliner, as these
+                                                    require oil-based removers. If you do decide to use mascara, do it
+                                                    lightly and only on the tips of your extensions. <br />
+                                                    Sleeping on your back is another way to increase the life of your
+                                                    lash extensions.</li>
+                                                <li>Always schedule frequent fill-ins every 2 to 4 weeks, depending on
+                                                    your natural lash development cycle and how well for you care for
+                                                    the extensions at home.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -215,7 +291,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -233,10 +310,24 @@ get_header();
                                     <div class="content-box">
                                         <div class="text">
                                             <h3> Enjoy the Benefits Lash Extensions Can Bring </h3>
-                                            <p>Lash extensions have numerous benefits, changing not only your appearance but also your everyday cosmetic regimen. These semi-permanent beauties offer unrivaled ease for those wishing to streamline their morning routine while remaining polished and put-together. The attraction of waking up with perfectly placed, fluttery lashes eliminates the need for mascara, eyeliner, and even makeup, making lash extensions an excellent time saver busy people.</p>
+                                            <p>Lash extensions have numerous benefits, changing not only your appearance
+                                                but also your everyday cosmetic regimen. These semi-permanent beauties
+                                                offer unrivaled ease for those wishing to streamline their morning
+                                                routine while remaining polished and put-together. The attraction of
+                                                waking up with perfectly placed, fluttery lashes eliminates the need for
+                                                mascara, eyeliner, and even makeup, making lash extensions an excellent
+                                                time saver busy people.</p>
                                             <ul class="text-left tracking-wider custom-bullets">
-                                                <li>From a practical sense, lash extensions are strong and resilient, meant to endure through your natural lash cycle with adequate care. This permanence, along with minimum care, ensures continued beauty without the daily trouble, making it a great alternative for people with active lifestyles, special occasions, or anybody wishing to enhance their natural beauty with long-term results.</li>
-                                                <li>If you want to transform the look of your lashes, then contact Lash Extentions by Fiona today in Sugar Land, TX. You can schedule your consultation and get started on making your lashes more beautiful than ever. Get started now. </li>
+                                                <li>From a practical sense, lash extensions are strong and resilient,
+                                                    meant to endure through your natural lash cycle with adequate care.
+                                                    This permanence, along with minimum care, ensures continued beauty
+                                                    without the daily trouble, making it a great alternative for people
+                                                    with active lifestyles, special occasions, or anybody wishing to
+                                                    enhance their natural beauty with long-term results.</li>
+                                                <li>If you want to transform the look of your lashes, then contact Lash
+                                                    Extentions by Fiona today in Sugar Land, TX. You can schedule your
+                                                    consultation and get started on making your lashes more beautiful
+                                                    than ever. Get started now. </li>
 
                                             </ul>
 
@@ -250,7 +341,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -346,7 +438,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -376,7 +470,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -405,7 +501,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -433,7 +531,9 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    alt="service-image" />
                             </div>
                         </div>
 
@@ -507,7 +607,8 @@ get_header();
             <!-- ABOUT IMAGE -->
             <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
                 <div class="about-5-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>" alt="about-image" />
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>"
+                        alt="about-image" />
                 </div>
             </div>
 
@@ -810,7 +911,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">What Our Clients Say</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Elevating Beauty, One Lash at a Time. Hear What Our Clients Have to Say About Lash Extension by Fiona.
+                    <p class="p-lg txt-color-05">Elevating Beauty, One Lash at a Time. Hear What Our Clients Have to Say
+                        About Lash Extension by Fiona.
                     </p>
 
                 </div>
@@ -827,8 +929,8 @@ get_header();
                     <!-- TESTIMONIAL #1 -->
                     <div class="review-1">
 
-                        
-                       
+
+
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
                             <h6 class="h6-sm">Jackie S.</h6>
@@ -849,7 +951,7 @@ get_header();
                     <!-- TESTIMONIAL #2 -->
                     <div class="review-1">
 
-                       
+
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
                             <h6 class="h6-sm">Jazmin E.</h6>
@@ -870,7 +972,7 @@ get_header();
                     <!-- TESTIMONIAL #3 -->
                     <div class="review-1">
 
-                      
+
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
                             <h6 class="h6-sm">Aura L.</h6>
@@ -911,7 +1013,7 @@ get_header();
                     <!-- TESTIMONIAL #5 -->
                     <div class="review-1">
 
-                      
+
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
                             <h6 class="h6-sm">Samira H.</h6>
@@ -932,7 +1034,7 @@ get_header();
                     <!-- TESTIMONIAL #6 -->
                     <div class="review-1">
 
-                       
+
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
                             <h6 class="h6-sm">Sheena S.</h6>
@@ -943,7 +1045,7 @@ get_header();
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>My lady always a job well done !!! 
+                            <p>My lady always a job well done !!!
                             </p>
                         </div>
 
@@ -953,7 +1055,7 @@ get_header();
                     <!-- TESTIMONIAL #7 -->
                     <div class="review-1">
 
-                     
+
 
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
@@ -965,7 +1067,8 @@ get_header();
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Great experience, so relaxing and my lashes look perfect. I will defiantly be going back THANKYOU
+                            <p>Great experience, so relaxing and my lashes look perfect. I will defiantly be going back
+                                THANKYOU
                             </p>
                         </div>
 
@@ -998,7 +1101,8 @@ get_header();
                     <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                     <!-- Text -->
-                    <p class="p-xl txt-color-01">Call us : <span>+1(281)-690-3563</span> or fill out our online booking &
+                    <p class="p-xl txt-color-01">Call us : <span>+1(281)-690-3563</span> or fill out our online booking
+                        &
                         equiry
                         form and we will contact you
                     </p>
@@ -1013,7 +1117,8 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>" alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
+                        alt="about-image">
                 </div>
             </div>
 
@@ -1062,7 +1167,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TITLE -->
@@ -1097,7 +1204,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1132,7 +1241,9 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>" alt="blog-post-image" />
+                        <img class="img-fluid"
+                            src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>"
+                            alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1210,44 +1321,45 @@ get_header();
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const tabButtons = document.querySelectorAll('.tab-btn');
-        const tabs = document.querySelectorAll('.tab');
+document.addEventListener("DOMContentLoaded", function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabs = document.querySelectorAll('.tab');
 
-        tabButtons.forEach(function(tabButton, index) {
-            tabButton.addEventListener('click', function() {
-                // Remove active class from all tab buttons
-                tabButtons.forEach(function(btn) {
-                    btn.classList.remove('active-btn');
-                });
-
-                // Add active class to clicked tab button
-                tabButton.classList.add('active-btn');
-
-                // Hide all tabs
-                tabs.forEach(function(tab) {
-                    tab.style.display = 'none';
-                });
-
-                // Display the corresponding tab content
-                const tabId = tabButton.getAttribute('data-tab');
-                document.querySelector(tabId).style.display = 'block';
+    tabButtons.forEach(function(tabButton, index) {
+        tabButton.addEventListener('click', function() {
+            // Remove active class from all tab buttons
+            tabButtons.forEach(function(btn) {
+                btn.classList.remove('active-btn');
             });
 
-            // Immediate color change upon clicking each tab
-            tabButton.addEventListener('click', function() {
-                tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
-                setTimeout(function() {
-                    tabButton.style.backgroundImage = '';
-                }, 500);
+            // Add active class to clicked tab button
+            tabButton.classList.add('active-btn');
+
+            // Hide all tabs
+            tabs.forEach(function(tab) {
+                tab.style.display = 'none';
             });
+
+            // Display the corresponding tab content
+            const tabId = tabButton.getAttribute('data-tab');
+            document.querySelector(tabId).style.display = 'block';
+        });
+
+        // Immediate color change upon clicking each tab
+        tabButton.addEventListener('click', function() {
+            tabButton.style.backgroundImage =
+                'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
+            setTimeout(function() {
+                tabButton.style.backgroundImage = '';
+            }, 500);
         });
     });
-    $(document).ready(function() {
-        // Add click event listener to .main-title and .caret-down elements
-        $('.main-title, .caret-down').click(function() {
-            // Toggle the visibility of the pricing list within the same container
-            $(this).closest('.container').find('.pricing-container').slideToggle();
-        });
+});
+$(document).ready(function() {
+    // Add click event listener to .main-title and .caret-down elements
+    $('.main-title, .caret-down').click(function() {
+        // Toggle the visibility of the pricing list within the same container
+        $(this).closest('.container').find('.pricing-container').slideToggle();
     });
+});
 </script>
