@@ -85,7 +85,7 @@
         <header id="header" class="header tra-menu navbar-light">
             <!-- Top bar  -->
 
-            <div class="top-bar" style="background-color: #ff007f;">
+            <div class="top-bar" style="background-color: #7982d5;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12" >

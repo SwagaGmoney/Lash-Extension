@@ -14,24 +14,39 @@
 
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
 								displayed (e.g 416 x 120  pixels) -->
-                    <img src="<?php echo get_template_directory_uri().'/images/logo-01.png';?>" width="204" height="60"
-                        alt="footer-logo">
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204" height="60" alt="footer-logo">
 
                     <!-- Footer Contacts -->
                     <div class="footer-contacts txt-color-05 mt-25">
 
                         <!-- Address -->
-                        <p>2400 Augusta Dr #110</p>
-                        <p>Houston, TX 77057</p>
 
+                        <div class="flex">
+                            <h4>Location 1 </h4>
+                            <p>4131 Highway 6 Sugar Land, 77478</p>
+                            <br />
+
+                            <h4> Location 2 </h4>
+                            <p>2400 Augusta DrHouston, TX 77057
+                            <p>
+                        </div><br />
                         <!-- Email -->
-                        <p class="foo-email"><a
-                                href="mailto:contact@lashextensionsbyfiona.com">contact@lashextensionsbyfiona.com</a>
-                        </p>
+                        <p class="foo-email"><a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
+                        </p>&nbsp;
 
                         <!-- Phone -->
-                        <p>(832) 866-7665</p>
-
+                    <div style="cursor:pointer;" class="foot-phone">
+                        <span class="inline-block" >
+                            <i class="fa-solid fa-phone-volume" style="color: red;"></i>
+                           
+                            <p style="display: inline-block; margin-left: 5px;">+1(281)-690-3563</p>
+                        </span><br />
+                        <span class="inline-block">
+                            <i class="fa-solid fa-blender-phone" style="color: green;"></i>
+                           
+                            <p style="display: inline-block; margin-left: 5px;">+1(713)-392-0281</p>
+                        </span>
+                    </div>
                     </div>
 
                 </div>
@@ -40,93 +55,83 @@
 
             <!-- FOOTER LINKS -->
             <div class="col-md-3 col-lg-2">
-                <div class="footer-links mb-40">
+                <div class="footer-links mb-40 foot-link">
 
                     <!-- Title -->
                     <h6 class="h6-lg txt-color-01">Services</h6>
 
                     <!-- Footer Links -->
-                    <ul class="clearfix txt-color-05">
-                        <li>
-                            <p><a href="demo-1.html#">About Us</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#">Contact Us</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#">Career</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#">Advertising</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#">Reviews</a></p>
-                        </li>
+                    <ul class="clearfix txt-color-05 ">
+                        <?php wp_nav_menu(array('menu_class' => 'clearfix txt-color-05  ', 'container' => 'ul',)); ?>
+
                     </ul>
 
                 </div>
+
             </div>
 
 
             <!-- FOOTER LINKS -->
             <div class="col-md-3 col-lg-2">
-                <div class="footer-links mb-40">
+                <div class="footer-links mb-40 foot-link">
 
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01">Userful Links</h6>
-
-                    <!-- Footer List -->
-                    <ul class="clearfix txt-color-05">
-                        <li>
-                            <p><a href="demo-1.html#">Location</a></p>
+                   
+                    <ul class="simple-list w-hours mb-20 foot-links">
+                        <h6 class="h6-lg txt-color-01"> Hours Of Operations </h6>
+                        <li class="list-item p-2">
+                            <p>Monday : 8:00 AM - 9:00 PM</p>
                         </li>
-                        <li>
-                            <p><a href="demo-1.html#">Help & FAQs</a></p>
+                        <li class="list-item p-2">
+                            <p>Tuesday : 8:00 AM - 9:00 PM</p>
                         </li>
-                        <li>
-                            <p><a href="demo-1.html#">Appointments</a></p>
+                        <li class="list-item p-2 ">
+                            <p>Wednesday : 8:00 AM - 9:00 PM</p>
                         </li>
-                        <li>
-                            <p><a href="demo-1.html#">Membership</a></p>
+                        <li class="list-item p-2 ">
+                            <p>Thursday : 8:00 AM - 9:00 PM</p>
                         </li>
-                        <li>
-                            <p><a href="demo-1.html#">Gift Cards</a></p>
+                        <li class="list-item p-2">
+                            <p>Friday : 8:00 AM - 9:00 PM</p>
+                        </li>
+                        <li class="list-item p-2">
+                            <p>Saturday : 9:00 AM - 7:30 PM</p>
+                        </li>
+                        <li class="list-item p-2">
+                            <p>Sunday : 9:00 AM - 7:30 PM </p>
                         </li>
                     </ul>
 
                 </div>
             </div>
 
-
-            <!-- FOOTER NEWSLETTER FORM -->
-            <div class="col-md-8 col-lg-4 col-xl-3">
-                <div class="footer-form mb-20">
+            <div class="col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01">Subscribe Us:</h6>
-
-                    <!-- Text -->
-                    <p class="txt-color-05 mb-20">Stay up to date with our latest news and our new products</p>
-
-                    <!-- Newsletter Form Input -->
-                    <form class="newsletter-form">
-
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Email Address" required id="s-email">
-                            <span class="input-group-btn">
-                                <button type="submit" class="btn txt-color-06">
-                                    <i class="far fa-arrow-alt-circle-right"></i>
-                                </button>
-                            </span>
-                        </div>
-
-                        <!-- Newsletter Form Notification -->
-                        <label for="s-email" class="form-notification"></label>
-
-                    </form>
+                    <h6 class="h6-lg txt-color-01 ">Areas Served</h6>
+                    <ul class="simple-lists w-hours mb-20">
+                        <li class="list-item">SugarLand, Texas</li>
+                        <li class="list-item">Galleria, Texas</li>
+                        <li class="list-item">Houston, Texas</li>
+                    </ul> <!-- End Text List -->
 
                 </div>
-            </div> <!-- END FOOTER NEWSLETTER FORM -->
+
+                <div class="col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+                    <h6 class="h6-lg txt-color-01">Services</h6>
+                    <ul class="simple-listz w-hours mb-20">
+                        <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
+                        <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
+                        <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
+                        <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            
 
 
         </div> <!-- END FOOTER CONTENT -->
@@ -140,7 +145,7 @@
                 <!-- FOOTER COPYRIGHT -->
                 <div class="col-lg-6">
                     <div class="footer-copyright">
-                        <p>&copy; 2020 Spa Magic. All Rights Reserved</p>
+                        <p>&copy; 2024 Lash Extension By Fiona. All Rights Reserved</p>
                     </div>
                 </div>
 
@@ -158,9 +163,7 @@
                         <li>
                             <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
                         </li>
-                        <li>
-                            <p class="last-li"><a href="demo-1.html#"><i class="fab fa-yelp"></i> Yelp</a></p>
-                        </li>
+
                     </ul>
                 </div>
 

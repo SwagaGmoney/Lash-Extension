@@ -7,25 +7,13 @@
  */
 
 
-
-
-$active_tab = isset($_GET['active_tab']) ? $_GET['active_tab'] : 'default_tab';
-$image_url = '';
-if ($active_tab === 'tab1') {
-    $image_url = 'http://lashextensionbyfiona.local/wp-content/uploads/2024/02/logo-white-e1708725072531.png';
-} else {
-    $image_url = 'http://lashextensionbyfiona.local/wp-content/uploads/2024/02/Lash_Extension_By_Fiona__2_-removebg-preview-e1708724682802.png';
-}
-
-
 get_header();
 
 ?>
 
 <!-- HERO-1
 			============================================= -->
-<section id="hero-1" class="hero-section division"
-    style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
+<section id="hero-1" class="hero-section division" style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
@@ -57,8 +45,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
-                        alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>" alt="about-image">
                 </div>
             </div>
 
@@ -121,22 +108,16 @@ get_header();
             <div class="tab-btn-box p-relative d-block mb-70 centred">
                 <ul class="tab-btns tab-buttons clearfix">
                     <li class="tab-btn active-btn" data-tab="#tab-1">
-                        <div class="icon-box">
-                        <img src="<?php echo esc_url( $image_url ); ?>" alt="lash" />
-                        </div>
+                        
                         <h4 class="text-black"> Lash Extension </h4>
                     </li>
-
                     <li class="tab-btn " data-tab="#tab-2">
-                        <div class="icon-box"> </div>
                         <h4 class="text-black">Process Overview </h4>
                     </li>
                     <li class="tab-btn " data-tab="#tab-3">
-                        <div class="icon-box"> </div>
                         <h4 class="text-black"> Lash Care Tips </h4>
                     </li>
                     <li class="tab-btn " data-tab="#tab-4">
-                        <div class="icon-box"> </div>
                         <h4 class="text-black"> Benefits </h4>
                     </li>
                 </ul>
@@ -147,11 +128,12 @@ get_header();
                     <div class="inner-box">
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div class="content_block_box">
-                                    <div class="content-box">
+                                <div class="content_block_box ">
+                                    <div class="content-box text-center ">
                                         <div class="text">
-                                            <h3>About Lash Extensions </h3>
-                                            <p>hello there</p>
+                                            <h3> What are Lash Extensions?</h3>
+                                            <p class=" text-md-start inline-block ">Lash extensions are semi-permanent fibers that are applied to your natural eyelashes to increase their length, curliness, fullness, and thickness. They are precisely affixed, one-lash extension to one natural eyelash, with a specially developed semi-permanent glue that does not irritate or harm the natural eyelash.The extensions can be created from a variety of materials, including silk, mink, or synthetic materials, and are designed to resemble the appearance and feel of actual eyelashes.
+                                                The basic goal of lash extensions is to make the lashes appear longer and thicker, which highlights the eyes without the need for mascara or other eye makeup. Lash extensions come in a variety of lengths, diameters, and curls, so they may be tailored to your desired look, whether you want a subtle, natural augmentation or a more dramatic effect</p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +143,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -177,9 +159,19 @@ get_header();
                                 <div class="content_block_box">
                                     <div class="content-box">
                                         <div class="text">
-                                            <h3>About Lash Extensions </h3>
-                                            <p>hello there</p>
+                                            <h3>What Does the Process Involve?</h3>
+                                            <p>The procedure is complex, requiring skillful hands and patience from both the lash technician and the customer. Here's a thorough look at what you may expect throughout the eyelash extension procedure:</p>
+                                            <ul class="text-left tracking-wider custom-bullets">
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;">Consultation:- </span> process starts with a personalized consultation, during which the lash specialist discusses the client's desired look, assesses their natural lashes, and advises the best type of lash extensions. This includes selecting the material length, curl type, and thickness of the extensions to generate an appearance that is appropriate for the client's eye shape and lifestyle.</li>
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Preparation:- </span> Next, the technician cleanses the client's lashes to remove any makeup, oils, or residue, ensuring that the extensions adhere properly. Lower eyelashes are carefully fixed with a special under-eye pad, tape, or both to keep them from clinging to the upper lashes.</li>
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Application:- </span> The lash technician uses delicate tweezers to dab the end of each individual lash extension in a small drop of adhesive before carefully applying it to one of the client's natural lashes. The extension is positioned 1-2 mm from the eyelid to avoid direct contact with the skin. This method is continued, lash by lash, until the desired fullness is reached. Depending on the number of extensions applied, this can take anywhere from 90 minutes to more than 2 hours.</li>
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Post-application Care Instructions:- </span> Following the application, the technician will go over aftercare recommendations with the customer to ensure the endurance of the extensions. Key suggestions often include avoiding water or steam for the first 24-48 hours, not using oil-based products around the eyes, and avoiding mascara or eyelash curlers, which can shorten the life of the extensions.</li>
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Curing and Drying:- </span> After applying the extensions, the technician may use a handheld fan or a specialist blowing gear to speed up the adhesive's cure and drying time. To avoid discomfort, keep your eyes closed throughout the procedure.</li>
+                                                <li> <span class="font-weight-bold tracking-wide" style="text-decoration:underline;"> Touch-ups:- </span> Clients are usually advised to return for touch-ups every two to four weeks. During these appointments, the technician will replace any extensions that have come out due to the natural lash cycle, ensuring that the lashes retain their desired fullness.</li>
+                                            </ul>
+
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -188,7 +180,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -204,8 +196,16 @@ get_header();
                                 <div class="content_block_box">
                                     <div class="content-box">
                                         <div class="text">
-                                            <h3>About Lash Extensions </h3>
-                                            <p>hello there</p>
+                                            <h3> How to Care for Your Lashes between visits? </h3>
+                                            <p>Caring for lash extensions in between appointments is critical for their appearance and endurance. The longevity of your lash extensions is primarily dependent on how well you care for them at home. </p>
+                                            <ul class="text-left tracking-wider custom-bullets">
+                                                <li>First and foremost, keep your lash extensions clean. Every day, gently cleanse your lashes with a lash extension-safe cleanser. Apply the cleanser with your fingertips or a soft brush, working gently through the lashes to remove any natural oils or makeup residue. To avoid tugging or pulling, properly rinse the lashes with cool water and pat them dry with a clean, soft cloth or allow them to air dry.</li>
+                                                <li>It is vital to avoid all forms of dampness for the first 24-48 hours following treatment. After this period, it is still recommended that you limit your lashes' contact to water and steam. For example, when showering, try not to aim the water directly at your face, and when swimming, consider wearing goggles.</li>
+                                                <li>Be cautious with your eyelash extensions. Rubbing your eyes or pulling on your lashes can damage not only the extensions but also your natural lashes. When wiping your face, pat it lightly rather than rubbing it dry.</li>
+                                                <li>Use oil-free items around your eyes since oil can weaken the adhesive bond of lash extensions, causing them to shed prematurely. Similarly, do not use waterproof mascara or eyeliner, as these require oil-based removers. If you do decide to use mascara, do it lightly and only on the tips of your extensions. <br />
+                                                    Sleeping on your back is another way to increase the life of your lash extensions.</li>
+                                                <li>Always schedule frequent fill-ins every 2 to 4 weeks, depending on your natural lash development cycle and how well for you care for the extensions at home.</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -232,8 +232,15 @@ get_header();
                                 <div class="content_block_box">
                                     <div class="content-box">
                                         <div class="text">
-                                            <h3>About Lash Extensions </h3>
-                                            <p>hello there</p>
+                                            <h3> Enjoy the Benefits Lash Extensions Can Bring </h3>
+                                            <p>Lash extensions have numerous benefits, changing not only your appearance but also your everyday cosmetic regimen. These semi-permanent beauties offer unrivaled ease for those wishing to streamline their morning routine while remaining polished and put-together. The attraction of waking up with perfectly placed, fluttery lashes eliminates the need for mascara, eyeliner, and even makeup, making lash extensions an excellent time saver busy people.</p>
+                                            <ul class="text-left tracking-wider custom-bullets">
+                                                <li>From a practical sense, lash extensions are strong and resilient, meant to endure through your natural lash cycle with adequate care. This permanence, along with minimum care, ensures continued beauty without the daily trouble, making it a great alternative for people with active lifestyles, special occasions, or anybody wishing to enhance their natural beauty with long-term results.</li>
+                                                <li>If you want to transform the look of your lashes, then contact Lash Extentions by Fiona today in Sugar Land, TX. You can schedule your consultation and get started on making your lashes more beautiful than ever. Get started now. </li>
+
+                                            </ul>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -243,7 +250,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="" decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>" decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
                                 </div>
@@ -339,24 +346,22 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>"
-                                    alt="service-image" />
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>" alt="service-image" />
                             </div>
                         </div>
 
                         <!-- Text -->
                         <div class="sbox-10-txt">
 
-                            <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing Services </h5>
+                            <a href="/" class="h5-link">
+                                <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing Services</h5>
+                            </a>
 
                             <!-- Text -->
                             <p class="txt-color-05">Experience flawless definition and radiant skin with our expert face
                                 and eyebrow waxing services. Enhance your style and glow today.</p>
 
-                            <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
+
 
                         </div>
 
@@ -371,9 +376,7 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
-                                    alt="service-image" />
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
                             </div>
                         </div>
 
@@ -382,14 +385,14 @@ get_header();
 
 
                             <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Microblading Services</h5>
-
+                            <a href="/" class="h5-link">
+                                <h5 class="h5-sm txt-color-01">Microblading Services</h5>
+                            </a>
                             <!-- Text -->
                             <p class="txt-color-05">Elevate your beauty with microblading, crafting perfect brows for a
                                 lasting, natural glow. Experience the Difference.</p>
 
-                            <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
+
 
                         </div>
 
@@ -402,9 +405,7 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
-                                    alt="service-image" />
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
                             </div>
                         </div>
 
@@ -412,15 +413,14 @@ get_header();
                         <div class="sbox-10-txt">
 
 
-                            <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Featured Services </h5>
-
+                            <a href="/" class="h5-link">
+                                <h5 class="h5-sm txt-color-01">Featured Services </h5>
+                            </a>
                             <!-- Text -->
                             <p class="txt-color-05">Discover our premier featured service, tailored to elevate your
                                 beauty and enhance your confidence.</p>
 
-                            <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
+
 
                         </div>
 
@@ -433,9 +433,7 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
-                                    alt="service-image" />
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>" alt="service-image" />
                             </div>
                         </div>
 
@@ -444,14 +442,13 @@ get_header();
 
 
                             <!-- Title -->
-                            <h5 class="h5-sm txt-color-01">Brow & Lash Services</h5>
-
+                            <a href="/" class="h5-link">
+                                <h5 class="h5-sm txt-color-01">Brow & Lash Services</h5>
+                            </a>
                             <!-- Text -->
                             <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing
                                 your eyes for effortless allure. Experience the Difference.</p>
 
-                            <!-- Button -->
-                            <a href="services.html" class="btn p-sm btn-tra-01 color-02-hover">Read More</a>
 
                         </div>
 
@@ -502,7 +499,7 @@ get_header();
                 </ul> <!-- End Text List -->
 
                 <!-- Button -->
-                <a href="booking.html" class="btn btn-md btn-tra-white white-hover">Book Now</a>
+                <a href="booking.html" class="btn btn-md btn-tra-white  white-hover">Book Now</a>
 
             </div>
 
@@ -510,8 +507,7 @@ get_header();
             <!-- ABOUT IMAGE -->
             <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
                 <div class="about-5-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>"
-                        alt="about-image" />
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>" alt="about-image" />
                 </div>
             </div>
 
@@ -573,17 +569,17 @@ get_header();
                         <h5 class="h5-md txt-color-01">Classic Season </h5>
                         <p class="txt-color-05">50 mins <i class="fa-solid fa-play text-5"> &nbsp; </i> Season Groupon
                         </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$188</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01"> YY Lashes Refill </h5>
                         <p class="txt-color-05">35 mins</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$68</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$68</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Classic Refill </h5>
                         <p class="txt-color-05">40 mins</p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$58</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$58</span>
                     </li>
 
                 </ul>
@@ -601,12 +597,12 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Microblading Fill</h5>
                         <p class="txt-color-05">1 Hour </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$150</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$150</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Microblading Set</h5>
                         <p class="txt-color-05">3 Hour(s) </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$350</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-40">$350</span>
                     </li>
                 </ul>
             </div>
@@ -629,12 +625,12 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Dramatic Member</h5>
                         <p class="txt-color-05">1 Hour </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$188</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$188</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Volume Member</h5>
                         <p class="txt-color-05">50 mins </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$148</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$148</span>
                     </li>
 
                 </ul>
@@ -668,7 +664,7 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Classic Mini Touch </h5>
                         <p class="txt-color-05"> 30 mins </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$48</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$48</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01"> YY Lash Full Set</h5>
@@ -703,12 +699,12 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Dramatic Full Set ( > 17mm ) </h5>
                         <p class="txt-color-05">1 hour </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$158</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-40">$158</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Dramatic Refill ( > 17mm ) </h5>
                         <p class="txt-color-05">1 hour </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$108</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-40">$108</span>
                     </li>
 
                 </ul>
@@ -727,7 +723,7 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Hydra-Facial</h5>
                         <p class="txt-color-05">55 mins </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$88</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$88</span>
                     </li>
                 </ul>
             </div>
@@ -745,12 +741,12 @@ get_header();
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Eyebrow Waxing </h5>
                         <p class="txt-color-05">15 mins </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$10</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$10</span>
                     </li>
                     <li class="pricing-list-txt">
                         <h5 class="h5-md txt-color-01">Face Waxing </h5>
                         <p class="txt-color-05">30 mins </p>
-                        <span class="h4-xs pricing-list-amount txt-color-01 mt-2">$30</span>
+                        <span class="h4-xs pricing-list-amount txt-color-01 mt-20">$30</span>
                     </li>
 
                 </ul>
@@ -814,8 +810,7 @@ get_header();
                     <h3 class="h3-xl txt-color-01">What Our Clients Say</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">Elevating Beauty, One Lash at a Time. Hear What Our Clients Have to Say About Lash Extension by Fiona.
                     </p>
 
                 </div>
@@ -832,22 +827,19 @@ get_header();
                     <!-- TESTIMONIAL #1 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-1.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
+                        
+                       
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Kelly Walke</h6>
-                            <p>Housewife</p>
+                            <h6 class="h6-sm">Jackie S.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Sagittis congue etiam sapien sem accumsan suscipit egestas lobortis magna, porttitor
-                                sodales vitae aenean mauris tempor risus lectus
+                            <p>I loved my lashes 2 time going.
                             </p>
                         </div>
 
@@ -857,22 +849,18 @@ get_header();
                     <!-- TESTIMONIAL #2 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-2.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
+                       
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Linda Ferell</h6>
-                            <p>Designer</p>
+                            <h6 class="h6-sm">Jazmin E.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Sapien sem accumsan vitae purus diam integer congue magna undo. Magna, sodales vitae
-                                aenean mauris tempor risus lectus aenean magna ipsum vitae purus vitae
+                            <p>Love my lashes and the experience was so relaxing.
                             </p>
                         </div>
 
@@ -882,22 +870,18 @@ get_header();
                     <!-- TESTIMONIAL #3 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-3.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
+                      
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Evelyn Martinez</h6>
-                            <p>Journalist</p>
+                            <h6 class="h6-sm">Aura L.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Etiam sapien sem accumsan sagittis congue. Suscipit egestas at lobortis magna, porttitor
-                                sodales vitae aenean mauris tempor risus lectus aenean diam aenean mauris
+                            <p>Good attention, very professional and they have always done a good job for me.
                             </p>
                         </div>
 
@@ -907,22 +891,17 @@ get_header();
                     <!-- TESTIMONIAL #4 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-4.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Laura Merino</h6>
-                            <p>Fashion Designer</p>
+                            <h6 class="h6-sm">Amber P.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Egestas egestas magna ipsum vitae purus efficitur ipsum primis in cubilia laoreet augue
-                                congue. An egestas lobortis magna, sodales vitae
+                            <p>Highly recommend. I love my look! just like I expected.
                             </p>
                         </div>
 
@@ -932,22 +911,18 @@ get_header();
                     <!-- TESTIMONIAL #5 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-5.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
+                      
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Elizabeth Ross</h6>
-                            <p>Biologist</p>
+                            <h6 class="h6-sm">Samira H.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>An orci nullam tempor sapien, eget orci gravida donec enim ipsum porta justo integer and
-                                odio velna auctor. Egestas magna ipsum vitae purus ipsum primis in laoreet augue
+                            <p>Very nice great service. Quick professional.
                             </p>
                         </div>
 
@@ -957,23 +932,18 @@ get_header();
                     <!-- TESTIMONIAL #6 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-6.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
-
+                       
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Carmen M. Garcia</h6>
-                            <p>Graphic Designer</p>
+                            <h6 class="h6-sm">Sheena S.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>Mauris donec ociis et magnis sapien an etiam sapien sem sagittis congue augue. An orci
-                                nullam
-                                tempor sapien, eget orci gravida donec porta
+                            <p>My lady always a job well done !!! 
                             </p>
                         </div>
 
@@ -983,22 +953,19 @@ get_header();
                     <!-- TESTIMONIAL #7 -->
                     <div class="review-1">
 
-                        <!-- Testimonial Author Avatar -->
-                        <div class="testimonial-avatar">
-                            <img src="<?php echo get_template_directory_uri() . '/images/review-author-7.jpg'; ?>"
-                                alt="testimonial-avatar">
-                        </div>
+                     
 
                         <!-- Testimonial Author -->
                         <div class="author-data txt-color-01">
-                            <h6 class="h6-sm">Penelopa M.</h6>
-                            <p>Manager</p>
+                            <h6 class="h6-sm">Jackie F.</h6>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9733; &#9733;
+                            </div>
                         </div>
 
                         <!-- Testimonial Text -->
                         <div class="review-1-txt txt-color-05">
-                            <p>At sagittis congue augue egestas egestas magna ipsum vitae purus ipsum primis in cubilia
-                                laoreet augue diam ociis nullam tempor
+                            <p>Great experience, so relaxing and my lashes look perfect. I will defiantly be going back THANKYOU
                             </p>
                         </div>
 
@@ -1031,7 +998,7 @@ get_header();
                     <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                     <!-- Text -->
-                    <p class="p-xl txt-color-01">Call us : <span>+12 9 8765 4321</span> or fill out our online booking &
+                    <p class="p-xl txt-color-01">Call us : <span>+1(281)-690-3563</span> or fill out our online booking &
                         equiry
                         form and we will contact you
                     </p>
@@ -1046,8 +1013,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
-                        alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>" alt="about-image">
                 </div>
             </div>
 
@@ -1096,9 +1062,7 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>"
-                            alt="blog-post-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>" alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TITLE -->
@@ -1133,9 +1097,7 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>"
-                            alt="blog-post-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>" alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1170,9 +1132,7 @@ get_header();
 
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>"
-                            alt="blog-post-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>" alt="blog-post-image" />
                     </div>
 
                     <!-- BLOG POST TEXT -->
@@ -1249,10 +1209,10 @@ get_header();
 <?php get_footer(); ?>
 
 
-<script> 
-document.addEventListener("DOMContentLoaded", function() {
-    const tabButtons = document.querySelectorAll('.tab-btn');
-    const tabs = document.querySelectorAll('.tab');
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabs = document.querySelectorAll('.tab');
 
         tabButtons.forEach(function(tabButton, index) {
             tabButton.addEventListener('click', function() {
@@ -1274,16 +1234,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.querySelector(tabId).style.display = 'block';
             });
 
-        // Immediate color change upon clicking each tab
-        tabButton.addEventListener('click', function() {
-            tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
-            setTimeout(function() {
-                tabButton.style.backgroundImage = '';
-            }, 500);
+            // Immediate color change upon clicking each tab
+            tabButton.addEventListener('click', function() {
+                tabButton.style.backgroundImage = 'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
+                setTimeout(function() {
+                    tabButton.style.backgroundImage = '';
+                }, 500);
+            });
         });
     });
-});
-
-
-
-</script> 
+    $(document).ready(function() {
+        // Add click event listener to .main-title and .caret-down elements
+        $('.main-title, .caret-down').click(function() {
+            // Toggle the visibility of the pricing list within the same container
+            $(this).closest('.container').find('.pricing-container').slideToggle();
+        });
+    });
+</script>
