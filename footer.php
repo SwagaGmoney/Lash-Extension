@@ -14,7 +14,8 @@
 
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
 								displayed (e.g 416 x 120  pixels) -->
-                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204" height="60" alt="footer-logo">
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204"
+                        height="60" alt="footer-logo">
 
                     <!-- Footer Contacts -->
                     <div class="footer-contacts txt-color-05 mt-25">
@@ -35,18 +36,18 @@
                         </p>&nbsp;
 
                         <!-- Phone -->
-                    <div style="cursor:pointer;" class="foot-phone">
-                        <span class="inline-block" >
-                            <i class="fa-solid fa-phone-volume" style="color: red;"></i>
-                           
-                            <p style="display: inline-block; margin-left: 5px;">+1(281)-690-3563</p>
-                        </span><br />
-                        <span class="inline-block">
-                            <i class="fa-solid fa-blender-phone" style="color: green;"></i>
-                           
-                            <p style="display: inline-block; margin-left: 5px;">+1(713)-392-0281</p>
-                        </span>
-                    </div>
+                        <div style="cursor:pointer;" class="foot-phone">
+                            <span class="inline-block">
+                                <i class="fa-solid fa-phone-volume" style="color: red;"></i>
+
+                                <p style="display: inline-block; margin-left: 5px;">+1(281)-690-3563</p>
+                            </span><br />
+                            <span class="inline-block">
+                                <i class="fa-solid fa-blender-phone" style="color: green;"></i>
+
+                                <p style="display: inline-block; margin-left: 5px;">+1(713)-392-0281</p>
+                            </span>
+                        </div>
                     </div>
 
                 </div>
@@ -76,7 +77,7 @@
                 <div class="footer-links mb-40 foot-link">
 
                     <!-- Title -->
-                   
+
                     <ul class="simple-list w-hours mb-20 foot-links">
                         <h6 class="h6-lg txt-color-01"> Hours Of Operations </h6>
                         <li class="list-item p-2">
@@ -109,7 +110,7 @@
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01 ">Areas Served</h6>
+                    <h6 class="h6-lg txt-color-01 ">Service Areas</h6>
                     <ul class="simple-lists w-hours mb-20">
                         <li class="list-item">SugarLand, Texas</li>
                         <li class="list-item">Galleria, Texas</li>
@@ -119,19 +120,19 @@
                 </div>
 
                 <div class="col-md-3 col-lg-2">
-                <div class="footer-links mb-40">
-                    <h6 class="h6-lg txt-color-01">Services</h6>
-                    <ul class="simple-listz w-hours mb-20">
-                        <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
-                        <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
-                        <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
-                        <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
-                    </ul>
+                    <div class="footer-links mb-40">
+                        <h6 class="h6-lg txt-color-01">Services</h6>
+                        <ul class="simple-listz w-hours mb-20">
+                            <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
+                            <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
+                            <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
+                            <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            </div>
 
-            
+
 
 
         </div> <!-- END FOOTER CONTENT -->
