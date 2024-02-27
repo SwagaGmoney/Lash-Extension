@@ -1,18 +1,3 @@
-/*
-  Template Name: Spa Magic - Spa & Beauty Salon Landing Page Template
-  Theme URL: https://themeforest.net/user/jthemes
-  Description: Spa Magic - Spa & Beauty Salon Landing Page Template
-  Author: Jthemes
-  Author URL: https://themeforest.net/user/jthemes
-  Version: 1.0.0
-  Website: www.jthemes.net
-  Tags: Jthemes, Beauty, Cosmetic, Girly, Hair, Health, Healthy Care, Massage, Make Up, Salon, Spa, Skincare, Wellness
-*/
-
-
-
-
-
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
@@ -40,6 +25,13 @@ p.txt-color-05  {
 h2.single-post-title {
   margin-top: 25px;
   margin-bottom: 30px;
+}
+
+.wp-caption-text {
+  font-size: 0.78rem;
+    font-weight: 400;
+    font-style: italic;
+
 }
 
 
@@ -552,9 +544,7 @@ h2.single-post-title {
   padding-top: 5px !important;
 }
 
-.fs-9{ 
-  font-size:25px;
-}
+
 
 .fs-10{ 
   font-size:30px;
@@ -6278,7 +6268,6 @@ p.foo-email a {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 30px;
-  width:100%;
 }
 
 .bg-brown .bottom-footer,
@@ -7177,6 +7166,7 @@ blockquote {
 
 
 @media screen and (max-width:500px) {
+<<<<<<< HEAD
 
 
  
@@ -7195,11 +7185,19 @@ blockquote {
   }
   
 
+=======
+  .caret-down i {
+  font-size: 25px;
+  position: absolute;
+  top:0.3rem;
+  left:11em;
+}
+>>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 .wsmobileheader{ 
   margin-top:2.2rem !important;
 }
 .wsactive .wsmobileheader{
-  margin-right:0px !important;
+  magin-right:0px !important;
 }
 .wsactive.wsmenu {
   margin-top:17em !important;
@@ -7208,6 +7206,13 @@ blockquote {
   margin-top:-2.8rem;
 }
 
+<<<<<<< HEAD
+=======
+.sidebar{ 
+  margin-top:3em;
+  
+}
+>>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 
 
  
@@ -7702,10 +7707,15 @@ ul.clearfix.txt-color-05 li {
   width:350px;
   height:350px;
   border-radius: 20px;
+  margin-left:30%;
   margin-bottom:2rem;
+<<<<<<< HEAD
   position: relative;
   z-index: 1;
   left:46em;
+=======
+
+>>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 }
 .sidebar ul li:hover{ 
   cursor: pointer;
@@ -7733,7 +7743,11 @@ ul.clearfix.txt-color-05 li {
 .logo-white{
   padding-top:15px;
 }
-
+.heading{
+  position:relative;
+  top:7em;
+  left:-2em;
+}
 .ml-left{
   position:relative;
   left:-3em;
@@ -7767,7 +7781,7 @@ ul.clearfix.txt-color-05 li {
 .left-text h5{ 
   margin-left:0.6rem;
 }
-.custom-bullet , .custom-point {
+.custom-bullet {
   list-style: none; /* Remove default bullet points */
    
 }
@@ -7795,6 +7809,7 @@ ul.clearfix.txt-color-05 li {
   font-size:20px;
   font-weight:800;
 
+<<<<<<< HEAD
 }
 
 .ml-lt{ 
@@ -7876,4 +7891,6 @@ ul.clearfix.txt-color-05 li {
 .image-slider {
   transform: translateX(-100%); /* Initially slide image out of view */
 
+=======
+>>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 }

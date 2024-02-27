@@ -143,8 +143,6 @@ function lash_extension_scripts() {
 	
      // Enqueue Bootstrap CSS
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/all.min.css' );
-
      // Enqueue Font Awesome CSS
 	 wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
  
@@ -245,19 +243,50 @@ function discard_menu_classes($classes, $item) {
 	add_post_type_support( 'page', 'excerpt' );
 
 
-add_filter( 'the_content', 'class_up_the_paragraphs' );
 
 
 	/**
- * Adds classes to all the <p> tags in the content.
+ * Adds classes to all the tags in the content.
  *
  * @param  string $content The post content.
  * @return string          The post content with the classes added to the <p> tags.
  */
-function class_up_the_paragraphs( $content ) {
+
+
+add_filter( 'the_content', 'class_up_the_headings' );
+
+function class_up_the_headings( $content ) {
+    $classes = array(
+        'h1' => 'h1-class',
+        'h2' => 'single-post-txt',
+        'h3' => 'single-post-txt h5-md txt-color-01',
+        'h4' => 'h4-class',
+        'h5' => 'h5-class',
+        'h6' => 'h6-class',
+		'p' => 'txt-color-05'
+    );
+
+    foreach ($classes as $tag => $class) {
+        $content = str_replace(
+            "<$tag>",
+            "<$tag class=\"$class\">",
+            $content
+        );
+    }
+
+    return $content;
+}
+
+
+
+
+
+add_filter( 'the_content', 'class_up_the_lists' );
+
+function class_up_the_lists( $content ) {
     $content = str_replace(
-        '<p>',
-        '<p class="txt-color-05">',
+        '<ul>',
+        '<ul class="simple-list txt-color-05">',
         $content
     );
     return $content;
