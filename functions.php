@@ -142,7 +142,8 @@ add_action( 'widgets_init', 'lash_extension_widgets_init' );
 function lash_extension_scripts() {
 	
      // Enqueue Bootstrap CSS
-     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/all.min.css' );
 
      // Enqueue Font Awesome CSS
 	 wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
