@@ -23,7 +23,8 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40 image-hidden">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>" alt="about-image">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                        alt="about-image">
                 </div>
             </div>
             <!-- QUOTE BLOCK -->
@@ -96,153 +97,12 @@ get_header();
             </div>
         </div>
 
-
-        <!-- TEAM MEMBERS WRAPPER -->
-        <div class="tm-wrapper">
-            <div class="row">
-
-
-                <!-- TEAM MEMBER #1 -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-member">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <div class="hover-overlay">
-
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/team-1.jpg'; ?>" alt="team-member-foto">
-
-                                <!-- Social Icons -->
-                                <div class="tm-social clearfix">
-                                    <ul class="text-center clearfix">
-                                        <li><a href="about.html#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="about.html#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="about.html#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Team Member Meta -->
-                        <div class="tm-meta">
-                            <h6 class="h6-lg txt-color-01">Stacey Richardson</h6>
-                            <span class="txt-color-06">Beauty Expert</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- TEAM MEMBER #2 -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-member">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <div class="hover-overlay">
-
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/team-2.jpg'; ?>" alt="team-member-foto">
-
-                                <!-- Social Icons -->
-                                <div class="tm-social clearfix">
-                                    <ul class="text-center clearfix">
-                                        <li><a href="about.html#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="about.html#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="about.html#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Team Member Meta -->
-                        <div class="tm-meta">
-                            <h6 class="h6-lg txt-color-01">Jennifer Harper</h6>
-                            <span class="txt-color-06">SPA Master</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- TEAM MEMBER #3 -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-member">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <div class="hover-overlay">
-
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/team-3.jpg'; ?>" alt="team-member-foto">
-
-                                <!-- Social Icons -->
-                                <div class="tm-social clearfix">
-                                    <ul class="text-center clearfix">
-                                        <li><a href="about.html#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="about.html#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="about.html#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Team Member Meta -->
-                        <div class="tm-meta">
-                            <h6 class="h6-lg txt-color-01">Rodney Stratton</h6>
-                            <span class="txt-color-06">Beautician</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- TEAM MEMBER #4 -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-member">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <div class="hover-overlay">
-
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/team-4.jpg'; ?>" alt="team-member-foto">
-
-                                <!-- Social Icons -->
-                                <div class="tm-social clearfix">
-                                    <ul class="text-center clearfix">
-                                        <li><a href="about.html#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="about.html#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="about.html#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Team Member Meta -->
-                        <div class="tm-meta">
-                            <h6 class="h6-lg txt-color-01">Jane Smith</h6>
-                            <span class="txt-color-06">Beauty Therapist</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div> <!-- End row -->
-        </div> <!-- END TEAM MEMBERS WRAPPER -->
-
-
     </div> <!-- End container -->
 </section> <!-- END TEAM-1 -->
 
-<!-- CONTACTS-1
-				============================================= -->
+<!-- CONTACTS-1 ============================================= -->
 <section id="contacts-1" class="bg-color-02 wide-60 contacts-section division">
     <div class="container">
-
-
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -272,7 +132,9 @@ get_header();
                 <div class="google-map mb-40">
 
                     <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8393924898796!2d144.9536363151022!3d-37.817230742014345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4e793770d3%3A0x9e44d6ad0d76ba7c!2zMTIxIEtpbmcgU3QsIE1lbGJvdXJuZSBWSUMgMzAwMCwg0JDQstGB0YLRgNCw0LvQuNGP!5e0!3m2!1sru!2sua!4v1469002590349" width="600" height="450"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8393924898796!2d144.9536363151022!3d-37.817230742014345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4e793770d3%3A0x9e44d6ad0d76ba7c!2zMTIxIEtpbmcgU3QsIE1lbGJvdXJuZSBWSUMgMzAwMCwg0JDQstGB0YLRgNCw0LvQuNGP!5e0!3m2!1sru!2sua!4v1469002590349"
+                        width="600" height="450"></iframe>
 
                 </div>
             </div> <!-- END CONTACT FORM -->
@@ -293,8 +155,10 @@ get_header();
                     <div class="cbox-1 mb-30">
                         <h5 class="h5-sm txt-color-01">Contact Info</h5>
                         <p class="p-md txt-color-05"><span>Phone :</span> +12 3 3456 7890</p>
-                        <p class="p-md txt-color-05"><span>Email :</span> <a href="mailto:yourdomain@mail.com">hello@yourdomain.com</a></p>
-                        <p class="p-md txt-color-05"><span>Skype :</span> <a href="tel:123456789">support.spamagic</a></p>
+                        <p class="p-md txt-color-05"><span>Email :</span> <a
+                                href="mailto:yourdomain@mail.com">hello@yourdomain.com</a></p>
+                        <p class="p-md txt-color-05"><span>Skype :</span> <a href="tel:123456789">support.spamagic</a>
+                        </p>
                     </div>
 
                     <!-- EMAILS -->
@@ -329,44 +193,44 @@ get_header();
 
 
 <script>
-    $(document).ready(function() {
-        var quoteBlock = $('.quote-block');
-        var quoteDisplayed = false;
+$(document).ready(function() {
+    var quoteBlock = $('.quote-block');
+    var quoteDisplayed = false;
 
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
 
-            if (scroll >= 100 && !quoteDisplayed) { // Adjust the scroll threshold as needed
-                quoteBlock.addClass('scrolled');
-                quoteDisplayed = true;
-            }
-        });
-    });
-
-
-    function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    // Function to handle scrolling
-    function handleScroll() {
-        const imageBlock = document.querySelector('.img-block');
-        const infoBlock = document.querySelector('.info-block');
-
-        if (isInViewport(imageBlock, infoBlock)) {
-            imageBlock.classList.add('image-visible');
-            infoBlock.classList.add('visible');
-            window.removeEventListener('scroll', handleScroll);
-
+        if (scroll >= 100 && !quoteDisplayed) { // Adjust the scroll threshold as needed
+            quoteBlock.addClass('scrolled');
+            quoteDisplayed = true;
         }
-    }
+    });
+});
 
-    // Listen for scroll events
-    window.addEventListener('scroll', handleScroll);
+
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Function to handle scrolling
+function handleScroll() {
+    const imageBlock = document.querySelector('.img-block');
+    const infoBlock = document.querySelector('.info-block');
+
+    if (isInViewport(imageBlock, infoBlock)) {
+        imageBlock.classList.add('image-visible');
+        infoBlock.classList.add('visible');
+        window.removeEventListener('scroll', handleScroll);
+
+    }
+}
+
+// Listen for scroll events
+window.addEventListener('scroll', handleScroll);
 </script>
