@@ -77,13 +77,8 @@
                 <div class="footer-links mb-40 foot-link">
 
                     <!-- Title -->
-<<<<<<< Updated upstream
 
-                    <ul class="simple-list w-hours mb-20 foot-links">
-=======
-                   
                     <ul class="simple-list w-hours mb-20 ">
->>>>>>> Stashed changes
                         <h6 class="h6-lg txt-color-01"> Hours Of Operations </h6>
                         <li class="list-item p-2">
                             <p>Monday : 8:00 AM - 9:00 PM</p>
@@ -124,59 +119,59 @@
                 </div>
 
                 <div class="col-md-3 col-lg-2">
-                <div class="footer-links mb-40 foot-inks">
-                    <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
-                    <ul class="simple-listz w-hours mb-20">
-                        <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
-                        <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
-                        <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
-                        <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-        </div> <!-- END FOOTER CONTENT -->
-
-
-        <!-- BOTTOM FOOTER -->
-        <div class="bottom-footer txt-color-05">
-            <div class="row d-flex align-items-center">
-
-
-                <!-- FOOTER COPYRIGHT -->
-                <div class="col-lg-6">
-                    <div class="footer-copyright">
-                        <p>&copy; 2024 Lash Extension By Fiona. All Rights Reserved</p>
+                    <div class="footer-links mb-40 foot-inks">
+                        <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
+                        <ul class="simple-listz w-hours mb-20">
+                            <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
+                            <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
+                            <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
+                            <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
+                        </ul>
                     </div>
                 </div>
 
 
-                <!-- BOTTOM FOOTER LINKS -->
-                <div class="col-lg-6">
-                    <ul class="bottom-footer-list text-right clearfix">
-                        <li>
-                            <p class="first-list-link"><a href="demo-1.html#"><i class="fab fa-facebook-f"></i>
-                                    Facebook</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
-                        </li>
-                        <li>
-                            <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
-                        </li>
-
-                    </ul>
-                </div>
 
 
-            </div> <!-- End row -->
-        </div> <!-- END BOTTOM FOOTER -->
+            </div> <!-- END FOOTER CONTENT -->
 
 
-    </div> <!-- End container -->
+            <!-- BOTTOM FOOTER -->
+            <div class="bottom-footer txt-color-05">
+                <div class="row d-flex align-items-center">
+
+
+                    <!-- FOOTER COPYRIGHT -->
+                    <div class="col-lg-6">
+                        <div class="footer-copyright">
+                            <p>&copy; 2024 Lash Extension By Fiona. All Rights Reserved</p>
+                        </div>
+                    </div>
+
+
+                    <!-- BOTTOM FOOTER LINKS -->
+                    <div class="col-lg-6">
+                        <ul class="bottom-footer-list text-right clearfix">
+                            <li>
+                                <p class="first-list-link"><a href="demo-1.html#"><i class="fab fa-facebook-f"></i>
+                                        Facebook</a></p>
+                            </li>
+                            <li>
+                                <p><a href="demo-1.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
+                            </li>
+                            <li>
+                                <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div> <!-- End row -->
+            </div> <!-- END BOTTOM FOOTER -->
+
+
+        </div> <!-- End container -->
 </footer> <!-- END FOOTER-1 -->
 
 
