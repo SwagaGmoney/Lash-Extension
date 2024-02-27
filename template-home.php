@@ -466,7 +466,7 @@ get_header();
                         <div class="sbox-10-txt">
 
 
-                            <a href="/" class="h5-link">
+                            <a href="https://lashextensionsbyfiona.com/face-eyebrow-waxing/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
