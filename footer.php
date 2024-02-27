@@ -14,8 +14,7 @@
 
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
 								displayed (e.g 416 x 120  pixels) -->
-                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204"
-                        height="60" alt="footer-logo">
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204" height="60" alt="footer-logo">
 
                     <!-- Footer Contacts -->
                     <div class="footer-contacts txt-color-05 mt-25">
@@ -23,17 +22,23 @@
                         <!-- Address -->
 
                         <div class="flex">
-                            <h4>Location 1 </h4>
+                            <span class="d-flex align-items-center" > 
+                                <i class="fa-solid fa-map-location-dot fs-9"></i> 
+                                <h4 class="pl-4 mt-2">SugarLand </h4>
+                            </span>
                             <p>4131 Highway 6 Sugar Land, 77478</p>
                             <br />
 
-                            <h4> Location 2 </h4>
+                            <span class="d-flex align-items-center">
+                            <i class="fa-solid fa-earth-americas fs-9"></i>
+                              <h4 class="pl-4 mt-2"> Galleria </h4>
+                            </span>
                             <p>2400 Augusta DrHouston, TX 77057
                             <p>
                         </div><br />
                         <!-- Email -->
                         <p class="foo-email"><i class="fa-solid fa-envelope"> &nbsp;</i> <a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
-                        </p><br/>
+                        </p><br />
 
                         <!-- Phone -->
                         <div style="cursor:pointer;" class="foot-phone">

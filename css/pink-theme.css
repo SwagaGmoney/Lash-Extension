@@ -548,7 +548,9 @@ h2.single-post-title {
   padding-top: 5px !important;
 }
 
-
+.fs-9{ 
+  font-size:25px;
+}
 
 .fs-10{ 
   font-size:30px;
@@ -7164,6 +7166,46 @@ blockquote {
 
 
 @media screen and (max-width:500px) {
+
+
+  .ol-1{ 
+    margin-left:2em;
+    margin-top:8em;
+  }
+  .ol-1 h3{ 
+    margin-left:-1.5rem;
+  }
+  .custom-bullets{ 
+    margin-right:5rem;
+  }
+  .image-container img { 
+   position: relative;
+   left:-27rem;
+  }
+  .img-contain img{ 
+    width:300px;
+  background-size: cover;
+  border-radius: 50px;
+  height: 450px;
+  position: absolute;
+  top:10em;
+  right:0;
+  
+  }
+  .text-left-content{ 
+    position: relative;
+    top:20em;
+    right:5em;
+  }
+
+  .img-container{
+    position: relative;
+    width:200px;
+    height:200px;
+    top:55em;
+    left:15em;
+  }
+
   .caret-down i {
   font-size: 25px;
   position: absolute;
@@ -7174,7 +7216,7 @@ blockquote {
   margin-top:2.2rem !important;
 }
 .wsactive .wsmobileheader{
-  magin-right:0px !important;
+  margin-right:0px !important;
 }
 .wsactive.wsmenu {
   margin-top:17em !important;
@@ -7188,7 +7230,7 @@ blockquote {
 
 .sidebar{ 
   margin-top:3em;
-  
+  margin-left:-10em;
 }
 
   .content-column,
@@ -7620,9 +7662,10 @@ ul.clearfix.txt-color-05 li {
   width:350px;
   height:350px;
   border-radius: 20px;
-  margin-left:30%;
   margin-bottom:2rem;
-
+  position: relative;
+  z-index: 999;
+  left:46em;
 }
 .sidebar ul li:hover{ 
   cursor: pointer;
@@ -7650,11 +7693,7 @@ ul.clearfix.txt-color-05 li {
 .logo-white{
   padding-top:15px;
 }
-.heading{
-  position:relative;
-  top:7em;
-  left:-2em;
-}
+
 .ml-left{
   position:relative;
   left:-3em;
@@ -7688,7 +7727,7 @@ ul.clearfix.txt-color-05 li {
 .left-text h5{ 
   margin-left:0.6rem;
 }
-.custom-bullet {
+.custom-bullet , .custom-point {
   list-style: none; /* Remove default bullet points */
    
 }
@@ -7716,4 +7755,38 @@ ul.clearfix.txt-color-05 li {
   font-size:20px;
   font-weight:800;
 
+}
+
+.ml-lt{ 
+  position: relative;
+  left:-1rem;
+}
+
+.img-contain img{ 
+  width:400px;
+  background-size: cover;
+  border-radius: 50px;
+  height: 550px;
+  position: relative;
+  top:3em;
+  right:0;
+  overflow: hidden;
+  transition: transform 800ms ease; /* Define transition */
+  transition-duration: 1000ms;
+}
+
+.custom-point li:before {
+  content: "\2713"; /* Use custom bullet point character */
+  color: #703578; /* Set bullet point color */
+  font-size: 1.2em; /* Adjust bullet point size */
+  margin-right: 0.5em; /* Add spacing between bullet point and text */
+}
+
+.heading{
+  position: relative;
+  left:-27em;
+}
+
+.bottom-footer {
+  width:100%;
 }
