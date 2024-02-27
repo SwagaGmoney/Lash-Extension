@@ -244,7 +244,7 @@ function discard_menu_classes($classes, $item) {
 	add_post_type_support( 'page', 'excerpt' );
 
 
-dd_filter( 'the_content', 'class_up_the_paragraphs' );
+add_filter( 'the_content', 'class_up_the_paragraphs' );
 
 
 	/**
