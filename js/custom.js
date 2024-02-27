@@ -552,3 +552,15 @@
 
 
 	});
+	$(document).ready(function() {
+		$(window).scroll(function() {
+			var scrollPosition = $(this).scrollTop();
+	
+			// Check if the scroll position is past a certain threshold
+			if (scrollPosition > 100) {
+				$('.image-container img').removeClass('image-slide'); // Remove class to slide image in
+			} else {
+				$('.image-container img').addClass('image-slide'); // Add class to slide image out
+			}
+		});
+	});

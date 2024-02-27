@@ -533,6 +533,15 @@ body {
   padding-top: 5px !important;
 }
 
+
+
+.fs-10{ 
+  font-size:30px;
+}
+.fs-11{ 
+  font-size:32px;
+}
+
 /*------------------------------------------*/
 /*  Padding Bottom
 /*------------------------------------------*/
@@ -2448,6 +2457,10 @@ ol.digit-list p {
   margin-top: 12px;
   margin-left: 10px;
   padding: 15px 20px;
+  
+}
+.wsmenu>.wsmenu-list>li a.btn:hover{ 
+  color:#000 !important;
 }
 
 /*------------------------------------------*/
@@ -7016,9 +7029,11 @@ nav a#pull {
 
 
 .top-bar{ 
+  position: fixed;
+  width: 100%;
 padding: 10px;
 z-index: 999;
-margin-top:-2.5em;
+margin-top:-2.5rem;
 
 
 }
@@ -7140,9 +7155,27 @@ blockquote {
   top:0.3rem;
   left:11em;
 }
+.wsmobileheader{ 
+  margin-top:2.2rem !important;
+}
+.wsactive .wsmobileheader{
+  magin-right:0px !important;
+}
+.wsactive.wsmenu {
+  margin-top:17em !important;
+}
+.top-bar{
+  margin-top:-2.8rem;
+}
+.sm-no{
+  display: none;
+}
 
-
+.sidebar{ 
+  margin-top:3em;
   
+}
+
   .content-column,
   .image-column {
     width: 100%;
@@ -7189,19 +7222,31 @@ ul.simple-list {
   top:0.2rem;
   left:16em;
 }
+.wsmobileheader{ 
+  margin-top:2.2rem !important;
+}
 
 
+.sm-no{ 
+  display:none;
+}
   .content-column,
   .image-column {
     width: 100%;
     float: none;
     padding: 0;
   }
-
 }
 
-@media screen and (min-width:768px) and (max-width:900px) {
+@media screen and (min-width:768px) and (max-width:991px) {
+  
+  .wsmobileheader{ 
+  margin-top:2.2rem !important;
+}
 
+.wsmenu > .wsmenu-list > li {
+  padding:0.4rem;
+}
 
   .caret-down i {
   font-size: 25px;
@@ -7223,7 +7268,8 @@ ul.simple-list {
 
 
 
-@media screen and (min-width:900px)   {
+@media screen and (min-width:1021px)   {
+  
 
   .caret-down i {
   font-size: 25px;
@@ -7556,10 +7602,11 @@ ul.clearfix.txt-color-05 li {
     
 }
 .sidebar{
-  width:300px;
+  width:350px;
   height:350px;
   border-radius: 20px;
-  margin-left:70%;
+  margin-left:30%;
+  margin-bottom:2rem;
 
 }
 .sidebar ul li:hover{ 
@@ -7575,12 +7622,83 @@ ul.clearfix.txt-color-05 li {
   padding-left: 20px; 
   transition: transform 0.3s ease;
 }
-.list-item:hover::before {
+.list-itemed:hover::before {
   content: '👉';
   position: absolute;
   left: -1em; /* Adjust the position as needed */
 }
 
-.list-item:hover {
+.list-itemed:hover {
   transform: translateX(10px); /* Adjust the value as needed */
+}
+
+.logo-white{
+  padding-top:15px;
+}
+.heading{
+  position:relative;
+  top:7em;
+  left:-2em;
+}
+.ml-left{
+  position:relative;
+  left:-3em;
+}
+.image-container {
+    display: flex;
+    margin-top:8em;
+    margin-left:-4em;
+    justify-content: flex-end; /* Align the image to the right */
+    overflow: hidden; /* Hide overflow for animation */
+}
+
+.image-container img {
+  width: 350px;
+  background-size: cover;
+  border-radius: 50px;
+  height: 350px;
+  overflow: hidden;
+  transition: transform 800ms ease; /* Define transition */
+  transition-duration: 1000ms;
+}
+
+.image-slide {
+    transform: translateX(100%); /* Initially slide image out of view */
+}
+.left-text{ 
+  position: relative;
+  left:4em;
+
+}
+.left-text h5{ 
+  margin-left:0.6rem;
+}
+.custom-bullet {
+  list-style: none; /* Remove default bullet points */
+   
+}
+.img-container img{
+  width:100%;
+  background-size: cover;
+  border-radius: 50px;
+  height: 100%;
+  position: relative;
+  top:3em;
+  right:8em;
+  overflow: hidden;
+  transition: transform 800ms ease; /* Define transition */
+  transition-duration: 1000ms;
+}
+
+.custom-bullet li:before {
+  content: "\2713"; /* Use custom bullet point character */
+  color: #703578; /* Set bullet point color */
+  font-size: 1.2em; /* Adjust bullet point size */
+  margin-right: 0.5em; /* Add spacing between bullet point and text */
+}
+
+.txt-container span{ 
+  font-size:20px;
+  font-weight:800;
+
 }

@@ -55,13 +55,13 @@
             <div class="top-bar" style="background-color: #7982d5;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
                             <!-- Email icon with link -->
                             <a href="mailto:fiona160715@yahoo.com" style="color: white;">
                                 <i class="fas fa-envelope"></i> fiona160715@yahoo.com
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
                             <!-- Location icon with address -->
                             <span class="top-bar-link" style="color: white;">
                                 <i class="fas fa-map-marker-alt"></i> 4131 Highway 6 Sugar Land, 77478
@@ -96,7 +96,7 @@
                                     width="200" alt="header-logo"></a></div>
 
                         <!-- MAIN MENU -->
-                        <nav class="wsmenu clearfix">
+                        <nav class="wsmenu clearfix ">
                             <?php wp_nav_menu(array('menu_class' => 'wsmenu-list', 'container' => 'ul',)); ?>
 
                             <ul class="wsmenu-list">
@@ -108,6 +108,7 @@
                                     <a href="about.html#"
                                         class="btn btn-color-02 tra-01-hover last-link rounded-pill">Book Now</a>
                                 </li>
+                                    
                             </ul>
                         </nav> <!-- END MAIN MENU -->
                     </div>

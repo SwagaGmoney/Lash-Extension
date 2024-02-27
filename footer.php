@@ -32,8 +32,8 @@
                             <p>
                         </div><br />
                         <!-- Email -->
-                        <p class="foo-email"><a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
-                        </p>&nbsp;
+                        <p class="foo-email"><i class="fa-solid fa-envelope"> &nbsp;</i> <a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
+                        </p><br/>
 
                         <!-- Phone -->
                         <div style="cursor:pointer;" class="foot-phone">
@@ -77,13 +77,8 @@
                 <div class="footer-links mb-40 foot-link">
 
                     <!-- Title -->
-<<<<<<< Updated upstream
-
-                    <ul class="simple-list w-hours mb-20 foot-links">
-=======
                    
                     <ul class="simple-list w-hours mb-20 ">
->>>>>>> Stashed changes
                         <h6 class="h6-lg txt-color-01"> Hours Of Operations </h6>
                         <li class="list-item p-2">
                             <p>Monday : 8:00 AM - 9:00 PM</p>

@@ -78,6 +78,8 @@ video {
 .wsmainfull {
   width: 100%;
   height: auto;
+  position:relative;
+
   background-color: #fff!important;
   z-index: 999;
   -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
@@ -113,6 +115,7 @@ video {
 .wsmenu {
   padding: 0;
   display: block;
+  
 }
 
 .wsmenu > .wsmenu-list {
@@ -121,14 +124,14 @@ video {
   width: 100%;
   display: block;
   padding: 0;
+  
  
 }
 
 .wsmenu > .wsmenu-list > li {
   text-align: center;
   display: block;
-  padding: 0;
-  margin-left: 2rem;
+  padding:0.8rem;
   float: left;
  
 }

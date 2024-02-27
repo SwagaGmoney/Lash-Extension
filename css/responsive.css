@@ -859,11 +859,7 @@
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
-  .top-bar{
-    padding:10px;
-    z-index:999;
-    margin-top:-2.5em;
-  }
+
   .wide-100 { padding-top: 80px; padding-bottom: 80px; }
   .wide-90 { padding-top: 80px; padding-bottom: 70px; }
   .wide-80 { padding-top: 80px; padding-bottom: 60px; }
@@ -892,7 +888,6 @@
   /*------------------------------------------*/
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
-
   .wsmenu > .wsmenu-list { width: 300px; margin-right: -300px; }
   .wsactive .wsmobileheader { margin-right: 300px; }
   .overlapblackbg { width: calc(100% - 300px); }
