@@ -36,7 +36,7 @@
                     <!-- Post Title -->
                     <h3 class="txt-color-01"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                     <!-- Post Author -->
-                    <p class="post-author txt-color-01"> By: <?php the_author_posts_link(); ?></p>
+                    <p class="post-author txt-color-01"><?php the_author_posts_link(); ?></p>
                     <div class="posted-date"><?php the_time('d M. Y'); ?></div>
 
                 </div>
