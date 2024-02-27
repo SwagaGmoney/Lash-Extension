@@ -380,6 +380,10 @@ h2.single-post-title {
   margin-left: 5px !important;
 }
 
+.ml-200{ 
+  margin-left:40em;
+}
+
 /*------------------------------------------*/
 /*  Margin Right
 /*------------------------------------------*/
@@ -5071,10 +5075,16 @@ h5.statistic-number {
 /*------------------------------------------*/
 /*  BANNER TEXT
 /*------------------------------------------*/
-
+.banner-2-txt a{ 
+  text-align: center;
+  position: relative;
+  left:40%;
+ padding-top:2em;
+}
 .banner-2-txt {
   padding-left: 30px;
   padding-right: 30px;
+  
 }
 
 .banner-3-txt {
@@ -7169,50 +7179,22 @@ blockquote {
 @media screen and (max-width:500px) {
 
 
-  .ol-1{ 
-    margin-left:2em;
-    margin-top:8em;
-  }
-  .ol-1 h3{ 
-    margin-left:-1.5rem;
-  }
+ 
   .custom-bullets{ 
     margin-right:5rem;
   }
-  .image-container img { 
-   position: relative;
-   left:-27rem;
-  }
-  .img-contain img{ 
-    width:300px;
-  background-size: cover;
-  border-radius: 50px;
-  height: 450px;
-  position: absolute;
-  top:10em;
-  right:0;
   
-  }
+  
   .text-left-content{ 
     position: relative;
-    top:20em;
-    right:5em;
+    top:5em;
   }
-
-  .img-container{
+  .text-left-content ul{ 
     position: relative;
-    width:200px;
-    height:200px;
-    top:55em;
-    left:15em;
+    left:-1em;
   }
+  
 
-  .caret-down i {
-  font-size: 25px;
-  position: absolute;
-  top:0.3rem;
-  left:11em;
-}
 .wsmobileheader{ 
   margin-top:2.2rem !important;
 }
@@ -7225,21 +7207,10 @@ blockquote {
 .top-bar{
   margin-top:-2.8rem;
 }
-.sm-no{
-  display: none;
-}
 
-.sidebar{ 
-  margin-top:3em;
-  margin-left:-10em;
-}
 
-  .content-column,
-  .image-column {
-    width: 100%;
-    float: none;
-    padding: 0;
-  }
+
+ 
 
   .content-box .text p {
     position: relative;
@@ -7274,6 +7245,70 @@ ul.simple-list {
 }
 
 @media screen and (min-width:500px) and (max-width:768px) {
+
+  .ol-1 ul li{ 
+    position: relative;
+    left:4em;
+  }
+  .img-contain img{ 
+    
+  position: relative;
+ 
+ left:2em;
+  
+  }
+
+  .image-container img { 
+    position: relative;
+    left:-27rem;
+    
+   }
+   .img-container{
+    position: relative;
+    width:50%;
+    height:450px;
+    width: calc(100% - 60px);
+    top:44em;
+    left:1em;
+  }
+  .right-text{
+    position: relative;
+    top:15em;
+    right:80%;
+  }
+ 
+  .txt-content{ 
+    position: relative;
+    left:-15em;
+  }
+  .ol-1{ 
+    margin-left:2em;
+    margin-top:8em;
+  }
+  .ol-1 h3{ 
+    margin-left:-1.5rem;
+  }
+  .left-text{ 
+    position: relative;
+    top:-15em;
+  }
+  .heading {
+  
+    position: relative;
+    left:0.1rem !important;
+  }
+  .heading p { 
+    max-width: 90%;
+  }
+  .txt-container{ 
+    position: relative;
+    bottom:10em;
+    left:-4em;
+  }
+  .sidebar{ 
+    position: relative;
+    left:2em !important;
+  }
   .caret-down i {
   font-size: 25px;
   position: absolute;
@@ -7297,6 +7332,10 @@ ul.simple-list {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+  .sidebar{ 
+    position: relative;
+    left:10em !important;
+  }
   
   .wsmobileheader{ 
   margin-top:2.2rem !important;
@@ -7665,7 +7704,7 @@ ul.clearfix.txt-color-05 li {
   border-radius: 20px;
   margin-bottom:2rem;
   position: relative;
-  z-index: 999;
+  z-index: 1;
   left:46em;
 }
 .sidebar ul li:hover{ 
@@ -7738,10 +7777,10 @@ ul.clearfix.txt-color-05 li {
   border-radius: 50px;
   height: 100%;
   position: relative;
-  top:3em;
-  right:8em;
+  top:8em;
+  right:0;
   overflow: hidden;
-  transition: transform 800ms ease; /* Define transition */
+  transition: transform 800ms ease; 
   transition-duration: 1000ms;
 }
 
@@ -7785,6 +7824,56 @@ ul.clearfix.txt-color-05 li {
 
 .heading{
   position: relative;
+  top:5em;
   left:-27em;
 }
 
+.right-text{
+  position: relative;
+  left:55%;
+}
+.img-content img{ 
+  width:100%;
+  background-size: cover;
+  border-radius: 50px;
+  height: 500px;
+  position: relative;
+  top:2em;
+  right:35em;
+  overflow: hidden;
+  transition: transform 800ms ease; 
+  transition-duration: 1200ms;
+}
+
+.txt-content ul li{ 
+  position: relative;
+  left:-1.5em;
+}
+.txt-content span{ 
+  font-size:18px;
+  font-weight:800;
+  
+
+}
+.ol-1 h3{
+  position: relative;
+  left:-1em;
+}
+
+.ol-1 ul li{ 
+  position: relative;
+  left:-3em;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+.image-slider {
+  transform: translateX(-100%); /* Initially slide image out of view */
+
+}
