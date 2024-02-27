@@ -108,7 +108,6 @@ get_header();
             <div class="tab-btn-box p-relative d-block mb-70 centred">
                 <ul class="tab-btns tab-buttons clearfix">
                     <li class="tab-btn active-btn" data-tab="#tab-1">
-
                         <h4 class="text-black"> Lash Extension </h4>
                     </li>
                     <li class="tab-btn " data-tab="#tab-2">
@@ -129,10 +128,10 @@ get_header();
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div class="content_block_box ">
-                                    <div class="content-box text-center ">
+                                    <div class="content-box text-center">
                                         <div class="text">
                                             <h3> What are Lash Extensions?</h3>
-                                            <p class=" text-md-start inline-block ">Lash extensions are semi-permanent
+                                            <p class="text-md-start inline-block ">Lash extensions are semi-permanent
                                                 fibers that are applied to your natural eyelashes to increase their
                                                 length, curliness, fullness, and thickness. They are precisely affixed,
                                                 one-lash extension to one natural eyelash, with a specially developed
@@ -173,7 +172,8 @@ get_header();
                                     <div class="content-box">
                                         <div class="text">
                                             <h3>What Does the Process Involve?</h3>
-                                            <p>The procedure is complex, requiring skillful hands and patience from both
+                                            <p class="txt-color-05">The procedure is complex, requiring skillful hands
+                                                and patience from both
                                                 the lash technician and the customer. Here's a thorough look at what you
                                                 may expect throughout the eyelash extension procedure:</p>
                                             <ul class="text-left tracking-wider custom-bullets">
@@ -361,60 +361,18 @@ get_header();
 
     </div> <!-- End container -->
 </section> <!-- END ABOUT-4 -->
-
-
-
-
-
-
-
-
-<!-- VIDEO-1
-			============================================= -->
-<div id="video-1" class="bg-fixed video-section division">
-    <div class="container white-color">
-        <div class="row">
-
-
-            <!-- VIDEO LINK -->
-            <div class="col-md-8 offset-md-2">
-                <div class="video-1-preview">
-                    <a class="video-popup2" href="https://www.youtube.com/embed/7e90gBu4pas">
-                        <!-- Change the link HERE!!! -->
-
-                        <!-- Play Icon -->
-                        <div class="video-btn bg-color-09">
-                            <div class="video-block-wrapper"><i class="fas fa-play"></i></div>
-                        </div>
-
-                    </a>
-                </div>
-            </div> <!-- END VIDEO LINK -->
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</div> <!-- END VIDEO-1 -->
-
-
-
-
 <!-- SERVICES-10
 			============================================= -->
 <section id="services-10" class="bg-color-01 wide-60 services-section division">
     <div class="container">
-
 
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
 
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our Services</h2>
-
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">The Art of Waxing</h3>
+                    <h3 class="h3-xl txt-color-01">Services</h3>
 
                     <!-- Text -->
                     <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill
@@ -425,12 +383,9 @@ get_header();
             </div>
         </div>
 
-
         <!-- SERVICES-10 WRAPPER -->
         <div class="sbox-10-wrapper">
             <div class="row justify-content-center">
-
-
                 <!-- SERVICE BOX #1 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="sbox-10 bg-white text-center">
@@ -439,7 +394,7 @@ get_header();
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-13.jpg'; ?>"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-002.jpg'; ?>"
                                     alt="service-image" />
                             </div>
                         </div>
@@ -448,12 +403,12 @@ get_header();
                         <div class="sbox-10-txt">
 
                             <a href="/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing Services</h5>
+                                <h5 class="h5-sm txt-color-01">Eyelash Extensions</h5>
                             </a>
 
                             <!-- Text -->
-                            <p class="txt-color-05">Experience flawless definition and radiant skin with our expert face
-                                and eyebrow waxing services. Enhance your style and glow today.</p>
+                            <p class="txt-color-05">From subtle enhancements to dramatic flair, our skilled technicians
+                                craft the perfect look just you!</p>
 
 
 
@@ -471,7 +426,7 @@ get_header();
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-03.jpg'; ?>"
                                     alt="service-image" />
                             </div>
                         </div>
@@ -485,8 +440,8 @@ get_header();
                                 <h5 class="h5-sm txt-color-01">Microblading Services</h5>
                             </a>
                             <!-- Text -->
-                            <p class="txt-color-05">Elevate your beauty with microblading, crafting perfect brows for a
-                                lasting, natural glow. Experience the Difference.</p>
+                            <p class="txt-color-05">Rediscover confidence and redefine beauty with flawless brows that
+                                speak volumes. </p>
 
 
 
@@ -502,7 +457,7 @@ get_header();
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                    src="<?php echo get_template_directory_uri() . '/images/serv-02.jpg'; ?>"
                                     alt="service-image" />
                             </div>
                         </div>
@@ -512,7 +467,7 @@ get_header();
 
 
                             <a href="/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Featured Services </h5>
+                                <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
                             <p class="txt-color-05">Discover our premier featured service, tailored to elevate your
@@ -531,8 +486,8 @@ get_header();
                         <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-14.jpg'; ?>"
+                                <img class="img-fluid" alt=""
+                                    src="<?php echo get_template_directory_uri() . '/images/hero-06.webp'; ?>"
                                     alt="service-image" />
                             </div>
                         </div>
@@ -543,7 +498,7 @@ get_header();
 
                             <!-- Title -->
                             <a href="/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Brow & Lash Services</h5>
+                                <h5 class="h5-sm txt-color-01">Lash Tinting</h5>
                             </a>
                             <!-- Text -->
                             <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing
@@ -607,7 +562,7 @@ get_header();
             <!-- ABOUT IMAGE -->
             <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
                 <div class="about-5-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-13.jpg'; ?>"
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-01.webp'; ?>"
                         alt="about-image" />
                 </div>
             </div>
@@ -871,8 +826,8 @@ get_header();
                 <div class="banner-2-txt white-color">
 
                     <!-- Title -->
-                    <h2>50% OFF</h2>
-                    <h3 class="h3-sm">Aroma and Jet Hydrotherapy!</h3>
+                    <h2>10% OFF</h2>
+                    <h3 class="h3-sm">Eyelash Extensions!</h3>
 
                     <!-- Text -->
                     <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus
@@ -1130,188 +1085,16 @@ get_header();
 
 
 
-<!-- BLOG-1
-			============================================= -->
-<section id="blog-1" class="bg-color-01 wide-60 blog-section division">
-    <div class="container">
-
-
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
-
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our Blog</h2>
-
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Latest News & Events</h3>
-
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
-                    </p>
-
-                </div>
-            </div>
-        </div>
-
-
-        <!-- BLOG POSTS HOLDER -->
-        <div class="row">
-
-
-            <!-- BLOG POST #1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-post">
-
-                    <!-- BLOG POST IMAGE -->
-                    <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-01.jpg'; ?>"
-                            alt="blog-post-image" />
-                    </div>
-
-                    <!-- BLOG POST TITLE -->
-                    <div class="blog-post-txt">
-
-                        <!-- Post Data -->
-                        <span class="txt-color-06">Skincare</span>
-
-                        <!-- Post Title -->
-                        <h5 class="h5-sm txt-color-01">
-                            <a href="single-post.html">Quaerat neque purus ipsum neque dolor primis libero</a>
-                        </h5>
-
-                        <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
-                            tempor at
-                            blandit sapien gravida donec ipsum undo porta justo...
-                        </p>
-
-                        <!-- Post Author -->
-                        <p class="post-author txt-color-05">Jane Smith - Sep 07, 2020</p>
-
-                    </div>
-
-                </div>
-            </div> <!-- END  BLOG POST #1 -->
-
-
-            <!-- BLOG POST #2 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-post">
-
-                    <!-- BLOG POST IMAGE -->
-                    <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-02.jpg'; ?>"
-                            alt="blog-post-image" />
-                    </div>
-
-                    <!-- BLOG POST TEXT -->
-                    <div class="blog-post-txt">
-
-                        <!-- Post Data -->
-                        <span class="txt-color-06">Massage Therapy</span>
-
-                        <!-- Post Title -->
-                        <h5 class="h5-sm txt-color-01">
-                            <a href="single-post.html">Tempor blandit sapien at gravida donec ipsum</a>
-                        </h5>
-
-                        <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
-                            tempor at
-                            blandit sapien gravida donec ipsum undo porta justo...
-                        </p>
-
-                        <!-- Post Author -->
-                        <p class="post-author txt-color-05">Wendy T. - Aug 31, 2020</p>
-
-                    </div>
-
-                </div>
-            </div> <!-- END  BLOG POST #2 -->
-
-
-            <!-- BLOG POST #3 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-post">
-
-                    <!-- BLOG POST IMAGE -->
-                    <div class="blog-post-img">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri() . '/images/blog/img-03.jpg'; ?>"
-                            alt="blog-post-image" />
-                    </div>
-
-                    <!-- BLOG POST TEXT -->
-                    <div class="blog-post-txt">
-
-                        <!-- Post Data -->
-                        <span class="txt-color-06">Aromatherapy</span>
-
-                        <!-- Post Title -->
-                        <h5 class="h5-sm txt-color-01"><a href="single-post.html">Neque dolor primis a libero tempus an
-                                impedit
-                                tempor</a>
-                        </h5>
-
-                        <!-- Post Text -->
-                        <p class="txt-color-05">Quaerat neque purus ipsum neque dolor primis libero tempus impedit
-                            tempor at
-                            blandit sapien gravida donec ipsum undo porta justo...
-                        </p>
-
-                        <!-- Post Author -->
-                        <p class="post-author txt-color-05">Stacey Richardson - Aug 19, 2020</p>
-
-                    </div>
-
-                </div>
-            </div> <!-- END  BLOG POST #3 -->
-
-
-        </div> <!-- END BLOG POSTS HOLDER -->
-
-
-    </div> <!-- End container -->
-</section> <!-- END BLOG-1 -->
+<!-- BLOG-1 ============================================= -->
 
 
 
 
-<!-- BANNER-5
-			============================================= -->
-<section id="banner-5" class="bg-fixed bg-image banner-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
+<!-- BANNER-5 -->
 
+<!--  -->
 
-            <!-- TEXT BLOCK -->
-            <div class="col-lg-6 offset-lg-3">
-                <div class="banner-5-txt text-center">
-
-                    <!-- Title -->
-                    <h2 class="h2-xl txt-color-05">Get 20% Off</h2>
-                    <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
-
-                    <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor
-                        an tempus
-                        feugiat dolor undo lacinia cubilia curae
-                    </p>
-
-                    <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Book Now</a>
-
-                </div>
-            </div> <!-- END TEXT BLOCK -->
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END BANNER-5 -->
+<!-- END BANNER-5 -->
 
 
 
@@ -1338,29 +1121,30 @@ document.addEventListener("DOMContentLoaded", function() {
             // Hide all tabs
             tabs.forEach(function(tab) {
                 tab.style.display = 'none';
+                // Immediate color change upon clicking each tab
+                tabButton.addEventListener('click', function() {
+                    tabButton.style.backgroundImage =
+                        'linear-gradient(to bottom,#d6aadb 0%, #7982d5 100%  )';
+                    setTimeout(function() {
+                        tabButton.style.backgroundImage = '';
+                    }, 500);
+                });
+
+                // Display the corresponding tab content
+                const tabId = tabButton.getAttribute('data-tab');
+                document.querySelector(tabId).style.display = 'block';
+            });
+
             // Immediate color change upon clicking each tab
-            tabButton.addEventListener('click', function() {  
-                tabButton.style.backgroundImage = 'linear-gradient(to bottom,#d6aadb 0%, #7982d5 100%  )';
+            tabButton.addEventListener('click', function() {
+                tabButton.style.backgroundImage =
+                    'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
                 setTimeout(function() {
                     tabButton.style.backgroundImage = '';
                 }, 500);
             });
-
-            // Display the corresponding tab content
-            const tabId = tabButton.getAttribute('data-tab');
-            document.querySelector(tabId).style.display = 'block';
         });
-
-        // Immediate color change upon clicking each tab
-        tabButton.addEventListener('click', function() {
-            tabButton.style.backgroundImage =
-                'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
-            setTimeout(function() {
-                tabButton.style.backgroundImage = '';
-            }, 500);
-        });
-    });
-})
+    })
 });
 $(document).ready(function() {
     // Add click event listener to .main-title and .caret-down elements

@@ -32,7 +32,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">The Art Of Natural Beauty</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">At Lash Extensions by Fiona, we believe that beauty is in the details. This is why our expertise extends beyond lashes.
+                    <p class="p-lg txt-color-05">At Lash Extensions by Fiona, we believe that beauty is in the details.
+                        This is why our expertise extends beyond lashes.
                     </p>
 
                 </div>
@@ -50,16 +51,19 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-20.jpg'; ?>" alt="service-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri() . '/images/serv-20.jpg'; ?>"
+                                alt="service-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
-                                    <h5 class="h5-md">Face & Eyebrow Waxing Services </h5>
-                                    <p class="p-lg">Lash Extension By Fiona</p>
-                                </a>   
+                                    <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
+                                        class="h-link">
+                                        <h5 class="h5-md">Face & Eyebrow Waxing Services </h5>
+                                        <p class="p-lg">Lash Extension By Fiona</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -72,16 +76,19 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-13.jpg'; ?>" alt="gallery-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/serv-03.jpg'; ?>"
+                                alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/"  class="h-link">
-                                    <h5 class="h5-md">Microblading Services</h5>
-                                    <p class="p-lg">Lash Extension By Fiona</p>
-                                </a>
+                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
+                                        class="h-link">
+                                        <h5 class="h5-md">Microblading Services</h5>
+                                        <p class="p-lg">Lash Extension By Fiona</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -94,16 +101,19 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-21.jpg'; ?>" alt="gallery-imagee" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/brow.webp'; ?>"
+                                alt="gallery-imagee" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
-                                    <h5 class="h5-md">Brow & Lash Services</h5>
-                                    <p class="p-lg">Lash Extension By Fiona</p>
-                                </a>   
+                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
+                                        class="h-link">
+                                        <h5 class="h5-md">Brow & Lash Services</h5>
+                                        <p class="p-lg">Lash Extension By Fiona</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -116,16 +126,19 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-16.jpg'; ?>" alt="gallery-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>"
+                                alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h-link">
-                                    <h5 class="h5-md">Featured Services</h5>
-                                    <p class="p-lg">Lash Extension By Fiona</p>
-                                </a>
+                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
+                                        class="h-link">
+                                        <h5 class="h5-md">Featured Services</h5>
+                                        <p class="p-lg">Lash Extension By Fiona</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -156,7 +169,8 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Safety Standards</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas magna vitae purus</p>
+                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
+                                magna vitae purus</p>
                         </div>
 
                     </div>
@@ -175,7 +189,8 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Lifestyle Program</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas magna vitae purus</p>
+                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
+                                magna vitae purus</p>
                         </div>
 
                     </div>
@@ -194,7 +209,8 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Gift Cards</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas magna vitae purus</p>
+                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
+                                magna vitae purus</p>
                         </div>
 
                     </div>
@@ -207,68 +223,6 @@ get_header();
 
     </div> <!-- End container -->
 </section> <!-- END SERVICES-16 -->
-
-
-<!-- BRANDS-1
-			============================================= -->
-<div id="brands-1" class="bg-color-02 mt-40 brands-section division">
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <div class="owl-carousel brands-carousel">
-
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-11.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-12.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-13.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-14.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-15.png';?>" alt="brand-logo">
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-16.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-17.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-18.png';?>" alt="brand-logo" />
-                    </div>
-
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="brand-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri()  .'/images/brand-19.png';?>" alt="brand-logo" />
-                    </div>
-
-
-                </div>
-            </div>
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</div> <!-- END BRANDS-1 -->
 
 
 <!-- PRICING-2
@@ -309,7 +263,8 @@ get_header();
                 <!-- IMAGE BLOCK -->
                 <div id="pb-img" class="col-lg-4">
                     <div class="pricing-2-img text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-05.jpg'; ?>" alt="pricing-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/long.jpg'; ?>"
+                            alt="pricing-image" />
                     </div>
                 </div>
 
@@ -320,33 +275,33 @@ get_header();
                         <ul class="pricing-list">
 
                             <li class="pricing-list-txt">
-                                <h6 class="h6-lg txt-color-01">Swedish Massage</h6>
-                                <p class="txt-color-05">50 Minute Session Packages</p>
-                                <h6 class="h6-lg pricing-list-amount txt-color-01">$60</h6>
+                                <h6 class="h6-lg txt-color-01">Classic Full Set</h6>
+                                <p class="txt-color-05">50 Minute Session Package</p>
+                                <h6 class="h6-lg pricing-list-amount txt-color-01">$78</h6>
                             </li>
 
                             <li class="pricing-list-txt">
-                                <h6 class="h6-lg txt-color-01">Combination Massage</h6>
-                                <p class="txt-color-05">60 Minute Session Packages</p>
-                                <h6 class="h6-lg pricing-list-amount txt-color-01">$65</h6>
+                                <h6 class="h6-lg txt-color-01">Eyebrow Waxing</h6>
+                                <p class="txt-color-05">15 Minute Session Package</p>
+                                <h6 class="h6-lg pricing-list-amount txt-color-01">$10</h6>
                             </li>
 
                             <li class="pricing-list-txt">
-                                <h6 class="h6-lgs txt-color-01">Deep Tissue Massage</h6>
-                                <p class="txt-color-05">45 Minute Session Packages</p>
-                                <h6 class="h6-lg pricing-list-amount txt-color-01">$65</h6>
+                                <h6 class="h6-lgs txt-color-01">Hydra-Facial</h6>
+                                <p class="txt-color-05">55 Minute Session Package</p>
+                                <h6 class="h6-lg pricing-list-amount txt-color-01">$88</h6>
                             </li>
 
                             <li class="pricing-list-txt">
-                                <h6 class="h6-lg txt-color-01">Hot Stone Massage</h6>
-                                <p class="txt-color-05">55 Minute Session Packages</p>
-                                <h6 class="h6-lg pricing-list-amount txt-color-01">$84</h6>
+                                <h6 class="h6-lg txt-color-01">Classic Refill</h6>
+                                <p class="txt-color-05">35 Minute Session Package</p>
+                                <h6 class="h6-lg pricing-list-amount txt-color-01">$68</h6>
                             </li>
 
                             <li class="pricing-list-txt resp-lst">
-                                <h6 class="h6-lg txt-color-01">Relaxing Massage</h6>
-                                <p class="txt-color-05">60 Minute Session Packages</p>
-                                <h6 class="h6-lg pricing-list-amount txt-color-01">$55</h6>
+                                <h6 class="h6-lg txt-color-01">Microblading Set</h6>
+                                <p class="txt-color-05">3 Hour Session Packags</p>
+                                <h6 class="h6-lg pricing-list-amount txt-color-01">$350</h6>
                             </li>
 
                         </ul>
@@ -361,41 +316,15 @@ get_header();
     </div> <!-- End container -->
 </section> <!-- END PRICING-2 -->
 
-
-
 <!-- BANNER-5
 				============================================= -->
 <section id="banner-5" class="bg-fixed bg-image mt-80 banner-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
+    </div>
+    <!-- BANNER-5 ============================================= -->
+    <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
-
-            <!-- TEXT BLOCK -->
-            <div class="col-lg-6 offset-lg-3">
-                <div class="banner-5-txt text-center">
-
-                    <!-- Title -->
-                    <h2 class="h2-xl txt-color-05">Get 20% Off</h2>
-                    <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
-
-                    <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor an tempus
-                        feugiat dolor undo lacinia cubilia curae
-                    </p>
-
-                    <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Book Now</a>
-
-                </div>
-            </div> <!-- END TEXT BLOCK -->
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END BANNER-5 -->
-
-
-
-
+    </div>
+</section>
 
 
 <?php get_footer(); ?>
