@@ -43,20 +43,17 @@ get_header(); ?>
                     <div class="single-post-title meta">
                         <span class="txt-color-06"><?php the_category(', '); ?></span>
                         <h3 class="txt-color-01"><?php the_title(); ?></h3>
-                        <p class="post-author txt-color-01"><?php the_author(); ?> - <?php the_time('d M. Y'); ?>
-                        </p>
-
-
-                        <div class="single-post-txt">
-
-                            <div class="txt-color-05">
-                                <?php the_content(); ?>
-                            </div>
+                        <p class="post-author txt-color-01"><?php the_author(); ?> - <?php the_time('d M. Y'); ?></p>
+                    </div>
+                    <div class="single-post-txt mt-30">
+                        <div class="txt-color-05">
+                            <?php the_content(); ?>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <?php 
+            <?php 
                     // If comments are open or we have at least one comment, load up the comment template.
                     if ( comments_open() || get_comments_number() ) :
                         comments_template();
@@ -64,12 +61,12 @@ get_header(); ?>
                     
                     endwhile; // End of the loop.
                     ?>
-            </div>
         </div>
+    </div>
 
-        <!--Sidebar-->
-        <?php get_sidebar(); ?>
-        <!--End Sidebar-->
+    <!--Sidebar-->
+    <?php get_sidebar(); ?>
+    <!--End Sidebar-->
 
     </div>
     </div>
