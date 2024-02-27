@@ -242,3 +242,22 @@ function discard_menu_classes($classes, $item) {
 
 
 	add_post_type_support( 'page', 'excerpt' );
+
+
+dd_filter( 'the_content', 'class_up_the_paragraphs' );
+
+
+	/**
+ * Adds classes to all the <p> tags in the content.
+ *
+ * @param  string $content The post content.
+ * @return string          The post content with the classes added to the <p> tags.
+ */
+function class_up_the_paragraphs( $content ) {
+    $content = str_replace(
+        '<p>',
+        '<p class="txt-color-05">',
+        $content
+    );
+    return $content;
+}

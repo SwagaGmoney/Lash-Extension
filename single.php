@@ -43,7 +43,7 @@ get_header(); ?>
                     <div class="single-post-title meta">
                         <span class="txt-color-06"><?php the_category(', '); ?></span>
                         <h3 class="txt-color-01"><?php the_title(); ?></h3>
-                        <p class="post-author txt-color-01">By: <?php the_author(); ?> - <?php the_time('d M. Y'); ?>
+                        <p class="post-author txt-color-01"><?php the_author(); ?> - <?php the_time('d M. Y'); ?>
                         </p>
 
 
