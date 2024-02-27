@@ -6268,6 +6268,7 @@ p.foo-email a {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 30px;
+  width:100%;
 }
 
 .bg-brown .bottom-footer,
@@ -7787,6 +7788,3 @@ ul.clearfix.txt-color-05 li {
   left:-27em;
 }
 
-.bottom-footer {
-  width:100%;
-}
