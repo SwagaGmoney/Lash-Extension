@@ -155,7 +155,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-label.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
@@ -234,7 +234,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-023.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
@@ -292,7 +292,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-022.jpg'; ?>"
                                                 alt="" decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
@@ -342,7 +342,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-024.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
@@ -1033,45 +1033,41 @@ get_header();
 
 <!-- ABOUT-6
 			============================================= -->
-<section id="about-6" class="bg-01 about-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
+            <section id="about-6" class="bg-01 about-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center ">
 
 
-            <!-- TEXT BLOCK -->
-            <div class="col-md-7 col-lg-6">
-                <div class="txt-block">
+						<!-- TEXT BLOCK -->	
+						<div class="col-md-7 col-lg-6 pb-80 pt-80">
+							<div class="txt-block ">
 
-                    <!-- Title -->
-                    <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
+								<!-- Title -->	
+								<h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
-                    <!-- Text -->
-                    <p class="p-xl txt-color-01">Call us : <span>+1(281)-690-3563</span> or fill out our online booking
-                        &
-                        equiry
-                        form and we will contact you
-                    </p>
+								<!-- Text -->	
+								<p class="p-xl txt-color-01"> <a style="cursor: pointer;"> Call us : <span>+1(281)-690-3563</span> </a> or fill out our online booking & equiry 
+								   form and we will contact you
+								</p>
 
-                    <!-- Button -->
-                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
-                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+								<!-- Button -->	
+								<a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
-                </div>
-            </div> <!-- END TEXT BLOCK -->
+							</div>
+						</div>	<!-- END TEXT BLOCK -->	
 
 
-            <!-- IMAGE BLOCK -->
-            <div class="col-md-5 col-lg-6">
-                <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
-                        alt="about-image">
-                </div>
-            </div>
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6">
+							<div class="about-6-img ">
+								<img class="img-fluid" src="<?php echo get_template_directory_uri(). '/images/image-04.png';?>" alt="about-image">
+							</div>
+						</div>
 
 
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-6 -->
+					</div>	  <!-- End row -->	
+				</div>     <!-- End container -->
+			</section>	<!-- END ABOUT-6 -->
 
 
 

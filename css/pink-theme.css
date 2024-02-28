@@ -1959,12 +1959,6 @@ ol.digit-list p {
   text-align: center;
   
 }
-.img-fluid{ 
-  border-radius: 50px;
-  padding-left:2px;
-  padding-right:2px;
-  
-}
 
 .inner-img {
   margin-top: 35px;
@@ -3433,6 +3427,7 @@ ol.digit-list p {
 
 .about-6-img {
   text-align: center;
+ 
 }
 
 .about-6-img img {
