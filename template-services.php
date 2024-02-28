@@ -53,9 +53,8 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/"
-                                        class="h-link">
-                                        <h5 class="h5-md">Face & Eyebrow Waxing Services </h5>
+                                    <a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/" class="h-link">
+                                        <h5 class="h5-md">Eyebrow Waxing Services </h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
                                 </div>
@@ -311,8 +310,8 @@ get_header();
 				============================================= -->
 <section id="banner-5" class="bg-fixed bg-image mt-80 banner-section division">
     <div>
-    <!-- BANNER-5 ============================================= -->
-    <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+        <!-- BANNER-5 ============================================= -->
+        <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
     </div>
 </section>

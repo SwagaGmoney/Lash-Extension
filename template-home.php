@@ -22,9 +22,10 @@ get_header();
                     <!-- Title -->
                     <h2 class="d-inline-block ">Lash Extention By Fiona </h2>
                     <!-- Text -->
-                    <p>Feugiat primis ligula gravida auctor mauri egestas undo augue viverra tortor in iaculis</p>
+                    <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->
-                    <a href="" class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                        class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
             </div>
         </div>
@@ -559,7 +560,6 @@ get_header();
 
             </div>
 
-
             <!-- ABOUT IMAGE -->
             <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
                 <div class="about-5-img">
@@ -572,15 +572,6 @@ get_header();
         </div> <!-- End row -->
     </div> <!-- End container -->
 </section> <!-- END ABOUT-5 -->
-
-
-
-
-
-
-
-
-
 <!-- PRICING-1============================================= -->
 <section id="pricing-1" class="bg-color-01 wide-60 pricing-section division">
     <div class="container">
@@ -598,8 +589,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Caring For Your Comforts</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">Beauty comes at the simple price of one of our professional services.
+                        Choose any that matches what you need for a price you'll know is worth it.
                     </p>
 
                 </div>
