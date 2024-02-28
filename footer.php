@@ -22,16 +22,16 @@
                         <!-- Address -->
 
                         <div class="flex">
-                            <span class="d-flex align-items-center" > 
-                                <i class="fa-solid fa-map-location-dot fs-9"></i> 
+                            <span class="d-flex align-items-center">
+                                <i class="fa-solid fa-map-location-dot fs-9"></i>
                                 <h4 class="pl-4 mt-2">SugarLand </h4>
                             </span>
                             <p>4131 Highway 6 Sugar Land, 77478</p>
                             <br />
 
                             <span class="d-flex align-items-center">
-                            <i class="fa-solid fa-earth-americas fs-9"></i>
-                              <h4 class="pl-4 mt-2"> Galleria </h4>
+                                <i class="fa-solid fa-earth-americas fs-9"></i>
+                                <h4 class="pl-4 mt-2"> Galleria </h4>
                             </span>
                             <p>2400 Augusta DrHouston, TX 77057
                             <p>
@@ -78,35 +78,41 @@
 
 
             <!-- FOOTER LINKS -->
-            <div class="col-md-3 col-lg-2 ">
+           
+            <div class="col-md-3 col-lg-2">
                 <div class="footer-links mb-40 foot-link">
-
                     <!-- Title -->
-                    <ul class="simple-list w-hours mb-20 ">
-                        <h6 class="h6-lg txt-color-01"> Hours Of Operations </h6>
-                        <li class="list-item p-2">
-                            <p>Monday : 8:00 AM - 9:00 PM</p>
-                        </li>
-                        <li class="list-item p-2">
-                            <p>Tuesday : 8:00 AM - 9:00 PM</p>
-                        </li>
-                        <li class="list-item p-2 ">
-                            <p>Wednesday : 8:00 AM - 9:00 PM</p>
-                        </li>
-                        <li class="list-item p-2 ">
-                            <p>Thursday : 8:00 AM - 9:00 PM</p>
-                        </li>
-                        <li class="list-item p-2">
-                            <p>Friday : 8:00 AM - 9:00 PM</p>
-                        </li>
-                        <li class="list-item p-2">
-                            <p>Saturday : 9:00 AM - 7:30 PM</p>
-                        </li>
-                        <li class="list-item p-2">
-                            <p>Sunday : 9:00 AM - 7:30 PM </p>
-                        </li>
-                    </ul>
-
+                    <div class="hours-container">
+                        <h6 class="h6-lg txt-color-01">Hours Of Operations</h6>
+                        <div class="hours-list">
+                            <div class="day">Monday</div>
+                            <div class="time">8:00 AM - 9:00 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Tuesday</div>
+                            <div class="time">8:00 AM - 9:00 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Wednesday</div>
+                            <div class="time">8:00 AM - 9:00 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Thursday</div>
+                            <div class="time">8:00 AM - 9:00 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Friday</div>
+                            <div class="time">8:00 AM - 9:00 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Saturday</div>
+                            <div class="time">9:00 AM - 7:30 PM</div>
+                        </div>
+                        <div class="hours-list">
+                            <div class="day">Sunday</div>
+                            <div class="time">9:00 AM - 7:30 PM</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

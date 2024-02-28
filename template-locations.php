@@ -84,7 +84,7 @@ get_header();
                     <div class="d-flex align-items-center mb-3">
                         
                         <i class="fa-solid fa-map-location"></i>
-                        <p class="mb-0 ml-4">2400 Augusta DrHouston, TX 77057</p>
+                        <p class="mb-0 ml-4">4131 Highway 6 Sugar Land, 77478</p>
                     </div>
 
                     <div style="cursor:pointer;" class="d-flex align-items-center mb-3">

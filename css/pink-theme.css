@@ -6276,7 +6276,8 @@ p.foo-email a {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 30px;
-  max-width: 100%;
+  width: 100%;
+
 }
 
 .bg-brown .bottom-footer,
@@ -7240,12 +7241,18 @@ ul.simple-list {
   position: relative;
   top:51em !important;
 }
-
+.foot-inks{
+  position: relative;
+  left:-10em;
+}
 
 }
 
 @media screen and (min-width:500px) and (max-width:768px) {
-
+  .foot-inks{
+    position: relative;
+    left:2em;
+  }
   .txt-location{
     position: relative;
     top:-30em !important;
@@ -7392,7 +7399,11 @@ ul.simple-list {
 
 @media screen and (min-width:1021px)   {
 
-
+  .heading{
+    position:relative;
+    top:7em;
+    left:-2em;
+  }
   
   .side-bar{ 
     position: relative;
@@ -7658,11 +7669,11 @@ p {
 
 .foot-link{ 
   position: relative;
-  left:-5em;
+  left:8em;
 }
 .foot-inks{
   position: relative;
-  left:6em;
+  left:20em;
 }
 
 .simple-lists{ 
@@ -7768,11 +7779,7 @@ ul.clearfix.txt-color-05 li {
 .logo-white{
   padding-top:15px;
 }
-.heading{
-  position:relative;
-  top:7em;
-  left:-2em;
-}
+
 .ml-left{
   position:relative;
   left:-3em;
@@ -7850,4 +7857,18 @@ ul.clearfix.txt-color-05 li {
   transition: transform 800ms ease; 
   transition-duration: 1000ms;
   box-shadow:0 8px 32px rgba(53, 61, 76, .2); ;
+}
+
+.hours-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.hours-list {
+  display: flex;
+}
+
+.day, .time {
+  flex: 1;
+  text-align: center;
 }
