@@ -20,9 +20,9 @@ get_header();
             <div class="col-lg-6 ">
                 <div class="caption-txt white-color  ">
                     <!-- Title -->
-                    <h2 class="d-inline-block ">Lash Extentions By Fiona </h2>
+                    <h2 class="d-inline-block ">Lash Extention By Fiona </h2>
                     <!-- Text -->
-                    <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
+                    <p>Feugiat primis ligula gravida auctor mauri egestas undo augue viverra tortor in iaculis</p>
                     <!-- Button -->
                     <a href="" class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
@@ -44,7 +44,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
-                    <img class="img-fluid shadow imgs" src="<?php echo get_template_directory_uri() . '/images/serv-img.jpg'; ?>"
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
                         alt="about-image">
                 </div>
             </div>
@@ -154,8 +154,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/img-la.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -233,8 +233,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-022.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -291,8 +291,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-023.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                alt="" decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -341,8 +341,8 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-024.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" />
+                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                                decoding="async" data-lazyloaded="1" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -466,7 +466,7 @@ get_header();
                         <div class="sbox-10-txt">
 
 
-                            <a href="https://lashextensionsbyfiona.com/face-eyebrow-waxing/" class="h5-link">
+                            <a href="/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
@@ -554,7 +554,8 @@ get_header();
                 </ul> <!-- End Text List -->
 
                 <!-- Button -->
-                <a href="booking.html" class="btn btn-md btn-tra-white  white-hover">Book Now</a>
+                <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                    class="btn btn-md btn-tra-white  white-hover">Book Now</a>
 
             </div>
 
@@ -597,7 +598,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Caring For Your Comforts</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Beauty comes at the simple price of one of our professional services. Choose any that matches what you need for a price you'll know is worth it.
+                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
+                        primis libero tempus, blandit a cursus varius at magna tempor
                     </p>
 
                 </div>
@@ -815,7 +817,7 @@ get_header();
 
 
 
-<section id="banner-8" class="bg-fixed wide-100 banner-section division">
+<section id="banner-2" class="bg-fixed wide-100 banner-section division">
     <div class="container">
         <div class="row">
 
@@ -828,7 +830,11 @@ get_header();
                     <h2>10% OFF</h2>
                     <h3 class="h3-sm">Eyelash Extensions!</h3>
 
-                    
+                    <!-- Text -->
+                    <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus
+                        dolor
+                        velna auctor congue tempus an integer
+                    </p>
 
                     <!-- Button -->
                     <a href="pricing.html" class="btn btn-md btn-color-02 tra-white-hover">Find Out More</a>
@@ -1058,7 +1064,8 @@ get_header();
                     </p>
 
                     <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
                 </div>
             </div> <!-- END TEXT BLOCK -->
@@ -1067,7 +1074,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-label.jpg'; ?>"
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
                         alt="about-image">
                 </div>
             </div>
