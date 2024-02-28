@@ -147,8 +147,8 @@ get_header();
                     <img src="<?php echo get_template_directory_uri() . '/images/serv-010.jpg'; ?>" alt="Image" class="img-fluid">
                 </div>
             </div>
-            <div class="col-lg-6 d-flex pt-45 left-text">
-                <div class=" txt-container">
+            <div class="col-lg-6 d-flex pt-45 ">
+                <div class=" txt-location">
                     <h4 class="  text-black font-weight-bold mb-4 fs-9 ">Why should you visit our Galleria location?</h4>
                     <p class="text-dark font-italic tracking-widest ">When you're looking for a customized experience and look, you go to the professionals. And what better professional is there than one that looks after you? No matter what reason you want to change your lashes or brows, our Galleria location has the experience, medical-grade equipment, and space to help you achieve the effect you're looking for. </p><br />
 

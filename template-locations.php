@@ -147,8 +147,8 @@ get_header();
                     <img src="<?php echo get_template_directory_uri() . '/images/serv-010.jpg'; ?>" alt="Image" class="img-fluid">
                 </div>
             </div>
-            <div class="col-lg-6 d-flex pt-45 left-text">
-                <div class=" txt-container">
+            <div class="col-lg-6 d-flex pt-45  ">
+                <div class=" txt-location">
                     <h4 class="  text-black font-weight-bold mb-4 fs-9 ">Why should you visit our Sugar Land location?</h4>
                     <p class="text-dark font-italic tracking-widest ">Some clients may feel insecure about their thin lashes or eyebrow shape and want a new outlook every time they look into a mirror or appear in public. Others may want to match the trends and adjust their lashes and brows to a look or style. And others simply want a beauty hack that will save them time and still allow them to look gorgeous effortlessly. No matter your reason, our Sugar Land location has all the skills, medical-grade equipment, and space to help you achieve your best look yet.  </p><br />
 

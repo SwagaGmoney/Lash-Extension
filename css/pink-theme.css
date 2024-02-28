@@ -7230,11 +7230,33 @@ ul.simple-list {
   position: relative;
   left:18em;
 }
+.txt-location{
+  position: relative;
+  top:-30em !important;
+}
+
+.img-location img{
+  height: 200px;
+  position: relative;
+  top:51em !important;
+}
 
 
 }
 
 @media screen and (min-width:500px) and (max-width:768px) {
+
+  .txt-location{
+    position: relative;
+    top:-30em !important;
+  }
+  
+  .img-location img{
+    height: 200px;
+    position: relative;
+    top:43em !important;
+  }
+  
 
   .ol-1 ul li{ 
     position: relative;
@@ -7290,6 +7312,8 @@ ul.simple-list {
   .heading p { 
     max-width: 90%;
   }
+
+  
   .txt-container{ 
     position: relative;
     bottom:10em;
@@ -7322,6 +7346,17 @@ ul.simple-list {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+  .txt-location{
+    position: relative;
+    top:-30em !important;
+  }
+  
+  .img-location img{
+    height: 200px;
+    position: relative;
+    top:33em !important;
+  }
+  
   .sidebar{ 
     position: relative;
     left:10em !important;
@@ -7807,9 +7842,9 @@ ul.clearfix.txt-color-05 li {
   width:100%;
   background-size: cover;
   border-radius: 50px;
-  height: 500px;
+  height: 450px;
   position: relative;
-  top:10em;
+  top:8em;
   right:0;
   overflow: hidden;
   transition: transform 800ms ease; 
