@@ -203,7 +203,6 @@ get_header();
                             <h5 class="h5-xs txt-color-01">Certified Technicians</h5>
                             <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands, knowing
                                 that they are well-educated and experienced no matter what they are looking for.
-
                             </p>
                         </div>
 
