@@ -557,10 +557,46 @@
 			var scrollPosition = $(this).scrollTop();
 	
 			// Check if the scroll position is past a certain threshold
-			if (scrollPosition > 100) {
+			if (scrollPosition > 500) {
 				$('.image-container img').removeClass('image-slide'); // Remove class to slide image in
+				
 			} else {
 				$('.image-container img').addClass('image-slide'); // Add class to slide image out
+
 			}
+
+			if(scrollPosition > 800){
+				$('.img-container img').removeClass('image-slider'); // Remove class to slide image in
+
+			}else{
+				$('.img-container img').addClass('image-slider'); // Remove class to slide image in
+
+			}
+
+			if(scrollPosition > 1800){
+				$('.img-contain img').removeClass('image-slide'); // Remove class to slide image in
+
+			}else{
+				$('.img-contain img').addClass('image-slide'); // Remove class to slide image in
+
+			}
+
+			if(scrollPosition > 2000){
+				$('.img-content img').removeClass('image-slider'); // Remove class to slide image in
+
+			}else{
+				$('.img-content img').addClass('image-slider'); // Remove class to slide image in
+
+			}
+
+			
+			if(scrollPosition > 2300){
+				$('.banner-2-txt h2 h4').removeClass('image-slider'); // Remove class to slide image in
+
+			}else{
+				$('.banner-2-txt h2 h4').addClass('image-slider'); // Remove class to slide image in
+
+			}
+
 		});
 	});

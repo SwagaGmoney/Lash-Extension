@@ -14,21 +14,21 @@ get_header();
 <div class="container">
     <div class="row">
         <!-- Content Table -->
-        <div class="col-lg-4 order-lg-1">
-            <div class="sidebar bg-color-05 mt-100  shadow">
+        <div class="col-lg-4 col-md-12 order-lg-1">
+            <div class="sidebar bg-color-05 mt-100 shadow">
                 <h6 class="text-center h6-lg txt-color-01 p-4">Content Table</h6>
                 <ul class="tracking-wider ml-20 font-weight-bold">
                     <li class="list-itemed p-2"><a href="#section1">The Art of Eyebrow Waxing</a></li>
                     <li class="list-itemed p-2"><a href="#section2">How Does Eyebrow Waxing Work? </a></li>
                     <li class="list-itemed p-2"><a href="#section3">Waxing vs. Threading: Which is Better?</a></li>
-                    <li class="list-itemed p-2">The Eyebrow Waxing Experience at Lash Extensions by Fiona</li>
+                    <li class="list-itemed p-2"><a href="#section4">The Eyebrow Waxing Experience at Lash Extensions by Fiona </a></li>
                 </ul>
             </div>
         </div>
         <!-- Heading Text -->
         <div class="col-lg-8 order-lg-1">
             <div class="heading">
-                <p><span class="font-weight-bold fs-10">At Lash Extensions by Fiona,</span> we believe that beauty is in the details. This is why our expertise extends beyond lashes. In our mission to provide comprehensive solutions to all of your eye-enhancing demands, we are pleased to announce one of our most popular services:</p><br />
+                <p>Lash Extensions by Fiona, we believe that beauty is in the details. This is why our expertise extends beyond lashes. In our mission to provide comprehensive solutions to all of your eye-enhancing demands, we are pleased to announce one of our most popular services:</p><br />
                 <p>Our eyebrow waxing service, created with the same meticulous attention to detail that has made our lash extensions the talk of the town, is more than just removal; it's about sculpting, defining, and perfecting your brows to complement your natural beauty and the stunning appearance of your lash extensions.
                     Our team of experts, trained in the most recent techniques and trends, guarantees that each brow is perfectly formed, accentuating your face's natural arch and symmetry. We realize the importance of precision in this delicate area, which is why we only use high-quality waxes and calming agents to provide a comfortable and satisfying experience. Elevate your beauty regimen with Lash Extensions by Fiona, which give your brows the attention they need while smoothly integrating with your magnificent lash extensions for a flawless look.</p>
             </div>
@@ -40,9 +40,9 @@ get_header();
 <section id="section1">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-4 mt-20 ol-1 p-2 ">
-                <h3 class="h3-lg ">The Art of Eyebrow Waxing</h3>
-                <p class="p-4 ml-left">Waxing is a precise and delicate technique that involves not just skill and precision, but also a sense of beauty and aesthetics. At the heart of this art is the idea that brow waxing is more than just a cosmetic process; it's a form of self-expression, a means to highlight your inherent beauty and traits while allowing your individuality to shine through. Waxing, as an art form, extends beyond the basic removal of undesirable hair. It entails understanding the natural curve and contour of the brows to achieve a look that complements the individual's face features. Each stroke, each draw of wax, is executed with the accuracy of a painter's brush, with the goal of shaping the brows into a masterpiece that compliments the individual beauty of the face they frame. The goal is to achieve the ideal balance of thickness and arch, length and curve, so that the brows convey the appropriate expression, whether it's one of elegance, youthfulness, or strong fierceness.</p>
+            <div class="col-lg-8 col-md-4 mt-20 ol-1 ">
+                <h3 class="h3-lg  ">The Art of Eyebrow Waxing</h3>
+                <p class=" p-2 ml-left">Waxing is a precise and delicate technique that involves not just skill and precision, but also a sense of beauty and aesthetics. At the heart of this art is the idea that brow waxing is more than just a cosmetic process; it's a form of self-expression, a means to highlight your inherent beauty and traits while allowing your individuality to shine through. Waxing, as an art form, extends beyond the basic removal of undesirable hair. It entails understanding the natural curve and contour of the brows to achieve a look that complements the individual's face features. Each stroke, each draw of wax, is executed with the accuracy of a painter's brush, with the goal of shaping the brows into a masterpiece that compliments the individual beauty of the face they frame. The goal is to achieve the ideal balance of thickness and arch, length and curve, so that the brows convey the appropriate expression, whether it's one of elegance, youthfulness, or strong fierceness.</p>
 
                 <ul class="text-left tracking-wider custom-bullets">
                     <li class="list-item">Furthermore, The art of waxing considers the health and comfort of the skin. Pre- and post-waxing care are essential components of the process, guaranteeing that the skin is not only smooth and hair-free, but also moisturized and protected. High-quality waxes, calming chemicals, and precise methods are used to reduce discomfort and increase satisfaction.</li><br />
@@ -52,7 +52,7 @@ get_header();
             </div>
             <div class="col-lg-4 col-md-8 mt-20">
                 <div class="image-container">
-                    <img src="<?php echo get_template_directory_uri() . '/images/gallery/img-1.jpg'; ?> " alt="Image">
+                    <img src="<?php echo get_template_directory_uri() . '/images/serv-01.webp'; ?> " alt="Image">
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@ get_header();
         <div class="row">
             <div class="col-lg-6">
                 <div class="img-container">
-                    <img src="<?php echo get_template_directory_uri() . '/images/gallery/img-2.jpg'; ?>" alt="Image" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri() . '/images/serv-03.jpg'; ?>" alt="Image" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6 d-flex pt-40 left-text">
@@ -105,13 +105,61 @@ get_header();
             </div>
             <div class="col-lg-4 col-md-8 mt-20 order-lg-2">
                 <div class="img-contain">
-                    <img src="<?php echo get_template_directory_uri() . '/images/gallery/img-1.jpg'; ?> " alt="Image">
+                    <img src="<?php echo get_template_directory_uri() . '/images/serv-02.jpg'; ?> " alt="Image">
                 </div>
             </div>
         </div>
     </div>
 
 </section>
+
+
+<section id="section4">
+    <div class="container pt-80">
+        <div class="row">
+            <div class="col-lg-6 d-flex  right-text">
+                <div class="txt-content">
+                    <h4 class="text-black font-weight-bold h4-lg  "> Waxing Experience at Lash Extensions by Fiona </h4>
+                    <p class="text-dark font-italic ">Eyebrow waxing at Lash Extensions by Fiona goes beyond the traditional bounds of beauty treatments, transforming it into a superior experience that offers not just aesthetic enhancement but also the luxury of self-care. </p>
+                    <ul class=" tracking-wider custom-bullet text-black p-2 ">
+                        <li class="list-item">Our focused approach to the art of waxing demonstrates our commitment to precision, customization, and our clients' overall well-being. By choosing our brow waxing services, you are not only investing in the superior shaping and definition of your brows; you are also embracing the opportunity to relax and rejuvenate.</li>
+                        <li class="list-item">Our extensive knowledge of facial aesthetics means that each waxing session is personalized to enhance your natural beauty, which is perfectly matched with our unique lash extensions for a harmonious, captivating look. </li>
+                        <li class="list-item">Lash Extensions by Fiona is a beacon of quality in the beauty services industry, equipped with the finest waxes, cutting-edge procedures, and a love for perfection.</li>
+                    </ul><br />
+
+                    <span>Choose to begin on a journey of self-discovery and enhancement with us, where each session is more than just a procedure; it's a celebration of your own beauty, created with care, expertise, and an unrelenting commitment to quality. </span> <br /> <br />
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="img-content">
+                    <img src="<?php echo get_template_directory_uri() . '/images/serv-01.jpg'; ?>" alt="Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="banner-2" class="bg-fixed wide-100 banner-section division mt-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-12 mx-auto p-4">
+                <div class="banner-2-txt white-color  ">
+
+                <h2 class="text-center"> Contact Us Today </h2>
+                    <!-- Title -->
+                    <h4 class="h3-lg p-4  "> To schedule your eyebrow waxing appointment at our Sugar Land salon, and discover the difference at Lash Extensions by Fiona, where every detail is important and client pleasure is our primary goal.</h4>
+
+                    <!-- Button -->
+                    <a href="https://lashextensionsbyfiona.com/contact-us/" class="btn btn-md btn-color-02 tra-white-hover ">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section> <!-- END BANNER-2 -->
+
+
 
 
 

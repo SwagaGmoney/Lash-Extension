@@ -372,6 +372,10 @@ h2.single-post-title {
   margin-left: 5px !important;
 }
 
+.ml-200{ 
+  margin-left:40em;
+}
+
 /*------------------------------------------*/
 /*  Margin Right
 /*------------------------------------------*/
@@ -5022,7 +5026,9 @@ h5.statistic-number {
 }
 
 #banner-2 {
-  background-image: url(../images/banner-2.jpg);
+  background-image: url(../images/serv-eye01.jpg);
+  background-size:  cover contain;
+  background-repeat: no-repeat;
 }
 
 #banner-3 {
@@ -5058,13 +5064,23 @@ h5.statistic-number {
   background-image: url(../images/banner-6.jpg);
 }
 
+#banner-9{
+  background-image: url(../images/serv-002.webp);
+}
+
 /*------------------------------------------*/
 /*  BANNER TEXT
 /*------------------------------------------*/
-
+.banner-2-txt a{ 
+  text-align: center;
+  position: relative;
+  
+ padding-top:2em;
+}
 .banner-2-txt {
   padding-left: 30px;
   padding-right: 30px;
+  
 }
 
 .banner-3-txt {
@@ -5745,6 +5761,8 @@ select:-webkit-autofill:focus {
 
 .google-map {
   position: relative;
+  top:5em;
+  right:8em;
   padding: 0px 0px 62%;
   height: 0px;
   overflow: hidden;
@@ -6258,6 +6276,7 @@ p.foo-email a {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 30px;
+  max-width: 100%;
 }
 
 .bg-brown .bottom-footer,
@@ -7040,7 +7059,7 @@ nav a#pull {
   width: 100%;
 padding: 10px;
 z-index: 999;
-margin-top:-2.5rem;
+margin-top:-0.7rem;
 
 
 }
@@ -7174,21 +7193,14 @@ blockquote {
 .top-bar{
   margin-top:-2.8rem;
 }
-.sm-no{
-  display: none;
-}
 
 .sidebar{ 
   margin-top:3em;
   
 }
 
-  .content-column,
-  .image-column {
-    width: 100%;
-    float: none;
-    padding: 0;
-  }
+
+ 
 
   .content-box .text p {
     position: relative;
@@ -7218,11 +7230,99 @@ ul.simple-list {
   position: relative;
   left:18em;
 }
+.txt-location{
+  position: relative;
+  top:-30em !important;
+}
+
+.img-location img{
+  height: 200px;
+  position: relative;
+  top:51em !important;
+}
 
 
 }
 
 @media screen and (min-width:500px) and (max-width:768px) {
+
+  .txt-location{
+    position: relative;
+    top:-30em !important;
+  }
+  
+  .img-location img{
+    height: 200px;
+    position: relative;
+    top:43em !important;
+  }
+  
+
+  .ol-1 ul li{ 
+    position: relative;
+    left:4em;
+  }
+  .img-contain img{ 
+    
+  position: relative;
+ 
+ left:2em;
+  
+  }
+
+  .image-container img { 
+    position: relative;
+    left:-27rem;
+    
+   }
+   .img-container{
+    position: relative;
+    width:50%;
+    height:450px;
+    width: calc(100% - 60px);
+    top:44em;
+    left:1em;
+  }
+  .right-text{
+    position: relative;
+    top:15em;
+    right:80%;
+  }
+ 
+  .txt-content{ 
+    position: relative;
+    left:-15em;
+  }
+  .ol-1{ 
+    margin-left:2em;
+    margin-top:8em;
+  }
+  .ol-1 h3{ 
+    margin-left:-1.5rem;
+  }
+  .left-text{ 
+    position: relative;
+    top:-15em;
+  }
+  .heading {
+  
+    position: relative;
+    left:0.1rem !important;
+  }
+  .heading p { 
+    max-width: 90%;
+  }
+
+  
+  .txt-container{ 
+    position: relative;
+    bottom:10em;
+    left:-4em;
+  }
+  .sidebar{ 
+    position: relative;
+    left:2em !important;
+  }
   .caret-down i {
   font-size: 25px;
   position: absolute;
@@ -7246,6 +7346,21 @@ ul.simple-list {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+  .txt-location{
+    position: relative;
+    top:-30em !important;
+  }
+  
+  .img-location img{
+    height: 200px;
+    position: relative;
+    top:33em !important;
+  }
+  
+  .sidebar{ 
+    position: relative;
+    left:10em !important;
+  }
   
   .wsmobileheader{ 
   margin-top:2.2rem !important;
@@ -7269,14 +7384,23 @@ ul.simple-list {
     float: none;
     padding: 0;
   }
-
+ 
 
 }
 
 
 
 @media screen and (min-width:1021px)   {
+
+
   
+  .side-bar{ 
+    position: relative;
+    left:9em;
+     border-radius: 50px;
+  }
+ 
+ 
 
   .caret-down i {
   font-size: 25px;
@@ -7614,7 +7738,6 @@ ul.clearfix.txt-color-05 li {
   border-radius: 20px;
   margin-left:30%;
   margin-bottom:2rem;
-
 }
 .sidebar ul li:hover{ 
   cursor: pointer;
@@ -7629,6 +7752,9 @@ ul.clearfix.txt-color-05 li {
   padding-left: 20px; 
   transition: transform 0.3s ease;
 }
+
+
+
 .list-itemed:hover::before {
   content: '👉';
   position: absolute;
@@ -7690,10 +7816,10 @@ ul.clearfix.txt-color-05 li {
   border-radius: 50px;
   height: 100%;
   position: relative;
-  top:3em;
-  right:8em;
+  top:8em;
+  right:0;
   overflow: hidden;
-  transition: transform 800ms ease; /* Define transition */
+  transition: transform 800ms ease; 
   transition-duration: 1000ms;
 }
 
@@ -7708,4 +7834,20 @@ ul.clearfix.txt-color-05 li {
   font-size:20px;
   font-weight:800;
 
+}
+
+/* sugarland location */
+
+.img-location img{
+  width:100%;
+  background-size: cover;
+  border-radius: 50px;
+  height: 450px;
+  position: relative;
+  top:8em;
+  right:0;
+  overflow: hidden;
+  transition: transform 800ms ease; 
+  transition-duration: 1000ms;
+  box-shadow:0 8px 32px rgba(53, 61, 76, .2); ;
 }
