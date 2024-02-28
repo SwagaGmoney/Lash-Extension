@@ -15,11 +15,10 @@
     <div class="blog-categories sidebar-div mb-50">
         <!-- Title -->
         <h5 class="h5-sm txt-color-01">Services</h5>
-
         <ul class="blog-category-list txt-color-05 clearfix">
             <li><a href="https://lashextensionsbyfiona.com/services/lash-extensions/">Lash Extensions</a></li>
             <li><a href="https://lashextensionsbyfiona.com/services/microblading">Microblading</a></li>
-            <li><a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/">Eyebrow Waxing</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/">Eyebrow Waxing</a></li>
             <li><a href="https://lashextensionsbyfiona.com/services/lash-tinting">Lash Tinting</a></li>
         </ul>
     </div>
