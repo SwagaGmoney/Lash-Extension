@@ -829,11 +829,7 @@ get_header();
                     <h2>10% OFF</h2>
                     <h3 class="h3-sm">Eyelash Extensions!</h3>
 
-                    <!-- Text -->
-                    <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus
-                        dolor
-                        velna auctor congue tempus an integer
-                    </p>
+                    
 
                     <!-- Button -->
                     <a href="pricing.html" class="btn btn-md btn-color-02 tra-white-hover">Find Out More</a>

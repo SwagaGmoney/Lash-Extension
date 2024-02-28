@@ -5026,7 +5026,9 @@ h5.statistic-number {
 }
 
 #banner-2 {
-  background-image: url(../images/banner-2.jpg);
+  background-image: url(../images/serv-eye01.jpg);
+  background-size:  cover contain;
+  background-repeat: no-repeat;
 }
 
 #banner-3 {
@@ -5062,13 +5064,17 @@ h5.statistic-number {
   background-image: url(../images/banner-6.jpg);
 }
 
+#banner-9{
+  background-image: url(../images/serv-002.webp);
+}
+
 /*------------------------------------------*/
 /*  BANNER TEXT
 /*------------------------------------------*/
 .banner-2-txt a{ 
   text-align: center;
   position: relative;
-  left:40%;
+  
  padding-top:2em;
 }
 .banner-2-txt {
@@ -5755,6 +5761,8 @@ select:-webkit-autofill:focus {
 
 .google-map {
   position: relative;
+  top:5em;
+  right:8em;
   padding: 0px 0px 62%;
   height: 0px;
   overflow: hidden;
@@ -6268,6 +6276,7 @@ p.foo-email a {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 30px;
+  max-width: 100%;
 }
 
 .bg-brown .bottom-footer,
@@ -7050,7 +7059,7 @@ nav a#pull {
   width: 100%;
 padding: 10px;
 z-index: 999;
-margin-top:-2.5rem;
+margin-top:-0.7rem;
 
 
 }
@@ -7166,33 +7175,12 @@ blockquote {
 
 
 @media screen and (max-width:500px) {
-<<<<<<< HEAD
-
-
- 
-  .custom-bullets{ 
-    margin-right:5rem;
-  }
-  
-  
-  .text-left-content{ 
-    position: relative;
-    top:5em;
-  }
-  .text-left-content ul{ 
-    position: relative;
-    left:-1em;
-  }
-  
-
-=======
   .caret-down i {
   font-size: 25px;
   position: absolute;
   top:0.3rem;
   left:11em;
 }
->>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 .wsmobileheader{ 
   margin-top:2.2rem !important;
 }
@@ -7206,13 +7194,10 @@ blockquote {
   margin-top:-2.8rem;
 }
 
-<<<<<<< HEAD
-=======
 .sidebar{ 
   margin-top:3em;
   
 }
->>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 
 
  
@@ -7364,14 +7349,23 @@ ul.simple-list {
     float: none;
     padding: 0;
   }
-
+ 
 
 }
 
 
 
 @media screen and (min-width:1021px)   {
+
+
   
+  .side-bar{ 
+    position: relative;
+    left:9em;
+     border-radius: 50px;
+  }
+ 
+ 
 
   .caret-down i {
   font-size: 25px;
@@ -7709,13 +7703,6 @@ ul.clearfix.txt-color-05 li {
   border-radius: 20px;
   margin-left:30%;
   margin-bottom:2rem;
-<<<<<<< HEAD
-  position: relative;
-  z-index: 1;
-  left:46em;
-=======
-
->>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
 }
 .sidebar ul li:hover{ 
   cursor: pointer;
@@ -7730,6 +7717,9 @@ ul.clearfix.txt-color-05 li {
   padding-left: 20px; 
   transition: transform 0.3s ease;
 }
+
+
+
 .list-itemed:hover::before {
   content: '👉';
   position: absolute;
@@ -7809,88 +7799,20 @@ ul.clearfix.txt-color-05 li {
   font-size:20px;
   font-weight:800;
 
-<<<<<<< HEAD
 }
 
-.ml-lt{ 
-  position: relative;
-  left:-1rem;
-}
+/* sugarland location */
 
-.img-contain img{ 
-  width:400px;
-  background-size: cover;
-  border-radius: 50px;
-  height: 550px;
-  position: relative;
-  top:3em;
-  right:0;
-  overflow: hidden;
-  transition: transform 800ms ease; /* Define transition */
-  transition-duration: 1000ms;
-}
-
-.custom-point li:before {
-  content: "\2713"; /* Use custom bullet point character */
-  color: #703578; /* Set bullet point color */
-  font-size: 1.2em; /* Adjust bullet point size */
-  margin-right: 0.5em; /* Add spacing between bullet point and text */
-}
-
-.heading{
-  position: relative;
-  top:5em;
-  left:-27em;
-}
-
-.right-text{
-  position: relative;
-  left:55%;
-}
-.img-content img{ 
+.img-location img{
   width:100%;
   background-size: cover;
   border-radius: 50px;
   height: 500px;
   position: relative;
-  top:2em;
-  right:35em;
+  top:10em;
+  right:0;
   overflow: hidden;
   transition: transform 800ms ease; 
-  transition-duration: 1200ms;
-}
-
-.txt-content ul li{ 
-  position: relative;
-  left:-1.5em;
-}
-.txt-content span{ 
-  font-size:18px;
-  font-weight:800;
-  
-
-}
-.ol-1 h3{
-  position: relative;
-  left:-1em;
-}
-
-.ol-1 ul li{ 
-  position: relative;
-  left:-3em;
-}
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
-.image-slider {
-  transform: translateX(-100%); /* Initially slide image out of view */
-
-=======
->>>>>>> aa25be730ee8e8fdffb92199e88c45941d68f67a
+  transition-duration: 1000ms;
+  box-shadow:0 8px 32px rgba(53, 61, 76, .2); ;
 }

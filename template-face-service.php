@@ -15,7 +15,7 @@ get_header();
     <div class="row">
         <!-- Content Table -->
         <div class="col-lg-4 col-md-12 order-lg-1">
-            <div class="sidebar bg-color-05 mt-100  shadow">
+            <div class="sidebar bg-color-05 mt-100 shadow">
                 <h6 class="text-center h6-lg txt-color-01 p-4">Content Table</h6>
                 <ul class="tracking-wider ml-20 font-weight-bold">
                     <li class="list-itemed p-2"><a href="#section1">The Art of Eyebrow Waxing</a></li>

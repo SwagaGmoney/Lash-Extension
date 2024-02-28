@@ -148,7 +148,7 @@
                     <!-- FOOTER COPYRIGHT -->
                     <div class="col-lg-6">
                         <div class="footer-copyright">
-                            <p>&copy; 2024 Lash Extension By Fiona. All Rights Reserved</p>
+                            <p>&copy; 2024 Lash Extensions By Fiona. All Rights Reserved</p>
                         </div>
                     </div>
 

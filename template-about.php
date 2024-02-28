@@ -128,7 +128,7 @@ get_header();
 
 
             <!-- CONTACT FORM -->
-            <div class="col-md-7 col-lg-8">
+            <div class="col-md-7 col-lg-8 ">
                 <div class="google-map mb-40">
 
                     <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
@@ -146,27 +146,35 @@ get_header();
 
                     <!-- LOCATION -->
                     <div class="cbox-1 mb-30">
-                        <h5 class="h5-sm txt-color-01">Our Location</h5>
-                        <p class="p-md txt-color-05">121 King Street, Melbourne,</p>
-                        <p class="p-md txt-color-05">Victoria 3000 Australia</p>
+                        <h5 class="h5-sm txt-color-01">Our SugarLand Location</h5>
+                        <p class="p-md txt-color-05">4131 Highway 6 Sugar Land, 77478</p>
                     </div>
+                    <div class="cbox-1 mb-30">
+                        <h5 class="h5-sm txt-color-01">Our Galleria Location</h5>
+                        <p class="p-md txt-color-05 list-">2400 Augusta DrHouston, TX 77057</p>
+                    </div>
+
 
                     <!-- PHONES -->
                     <div class="cbox-1 mb-30">
                         <h5 class="h5-sm txt-color-01">Contact Info</h5>
-                        <p class="p-md txt-color-05"><span>Phone :</span> +12 3 3456 7890</p>
+                        <p class="p-md txt-color-05"><span>Phone :</span>+1(281)-690-3563</p>
+                        <p class="p-md txt-color-05"><span>Phone :</span>+1(713)-690-3563</p>
                         <p class="p-md txt-color-05"><span>Email :</span> <a
-                                href="mailto:yourdomain@mail.com">hello@yourdomain.com</a></p>
-                        <p class="p-md txt-color-05"><span>Skype :</span> <a href="tel:123456789">support.spamagic</a>
+                                href="mailto:yourdomain@mail.com">fiona160715@yahoo.com</a></p>
                         </p>
                     </div>
 
                     <!-- EMAILS -->
                     <div class="cbox-1">
                         <h5 class="h5-sm txt-color-01">Working Hours</h5>
-                        <p class="p-md txt-color-05"><span>Mon – Fri :</span> 9:00 AM - 7:00 PM</p>
-                        <p class="p-md txt-color-05"><span>Saturday :</span> 9:00 AM - 6:00 PM</p>
-                        <p class="p-md txt-color-05"><span>Sunday :</span> Closed</p>
+                        <p class="p-md txt-color-05"><span> Monday      :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="p-md txt-color-05"><span> Tuesday     :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="p-md txt-color-05"><span> Wednesday   :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="p-md txt-color-05"><span> Thursday    :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="p-md txt-color-05"><span> Friday      :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="p-md txt-color-05"><span> Saturday    :</span> 9:00 AM - 7:30 PM</p>
+                        <p class="p-md txt-color-05"><span> Sunday      :</span> 9:00 AM - 7:30 PM</p>
                     </div>
 
                 </div>

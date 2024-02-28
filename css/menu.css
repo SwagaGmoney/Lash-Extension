@@ -93,10 +93,12 @@ video {
 }
 
 .wsmainwp {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 1140px;
   padding: 0 15px;
   position: relative;
+  
+
 }
 
 /* Header Logo */
