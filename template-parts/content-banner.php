@@ -10,9 +10,7 @@
                     <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
 
                     <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus
-                        auctor an tempus
-                        feugiat dolor undo lacinia cubilia curae
+                    <p class="p-md txt-color-05">Treat yourself to an experience you'll never forget when you visit Lash Extensions by Fiona. Our relaxing service is one you'll want to come back to.
                     </p>
 
                     <!-- Button -->
