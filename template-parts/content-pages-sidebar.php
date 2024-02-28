@@ -19,7 +19,7 @@
         <ul class="blog-category-list txt-color-05 clearfix">
             <li><a href="https://lashextensionsbyfiona.com/services/lash-extensions/">Lash Extensions</a></li>
             <li><a href="https://lashextensionsbyfiona.com/services/microblading">Microblading</a></li>
-            <li><a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/">Face & Eyebrow Waxing</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/">Eyebrow Waxing</a></li>
             <li><a href="https://lashextensionsbyfiona.com/services/lash-tinting">Lash Tinting</a></li>
         </ul>
     </div>
