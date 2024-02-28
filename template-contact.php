@@ -29,8 +29,7 @@ get_header();
 
                     <!-- Text -->
                     <p class="p-lg txt-color-05">
-                        Get ready to bat those lashes with confidence – book your appointment now for stunning eyelashes
-                        that steal the spotlight!
+                    You can contact us through the form below, through phone, email, or in person, and our team will gladly help you with our expertise.
                     </p>
 
                     <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
@@ -83,9 +82,7 @@ get_header();
                     <h4 class="h4-xs txt-color-01">Contact Details</h4>
 
                     <!-- Text -->
-                    <p class="txt-color-05">Integer congue magna pretium ligula at rutrum risus luctus a dolor auctor
-                        ipsum
-                        blandit purus. Curabitur ac dapibus libero mauris donec
+                    <p class="txt-color-05">We have two bustling locations within the Houston area. Choose whichever is more convenient or closer to you.
                     </p>
 
                     <!-- LOCATION -->
@@ -101,16 +98,20 @@ get_header();
                         <p class="txt-color-05"><span>Phone </span> +1(281)-690-3563</p>
                         <p class="txt-color-05"><span>Phone </span> +1(713)-392-0281</p>
                         <p class="txt-color-05"><span>Email </span> <a
-                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
+                                href="mailto:booking@lashextensionsbyfiona.com">fiona160715@yahoo.com</a>
                         </p>
                     </div>
 
                     <!-- WORKING HOURS -->
                     <div class="cbox-1">
                         <h5 class="h5-xs txt-color-01">Working Hours</h5>
-                        <p class="txt-color-05"><span>Mon – Fri :</span> 9:00 AM - 7:00 PM</p>
-                        <p class="txt-color-05"><span>Saturday :</span> 9:00 AM - 6:00 PM</p>
-                        <p class="txt-color-05"><span>Sunday :</span> Closed</p>
+                        <p class="txt-color-05"><span>Monday    :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Tuesday   :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Wednesday :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Thursday  :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Friday    :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Saturday  :</span> 9:00 AM - 7:30 PM</p>
+                        <p class="txt-color-05"><span>Sunday    :</span> 9:00 AM - 7:30 PM</p>
                     </div>
 
                 </div>

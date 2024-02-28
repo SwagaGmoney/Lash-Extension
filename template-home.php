@@ -402,7 +402,7 @@ get_header();
                         <!-- Text -->
                         <div class="sbox-10-txt">
 
-                            <a href="/" class="h5-link">
+                            <a href="http://lashextensionbyfiona.local/brow-lash-services/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Eyelash Extensions</h5>
                             </a>
 
@@ -436,7 +436,7 @@ get_header();
 
 
                             <!-- Title -->
-                            <a href="/" class="h5-link">
+                            <a href="http://lashextensionbyfiona.local/microblading-service/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Microblading Services</h5>
                             </a>
                             <!-- Text -->
@@ -466,7 +466,7 @@ get_header();
                         <div class="sbox-10-txt">
 
 
-                            <a href="/" class="h5-link">
+                            <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
@@ -497,7 +497,7 @@ get_header();
 
 
                             <!-- Title -->
-                            <a href="/" class="h5-link">
+                            <a href="http://lashextensionbyfiona.local/featured-services/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Lash Tinting</h5>
                             </a>
                             <!-- Text -->
@@ -831,9 +831,7 @@ get_header();
                     <h3 class="h3-sm">Eyelash Extensions!</h3>
 
                     <!-- Text -->
-                    <p class="p-md">Donec vel sapien augue integer urna turpis cursus porta, mauris sed augue luctus
-                        dolor
-                        velna auctor congue tempus an integer
+                    <p class="p-md">Treat yourself to an experience you'll never forget when you visit Lash Extensions by Fiona. Our relaxing service is one you'll want to come back to.
                     </p>
 
                     <!-- Button -->

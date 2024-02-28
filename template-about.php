@@ -89,8 +89,8 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Relax, You're In Good Hands</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">Our team will go the distance to ensure you're comfortable and enjoying your experience.
+
                     </p>
 
                 </div>
