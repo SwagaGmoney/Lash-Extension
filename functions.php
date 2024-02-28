@@ -331,7 +331,7 @@ if (is_admin_bar_showing()) {
 add_filter('the_content', function ($content) {
     global $tableOfContents, $headings_order;
     $tableOfContents = "
-        <h5 class='h5-sm txt-color-01'>
+        <h5 class='h5-sm text-center txt-color-01'>
             Table of Contents
         </h5>
         <ol class='items'>"; // Open <ol> tag here
