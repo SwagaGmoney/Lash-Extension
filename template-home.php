@@ -403,7 +403,7 @@ get_header();
                         <!-- Text -->
                         <div class="sbox-10-txt">
 
-                            <a href="http://lashextensionbyfiona.local/brow-lash-services/" class="h5-link">
+                            <a href="https://lashextensionsbyfiona.com/services/lash-extensions/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Eyelash Extensions</h5>
                             </a>
 
@@ -437,7 +437,7 @@ get_header();
 
 
                             <!-- Title -->
-                            <a href="http://lashextensionbyfiona.local/microblading-service/" class="h5-link">
+                            <a href="https://lashextensionsbyfiona.com/services/microblading/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Microblading Services</h5>
                             </a>
                             <!-- Text -->
@@ -467,7 +467,7 @@ get_header();
                         <div class="sbox-10-txt">
 
 
-                            <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/" class="h5-link">
+                            <a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
@@ -498,7 +498,7 @@ get_header();
 
 
                             <!-- Title -->
-                            <a href="http://lashextensionbyfiona.local/featured-services/" class="h5-link">
+                            <a href="https://lashextensionsbyfiona.com/services/lash-tinting/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Lash Tinting</h5>
                             </a>
                             <!-- Text -->
