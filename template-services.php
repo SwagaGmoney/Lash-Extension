@@ -157,9 +157,8 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Comfort and Relaxation</h5>
-                            <p class="txt-color-05">We go beyond basic customer service, providing comfort for those who
-                                may suffer from back pain or claustrophobia or who may be pregnant and want to get off
-                                their feet.
+                            <p class="txt-color-05">We make it our mission to provide total rest and relaxation to our
+                                clients, whether it's simple eyebrow waxing or microblading.
                             </p>
                         </div>
 
@@ -180,8 +179,7 @@ get_header();
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Dedicated Personal Service</h5>
                             <p class="txt-color-05">Our stylists sit one-on-one with each client to discuss the best
-                                look for them. Our purpose is to ensure each client leaves our salon feeling more
-                                beautiful and confident than when they came in.
+                                look for them.
                             </p>
                         </div>
 
