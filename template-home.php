@@ -22,7 +22,7 @@ get_header();
                     <!-- Title -->
                     <h2 class="d-inline-block ">Lash Extentions By Fiona </h2>
                     <!-- Text -->
-                    <p>Feugiat primis ligula gravida auctor mauri egestas undo augue viverra tortor in iaculis</p>
+                    <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->
                     <a href="" class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
@@ -44,7 +44,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                    <img class="img-fluid shadow imgs" src="<?php echo get_template_directory_uri() . '/images/serv-img.jpg'; ?>"
                         alt="about-image">
                 </div>
             </div>
@@ -154,7 +154,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/img-la.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
@@ -233,7 +233,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-022.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
@@ -291,7 +291,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-023.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
@@ -341,7 +341,7 @@ get_header();
                                 <div class="image_block_two">
                                     <div class="image-box p-relative d-block">
                                         <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/gallery/img-1.jpg'; ?>"
+                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-024.jpg'; ?>"
                                                 decoding="async" data-lazyloaded="1" />
                                         </figure>
                                     </div>
@@ -597,8 +597,7 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Caring For Your Comforts</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">Beauty comes at the simple price of one of our professional services. Choose any that matches what you need for a price you'll know is worth it.
                     </p>
 
                 </div>
@@ -1068,7 +1067,7 @@ get_header();
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="about-6-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-04.jpg'; ?>"
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-label.jpg'; ?>"
                         alt="about-image">
                 </div>
             </div>
