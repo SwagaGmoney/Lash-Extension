@@ -1,14 +1,11 @@
 <?php
 /**
- * The default template for displaying pages
+ * The template for displaying all single posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package Lash Extensions
+ * @package LashExtension
  */
 
-get_header();
-?>
+get_header(); ?>
 
 <?php get_template_part( 'template-parts/content-page', get_post_type() ); ?>
 
@@ -46,28 +43,16 @@ get_header();
                     </div>
                     <!-- POST TEXT END -->
 
-                    <!-- SINGLE POST SHARE LINKS -->
-                    <div class="row post-share-links d-flex align-items-center">
 
-                        <!-- POST SHARE ICONS -->
-                        <div class="col-md-3 col-xl-4 post-share-listt">
-                            <ul class="share-social-icons text-center clearfix txt-color-05">
-                                <li><a href="single-post.html#" class="share-ico ico-facebook"><i
-                                            class="fab fa-facebook-square"></i></a></li>
-                                <li><a href="single-post.html#" class="share-ico ico-twitter"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li><a href="single-post.html#" class="share-ico ico-like"><i
-                                            class="far fa-bookmark"></i></a></li>
-                            </ul>
-                        </div>
 
-                    </div> <!-- END SINGLE POST SHARE -->
 
-                </div>
+                </div> <!-- END SINGLE POST SHARE -->
+
             </div>
+        </div>
 
 
-            <?php 
+        <?php 
                     // If comments are open or we have at least one comment, load up the comment template.
                     if ( comments_open() || get_comments_number() ) :
                         comments_template();
@@ -76,12 +61,12 @@ get_header();
                     endwhile; // End of the loop.
                     ?>
 
-            <!--Sidebar-->
-            <?php get_template_part( 'template-parts/content', 'sidebar' ); ?>
-            <!--End Sidebar-->
+        <!--Sidebar-->
+        <?php get_template_part( 'template-parts/content', 'sidebar' ); ?>
+        <!--End Sidebar-->
 
-            <!-- BANNER-5 ============================================= -->
-            <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+        <!-- BANNER-5 ============================================= -->
+        <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
 
-            <?php get_footer(); ?>
+        <?php get_footer(); ?>
