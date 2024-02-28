@@ -157,9 +157,10 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Comfort and Relaxation</h5>
-                            <p class="txt-color-05">We go beyond basic customer service providing comfort for those who
-                                may suffer from back pain, claustrophobia, or who may be pregnant and want to get offer
-                                their feet. </p>
+                            <p class="txt-color-05">We go beyond basic customer service, providing comfort for those who
+                                may suffer from back pain or claustrophobia or who may be pregnant and want to get off
+                                their feet.
+                            </p>
                         </div>
 
                     </div>
@@ -200,8 +201,9 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Certified Technicians</h5>
-                            <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands knowing
+                            <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands, knowing
                                 that they are well-educated and experienced no matter what they are looking for.
+
                             </p>
                         </div>
 
