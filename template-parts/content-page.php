@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <section class="bg-fixed wide-100  page-hero-section division"
+    <section class="single-post-page bg-fixed wide-100  page-hero-section division"
         style="background-image: url('<?php echo get_template_directory_uri() . '/images/lashes-03.jpg'; ?>'); ">
         <div class="container">
             <div class="row">
@@ -48,8 +48,4 @@
             </div> <!-- END BREADCRUMB -->
         </div> <!-- End container -->
     </section> <!-- END PAGE HERO -->
-</article>
-
-
-<!--End Page Title-->
-</article><!-- #post-<?php the_ID(); ?> -->
+    <!--End Page Title-->

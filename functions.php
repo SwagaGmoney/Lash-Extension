@@ -124,11 +124,11 @@ add_action( 'after_setup_theme', 'lash_extension_content_width', 0 );
 function lash_extension_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'purple-rose' ),
+			'name'          => esc_html__( 'Sidebar', 'lash_extensio' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'purple-rose' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
+			'description'   => esc_html__( 'Add widgets here.', 'lash_extensio' ),
+			'before_widget' => '<div id="%1$s sidebar" class="sidebar-div mb-50 %2$s">',
+			'after_widget'  => '</div>',
 			'before_title'  => '<h2 class="widget-title">',
 			'after_title'   => '</h2>',
 		)
@@ -253,9 +253,9 @@ function discard_menu_classes($classes, $item) {
  */
 
 
-add_filter( 'the_content', 'class_up_the_headings' );
+add_filter( 'the_content', 'custom_classes' );
 
-function class_up_the_headings( $content ) {
+function custom_classes( $content ) {
     $classes = array(
         'h1' => 'h1-class',
         'h2' => 'single-post-txt',
@@ -263,7 +263,8 @@ function class_up_the_headings( $content ) {
         'h4' => 'h4-class',
         'h5' => 'h5-class',
         'h6' => 'h6-class',
-		'p' => 'txt-color-05'
+		'p'  => 'txt-color-05',
+		'ul' => 'simple-list txt-color-05'
     );
 
     foreach ($classes as $tag => $class) {
@@ -277,17 +278,4 @@ function class_up_the_headings( $content ) {
     return $content;
 }
 
-
-
-
-
-add_filter( 'the_content', 'class_up_the_lists' );
-
-function class_up_the_lists( $content ) {
-    $content = str_replace(
-        '<ul>',
-        '<ul class="simple-list txt-color-05">',
-        $content
-    );
-    return $content;
-}
+add_image_size( 'latest-post-thumbnail', 100, 100, true ); // Adjust dimensions as needed

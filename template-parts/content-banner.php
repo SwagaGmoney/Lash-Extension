@@ -1,7 +1,6 @@
 <section id="banner-5" class="bg-fixed bg-image banner-section division">
     <div class="container">
         <div class="row d-flex align-items-center">
-
             <!-- TEXT BLOCK -->
             <div class="col-lg-6 offset-lg-3">
                 <div class="banner-5-txt text-center">
