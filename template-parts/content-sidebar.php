@@ -7,10 +7,9 @@
         <h5 class="h5-sm txt-color-01">About Us</h5>
 
         <!-- Text -->
-        <p class="txt-color-05 pb-10">Mauris id class aptent taciti nostra, per eget gravida donec enim ipsum porta
-            justo
-            integer
-            at velna auctor vitae magna, vitae suscipit
+        <p class="txt-color-05 pb-10">When you love the way you look, your confidence grows. Lash Extensions by Fiona is
+            honored to be a part of that personal journey for each and every client that walks through our doors. The
+            moment they come to us, they will get the high-quality personal attention they deserve.
         </p>
         <a href="https://lashextensionsbyfiona.com/contact" class="btn btn-md btn-color-02 color-01-hover">Make an
             Appointment</a>
@@ -28,7 +27,6 @@
 
     <!-- BLOG CATEGORIES -->
     <div class="blog-categories sidebar-div mb-50">
-
         <!-- Title -->
         <h5 class="h5-sm txt-color-01">Services</h5>
 
@@ -39,10 +37,8 @@
             <li><a href="https://lashextensionsbyfiona.com/services/lash-tinting">Lash Tinting</a></li>
         </ul>
     </div>
-
     <!-- POPULAR POSTS -->
     <div class="popular-posts sidebar-div mb-50">
-
         <!-- Title -->
         <h5 class="h5-sm txt-color-01">Latest Posts</h5>
 
