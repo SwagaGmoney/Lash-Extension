@@ -28,9 +28,13 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05">
+                        Get ready to bat those lashes with confidence – book your appointment now for stunning eyelashes
+                        that steal the spotlight!
                     </p>
+
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
                 </div>
             </div>

@@ -10,11 +10,15 @@
                     <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
 
                     <!-- Text -->
-                    <p class="p-md txt-color-05">Treat yourself to an experience you'll never forget when you visit Lash Extensions by Fiona. Our relaxing service is one you'll want to come back to.
+                    <p class="p-md txt-color-05">Treat yourself to an experience you'll never forget when you visit Lash
+                        Extensions by Fiona. Our relaxing service is one you'll want to come back to.
                     </p>
 
                     <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Book Now</a>
+
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+
 
                 </div>
             </div> <!-- END TEXT BLOCK -->

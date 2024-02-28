@@ -50,68 +50,69 @@
         <!-- HEADER
 			============================================= -->
         <header id="header" class="header tra-menu navbar-light">
-        <div class="header-wrapper ">
-            <!-- Top bar  -->
-            <div class="top-bar" style="background-color: #7982d5;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
-                            <!-- Email icon with link -->
-                            <a href="mailto:fiona160715@yahoo.com" style="color: white;">
-                                <i class="fas fa-envelope"></i> fiona160715@yahoo.com
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
-                            <!-- Location icon with address -->
-                            <span class="top-bar-link" style="color: white;">
-                                <i class="fas fa-map-marker-alt"></i> 4131 Highway 6 Sugar Land, 77478
-                            </span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 ">
-                            <!-- Call icon with phone number -->
-                            <a href="tel:2816903563" style="color: white;">
-                                <i class="fas fa-phone"></i> +1(281)-690-3563
-                            </a>
+            <div class="header-wrapper ">
+                <!-- Top bar  -->
+                <div class="top-bar" style="background-color: #7982d5;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
+                                <!-- Email icon with link -->
+                                <a href="mailto:fiona160715@yahoo.com" style="color: white;">
+                                    <i class="fas fa-envelope"></i> fiona160715@yahoo.com
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 sm-no">
+                                <!-- Location icon with address -->
+                                <span class="top-bar-link" style="color: white;">
+                                    <i class="fas fa-map-marker-alt"></i> 4131 Highway 6 Sugar Land, 77478
+                                </span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                <!-- Call icon with phone number -->
+                                <a href="tel:2816903563" style="color: white;">
+                                    <i class="fas fa-phone"></i> +1(281)-690-3563
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="header-wrapper">
-                <!-- MOBILE HEADER -->
-                <div class="wsmobileheader clearfix">
-                    <span class="smllogo"><img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>"
-                            width="200" alt="mobile-logo" /></span>
-                    <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-                </div>
-                <!-- NAVIGATION MENU -->
-                <div class="wsmainfull menu clearfix">
-                    <div class="wsmainwp clearfix">
-                        <!-- LOGO IMAGE -->
-                        <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 346 x 100 pixels) -->
-                        <div class="desktoplogo"><a href="/" class="logo-black"><img
-                                    src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>"
-                                    width="200" alt="header-logo"></a></div>
-                        <div class="desktoplogo"><a href="/" class="logo-white"><img
-                                    src="<?php echo get_template_directory_uri() . '/images/logo-white.png'; ?>"
-                                    width="200" alt="header-logo"></a></div>
-
-                        <!-- MAIN MENU -->
-                        <nav class="wsmenu clearfix ">
-                            <?php wp_nav_menu(array('menu_class' => 'wsmenu-list', 'container' => 'ul',)); ?>
-
-                            <ul class="wsmenu-list">
-                                <!-- drop-down menu -->
-
-
-                                <!-- HEADER CALL BUTTON -->
-                                <li class="nl-simple header-phone" aria-haspopup="true">
-                                    <a href="about.html#"
-                                        class="btn btn-color-02 tra-01-hover last-link rounded-pill">Book Now</a>
-                                </li>
-                                    
-                            </ul>
-                        </nav> <!-- END MAIN MENU -->
+                <div class="header-wrapper">
+                    <!-- MOBILE HEADER -->
+                    <div class="wsmobileheader clearfix">
+                        <span class="smllogo"><img
+                                src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="200"
+                                alt="mobile-logo" /></span>
+                        <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                     </div>
-                </div> <!-- END NAVIGATION MENU -->
-            </div> <!-- End header-wrapper -->
+                    <!-- NAVIGATION MENU -->
+                    <div class="wsmainfull menu clearfix">
+                        <div class="wsmainwp clearfix">
+                            <!-- LOGO IMAGE -->
+                            <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 346 x 100 pixels) -->
+                            <div class="desktoplogo"><a href="/" class="logo-black"><img
+                                        src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>"
+                                        width="200" alt="header-logo"></a></div>
+                            <div class="desktoplogo"><a href="/" class="logo-white"><img
+                                        src="<?php echo get_template_directory_uri() . '/images/logo-white.png'; ?>"
+                                        width="200" alt="header-logo"></a></div>
+
+                            <!-- MAIN MENU -->
+                            <nav class="wsmenu clearfix ">
+                                <?php wp_nav_menu(array('menu_class' => 'wsmenu-list', 'container' => 'ul',)); ?>
+
+                                <ul class="wsmenu-list">
+                                    <!-- drop-down menu -->
+
+
+                                    <!-- HEADER CALL BUTTON -->
+                                    <li class="nl-simple header-phone" aria-haspopup="true">
+                                        <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                                            class="btn btn-color-02 tra-01-hover last-link rounded-pill">Book Now</a>
+                                    </li>
+
+                                </ul>
+                            </nav> <!-- END MAIN MENU -->
+                        </div>
+                    </div> <!-- END NAVIGATION MENU -->
+                </div> <!-- End header-wrapper -->
         </header> <!-- END HEADER -->

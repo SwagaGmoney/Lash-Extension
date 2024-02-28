@@ -281,7 +281,6 @@ function custom_classes( $content ) {
 add_image_size( 'latest-post-thumbnail', 100, 100, true ); // Adjust dimensions as needed
 
 
-
 add_action('admin_init', function () {
 // Redirect any user trying to access comments page
 global $pagenow;
@@ -290,6 +289,12 @@ if ($pagenow === 'comments.php') {
     wp_redirect(admin_url());
     exit;
 }
+
+/*
+*
+* Disables comments functionality.
+* 
+*/
 
 // Remove comments metabox from dashboard
 remove_meta_box('dashboard_recent_comments', 'dashboard', 'normal');
@@ -321,3 +326,42 @@ if (is_admin_bar_showing()) {
     remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
 }
 });
+
+
+add_filter('the_content', function ($content) {
+    global $tableOfContents, $headings_order;
+    $tableOfContents = "
+        <div class='h5'>
+            Table of Contents</span>
+        </div>
+        <ol class='items'>"; // Open <ol> tag here
+    $headings_order = []; // Array to store the order of headings
+    $index = 1;
+    // Insert the IDs and create the TOC.
+    $content = preg_replace_callback('#<(h[1-6])(.*?)>(.*?)</\1>#si', function ($matches) use (&$index, &$tableOfContents, &$headings_order) {
+        $tag = $matches[1];
+        $title = strip_tags($matches[3]);
+        $hasId = preg_match('/id=(["\'])(.*?)\1[\s>]/si', $matches[2], $matchedIds);
+        $id = $hasId ? $matchedIds[2] : $index++ . '-' . sanitize_title($title);
+        // Add the heading and its ID to the order array
+        $headings_order[] = array('title' => $title, 'id' => $id);
+        $tableOfContents .= "<li class='item-$tag'><a href='#$id'>$title</a></li>";
+        if ($hasId) {
+            return $matches[0];
+        }
+        return sprintf('<%s%s id="%s">%s</%s>', $tag, $matches[2], $id, $matches[3], $tag);
+    }, $content);
+    $tableOfContents .= '</ol>'; // Close <ol> tag here
+    // Sort the headings in the order they appear in the content
+    usort($headings_order, function($a, $b) {
+        return strnatcasecmp($a['id'], $b['id']);
+    });
+    return $content;
+});
+
+
+function get_the_table_of_contents()
+{
+    global $tableOfContents;
+    return $tableOfContents;
+}
