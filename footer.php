@@ -9,7 +9,7 @@
 
 
             <!-- FOOTER INFO -->
-            <div class="col-md-6 col-lg-4 col-xl-5">
+            <div class="col-md-6 col-lg-4 col-xl-5 ">
                 <div class="footer-info mb-40">
 
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
@@ -60,7 +60,7 @@
 
 
             <!-- FOOTER LINKS -->
-            <div class="col-md-3 col-lg-2 foot-ink">
+            <div class="col-md-3 col-lg-2 m-left">
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
@@ -77,118 +77,101 @@
             </div>
 
 
-            <!-- FOOTER LINKS -->
-            
-            </div>
-                <div class="col-md-3 col-lg-2">
-                    <div class="footer-links mb-40 foot-link">
-                        <!-- Title -->
-                        <div class="hours-container">
-                            <h6 class="h6-lg txt-color-01">Hours Of Operations</h6>
-                            <div class="hours-list">
-                                <div class="day">Monday</div>
-                                <div class="separator"></div>
-                                <div class="time">8:00 AM - 9:00 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Tuesday</div>
-                                <div class="time">8:00 AM - 9:00 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Wednesday</div>
-                                <div class="separator"></div>
-                                <div class="time">8:00 AM - 9:00 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Thursday</div>
-                                <div class="separator"></div>
-                                <div class="time">8:00 AM - 9:00 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Friday</div>
-                                <div class="separator"></div>
-                                <div class="time">8:00 AM - 9:00 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Saturday</div>
-                                <div class="separator"></div>
-                                <div class="time">9:00 AM - 7:30 PM</div>
-                            </div>
-                            <div class="hours-list">
-                                <div class="day">Sunday</div>
-                                <div class="separator"></div>
-                                <div class="time">9:00 AM - 7:30 PM</div>
+            <!-- HOURS OF OPERATIONS -->
+            <div class="col-md-3 col-lg-4">
+                <div class="footer-links mb-40">
+                    <div class="hours-container">
+                        <h6 class="h6-lg txt-color-01">Hours Of Operations</h6>
+                        <div class="hours-list">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="day cell">Monday</div>
+                                    <div class="day cell">Tuesday</div>
+                                    <div class="day cell">Wednesday</div>
+                                    <div class="day cell">Thursday</div>
+                                    <div class="day cell">Friday</div>
+                                    <div class="day cell">Saturday</div>
+                                    <div class="day cell">Sunday</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="time cell">8:00 AM - 9:00 PM</div>
+                                    <div class="time cell">8:00 AM - 9:00 PM</div>
+                                    <div class="time cell">8:00 AM - 9:00 PM</div>
+                                    <div class="time cell">8:00 AM - 9:00 PM</div>
+                                    <div class="time cell">8:00 AM - 9:00 PM</div>
+                                    <div class="time cell">9:00 AM - 7:30 PM</div>
+                                    <div class="time cell">9:00 AM - 7:30 PM</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-3 col-lg-2">
-                    <div class="footer-links mb-40 foot-inks">
 
-                        <!-- Title -->
-                        <h6 class="h6-lg txt-color-01 ">Service Areas</h6>
-                        <ul class="simple-lists w-hours mb-20">
-                            <li class="list-item">SugarLand, Texas</li>
-                            <li class="list-item">Galleria, Texas</li>
-                            <li class="list-item">Houston, Texas</li>
-                        </ul> <!-- End Text List -->
-                    </div>
+            <!-- SERVICE AREAS AND SERVICES -->
+            <!-- SERVICE AREAS AND SERVICES -->
+            <!-- SERVICE AREAS AND SERVICES -->
+            <!-- SERVICE AREAS AND SERVICES -->
+            <div class="col-md-3 col-lg-2 offset-md-6 offset-lg-8 mt-lg" >
+                <div class="footer-links mb-200 ">
+                    <!-- Service Areas -->
+                    <h6 class="h6-lg txt-color-01">Service Areas</h6>
+                    <ul class="simple-lists w-hours mb-20 tracking-widest">
+                        <li class="list-item ">SugarLand, Texas</li>
+                        <li class="list-item">Galleria, Texas</li>
+                        <li class="list-item">Houston, Texas</li>
+                    </ul>
 
-                    <div class="col-md-3 col-lg-2">
-                        <div class="footer-links mb-40 foot-inks">
-                            <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
-                            <ul class="simple-listz w-hours mb-20">
-                                <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
-                                <li class="list-item"><a href="#pricing-1">Microblading </a> </li>
-                                <li class="list-item"><a href="#pricing-1">Brows & Lashes </a></li>
-                                <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing </a> </li>
-                            </ul>
+                    <!-- Services -->
+                    <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
+                    <ul class="simple-listz w-hours mb-20">
+                        <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
+                        <li class="list-item"><a href="#pricing-1">Microblading</a></li>
+                        <li class="list-item"><a href="#pricing-1">Brows & Lashes</a></li>
+                        <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <!-- BOTTOM FOOTER -->
+            <div class="bottom-footer txt-color-05">
+                <div class="row d-flex align-items-center">
+
+
+                    <!-- FOOTER COPYRIGHT -->
+                    <div class="col-lg-6">
+                        <div class="footer-copyright">
+                            <p>&copy; 2024 Lash Extensions By Fiona. All Rights Reserved</p>
                         </div>
                     </div>
 
 
+                    <!-- BOTTOM FOOTER LINKS -->
+                    <div class="col-lg-6 ">
+                        <ul class="bottom-footer-list text-right clearfix">
+                            <li>
+                                <p class="first-list-link"><a href="demo-1.html#"><i class="fab fa-facebook-f"></i>
+                                        Facebook</a></p>
+                            </li>
+                            <li>
+                                <p><a href="demo-1.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
+                            </li>
+                            <li>
+                                <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
+                            </li>
+
+                        </ul>
+                    </div>
 
 
-                </div> <!-- END FOOTER CONTENT -->
+                </div> <!-- End row -->
+            </div> <!-- END BOTTOM FOOTER -->
 
 
-                <!-- BOTTOM FOOTER -->
-                <div class="bottom-footer txt-color-05">
-                    <div class="row d-flex align-items-center">
-
-
-                        <!-- FOOTER COPYRIGHT -->
-                        <div class="col-lg-6">
-                            <div class="footer-copyright">
-                                <p>&copy; 2024 Lash Extensions By Fiona. All Rights Reserved</p>
-                            </div>
-                        </div>
-
-
-                        <!-- BOTTOM FOOTER LINKS -->
-                        <div class="col-lg-6">
-                            <ul class="bottom-footer-list text-right clearfix">
-                                <li>
-                                    <p class="first-list-link"><a href="demo-1.html#"><i class="fab fa-facebook-f"></i>
-                                            Facebook</a></p>
-                                </li>
-                                <li>
-                                    <p><a href="demo-1.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
-                                </li>
-                                <li>
-                                    <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
-                                </li>
-
-                            </ul>
-                        </div>
-
-
-                    </div> <!-- End row -->
-                </div> <!-- END BOTTOM FOOTER -->
-
-
-            </div> <!-- End container -->
+        </div> <!-- End container -->
 </footer> <!-- END FOOTER-1 -->
 
 
