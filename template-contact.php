@@ -125,32 +125,9 @@ get_header();
 <!-- BANNER-5
 				============================================= -->
 <section id="banner-5" class="bg-fixed bg-image banner-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-
-
-            <!-- TEXT BLOCK -->
-            <div class="col-lg-6 offset-lg-3">
-                <div class="banner-5-txt text-center">
-
-                    <!-- Title -->
-                    <h2 class="h2-xl txt-color-05">Get 20% Off</h2>
-                    <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
-
-                    <!-- Text -->
-                    <p class="p-md txt-color-05">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor
-                        an tempus
-                        feugiat dolor undo lacinia cubilia curae
-                    </p>
-
-                    <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Book Now</a>
-
-                </div>
-            </div> <!-- END TEXT BLOCK -->
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
+    <div>
+    <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+    </div>
 </section> <!-- END BANNER-5 -->
 
 

@@ -815,7 +815,7 @@ get_header();
 
 
 
-<section id="banner-2" class="bg-fixed wide-100 banner-section division">
+<section id="banner-8" class="bg-fixed wide-100 banner-section division">
     <div class="container">
         <div class="row">
 

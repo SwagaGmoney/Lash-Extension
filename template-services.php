@@ -310,7 +310,7 @@ get_header();
 <!-- BANNER-5
 				============================================= -->
 <section id="banner-5" class="bg-fixed bg-image mt-80 banner-section division">
-    </div>
+    <div>
     <!-- BANNER-5 ============================================= -->
     <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
