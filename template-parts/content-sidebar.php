@@ -2,14 +2,11 @@
 <aside id="sidebar" class="col-lg-4">
     <!-- TEXT WIDGET -->
     <div id="text-widget" class="sidebar-div mb-50">
-
         <!-- Title -->
         <h5 class="h5-sm txt-color-01">About Us</h5>
-
         <!-- Text -->
-        <p class="txt-color-05 pb-10">When you love the way you look, your confidence grows. Lash Extensions by Fiona is
-            honored to be a part of that personal journey for each and every client that walks through our doors. The
-            moment they come to us, they will get the high-quality personal attention they deserve.
+        <p class="txt-color-05 pb-10">When you love the way you look, your confidence grows. The
+            moment you come to us, you will get the high-quality personal attention you deserve.
         </p>
         <a href="https://lashextensionsbyfiona.com/contact" class="btn btn-md btn-color-02 color-01-hover">Make an
             Appointment</a>
@@ -87,10 +84,52 @@
 
     <!-- Social Media LINKS -->
     <!-- IMAGE WIDGET -->
-    <div class="image-widget sidebar-div mb-50">
+    <div class=" sidebar-div mb-50">
+        <div class="toc">
+            <?php
+  $content = get_the_content();
+  preg_match_all('/<(h\d*).*?(?: id="(.*?)")?>((.*?))</',$content,$matches); $levels=$matches[1]; $anchors=$matches[2];
+                $headings=$matches[3]; if ( $headings ) { echo '<div class="title">Table of Contents</div>' ; function
+                collate_row($depth, $anchor, $heading) { $level=substr($depth, 1); if ( $anchor ) { return ["<a
+                href='#{$anchor}' class='{$depth} toc-link'>{$heading}</a>", $level];
+            } else {
+            $slug = sanitize_title($heading);
+            return ["<a href='#{$slug}' class='{$depth} toc-link'>{$heading}</a>", $level];
+            }
+            }
 
-        <!-- Title -->
-        <!-- Link -->
+            $collated = array_map('collate_row', $levels, $anchors, $headings );
+            $previous_level = 2;
+            echo '<ol class="toc-list">';
+                foreach ($collated as $key=>$row) {
+                $current_level = $row[1];
+
+                if ( $current_level == $previous_level ) {
+                if ( $key === 0 ) {
+                echo '<li>' . $row[0];
+                    } else {
+                    echo '</li>
+                <li>' . $row[0];
+                    }
+                    } else if ( $current_level < $previous_level ) { echo str_repeat('</ol>', $previous_level -
+                        $current_level) . '
+                <li>'. $row[0] . '</li>';
+                } else {
+                echo '<ol>
+                    <li>' . $row[0]. '</li>';
+                    }
+
+                    $previous_level = $row[1];
+
+                    }
+
+                    echo '</li>
+                </ol>';
+
+                $previous_level = $row[1];
+                }
+                ?>
+        </div>
 
     </div>
 </aside> <!-- END SIDEBAR -->

@@ -200,7 +200,7 @@ get_header();
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Certified Technicians</h5>
                             <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands, knowing
-                                that they are well-educated and experienced no matter what they are looking for.
+                                that they are experienced.
                             </p>
                         </div>
 

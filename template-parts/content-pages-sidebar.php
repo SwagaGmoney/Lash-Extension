@@ -23,16 +23,12 @@
             <li><a href="https://lashextensionsbyfiona.com/services/lash-tinting">Lash Tinting</a></li>
         </ul>
     </div>
-    <!-- POPULAR POSTS -->
     <!-- Social Media LINKS -->
-    <!-- IMAGE WIDGET -->
-    <div class="image-widget sidebar-div mb-50">
-
+    <!-- TABLE OF CONTENTS -->
+    <div class="table-of-contents sidebar-div mb-50">
         <!-- Title -->
-        <!-- Link -->
-
-    </div>
-</aside> <!-- END SIDEBAR -->
-</div> <!-- End row -->
-</div> <!-- End container -->
-</section>
+        <?= get_the_table_of_contents() ?>
+        <!-- END SIDEBAR -->
+    </div> <!-- End row -->
+    </div> <!-- End container -->
+    </section>
