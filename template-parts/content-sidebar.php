@@ -26,8 +26,6 @@
         </div>
     </div>
 
-
-
     <!-- BLOG CATEGORIES -->
     <div class="blog-categories sidebar-div mb-50">
 
@@ -35,13 +33,12 @@
         <h5 class="h5-sm txt-color-01">Services</h5>
 
         <ul class="blog-category-list txt-color-05 clearfix">
-            <li><a href="https://lashextensionsbyfiona.com/face-eyebrow-waxing/">Face & Eyebrow Waxing</a></li>
-            <li><a href="https://lashextensionsbyfiona.com/microblading">Microblading</a></li>
-            <li><a href="https://lashextensionsbyfiona.com/brow-eyelash/">Eyebrow & Lashes</a></li>
-            <li><a href="https://lashextensionsbyfiona.com/lash-tinting">Lash Tinting</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/lash-extensions/">Lash Extensions</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/microblading">Microblading</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/">Face & Eyebrow Waxing</a></li>
+            <li><a href="https://lashextensionsbyfiona.com/services/lash-tinting">Lash Tinting</a></li>
         </ul>
     </div>
-
 
     <!-- POPULAR POSTS -->
     <div class="popular-posts sidebar-div mb-50">
@@ -78,7 +75,6 @@
                 <!-- Text -->
                 <div class="post-summary">
                     <a href="<?php the_permalink(); ?>" class="txt-color-05"><?php the_title(); ?></a>
-                    <p class="txt-color-03"><?php echo get_comments_number(); ?> Comments</p>
                 </div>
             </li>
             <?php
@@ -93,55 +89,12 @@
 
     </div>
 
-
-
-    <!-- TAGS CLOUD -->
-    <div class="tags-cloud sidebar-div mb-50">
-
-        <!-- Title -->
-        <h5 class="h5-sm txt-color-01">Tags</h5>
-
-        <span class="badge"><a href="single-post.html#">Massage</a></span>
-        <span class="badge"><a href="single-post.html#">Treatments</a></span>
-        <span class="badge"><a href="single-post.html#">Balance</a></span>
-        <span class="badge"><a href="single-post.html#">Aromatherapy</a></span>
-
-    </div>
-
-
-    <!-- INSTAGRAM LINKS -->
-    <div class="sidebar-links mb-40">
-
-        <!-- Title -->
-        <h5 class="h5-sm txt-color-01">Instagram</h5>
-
-        <!-- Instagram Images -->
-        <ul class="sidebar-images text-center clearfix">
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-01.jpg"
-                        alt="insta-img"></a></li>
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-02.jpg"
-                        alt="insta-img"></a></li>
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-03.jpg"
-                        alt="insta-img"></a></li>
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-04.jpg"
-                        alt="insta-img"></a></li>
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-05.jpg"
-                        alt="insta-img"></a></li>
-            <li><a href="single-post.html#" target="_blank"><img class="insta-img" src="images/instagram/img-06.jpg"
-                        alt="insta-img"></a></li>
-        </ul>
-
-    </div>
-
-
+    <!-- Social Media LINKS -->
     <!-- IMAGE WIDGET -->
     <div class="image-widget sidebar-div mb-50">
 
         <!-- Title -->
-        <h5 class="h5-sm txt-color-01">Image Widget</h5>
-
         <!-- Link -->
-        <a href="single-post.html#"><img class="img-fluid" src="images/blog/image-widget.jpg" alt="image-widget" /></a>
 
     </div>
 </aside> <!-- END SIDEBAR -->

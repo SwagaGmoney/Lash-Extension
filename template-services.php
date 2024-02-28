@@ -18,8 +18,6 @@ get_header();
 				============================================= -->
 <section id="services-16" class="bg-color-01 pt-80  services-section division">
     <div class="container">
-
-
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -39,13 +37,9 @@ get_header();
                 </div>
             </div>
         </div>
-
-
         <div class="row">
             <div class="col-md-12 gallery-items-list">
                 <div class="masonry-wrap grid-loaded">
-
-
                     <!-- SERVICE BOX #1 -->
                     <div class="masonry-item sbox-16">
                         <div class="hover-overlay">
@@ -59,7 +53,7 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="http://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
+                                    <a href="https://lashextensionsbyfiona.com/services/face-eyebrow-waxing/"
                                         class="h-link">
                                         <h5 class="h5-md">Face & Eyebrow Waxing Services </h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
@@ -84,8 +78,7 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
-                                        class="h-link">
+                                    <a href="https://lashextensionsbyfiona.com/services/microblading" class="h-link">
                                         <h5 class="h5-md">Microblading Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
@@ -109,9 +102,8 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
-                                        class="h-link">
-                                        <h5 class="h5-md">Brow & Lash Services</h5>
+                                    <a href="https://lashextensionsbyfiona.com/services/lash-extensions" class="h-link">
+                                        <h5 class="h5-md">Lash Extensions Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
                                 </div>
@@ -134,18 +126,14 @@ get_header();
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionbyfiona.local/face-eyebrow-waxing-service/"
-                                        class="h-link">
-                                        <h5 class="h5-md">Featured Services</h5>
+                                    <a href="https://lashextensionsbyfiona.com/services/lash-tinting" class="h-link">
+                                        <h5 class="h5-md">Lash Tinting Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
                                 </div>
                             </div>
-
                         </div>
                     </div> <!-- END SERVICE BOX #4 -->
-
-
                 </div>
             </div>
         </div>
@@ -168,9 +156,10 @@ get_header();
 
                         <!-- Text -->
                         <div class="abox-1-txt">
-                            <h5 class="h5-xs txt-color-01">Safety Standards</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
-                                magna vitae purus</p>
+                            <h5 class="h5-xs txt-color-01">Comfort and Relaxation</h5>
+                            <p class="txt-color-05">We go beyond basic customer service providing comfort for those who
+                                may suffer from back pain, claustrophobia, or who may be pregnant and want to get offer
+                                their feet. </p>
                         </div>
 
                     </div>
@@ -188,9 +177,11 @@ get_header();
 
                         <!-- Text -->
                         <div class="abox-1-txt">
-                            <h5 class="h5-xs txt-color-01">Lifestyle Program</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
-                                magna vitae purus</p>
+                            <h5 class="h5-xs txt-color-01">Dedicated Personal Service</h5>
+                            <p class="txt-color-05">Our stylists sit one-on-one with each client to discuss the best
+                                look for them. Our purpose is to ensure each client leaves our salon feeling more
+                                beautiful and confident than when they came in.
+                            </p>
                         </div>
 
                     </div>
@@ -208,9 +199,10 @@ get_header();
 
                         <!-- Text -->
                         <div class="abox-1-txt">
-                            <h5 class="h5-xs txt-color-01">Gift Cards</h5>
-                            <p class="txt-color-05">Congue augue egestas magna volutpat dictum suscipit ipsum egestas
-                                magna vitae purus</p>
+                            <h5 class="h5-xs txt-color-01">Certified Technicians</h5>
+                            <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands knowing
+                                that they are well-educated and experienced no matter what they are looking for.
+                            </p>
                         </div>
 
                     </div>
