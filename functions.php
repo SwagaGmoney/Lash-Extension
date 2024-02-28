@@ -331,9 +331,9 @@ if (is_admin_bar_showing()) {
 add_filter('the_content', function ($content) {
     global $tableOfContents, $headings_order;
     $tableOfContents = "
-        <div class='h5'>
-            Table of Contents</span>
-        </div>
+        <h5 class='h5-sm txt-color-01'>
+            Table of Contents
+        </h5>
         <ol class='items'>"; // Open <ol> tag here
     $headings_order = []; // Array to store the order of headings
     $index = 1;
