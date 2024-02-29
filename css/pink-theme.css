@@ -2664,6 +2664,10 @@ ol.digit-list p {
   display: block;
 }
 
+.logo-black{ 
+  padding : 12px 0;
+}
+
 
 
 
@@ -7654,10 +7658,9 @@ p {
 }
 
 .image-box {
-  width: 100%;
+  max-width: 100%;
   background-size: cover;
- 
-  height: 400px;
+ height: auto;
   overflow: hidden;
   margin-top: 2em;
   margin-left: 2rem;
