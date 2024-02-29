@@ -34,6 +34,13 @@ h2.single-post-title {
 
 }
 
+.bold-title {
+  font-weight: bold !important;
+  font-size: larger !important;
+  font-family: 'Lustria', serif;
+;
+}
+
 
 /*------------------------------------------------------------------*/
 /*  IE10 in Windows 8 and Windows Phone 8 Bug fix
@@ -6000,7 +6007,7 @@ select:-webkit-autofill:focus {
 
 p.foo-email a {
   font-weight: 500;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /*------------------------------------------*/
@@ -6903,7 +6910,7 @@ img.insta-img {
 
 .sidebar-table .table td,
 .sidebar-table .table th {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: 16px 0;
   border-top: none;

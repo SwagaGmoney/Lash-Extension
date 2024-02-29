@@ -35,20 +35,21 @@
     </div>
 
     <h5 class="h5-sm txt-color-01">Our Hours</h5>
-    <table class="table txt-color-05">
-        <tbody>
-            <tr>
-                <td>Mon – Fri</td>
-                <td> - </td>
-                <td class="text-right">8:00 AM - 9:00 PM</td>
-            </tr>
-            <tr class="last-tr">
-                <td>Saturday - Sun</td>
-                <td> - </td>
-                <td class="text-right">9:00 AM - 7:30 PM</td>
-            </tr>
-        </tbody>
-    </table>
+    <div>
+        <table class="table txt-color-05">
+            <tbody>
+                <tr>
+                    <td>Mon – Fri</td>
+                    <td> - </td>
+                    <td class="text-right">8:00 AM - 9:00 PM</td>
+                </tr>
+                <tr class="last-tr">
+                    <td>Saturday - Sun</td>
+                    <td> - </td>
+                    <td class="text-right">9:00 AM - 7:30 PM</td>
+                </tr>
+            </tbody>
+        </table>
 
     </div> <!-- END SIDEBAR TABLE -->
 

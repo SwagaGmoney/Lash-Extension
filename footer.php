@@ -1,6 +1,5 @@
-<!-- FOOTER-1
-			============================================= -->
-<footer id="footer-1" class="bg-color-01 footer division">
+<!-- FOOTER-1 ============================================= -->
+<footer id="footer-4" class="bg-color-01 footer division">
     <div class="container">
 
 
@@ -9,174 +8,176 @@
 
 
             <!-- FOOTER INFO -->
-            <div class="col-md-6 col-lg-4 col-xl-5 ">
-                <div class="footer-info mb-40">
+            <div class="col-md-5 col-lg-4">
+                <div class="footer-info mb-20">
 
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
-								displayed (e.g 416 x 120  pixels) -->
-                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204" height="60" alt="footer-logo">
+									displayed (e.g 416 x 120  pixels) -->
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204">
+                    <p class="txt-color-05 mt-20">When you love the way you look, your confidence grows. The moment you
+                        come to us, you will get the high-quality personal attention you deserve
+                    </p>
 
-                    <!-- Footer Contacts -->
-                    <div class="footer-contacts txt-color-05 mt-25">
+                    <div class="txt-color-05">
+                        <p class="txt-color-05 mt-40 bold-title">Sugar Land Location</p>
+                        <p class=""><i class="fa-solid fa-map">&nbsp;</i>4131 Highway 6 Sugar Land, 77478</p>
+                        <p class="foo-phone"><i class="fa-solid fa-phone"> &nbsp;</i><a href="tel:+ +1(713)-392-0281">
+                                +1(713)-392-0281</a></p>
 
-                        <!-- Address -->
-
-                        <div class="flex">
-                            <span class="d-flex align-items-center">
-                                <i class="fa-solid fa-map-location-dot fs-9"></i>
-                                <h4 class="pl-4 mt-2">SugarLand </h4>
-                            </span>
-                            <p>4131 Highway 6 Sugar Land, 77478</p>
-                            <br />
-
-                            <span class="d-flex align-items-center">
-                                <i class="fa-solid fa-earth-americas fs-9"></i>
-                                <h4 class="pl-4 mt-2"> Galleria </h4>
-                            </span>
-                            <p>2400 Augusta DrHouston, TX 77057
-                            <p>
-                        </div><br />
+                        <p class="txt-color-05 mt-40 bold-title">Galleria Location</p>
                         <!-- Email -->
-                        <p class="foo-email"><i class="fa-solid fa-envelope"> &nbsp;</i> <a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
-                        </p><br />
+                        <p><i class="fa-solid fa-map">&nbsp;</i> Augusta Dr Houston, TX 77057
+                        <p class="foo-phone"><i class="fa-solid fa-envelope"> &nbsp;</i> <a
+                                href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
+                            <!-- Phone -->
+                        <p class="foo-email"><i class="fa-solid fa-phone"> &nbsp;</i><a
+                                href="tel:+1(281)-690-3563">+1(281)-690-3563</a></p>
 
-                        <!-- Phone -->
-                        <div style="cursor:pointer;" class="foot-phone">
-                            <span class="inline-block">
-                                <i class="fa-solid fa-phone-volume" style="color: red;"></i>
 
-                                <p style="display: inline-block; margin-left: 5px;">+1(281)-690-3563</p>
-                            </span><br />
-                            <span class="inline-block">
-                                <i class="fa-solid fa-blender-phone" style="color: green;"></i>
-
-                                <p style="display: inline-block; margin-left: 5px;">+1(713)-392-0281</p>
-                            </span>
-                        </div>
                     </div>
 
                 </div>
             </div>
+            <div class="col-md-12 col-lg-3">
+                <div class="footer-img mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-lg txt-color-01">Our Schedule</h6>
+
+                    <!-- Instagram Images -->
+                    <table class="table txt-color-05">
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td> - </td>
+                                <td class="text-right">8:00 AM 9:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td> - </td>
+                                <td class="text-right">8:00 AM 9:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td> - </td>
+                                <td class="text-right">8:00 AM 9:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td> - </td>
+                                <td class="text-right">8:00 AM 9:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td> - </td>
+                                <td class="text-right">8:00 AM 9:00 PM</td>
+                            </tr>
+                            <tr class="last-tr">
+                                <td>Saturday - Sunday</td>
+                                <td> - </td>
+                                <td class="text-right">9:00 AM - 7:30 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
 
+
+
+                </div>
+            </div> <!-- END FOOTER IMAGES -->
             <!-- FOOTER LINKS -->
-            <div class="col-md-3 col-lg-2 m-left">
-                <div class="footer-links mb-40">
 
+
+            <!-- FOOTER CONTACTS -->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <div class="footer-contacts mb-40">
                     <!-- Title -->
                     <h6 class="h6-lg txt-color-01">Services</h6>
 
+                    <!-- Services -->
+                    <p class="txt-color-05">Lash Extensions</p>
+                    <p class="txt-color-05">Microblading</p>
+                    <p class="txt-color-05">Eyebrow Waxing</p>
+                    <p class="txt-color-05">Lash Tinting</p>
+
+                    <!-- Title -->
+                    <h6 class="h6-lg txt-color-01 mt-40">Services Areas</h6>
+
+                    <!-- Services -->
+                    <p class="txt-color-05">Sugar Land, TX</p>
+                    <p class="txt-color-05">Houston, TX</p>
+                    <p class="txt-color-05">Galleria, TX</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-lg txt-color-01">Quick Links</h6>
+
                     <!-- Footer Links -->
+
+
                     <ul class="clearfix txt-color-05 ">
                         <?php wp_nav_menu(array('menu_class' => 'clearfix txt-color-05  ', 'container' => 'ul',)); ?>
 
                     </ul>
 
                 </div>
-
             </div>
 
 
-            <!-- HOURS OF OPERATIONS -->
-            <div class="col-md-3 col-lg-4">
-                <div class="footer-links mb-40">
-                    <div class="hours-container">
-                        <h6 class="h6-lg txt-color-01">Hours Of Operations</h6>
-                        <div class="hours-list">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="day cell">Monday</div>
-                                    <div class="day cell">Tuesday</div>
-                                    <div class="day cell">Wednesday</div>
-                                    <div class="day cell">Thursday</div>
-                                    <div class="day cell">Friday</div>
-                                    <div class="day cell">Saturday</div>
-                                    <div class="day cell">Sunday</div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="time cell">8:00 AM - 9:00 PM</div>
-                                    <div class="time cell">8:00 AM - 9:00 PM</div>
-                                    <div class="time cell">8:00 AM - 9:00 PM</div>
-                                    <div class="time cell">8:00 AM - 9:00 PM</div>
-                                    <div class="time cell">8:00 AM - 9:00 PM</div>
-                                    <div class="time cell">9:00 AM - 7:30 PM</div>
-                                    <div class="time cell">9:00 AM - 7:30 PM</div>
-                                </div>
-                            </div>
-                        </div>
+
+
+
+            <!-- FOOTER IMAGES -->
+
+
+
+        </div> <!-- END FOOTER CONTENT -->
+
+
+        <!-- BOTTOM FOOTER -->
+        <div class="bottom-footer txt-color-05">
+            <div class="row d-flex align-items-center">
+
+
+                <!-- FOOTER COPYRIGHT -->
+                <div class="col-lg-6">
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 Lash Extensions By Fiona. All Rights Reserved</p>
                     </div>
                 </div>
-            </div>
 
 
-            <!-- SERVICE AREAS AND SERVICES -->
-            <!-- SERVICE AREAS AND SERVICES -->
-            <!-- SERVICE AREAS AND SERVICES -->
-            <!-- SERVICE AREAS AND SERVICES -->
-            <div class="col-md-3 col-lg-2 offset-md-6 offset-lg-8 mt-lg" >
-                <div class="footer-links mb-200 ">
-                    <!-- Service Areas -->
-                    <h6 class="h6-lg txt-color-01">Service Areas</h6>
-                    <ul class="simple-lists w-hours mb-20 tracking-widest">
-                        <li class="list-item ">SugarLand, Texas</li>
-                        <li class="list-item">Galleria, Texas</li>
-                        <li class="list-item">Houston, Texas</li>
-                    </ul>
-
-                    <!-- Services -->
-                    <h6 class="h6-lg txt-color-01 ml-0">Services</h6>
-                    <ul class="simple-listz w-hours mb-20">
-                        <li class="list-item"><a href="#pricing-1">Featured Services</a></li>
-                        <li class="list-item"><a href="#pricing-1">Microblading</a></li>
-                        <li class="list-item"><a href="#pricing-1">Brows & Lashes</a></li>
-                        <li class="list-item"><a href="#pricing-1">Face & Eyebrow Waxing</a></li>
+                <!-- BOTTOM FOOTER LINKS -->
+                <div class="col-lg-6">
+                    <ul class="bottom-footer-list text-right clearfix">
+                        <li>
+                            <p class="first-list-link"><a href="booking.html#"><i class="fab fa-facebook-f"></i>
+                                    Facebook</a></p>
+                        </li>
+                        <li>
+                            <p><a href="booking.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
+                        </li>
+                        <li>
+                            <p><a href="booking.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
+                        </li>
                     </ul>
                 </div>
-            </div>
+
+
+            </div> <!-- End row -->
+        </div> <!-- END BOTTOM FOOTER -->
+
+
+    </div> <!-- End container -->
+</footer> <!-- END FOOTER-4 -->
 
 
 
-            <!-- BOTTOM FOOTER -->
-            <div class="bottom-footer txt-color-05">
-                <div class="row d-flex align-items-center">
-
-
-                    <!-- FOOTER COPYRIGHT -->
-                    <div class="col-lg-6">
-                        <div class="footer-copyright">
-                            <p>&copy; 2024 Lash Extensions By Fiona. All Rights Reserved</p>
-                        </div>
-                    </div>
-
-
-                    <!-- BOTTOM FOOTER LINKS -->
-                    <div class="col-lg-6 ">
-                        <ul class="bottom-footer-list text-right clearfix">
-                            <li>
-                                <p class="first-list-link"><a href="demo-1.html#"><i class="fab fa-facebook-f"></i>
-                                        Facebook</a></p>
-                            </li>
-                            <li>
-                                <p><a href="demo-1.html#"><i class="fab fa-twitter"></i> Twitter</a></p>
-                            </li>
-                            <li>
-                                <p><a href="demo-1.html#"><i class="fab fa-instagram"></i> Instagram</a></p>
-                            </li>
-
-                        </ul>
-                    </div>
-
-
-                </div> <!-- End row -->
-            </div> <!-- END BOTTOM FOOTER -->
-
-
-        </div> <!-- End container -->
-</footer> <!-- END FOOTER-1 -->
-
-
-
-
+</div> <!-- End Inner Page Wrapper -->
 </div> <!-- END PAGE CONTENT -->
 
 
