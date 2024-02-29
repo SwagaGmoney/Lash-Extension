@@ -42,7 +42,7 @@
                 <div class="footer-img mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01">Our Schedule</h6>
+                    <h6 class="h6-lg txt-color-01">Our Hours</h6>
 
                     <!-- Instagram Images -->
                     <table class="table txt-color-05">
@@ -100,13 +100,7 @@
                     <p class="txt-color-05">Eyebrow Waxing</p>
                     <p class="txt-color-05">Lash Tinting</p>
 
-                    <!-- Title -->
-                    <h6 class="h6-lg txt-color-01 mt-40">Services Areas</h6>
 
-                    <!-- Services -->
-                    <p class="txt-color-05">Sugar Land, TX</p>
-                    <p class="txt-color-05">Houston, TX</p>
-                    <p class="txt-color-05">Galleria, TX</p>
                 </div>
             </div>
 
