@@ -73,9 +73,9 @@
                                 <td class="text-right">8:00 AM 9:00 PM</td>
                             </tr>
                             <tr class="last-tr">
-                                <td>Saturday - Sunday</td>
+                                <td>Saturday Sunday</td>
                                 <td> - </td>
-                                <td class="text-right">9:00 AM - 7:30 PM</td>
+                                <td class="text-right">9:00 AM 7:30 PM</td>
                             </tr>
                         </tbody>
                     </table>
@@ -166,8 +166,6 @@
                         </li>
                     </ul>
                 </div>
-
-
             </div> <!-- End row -->
         </div> <!-- END BOTTOM FOOTER -->
 
