@@ -328,7 +328,7 @@ add_filter('the_content', function ($content) {
         <h5 class='h5-sm text-center txt-color-01'>
             Table of Contents
         </h5>
-        <ol class='items'>"; // Open <ol> tag here
+        <ol class='list-items'>"; // Open <ol> tag here
     $headings_order = []; // Array to store the order of headings
     $index = 1;
     // Insert the IDs and create the TOC.
@@ -339,7 +339,7 @@ add_filter('the_content', function ($content) {
         $id = $hasId ? $matchedIds[2] : $index++ . '-' . sanitize_title($title);
         // Add the heading and its ID to the order array
         $headings_order[] = array('title' => $title, 'id' => $id);
-        $tableOfContents .= "<li class='item-$tag'><a href='#$id'>$title</a></li>";
+        $tableOfContents .= "<li class='list-item item-$tag'><a href='#$id'>$title</a></li>";
         if ($hasId) {
             return $matches[0];
         }

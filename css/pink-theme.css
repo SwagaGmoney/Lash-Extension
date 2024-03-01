@@ -75,7 +75,15 @@ h2.single-post-txt, h3.single-post-txt  {
   justify-content: center;
 }
 
+h2.wp-block-heading, h3.wp-block-headin {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #6e534f;
+}
 
+h2.wp-block-heading {
+  font-size: 1.625rem;
+}
 
 /*------------------------------------------------------------------*/
 /*  IE10 in Windows 8 and Windows Phone 8 Bug fix
