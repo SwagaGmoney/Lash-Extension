@@ -59,9 +59,11 @@ get_header();
             <!--Sidebar-->
             <?php get_template_part( 'template-parts/content-pages', 'sidebar' ); ?>
             <!--End Sidebar-->
+            <div>
 
-            <!-- BANNER-5 ============================================= -->
-            <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+                <!-- BANNER-5 ============================================= -->
+                <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
+            </div>
 
             <?php get_footer(); ?>
