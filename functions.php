@@ -257,7 +257,8 @@ function custom_classes( $content ) {
         'h5' => 'h5-class',
         'h6' => 'h6-class',
 		'p'  => 'txt-color-05',
-		'ul' => 'simple-list txt-color-05'
+		'ul' => 'simple-list txt-color-05',
+        'li' => 'list-item'
     );
 
     foreach ($classes as $tag => $class) {

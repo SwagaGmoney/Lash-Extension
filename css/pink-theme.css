@@ -14,18 +14,29 @@ body {
 }
 
 
-p.txt-color-05  {
+div.single-post-txt p, div.single-post-txt ul li {
   margin-bottom: 1rem !important;
   font-weight: 300;
+  line-height: 1.8rem;
   position: relative;
   transition: all 0.5s ease;
   word-wrap: break-word;
-
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
-h2.single-post-title {
+
+div.single-post-txt ul .list-item {
+list-style: disc !important;
+margin-left: 15px;
+font-size: 1.0625rem;
+}
+
+h2.single-post-txt, h3.single-post-txt  {
   margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 20px !important;
 }
 
 .wp-caption-text {
