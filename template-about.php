@@ -20,49 +20,26 @@ get_header();
         <div class="row d-flex align-items-center">
 
 
-            <!-- IMAGE BLOCK -->
-            <div class="col-md-5 col-lg-6">
-                <div class="img-block left-column pc-10 mb-40 image-hidden">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
-                        alt="about-image">
-                </div>
-            </div>
-            <!-- QUOTE BLOCK -->
-            <div class="col-md-7 col-lg-6">
-                <div class="quote-block right-column pc-15 mb-40">
-                    <!-- Quote -->
-                    <blockquote class="blockquote">
-                        <p class="quote-txt">Your Beauty and Success Starts Here</p>
-                        <footer class="blockquote-footer">Lash Extension By Fiona</footer>
-                    </blockquote>
-                </div>
+        <div class="col-md-7 col-lg-6">
+                <div class="txt-block right-column pc-15 mb-40">
 
-                <div class="info-block pc-15 mb-40">
-                    <!-- Brief info about our lash extension company -->
-                    <p class="lead txt-color-05">Discover the excellence of Fiona Lash Extension Company:</p>
+                    <!-- Title -->
+                    <span class="txt-color-06 bolder ">About our studio</span>
 
-                    <!-- List -->
-                    <ul class="list-unstyled txt-list txt-color-05">
-                        <li class="list-item">
-                            <i class="fas fa-check"></i>
-                            <p>Customized lash extension services tailored to your unique style</p>
-                        </li>
-                        <li class="list-item">
-                            <i class="fas fa-check"></i>
-                            <p>Premium quality lash products for long-lasting beauty</p>
-                        </li>
-                        <li class="list-item">
-                            <i class="fas fa-check"></i>
-                            <p>Expert technicians dedicated to your comfort and satisfaction</p>
-                        </li>
-                        <li class="list-item">
-                            <i class="fas fa-check"></i>
-                            <p>Personalized consultations to achieve your desired look</p>
-                        </li>
-                    </ul>
+                    <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
+
+                    <!-- Text -->
+                    <p class="txt-color-05 custom-height p-lg">Would you like longer, thicker, fuller eyelashes? Take
+                        your
+                        morning put-on
+                        routine to the next level by saying goodbye to mascara and welcome to a quick morning routine!
+                        Our mission is to deliver flawlessly applied eyelash extensions that embody elegance,
+                        sophistication, and the epitome of lash perfection.
+
+
+                    </p>
                 </div>
-            </div>
-
+            </div> <!-- END TEXT BLOCK -->
 
 
         </div> <!-- End row -->
@@ -115,8 +92,7 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius at magna tempor
+                    <p class="p-lg txt-color-05"> Our team has years of expertise and training to answer and ease any of your concerns. Contact us today if you want to learn more.
                     </p>
 
                 </div>
