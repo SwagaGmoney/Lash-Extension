@@ -1,4 +1,4 @@
-<section id="banner-2" class="parallax division custom-overlay">
+<section id="banner-2" class="bg-fixed wide-100  parallax division custom-overlay">
     <div class="container">
         <div class="row d-flex align-items-center">
             <!-- TEXT BLOCK -->
