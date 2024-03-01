@@ -1,16 +1,16 @@
-<section id="banner-5" class="bg-fixed bg-image banner-section division">
+<section id="banner-2" class="bg-fixed bg-image banner-section parallax division">
     <div class="container">
         <div class="row d-flex align-items-center">
             <!-- TEXT BLOCK -->
             <div class="col-lg-6 offset-lg-3">
-                <div class="banner-5-txt text-center">
+                <div class="banner-5-txt text-center text-white">
 
                     <!-- Title -->
-                    <h2 class="h2-xl txt-color-05">Get 20% Off</h2>
-                    <h3 class="h3-xs txt-color-01">For Your First Visit</h3>
+                    <h2 class="h2-xl">Get 20% Off</h2>
+                    <h3 class="h3-xs">For Your First Visit</h3>
 
                     <!-- Text -->
-                    <p class="p-md txt-color-05">Treat yourself to an experience you'll never forget when you visit Lash
+                    <p class="p-md">Treat yourself to an experience you'll never forget when you visit Lash
                         Extensions by Fiona. Our relaxing service is one you'll want to come back to.
                     </p>
 

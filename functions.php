@@ -365,3 +365,10 @@ function get_the_table_of_contents()
     global $tableOfContents;
     return $tableOfContents;
 }
+
+function theme_register_menus() {
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'theme' ), // Primary menu
+    ) );
+}
+add_action( 'after_setup_theme', 'theme_register_menus' );
