@@ -27,7 +27,7 @@ get_header();
                     <h2 class="tra-header txt-color-02">Our Galleria Location</h2>
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01"> Lash Extension By Fiona </h3>
+                    <h3 class="h3-xl txt-color-01"> Lash Extensions By Fiona </h3>
 
                     <!-- Text -->
                     <p class="p-lg txt-color-05">Here in Houston, the Galleria is where you want to go when you want a major upgrade to your style or appearance. 
@@ -87,11 +87,7 @@ get_header();
                         <p class="mb-0 ml-4">2400 Augusta DrHouston, TX 77057</p>
                     </div>
 
-                    <div style="cursor:pointer;" class="d-flex align-items-center mb-3">
-                        <i class="fa-solid fa-phone-volume" style="color: red;"></i>
-                        <p class="mb-0 ml-4">+1(281)-690-3563</p>
-                    </div>
-
+                  
                     <div style="cursor:pointer;" class="d-flex align-items-center">
                         <i class="fa-solid fa-blender-phone" style="color: green;"></i>
                         <p class="mb-0 ml-4 ">+1(713)-392-0281</p>
@@ -158,7 +154,7 @@ get_header();
                     <ul class="text-left tracking-wider custom-bullet text-black p-2 ">
                         <li class="pb-2">When you schedule your free consultation, you'll speak with one of our experienced lash stylists, who will help you decide on a design and style for your lash or brows. </li>
                         <li class="pb-2">We'll customize our services to match your preferences and facial structure, so no matter what your choices will bring out the best in you.</li>
-                        <li class="pb-2">You can choose between lash extensions, lash tinting, eyebrow waxing, and microblading to get started.Everyone deserves to achieve their best look, and our team would love to help bring out your inner beauty!</li>
+                        <li class="pb-2">You can choose between lash extensions, lash tinting, eyebrow waxing, and microblading to get started. Everyone deserves to achieve their best look, and our team would love to help bring out your inner beauty!</li>
                    
                       <span class="font-weight-bold fs-9 "> Call our salon today to schedule your consultation or next appointment. We'd love to see you here at our Galleria location.</span>
                     </ul>

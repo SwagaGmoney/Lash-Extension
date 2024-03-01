@@ -27,7 +27,7 @@ get_header();
                     <h2 class="tra-header txt-color-02">Our SugarLand Location</h2>
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01"> Lash Extension By Fiona </h3>
+                    <h3 class="h3-xl txt-color-01"> Lash Extensions By Fiona </h3>
 
                     <!-- Text -->
                     <p class="p-lg txt-color-05">Welcome to Lash Extensions by Fiona! At our Sugar Land location, you'll enjoy a pleasant salon experience that is tailored to the comfort to each of our clients.
@@ -92,10 +92,7 @@ get_header();
                         <p class="mb-0 ml-4">+1(281)-690-3563</p>
                     </div>
 
-                    <div style="cursor:pointer;" class="d-flex align-items-center">
-                        <i class="fa-solid fa-blender-phone" style="color: green;"></i>
-                        <p class="mb-0 ml-4 ">+1(713)-392-0281</p>
-                    </div>
+                  
 
                     <div class="d-flex align-items-center mb-3 ml-10 fs-10 p-2 mt-10 " style="cursor:pointer;"  >
                         <i class="fab fa-facebook" style="color: #3b5998;"></i>

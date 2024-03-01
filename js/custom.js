@@ -324,3 +324,15 @@
 
 		});
 	});
+
+	$(document).ready(function () {
+        $('.nav-linked').click(function () {
+            var targetTabId = $(this).data('bs-target').substring(1);
+            
+            // Hide all tab contents
+            $('.tab-pane').removeClass('show active');
+            
+            // Show the clicked tab content
+            $('#' + targetTabId).addClass('show active');
+        });
+    });
