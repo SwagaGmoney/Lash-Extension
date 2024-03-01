@@ -1692,6 +1692,26 @@ ol.digit-list p {
   color: #444;
 }
 
+/* Hide the dropdown menu by default */
+.sub-menu {
+    display: none;
+    opacity: 0;
+    -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+   
+
+}
+
+/* Show the dropdown menu when hovering over the menu item */
+.has-dropdown:hover .sub-menu {
+    display: block;
+    opacity: 1;
+    
+}
+
 /*------------------------------------------*/
 /*  Logo Image
 /*------------------------------------------*/

@@ -55,7 +55,7 @@
                         width="170" height="50" alt="mobile-logo" /></span>
                 <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
             </div>
-            <div class="top-bar bg-color-06 text-light py-2">
+            <div class="top-bar bg-color-06 text-white py-2">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-md-6">
@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-md-6 text-right text-white">
                             <span class="top-bar-item mr-3">
-                                <a href="tel:+1(713)-392-0281"><i class="fas fa-phone-alt mr-1">
+                                <a class="text-white" href="tel:+1(713)-392-0281"><i class="fas fa-phone">
                                         +1(713)-392-0281</i></a>
                             </span>
                         </div>
