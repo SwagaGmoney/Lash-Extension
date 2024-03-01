@@ -24,7 +24,7 @@ get_header();
                 <div class="section-title mb-60 text-center">
 
                     <!-- Transparent Header -->
-                    <span class="txt-color-06 bolder">Testimonials</span>
+                    <span class="txt-color-06 bolder">Our Services</span>
 
 
                     <!-- Title 	-->
@@ -46,9 +46,7 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri() . '/images/serv-20.jpg'; ?>"
-                                alt="service-image" />
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-20.jpg'; ?>" alt="service-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
@@ -70,9 +68,7 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri()  . '/images/serv-03.jpg'; ?>"
-                                alt="gallery-image" />
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-03.jpg'; ?>" alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
@@ -94,9 +90,7 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri()  . '/images/brow.webp'; ?>"
-                                alt="gallery-imagee" />
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/brow.webp'; ?>" alt="gallery-imagee" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
@@ -118,9 +112,7 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>"
-                                alt="gallery-image" />
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>" alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
@@ -247,7 +239,7 @@ get_header();
                         <span>9:00 AM - 7:30 PM</span>
 
                         <!-- Button -->
-                        <a href="booking.html" class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
+                        <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true" class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
 
                     </div>
                 </div>
@@ -256,8 +248,7 @@ get_header();
                 <!-- IMAGE BLOCK -->
                 <div id="pb-img" class="col-lg-4">
                     <div class="pricing-2-img text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/long.jpg'; ?>"
-                            alt="pricing-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/long.jpg'; ?>" alt="pricing-image" />
                     </div>
                 </div>
 
@@ -293,7 +284,7 @@ get_header();
 
                             <li class="pricing-list-txt resp-lst">
                                 <h6 class="h6-lg txt-color-01">Microblading Set</h6>
-                                <p class="txt-color-05">3 Hour Session Packags</p>
+                                <p class="txt-color-05">3 Hour Session Package</p>
                                 <h6 class="h6-lg pricing-list-amount txt-color-01">$350</h6>
                             </li>
 
@@ -314,7 +305,7 @@ get_header();
 <section id="banner-5" class="bg-fixed bg-image mt-80 banner-section division">
     <div>
         <!-- BANNER-5 ============================================= -->
-        <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+        <?php get_template_part('template-parts/content', 'banner'); ?>
 
     </div>
 </section>

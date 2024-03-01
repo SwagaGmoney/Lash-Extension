@@ -481,7 +481,7 @@ get_header();
                     <!-- Title -->
                     <div class="caption-txt d-inline-block white-color">
 
-                        <h2 class="h2-xl">Get 20% Off</h2>
+                        <h2 class="h2-xl">Get 10% Off</h2>
                         <h3 class="h3-xs">For Your First Visit</h3>
 
                         <!-- Text -->

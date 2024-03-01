@@ -149,7 +149,8 @@ function lash_extension_scripts() {
      wp_enqueue_style( 'pink-theme', get_template_directory_uri() . '/css/pink-theme.css' );
      wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
 	 
-
+     wp_enqueue_style( 'about-tab', get_template_directory_uri() . '/css/about-tab.css' );
+     
      wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css' );
 
       // Enqueue JS files

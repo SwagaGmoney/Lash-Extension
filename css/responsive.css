@@ -1007,6 +1007,11 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 480px) and (max-width: 767.95px) {
+  #about-lash{ 
+    background-image: none;
+    
+    
+  }
 
   .m-row { display: flex; flex-flow: wrap; }
   .m-top, .m-bottom { width: 100%; }
@@ -1373,7 +1378,11 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 414px) and (max-width: 479.95px) {
-
+  #about-lash{ 
+    background-image: none;
+    
+    
+  }
   #stlChanger { display: none; }
 
   .m-row { display: flex; flex-flow: wrap; }

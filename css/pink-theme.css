@@ -5336,8 +5336,17 @@ p.foo-email a {
 
 #about-page.page-hero-section {
   background-image: url(../images/about-page.jpg);
+  bac
 }
-
+#about-lash{ 
+  background-image: url(../images/leaves.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: 50%;
+  
+  
+}
 #booking-page.page-hero-section {
   background-image: url(../images/booking-page.jpg);
 }
