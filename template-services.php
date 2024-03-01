@@ -24,7 +24,8 @@ get_header();
                 <div class="section-title mb-60 text-center">
 
                     <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our Services</h2>
+                    <span class="txt-color-06 bolder">Testimonials</span>
+
 
                     <!-- Title 	-->
                     <h3 class="h3-xl txt-color-01">The Art Of Natural Beauty</h3>
@@ -156,8 +157,9 @@ get_header();
                         <!-- Text -->
                         <div class="abox-1-txt">
                             <h5 class="h5-xs txt-color-01">Comfort and Relaxation</h5>
-                            <p class="txt-color-05">We make it our mission to provide total rest and relaxation to our
-                                clients, whether it's simple eyebrow waxing or microblading.
+                            <p class="txt-color-05">
+                                We’re not just in the business of applying lashes; we’re also committed to pushing the
+                                boundaries of lash innovation.
                             </p>
                         </div>
 
@@ -176,9 +178,9 @@ get_header();
 
                         <!-- Text -->
                         <div class="abox-1-txt">
-                            <h5 class="h5-xs txt-color-01">Dedicated Personal Service</h5>
-                            <p class="txt-color-05">Our stylists sit one-on-one with each client to discuss the best
-                                look for them.
+                            <h5 class="h5-xs txt-color-01">Client-Centric Approach </h5>
+                            <p class="txt-color-05">At the heart of our business is a deep focus on our clients. We
+                                believe in fostering relationships built on trust and genuine care.
                             </p>
                         </div>
 
@@ -197,9 +199,10 @@ get_header();
 
                         <!-- Text -->
                         <div class="abox-1-txt">
-                            <h5 class="h5-xs txt-color-01">Certified Technicians</h5>
-                            <p class="txt-color-05">Clients can feel safe and confident in our stylists' hands, knowing
-                                that they are experienced.
+                            <h5 class="h5-xs txt-color-01">Precision and Craftsmanship
+                            </h5>
+                            <p class="txt-color-05">Every lash extension that leaves our studio is a masterpiece crafted
+                                with precision and care.
                             </p>
                         </div>
 

@@ -14,8 +14,9 @@
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
 									displayed (e.g 416 x 120  pixels) -->
                     <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" width="204">
-                    <p class="txt-color-05 mt-20">When you love the way you look, your confidence grows. The moment you
-                        come to us, you will get the high-quality personal attention you deserve
+                    <p class="txt-color-05 mt-20">Enjoy a semi-permanent curling treatment that enhances the shape of
+                        your lashes, making your eyes appear more open and youthful.
+
                     </p>
 
                     <div class="txt-color-05">
@@ -99,8 +100,6 @@
                     <p class="txt-color-05">Microblading</p>
                     <p class="txt-color-05">Eyebrow Waxing</p>
                     <p class="txt-color-05">Lash Tinting</p>
-
-
                 </div>
             </div>
 

@@ -13,14 +13,14 @@ get_header();
 
 <!-- HERO-1
 			============================================= -->
-<section id="hero-1" class="hero-section division"
-    style="background-image: url('<?php echo get_template_directory_uri() . '/images/hero-01.webp'; ?>'); background-repeat: no-repeat; background-size: cover; height: 700px;">
+<section id="hero-1" class="hero-section division hero-custom-overlay"
+    style="background-image: url('<?php echo get_template_directory_uri() . '/images/tenth.png'; ?>'); background-repeat: no-repeat; background-size: cover; height: 750px;">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
-                <div class="caption-txt white-color  ">
+                <div class="caption-txt white-color">
                     <!-- Title -->
-                    <h2 class="d-inline-block ">Lash Extention By Fiona </h2>
+                    <h2 class="d-inline-block ">Lash Extentions By Fiona </h2>
                     <!-- Text -->
                     <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->
@@ -37,7 +37,8 @@ get_header();
 
 <!-- ABOUT-1
 			============================================= -->
-<section id="about-1" class="bg-color-01 wide-60 about-section division">
+<!-- <section id="about-1" class="bg-color-01 wide-60 about-section division"> -->
+<section id="about-1" class="bg-color-01 about-section division wide-60">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -56,14 +57,18 @@ get_header();
                 <div class="txt-block right-column pc-15 mb-40">
 
                     <!-- Title -->
+                    <span class="txt-color-06 bolder ">About our studio</span>
+
                     <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
 
                     <!-- Text -->
-                    <p class="txt-color-05">At Lash Extensions by Fiona, we specialize in providing high-quality lash
-                        extensions that will boost your beauty and confidence. Our lash extensions are precisely
-                        manufactured from the highest quality materials, appealing to a wide range of preferences and
-                        ethical considerations. Every set of lashes is intended to replicate the natural look and feel
-                        of your own lashes, resulting in a smooth and pleasant wear.
+                    <p class="txt-color-05 custom-height p-lg">Would you like longer, thicker, fuller eyelashes? Take
+                        your
+                        morning put-on
+                        routine to the next level by saying goodbye to mascara and welcome to a quick morning routine!
+                        Our mission is to deliver flawlessly applied eyelash extensions that embody elegance,
+                        sophistication, and the epitome of lash perfection.
+
 
                     </p>
                 </div>
@@ -74,297 +79,8 @@ get_header();
     </div> <!-- End container -->
 </section> <!-- END ABOUT-1 -->
 
-
-
-
-<!-- ABOUT-4
-			============================================= -->
-<section id="about-4" class="bg-color-02 wide-100 about-section division p-relative ">
-    <div class="container">
-
-
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
-
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Welcome To</h2>
-
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01"> Lash Extension By Fiona </h3>
-
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05">At Lash Extension by Fiona, we offer meticulously crafted lash
-                        extensions made from top-quality materials, meeting diverse preferences and ethical standards.
-                    </p>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="tabs-box">
-
-            <div class="tab-btn-box p-relative d-block mb-70 centred">
-                <ul class="tab-btns tab-buttons clearfix">
-                    <li class="tab-btn active-btn" data-tab="#tab-1">
-                        <h4 class="text-black"> Lash Extension </h4>
-                    </li>
-                    <li class="tab-btn " data-tab="#tab-2">
-                        <h4 class="text-black">Process Overview </h4>
-                    </li>
-                    <li class="tab-btn " data-tab="#tab-3">
-                        <h4 class="text-black"> Lash Care Tips </h4>
-                    </li>
-                    <li class="tab-btn " data-tab="#tab-4">
-                        <h4 class="text-black"> Benefits </h4>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="tabs-content">
-                <div class="tab active-tab" id="tab-1" style="display: block;">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div class="content_block_box ">
-                                    <div class="content-box text-center">
-                                        <div class="text">
-                                            <h3> What are Lash Extensions?</h3>
-                                            <p class="text-md-start inline-block ">Lash extensions are semi-permanent
-                                                fibers that are applied to your natural eyelashes to increase their
-                                                length, curliness, fullness, and thickness. They are precisely affixed,
-                                                one-lash extension to one natural eyelash, with a specially developed
-                                                semi-permanent glue that does not irritate or harm the natural
-                                                eyelash.The extensions can be created from a variety of materials,
-                                                including silk, mink, or synthetic materials, and are designed to
-                                                resemble the appearance and feel of actual eyelashes.
-                                                The basic goal of lash extensions is to make the lashes appear longer
-                                                and thicker, which highlights the eyes without the need for mascara or
-                                                other eye makeup. Lash extensions come in a variety of lengths,
-                                                diameters, and curls, so they may be tailored to your desired look,
-                                                whether you want a subtle, natural augmentation or a more dramatic
-                                                effect</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image_block_two">
-                                    <div class="image-box p-relative d-block">
-                                        <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-label.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" alt="" />
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab" id="tab-2" style="display: none;">
-
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div class="content_block_box">
-                                    <div class="content-box">
-                                        <div class="text">
-                                            <h3>What Does the Process Involve?</h3>
-                                            <p class="txt-color-05">The procedure is complex, requiring skillful hands
-                                                and patience from both
-                                                the lash technician and the customer. Here's a thorough look at what you
-                                                may expect throughout the eyelash extension procedure:</p>
-                                            <ul class="text-left tracking-wider custom-bullets">
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;">Consultation:- </span>
-                                                    process starts with a personalized consultation, during which the
-                                                    lash specialist discusses the client's desired look, assesses their
-                                                    natural lashes, and advises the best type of lash extensions. This
-                                                    includes selecting the material length, curl type, and thickness of
-                                                    the extensions to generate an appearance that is appropriate for the
-                                                    client's eye shape and lifestyle.</li>
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;"> Preparation:- </span> Next,
-                                                    the technician cleanses the client's lashes to remove any makeup,
-                                                    oils, or residue, ensuring that the extensions adhere properly.
-                                                    Lower eyelashes are carefully fixed with a special under-eye pad,
-                                                    tape, or both to keep them from clinging to the upper lashes.</li>
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;"> Application:- </span> The
-                                                    lash technician uses delicate tweezers to dab the end of each
-                                                    individual lash extension in a small drop of adhesive before
-                                                    carefully applying it to one of the client's natural lashes. The
-                                                    extension is positioned 1-2 mm from the eyelid to avoid direct
-                                                    contact with the skin. This method is continued, lash by lash, until
-                                                    the desired fullness is reached. Depending on the number of
-                                                    extensions applied, this can take anywhere from 90 minutes to more
-                                                    than 2 hours.</li>
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;"> Post-application Care
-                                                        Instructions:- </span> Following the application, the technician
-                                                    will go over aftercare recommendations with the customer to ensure
-                                                    the endurance of the extensions. Key suggestions often include
-                                                    avoiding water or steam for the first 24-48 hours, not using
-                                                    oil-based products around the eyes, and avoiding mascara or eyelash
-                                                    curlers, which can shorten the life of the extensions.</li>
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;"> Curing and Drying:- </span>
-                                                    After applying the extensions, the technician may use a handheld fan
-                                                    or a specialist blowing gear to speed up the adhesive's cure and
-                                                    drying time. To avoid discomfort, keep your eyes closed throughout
-                                                    the procedure.</li>
-                                                <li> <span class="font-weight-bold tracking-wide"
-                                                        style="text-decoration:underline;"> Touch-ups:- </span> Clients
-                                                    are usually advised to return for touch-ups every two to four weeks.
-                                                    During these appointments, the technician will replace any
-                                                    extensions that have come out due to the natural lash cycle,
-                                                    ensuring that the lashes retain their desired fullness.</li>
-                                            </ul>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image_block_two">
-                                    <div class="image-box p-relative d-block">
-                                        <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-023.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" alt="" />
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab" id="tab-3" style="display: none;">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div class="content_block_box">
-                                    <div class="content-box">
-                                        <div class="text">
-                                            <h3> How to Care for Your Lashes between visits? </h3>
-                                            <p>Caring for lash extensions in between appointments is critical for their
-                                                appearance and endurance. The longevity of your lash extensions is
-                                                primarily dependent on how well you care for them at home. </p>
-                                            <ul class="text-left tracking-wider custom-bullets">
-                                                <li>First and foremost, keep your lash extensions clean. Every day,
-                                                    gently cleanse your lashes with a lash extension-safe cleanser.
-                                                    Apply the cleanser with your fingertips or a soft brush, working
-                                                    gently through the lashes to remove any natural oils or makeup
-                                                    residue. To avoid tugging or pulling, properly rinse the lashes with
-                                                    cool water and pat them dry with a clean, soft cloth or allow them
-                                                    to air dry.</li>
-                                                <li>It is vital to avoid all forms of dampness for the first 24-48 hours
-                                                    following treatment. After this period, it is still recommended that
-                                                    you limit your lashes' contact to water and steam. For example, when
-                                                    showering, try not to aim the water directly at your face, and when
-                                                    swimming, consider wearing goggles.</li>
-                                                <li>Be cautious with your eyelash extensions. Rubbing your eyes or
-                                                    pulling on your lashes can damage not only the extensions but also
-                                                    your natural lashes. When wiping your face, pat it lightly rather
-                                                    than rubbing it dry.</li>
-                                                <li>Use oil-free items around your eyes since oil can weaken the
-                                                    adhesive bond of lash extensions, causing them to shed prematurely.
-                                                    Similarly, do not use waterproof mascara or eyeliner, as these
-                                                    require oil-based removers. If you do decide to use mascara, do it
-                                                    lightly and only on the tips of your extensions. <br />
-                                                    Sleeping on your back is another way to increase the life of your
-                                                    lash extensions.</li>
-                                                <li>Always schedule frequent fill-ins every 2 to 4 weeks, depending on
-                                                    your natural lash development cycle and how well for you care for
-                                                    the extensions at home.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image_block_two">
-                                    <div class="image-box p-relative d-block">
-                                        <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-022.jpg'; ?>"
-                                                alt="" decoding="async" data-lazyloaded="1" alt="" />
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="tab" id="tab-4" style="display: none;">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div class="content_block_box">
-                                    <div class="content-box">
-                                        <div class="text">
-                                            <h3> Enjoy the Benefits Lash Extensions Can Bring </h3>
-                                            <p>Lash extensions have numerous benefits, changing not only your appearance
-                                                but also your everyday cosmetic regimen. These semi-permanent beauties
-                                                offer unrivaled ease for those wishing to streamline their morning
-                                                routine while remaining polished and put-together. The attraction of
-                                                waking up with perfectly placed, fluttery lashes eliminates the need for
-                                                mascara, eyeliner, and even makeup, making lash extensions an excellent
-                                                time saver busy people.</p>
-                                            <ul class="text-left tracking-wider custom-bullets">
-                                                <li>From a practical sense, lash extensions are strong and resilient,
-                                                    meant to endure through your natural lash cycle with adequate care.
-                                                    This permanence, along with minimum care, ensures continued beauty
-                                                    without the daily trouble, making it a great alternative for people
-                                                    with active lifestyles, special occasions, or anybody wishing to
-                                                    enhance their natural beauty with long-term results.</li>
-                                                <li>If you want to transform the look of your lashes, then contact Lash
-                                                    Extentions by Fiona today in Sugar Land, TX. You can schedule your
-                                                    consultation and get started on making your lashes more beautiful
-                                                    than ever. Get started now. </li>
-
-                                            </ul>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image_block_two">
-                                    <div class="image-box p-relative d-block">
-                                        <figure class="image p-relative d-block">
-                                            <img src="<?php echo get_template_directory_uri(). '/images/serv-024.jpg'; ?>"
-                                                decoding="async" data-lazyloaded="1" alt="" />
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-        </div>
-        <!--   End of Tabs-box -->
-
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-4 -->
-<!-- SERVICES-10
-			============================================= -->
-<section id="services-10" class="bg-color-01 wide-60 services-section division">
+<!-- SERVICES-10  -->
+<section id="services-10" class="bg-color-02 wide-60 services-section division">
     <div class="container">
 
         <!-- SECTION TITLE -->
@@ -373,11 +89,14 @@ get_header();
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Services</h3>
+                    <span class="txt-color-06 bolder">Our Services</span>
 
+                    <h3 class="h3-xl txt-color-01">Precision and Craftsmanship
+                    </h3>
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Waxing is a precise and delicate technique that involves not just skill
-                        and precision, but also a sense of beauty and aesthetics.
+                    <p class="p-lg txt-color-05">Take your morning put-on routine to the next level by saying goodbye to
+                        mascara and welcome to a quick morning routine!
+
                     </p>
 
                 </div>
@@ -404,7 +123,7 @@ get_header();
                         <div class="sbox-10-txt">
 
                             <a href="https://lashextensionsbyfiona.com/services/lash-extensions/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Eyelash Extensions</h5>
+                                <h5 class="h5-sm txt-color-01">Lash Extensions</h5>
                             </a>
 
                             <!-- Text -->
@@ -437,8 +156,8 @@ get_header();
 
 
                             <!-- Title -->
-                            <a href="https://lashextensionsbyfiona.com/services/microblading/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Microblading Services</h5>
+                            <a href="/services/microblading/" class="h5-link">
+                                <h5 class="h5-sm txt-color-01">Microblading</h5>
                             </a>
                             <!-- Text -->
                             <p class="txt-color-05">Rediscover confidence and redefine beauty with flawless brows that
@@ -468,7 +187,7 @@ get_header();
 
 
                             <a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Face & Eyebrow Waxing</h5>
+                                <h5 class="h5-sm txt-color-01">Eyebrow Waxing</h5>
                             </a>
                             <!-- Text -->
                             <p class="txt-color-05">Discover our premier featured service, tailored to elevate your
@@ -502,8 +221,8 @@ get_header();
                                 <h5 class="h5-sm txt-color-01">Lash Tinting</h5>
                             </a>
                             <!-- Text -->
-                            <p class="txt-color-05">Elevate your look with our expert brow and lash services, framing
-                                your eyes for effortless allure. Experience the Difference.</p>
+                            <p class="txt-color-05">Darken and define your
+                                lashes for a mascara-free, effortless enhancement that lasts.</p>
 
 
                         </div>
@@ -520,58 +239,6 @@ get_header();
     </div> <!-- End container -->
 </section> <!-- END SERVICES-10 -->
 
-
-
-
-<!-- ABOUT-5============================================= -->
-<section id="about-5" class="bg-color-01 pt-10 pb-20 rel about-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center m-row">
-
-
-            <!-- ABOUT BANNER -->
-            <div class="about-5-banner bg-color-09 white-color m-bottom">
-
-                <!-- Title -->
-                <h5 class="h5-xl">Open Hours:</h5>
-
-
-
-                <!-- List -->
-                <ul class="simple-list w-hours mb-20">
-
-                    <li class="list-item">
-                        <p>Mon – Fri : 8:00 AM - 9:00 PM</p>
-                    </li>
-
-                    <li class="list-item">
-                        <p>Saturday : 9:00 AM - 7:30 PM</p>
-                    </li>
-
-                    <li class="list-item">
-                        <p>Sunday : 9:00 AM - 7:30 PM </p>
-                    </li>
-
-                </ul> <!-- End Text List -->
-
-                <!-- Button -->
-                <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
-                    class="btn btn-md btn-tra-white  white-hover">Book Now</a>
-
-            </div>
-
-            <!-- ABOUT IMAGE -->
-            <div class="col-md-12 col-lg-10 offset-lg-2 m-top">
-                <div class="about-5-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-01.webp'; ?>"
-                        alt="about-image" />
-                </div>
-            </div>
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-5 -->
 <!-- PRICING-1============================================= -->
 <section id="pricing-1" class="bg-color-01 wide-60 pricing-section division">
     <div class="container">
@@ -583,14 +250,14 @@ get_header();
                 <div class="section-title mb-60 text-center">
 
                     <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Best Deal</h2>
+                    <span class="txt-color-06 bolder">OUR PRICING</span>
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Caring For Your Comforts</h3>
+                    <h3 class="h3-xl txt-color-01">Lash Artistry Redefined</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Beauty comes at the simple price of one of our professional services.
-                        Choose any that matches what you need for a price you'll know is worth it.
+                    <p class="p-lg txt-color-05">Our expert lash artists create customized lash fans with multiple
+                        ultra-lightweight extensions per natural lash.
                     </p>
 
                 </div>
@@ -804,37 +471,196 @@ get_header();
 
 </section> <!-- END PRICING-1 -->
 
-
-
-
-
-<section id="banner-2" class="bg-fixed wide-100 banner-section division">
+<section id="banner-2" class="bg-fixed wide-100  parallax division custom-overlay">
     <div class="container">
-        <div class="row">
-
-
-            <!-- BANNER TEXT -->
-            <div class="col-md-6 col-lg-5">
-                <div class="banner-2-txt white-color">
+        <div class="row d-flex align-items-center">
+            <!-- TEXT BLOCK -->
+            <div class="col-lg-6 offset-lg-3">
+                <div class="banner-2-txt text-center">
 
                     <!-- Title -->
-                    <h2>10% OFF</h2>
-                    <h3 class="h3-sm">Eyelash Extensions!</h3>
+                    <div class="caption-txt d-inline-block white-color">
 
-                    <!-- Text -->
-                    <p class="p-md">Treat yourself to an experience you'll never forget when you visit Lash Extensions by Fiona. Our relaxing service is one you'll want to come back to.
-                    </p>
+                        <h2 class="h2-xl">Get 20% Off</h2>
+                        <h3 class="h3-xs">For Your First Visit</h3>
+
+                        <!-- Text -->
+                        <p class="p-md">Treat yourself to an experience you'll never forget when you visit
+                            Lash
+                            Extensions by Fiona. Our relaxing service is one you'll want to come back to.
+                        </p>
+                    </div>
 
                     <!-- Button -->
-                    <a href="pricing.html" class="btn btn-md btn-color-02 tra-white-hover">Find Out More</a>
+
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+
 
                 </div>
-            </div> <!-- END BANNER TEXT -->
-
+            </div> <!-- END TEXT BLOCK -->
 
         </div> <!-- End row -->
     </div> <!-- End container -->
-</section> <!-- END BANNER-2 -->
+</section> <!-- END BANNER-5 -->
+
+
+
+<!-- More services -->
+<section id="about-4" class="wide-100 about-section division">
+    <div class="container">
+
+
+        <!-- SECTION TITLE -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title mb-60 text-center">
+
+                    <!-- Transparent Header -->
+                    <span class="txt-color-06 bolder">Our Values</span>
+                    <!-- Title 	-->
+                    <h3 class="h3-xl txt-color-01">Client-Centric Approach </h3>
+
+                    <!-- Text -->
+                    <p class="p-lg txt-color-05">We create captivating looks that reflect individual personality and
+                        radiate self-assured beauty.
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ABOUT BOX #1 -->
+        <!-- ABOUT BOXES WRAPPER -->
+        <div class="abox-2-wrapper">
+            <div class="row d-flex align-items-center">
+                <!-- ABOUT BOX #2 -->
+                <div class="col-lg-6 bg-color-03 white-color">
+                    <div class="row d-flex align-items-center">
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-2" class="abox-2">
+                                <h5 class="h5-md">Classic Set</h5>
+                                <p>Enjoy a semi-permanent curling treatment that enhances the shape of your lashes,
+                                    making your eyes appear more open and youthful.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/classic.png'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ABOUT BOX #3 -->
+                <div class="col-lg-6 bg-color-04 white-color">
+                    <div class="row d-flex align-items-center">
+
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-3" class="abox-2">
+                                <h5 class="h5-md">Eyebrow Waxing</h5>
+                                <p>Say goodbye to unruly brows and hello to a refined look. Our skilled team shapes with
+                                    care.
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/6461.jpg'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div> <!-- End row -->
+            <div class="row d-flex align-items-center">
+
+
+                <!-- ABOUT BOX #2 -->
+                <div class="col-lg-6 bg-color-03 white-color">
+                    <div class="row d-flex align-items-center">
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/classic.png'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-2" class="abox-2">
+                                <h5 class="h5-md">Classic Set</h5>
+                                <p>Enjoy a semi-permanent curling treatment that enhances the shape of your lashes,
+                                    making your eyes appear more open and youthful.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- ABOUT BOX #3 -->
+                <div class="col-lg-6 bg-color-04 white-color">
+                    <div class="row d-flex align-items-center">
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/6461.jpg'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-3" class="abox-2">
+                                <h5 class="h5-md">Eyebrow Waxing</h5>
+                                <p>Say goodbye to unruly brows and hello to a refined look. Our skilled team shapes with
+                                    care.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div> <!-- End row -->
+        </div> <!-- END ABOUT BOXES WRAPPER -->
+
+
+    </div> <!-- End container -->
+</section> <!-- END ABOUT-4 -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -849,15 +675,13 @@ get_header();
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
 
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Testimonials</h2>
-
+                    <span class="txt-color-06 bolder">Testimonials</span>
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">What Our Clients Say</h3>
-
+                    <h3 class="h3-xl txt-color-01">Hear from our amazing clients</h3>
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Elevating Beauty, One Lash at a Time. Hear What Our Clients Have to Say
-                        About Lash Extension by Fiona.
+                    <p class="p-lg txt-color-05">From the moment you step into our studio, you’ll be treated to an
+                        experience that celebrates your individuality. We believe in fostering relationships built on
+                        trust, understanding, and genuine care
                     </p>
 
                 </div>
@@ -1028,46 +852,45 @@ get_header();
     </div> <!-- End container -->
 </section> <!-- END TESTIMONIALS-1 -->
 
-
-
-
 <!-- ABOUT-6
 			============================================= -->
-            <section id="about-6" class="bg-01 about-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center ">
+<section id="about-6" class="bg-01 about-section division">
+    <div class="container">
+        <div class="row d-flex align-items-center ">
 
 
-						<!-- TEXT BLOCK -->	
-						<div class="col-md-7 col-lg-6 pb-80 pt-80">
-							<div class="txt-block ">
+            <!-- TEXT BLOCK -->
+            <div class="col-md-7 col-lg-6 pb-80 pt-80">
+                <div class="txt-block ">
 
-								<!-- Title -->	
-								<h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
+                    <!-- Title -->
+                    <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
-								<!-- Text -->	
-								<p class="p-xl txt-color-01"> <a style="cursor: pointer;"> Call us : <span>+1(281)-690-3563</span> </a> or fill out our online booking & equiry 
-								   form and we will contact you
-								</p>
+                    <!-- Text -->
+                    <p class="p-xl txt-color-01"> <a style="cursor: pointer;"> Call us : <span>+1(281)-690-3563</span>
+                        </a> or fill out our online booking & equiry
+                        form and we will contact you
+                    </p>
 
-								<!-- Button -->	
-								<a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                    <!-- Button -->
+                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
-							</div>
-						</div>	<!-- END TEXT BLOCK -->	
-
-
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6">
-							<div class="about-6-img ">
-								<img class="img-fluid" src="<?php echo get_template_directory_uri(). '/images/image-04.png';?>" alt="about-image">
-							</div>
-						</div>
+                </div>
+            </div> <!-- END TEXT BLOCK -->
 
 
-					</div>	  <!-- End row -->	
-				</div>     <!-- End container -->
-			</section>	<!-- END ABOUT-6 -->
+            <!-- IMAGE BLOCK -->
+            <div class="col-md-5 col-lg-6">
+                <div class="about-6-img ">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(). '/images/image-04.png';?>"
+                        alt="about-image">
+                </div>
+            </div>
+
+
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</section> <!-- END ABOUT-6 -->
 
 
 

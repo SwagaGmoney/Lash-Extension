@@ -46,13 +46,6 @@ function lash_extension_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus(
-		array(
-			'menu-1' => esc_html__( 'Primary', 'lash-extension' ),
-		)
-	);
-
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
@@ -365,3 +358,10 @@ function get_the_table_of_contents()
     global $tableOfContents;
     return $tableOfContents;
 }
+
+function theme_register_menus() {
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'theme' ), // Primary menu
+    ) );
+}
+add_action( 'after_setup_theme', 'theme_register_menus' );

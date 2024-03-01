@@ -383,11 +383,6 @@
 
 @media (min-width: 768px) and (max-width: 991.95px) { 
 
-
-  /*  Top Bar hide on scroll  */
-
-
-
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
@@ -553,7 +548,6 @@
 
   .wsmenu > .wsmenu-list > li a.btn { 
     height: 60px; 
-   
     font-size: 19px;
     line-height: 60px; 
     font-weight: 500;
@@ -888,13 +882,14 @@
   /*------------------------------------------*/
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
+
   .wsmenu > .wsmenu-list { width: 300px; margin-right: -300px; }
   .wsactive .wsmobileheader { margin-right: 300px; }
   .overlapblackbg { width: calc(100% - 300px); }
 
   .headtoppart { display: none; }
 
-  .wsmobileheader { height: 80px; margin-top:5.2em; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); } 
+  .wsmobileheader { height: 80px; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); } 
   .tra-menu .wsmobileheader, .white-menu .wsmobileheader { background-color: #fff; }
   .dark-menu .wsmobileheader { background-color: #222438; }
 
@@ -2577,5 +2572,6 @@
 
 
 }
+
 
 
