@@ -162,7 +162,6 @@ function lash_extension_scripts() {
     wp_enqueue_script( 'jquery.scrollto', get_template_directory_uri() . '/js/jquery.scrollto.js', array(), null, true );
     wp_enqueue_script( 'menu', get_template_directory_uri() . '/js/menu.js', array(), null, true );
     wp_enqueue_script( 'materialize', get_template_directory_uri() . '/js/materialize.js', array(), null, true );
-    wp_enqueue_script( 'tweenmax', get_template_directory_uri() . '/js/tweenmax.min.js', array(), null, true );
     wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array(), null, true );
     wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), null, true );
     wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), null, true );
@@ -170,16 +169,12 @@ function lash_extension_scripts() {
     wp_enqueue_script( 'owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true );
     wp_enqueue_script( 'jquery.magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true );
     wp_enqueue_script( 'hero-form', get_template_directory_uri() . '/js/hero-form.js', array(), null, true );
-    wp_enqueue_script( 'contact-form', get_template_directory_uri() . '/js/contact-form.js', array(), null, true );
-    wp_enqueue_script( 'comment-form', get_template_directory_uri() . '/js/comment-form.js', array(), null, true );
-    wp_enqueue_script( 'booking-form', get_template_directory_uri() . '/js/booking-form.js', array(), null, true );
+    
     wp_enqueue_script( 'jquery.datetimepicker.full', get_template_directory_uri() . '/js/jquery.datetimepicker.full.js', array(), null, true );
     wp_enqueue_script( 'jquery.validate', get_template_directory_uri() . '/js/jquery.validate.min.js', array(), null, true );
-    wp_enqueue_script( 'jquery.ajaxchimp', get_template_directory_uri() . '/js/jquery.ajaxchimp.min.js', array(), null, true );
     wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true );
     wp_enqueue_script( 'changer', get_template_directory_uri() . '/js/changer.js', array(), null, true );
     wp_enqueue_script( 'styleswitch', get_template_directory_uri() . '/js/styleswitch.js', array(), null, true );
-
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -329,7 +324,7 @@ add_filter('the_content', function ($content) {
         <h5 class='h5-sm text-center txt-color-01'>
             Table of Contents
         </h5>
-        <ol class='items'>"; // Open <ol> tag here
+        <ol class='list-items'>"; // Open <ol> tag here
     $headings_order = []; // Array to store the order of headings
     $index = 1;
     // Insert the IDs and create the TOC.
@@ -340,7 +335,7 @@ add_filter('the_content', function ($content) {
         $id = $hasId ? $matchedIds[2] : $index++ . '-' . sanitize_title($title);
         // Add the heading and its ID to the order array
         $headings_order[] = array('title' => $title, 'id' => $id);
-        $tableOfContents .= "<li class='item-$tag'><a href='#$id'>$title</a></li>";
+        $tableOfContents .= "<li class='list-item item-$tag'><a href='#$id'>$title</a></li>";
         if ($hasId) {
             return $matches[0];
         }
