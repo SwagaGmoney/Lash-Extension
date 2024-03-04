@@ -589,8 +589,6 @@ get_header();
 
             </div> <!-- End row -->
             <div class="row d-flex align-items-center">
-
-
                 <!-- ABOUT BOX #2 -->
                 <div class="col-lg-6 bg-color-03 white-color">
                     <div class="row d-flex align-items-center">
@@ -599,7 +597,7 @@ get_header();
                         <div class="col-md-5 col-lg-6 a4-img">
                             <div class="img-block">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/classic.png'; ?>"
+                                    src="<?php echo get_template_directory_uri() . '/images/microblading-02.jpg'; ?>"
                                     alt="about-image" />
                             </div>
                         </div>
@@ -607,9 +605,8 @@ get_header();
                         <!-- Text -->
                         <div class="col-md-7 col-lg-6">
                             <div id="a4-2" class="abox-2">
-                                <h5 class="h5-md">Classic Set</h5>
-                                <p>Enjoy a semi-permanent curling treatment that enhances the shape of your lashes,
-                                    making your eyes appear more open and youthful.
+                                <h5 class="h5-md">Microblading</h5>
+                                <p>Say hello to effortless beauty and wake up to perfectly shaped brows every day.
                                 </p>
                             </div>
                         </div>
@@ -626,7 +623,7 @@ get_header();
                         <div class="col-md-5 col-lg-6 a4-img">
                             <div class="img-block">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/6461.jpg'; ?>"
+                                    src="<?php echo get_template_directory_uri() . '/images/tinting-02.jpg'; ?>"
                                     alt="about-image" />
                             </div>
                         </div>
@@ -634,9 +631,8 @@ get_header();
                         <!-- Text -->
                         <div class="col-md-7 col-lg-6">
                             <div id="a4-3" class="abox-2">
-                                <h5 class="h5-md">Eyebrow Waxing</h5>
-                                <p>Say goodbye to unruly brows and hello to a refined look. Our skilled team shapes with
-                                    care.
+                                <h5 class="h5-md">Eyelash tinting</h5>
+                                <p>Darken and define your lashes for a mascara-free, effortless enhancement that lasts.
                                 </p>
 
                             </div>
@@ -677,11 +673,11 @@ get_header();
 
                     <span class="txt-color-06 bolder">Testimonials</span>
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Hear from our amazing clients</h3>
+                    <h3 class="h3-xl txt-color-01">Hear From Our Amazing Clients</h3>
                     <!-- Text -->
                     <p class="p-lg txt-color-05">From the moment you step into our studio, you’ll be treated to an
                         experience that celebrates your individuality. We believe in fostering relationships built on
-                        trust, understanding, and genuine care
+                        trust, understanding, and genuine care.
                     </p>
 
                 </div>
@@ -867,13 +863,15 @@ get_header();
                     <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                     <!-- Text -->
-                    <p class="p-xl txt-color-01"> <a style="cursor: pointer;"> Call us : <span>+1(281)-690-3563</span>
-                        </a> or fill out our online booking & equiry
+                    <p class="p-xl txt-color-01"> <a href="tel:+1(281)-690-3563"> Call us :
+                            <span>+1(281)-690-3563</span>
+                        </a> or fill out our online booking & inquiry
                         form and we will contact you
                     </p>
 
                     <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
+                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
                 </div>
             </div> <!-- END TEXT BLOCK -->
