@@ -19,8 +19,9 @@
                 <div class="row">
                     <div class="col-md-10 col-xl-8 offset-md-1 offset-xl-2">
                         <div class="hero-txt text-center white-color">
-                            <?php the_title( '<h1 class="h2-lg">', '</h1>' ); ?>
+                            <?php the_title( '<h1 class="h2-lg ">', '</h1>' ); ?>
                         </div>
+                        
                     </div>
                 </div>
             </div> <!-- End container -->

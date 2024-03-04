@@ -12,12 +12,12 @@ get_header();
 
 ?>
 
+<?php get_template_part('template-parts/content', 'page'); ?>
 
 <section id="about-4" class="bg-color-02 wide-100 about-section division p-relative ">
-    <div class="container">
+   
 
-
-        <!-- SECTION TITLE -->
+      
         
 
     <div class="container">
@@ -105,7 +105,7 @@ get_header();
                     
 
                     <!-- Button -->
-                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true ">Find Out More</a>
+                    <a  class="btn btn-md btn-color-02 tra-black-hover" href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true ">Find Out More</a>
 
                 </div>
             </div> <!-- END BANNER TEXT -->

@@ -15,33 +15,12 @@ get_header();
 
 
 <section id="about-4" class="bg-color-02 wide-100 about-section division p-relative ">
-    <div class="container">
 
-
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center mt-40">
-
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our SugarLand Location</h2>
-
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01"> Lash Extensions By Fiona </h3>
-
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05">Welcome to Lash Extensions by Fiona! At our Sugar Land location, you'll enjoy a pleasant salon experience that is tailored to the comfort to each of our clients.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 order-lg-1 mt-100 "> <!-- Change column order for larger screens -->
+            <div class="col-lg-6 col-md-12 order-lg-1 mt-60 "> <!-- Change column order for larger screens -->
                 <p class="text-dark font-italic">Our Sugar Land location has proudly served the community since October 2021. We've been boosting our clients' confidence and enhancing their beauty with our years of expertise and experience. </p>
                 <p class="p-4">The owner, Fiona, has years of training in China and the US and practical experience in business and customer service, ensuring that each of her clients gets the exact beauty upgrade that matches their preference and facial structure. And, of course, our team comprises experienced lash technicians, each with their own expertise to achieve what our clients want.</p>
                     <br/>
@@ -125,7 +104,7 @@ get_header();
                     
 
                     <!-- Button -->
-                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true">Find Out More</a>
+                    <a   class="btn btn-md btn-color-02 tra-black-hover" href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true">Find Out More</a>
 
                 </div>
             </div> <!-- END BANNER TEXT -->
