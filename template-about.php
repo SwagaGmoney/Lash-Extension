@@ -114,15 +114,39 @@ get_header();
 
             <!-- Main Content -->
             <div class="tabs">
-                <div class="tab-header">
-                   <div>Client Needs</div>
-                   <div>Team Work</div>
-                   <div>client</div>
-                   <div>Clients</div>
+                <div class="tab-header ">
+                    <div class="active">Client Needs</div>
+                    <div>Growth Vision</div>
+                    <div>Potential Transformation</div>
+                    <div>Embracing the Future</div>
                 </div>
-                <div class="tab-content bg-light">
-                    <!-- Tab content -->
-                  <div></div>
+                <div class="tab-content  ">
+
+                    <div class="active ">
+                        <h2>Clients need</h2>
+                        <p class="p-lg txt-color-05">When creating our studio, we prioritized client comfort and accessibility. Recognizing the varied needs of her clients, from those dealing with back pain and post-surgical issues to pregnant women and individuals with claustrophobia, we have established a sanctuary that provides more than just a beauty treatment. </p>
+                        <p class=" p-lg txt-color-05">Every detail, from the seating to the ambient lighting, has been carefully selected to guarantee that clients feel at ease, appreciated, and well taken care of during their lash extension session. This meticulous focus on details goes beyond just appearances, showcasing our profound grasp of delivering exceptional customer service.</p>
+                    </div>
+
+                    <div>
+                        <h2>Growth</h2>
+                        <p class=" p-lg txt-color-05">Our ambitions extend well beyond the success of the studio. We dream of a future in which independent lash grafters come together to create a strong alliance, providing growth opportunities and skill enhancement for each member. </p>
+                        <p class=" p-lg txt-color-05">This collaborative endeavor strives to elevate industry norms, promote solidarity, and establish a foundation for collective achievement. We are confident that dedication and a strong support system are key to success for any lash artist. We focus on more than just personal development; our goal is to elevate the entire beauty professionals' community. </p>
+                    </div>
+
+                    <div>
+                        <h2>Transformation</h2>
+                        <p class=" p-md txt-color-05">Our philosophy revolves around the transformative power of beauty services. We see every client as distinct and worthy of customized care that accentuates their unique beauty. Fiona frequently emphasizes her dedication to ensuring that every client feels special, confident, and beautiful by stating, "Every woman is God’s darling." It is because of this conviction that our work has the ability to change lives. Fiona and her team strive to provide services that not only meet but also surpass the expectations of their clients. </p>
+                        <p class=" p-md txt-color-05">Our team here at Lash Extensions by Fiona is driven by a strong belief in the power of our work to bring about transformation, pushing them to excel and go above and beyond to exceed client expectations. </p>
+                        <p class=" p-md txt-color-05">Just like a visionary, we encounter challenges as we strives to bring together the world of eyelash extension artists. Managing the diversity in skill levels, cultural backgrounds, and business practices among potential alliance members can be challenging. Nevertheless, Fiona views these distinctions as chances for development, education, and enhancement. We envision overcoming challenges by promoting open communication, shared learning, and mutual respect to strengthen the community.</p>
+                    </div>
+
+                    <div>
+                        <h2>Embrace Future</h2>
+                        <p class=" p-md txt-color-05">Continuing to challenge the status quo in the beauty industry, we prioritize client satisfaction, team growth, and community engagement. Our studio exemplifies the potential when passion is combined with professionalism. Meanwhile, our vision of a unified lash extension community promises a brighter future for all beauty professionals.</p>
+                        <p class=" p-md txt-color-05">In the meantime, a better future for beauty professionals worldwide appears to be in store thanks to our idea of a single, cohesive lash extension community. Our ambitious vision for a united lash extension community offers hope for beauty professionals worldwide.</p>
+                        <p class=" p-md txt-color-05">Ultimately, Fiona's transition from a skilled marketer to an innovative beauty entrepreneur mirrors her strong dedication to the beauty sector and her pursuit of high standards. With her expertise, visionary team, client-centered studio design, and ambitious plans for uniting eyelash extension artists, Fiona is not just enhancing individual beauty; she is fostering a culture of collaboration, growth, and transformation. By revolutionizing the lash extension service, our team is also empowering a community of artists to unlock their full potential. Our narrative highlights the influence of having a clear vision, unwavering commitment, and the significant role of beauty services in boosting personal confidence and fostering community empowerment.</p>
+                    </div>
                 </div>
             </div>
 
@@ -138,80 +162,34 @@ get_header();
 <section id="contacts-1" class="bg-color-02 wide-60 contacts-section division">
     <div class="container">
         <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
+        <div class="row d-flex align-items-center">
 
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Contact Us</h2>
+            <div class="col-md-5 col-lg-6">
+                <div class="google-map mb-80">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1800IpdXLDbLaT4uC-1IegTruTECenz4&ehbc=2E312F" width="100%" height="480"></iframe>                </div>
+            </div>
+            <div class="col-md-7 col-lg-6">
+                <div class="txt-block right-column pc-15 mb-40 ml-20">
 
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
+                    <!-- Title -->
+                    <span class="txt-color-06 bolder ">Contact Us </span>
+
+                    <h3 class="h3-md txt-color-01">
+                        Schedule Your Free Consultation Today</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05"> Our team has years of expertise and training to answer and ease any of your concerns. Contact us today if you want to learn more.
+                    <p class="txt-color-05 custom-height p-lg">If you want to feel your best then reach out to us for your free consultation today at Lash Extensions by Fiona. We offer services for lash extensions, microblading, lash tinting and eyebrow waxing. We are certain you will be completely satisfied with our services and your transformation. Our team spends an extended amount of time to ensure you get the service you deserve and come out looking and feeling your best. Visit our salon today to see why the greater Fort Bend County area choose to come to Lash Extensions by Fiona.
                     </p>
 
+
                 </div>
-            </div>
+            </div> <!-- END TEXT BLOCK -->
         </div>
 
 
-        <div class="row">
 
 
-            <!-- CONTACT FORM -->
-            <div class="col-md-7 col-lg-8 ">
-                <div class="google-map mb-40">
 
-                    <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8393924898796!2d144.9536363151022!3d-37.817230742014345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4e793770d3%3A0x9e44d6ad0d76ba7c!2zMTIxIEtpbmcgU3QsIE1lbGJvdXJuZSBWSUMgMzAwMCwg0JDQstGB0YLRgNCw0LvQuNGP!5e0!3m2!1sru!2sua!4v1469002590349" width="600" height="450"></iframe>
-
-                </div>
-            </div> <!-- END CONTACT FORM -->
-
-
-            <!-- CONTACTS INFO -->
-            <div class="col-md-5 col-lg-4">
-                <div class="contacts-info pc-25 mt-35 mb-40">
-
-                    <!-- LOCATION -->
-                    <div class="cbox-1 mb-30">
-                        <h5 class="h5-sm txt-color-01">Our SugarLand Location</h5>
-                        <p class="p-md txt-color-05">4131 Highway 6 Sugar Land, 77478</p>
-                    </div>
-                    <div class="cbox-1 mb-30">
-                        <h5 class="h5-sm txt-color-01">Our Galleria Location</h5>
-                        <p class="p-md txt-color-05 list-">2400 Augusta DrHouston, TX 77057</p>
-                    </div>
-
-
-                    <!-- PHONES -->
-                    <div class="cbox-1 mb-30">
-                        <h5 class="h5-sm txt-color-01">Contact Info</h5>
-                        <p class="p-md txt-color-05"><span>Phone :</span>+1(281)-690-3563</p>
-                        <p class="p-md txt-color-05"><span>Phone :</span>+1(713)-690-3563</p>
-                        <p class="p-md txt-color-05"><span>Email :</span> <a href="mailto:yourdomain@mail.com">fiona160715@yahoo.com</a></p>
-                        </p>
-                    </div>
-
-                    <!-- EMAILS -->
-                    <div class="cbox-1">
-                        <h5 class="h5-sm txt-color-01">Working Hours</h5>
-                        <p class="p-md txt-color-05"><span> Monday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="p-md txt-color-05"><span> Tuesday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="p-md txt-color-05"><span> Wednesday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="p-md txt-color-05"><span> Thursday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="p-md txt-color-05"><span> Friday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="p-md txt-color-05"><span> Saturday :</span> 9:00 AM - 7:30 PM</p>
-                        <p class="p-md txt-color-05"><span> Sunday :</span> 9:00 AM - 7:30 PM</p>
-                    </div>
-
-                </div>
-            </div> <!-- END CONTACTS INFO -->
-
-
-        </div> <!-- End row -->
 
 
     </div> <!-- End container -->

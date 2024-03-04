@@ -1,119 +1,89 @@
-/* Tabs Box */
-.tabs-box {
-    position: relative;
-    background-color: white;
-    border-radius: 50px;
-    padding: 20px;
-    text-align: center;
-    top: 2em;
-    max-width: 100%;
-    background: #ebeced;
-    
-}
+/* Tabs - About page */
 
 
-
-.tabs-box .tab.active-tab {
-    display: block;
-}
-
-/* Tab Buttons */
-.tab-btns {
+.tabs{ 
     position:relative;
-    left:-5em;
-    list-style: none;
-    padding: 0;
-    display: inline-block;
-    width:200px;
-    height:auto;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.tab-btns li {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex: 1; /* Ensure equal width for all buttons */
-    height: 60px; /* Set desired height for smaller screens */
-    background: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 10px; /* Add margin between buttons */
-    z-index: 1;
-    overflow: hidden;
-    /* Ensure gradient overflow is hidden */
-    transition: background-color 0.3s ease, background-position 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
-    /* Adjust transition for smoothness */
-}
-
-.tab-btns li.active-btn {
-    background: #d6aadb;
-    /* Set active tab background color */
-    color: #fff;
-    /* Set text color to white */
-}
-
-.tab-btns li:hover,
-.tab-btns li.active-btn {
-    background: linear-gradient(to bottom, #7982d5);
-    transition-duration: 950ms;
-    background-size: 100% 200%;
-    /* Double the height for smooth animation */
-    background-position: 0 -100%;
-    /* Start background position from top */
-    box-shadow: 0 8px 12px rgba(132, 91, 255, 0.2);
-    /* Adjust box shadow on hover/active */
-}
-
-.tab-btns li.active-btn:before,
-.tab-btns li:hover:before {
-    height: 100%;
-}
-
-.tab-btns li.active-btn:after,
-.tab-btns li:hover:after {
-    opacity: 1;
-    bottom: -7px;
-    transition-delay: .4s;
-    /* Simplify transition delay */
-}
-
-
-/* tab-content */
-.tab-content{ 
-    position: relative;
-    left:10em;
-    text-align: center;
-    bottom:15em;
-    padding:20px 100px;
+   top:18em;
+    left:50%;
+    transform:translate(-50% , -50%);
     width:100%;
-    height:auto;
-    box-shadow: 0 8px 12px rgba(132, 91, 255, 0.2);
+    height:600px;
+    background:#eee;
+    overflow:hidden;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+    display:flex;
+}
 
+.tabs .tab-header{ 
+    width:200px;
+}
+
+.tabs .tab-content{ 
+    padding:20px 30px;
+    flex:1;
+    position:relative;
+}
+.tabs .tab-header > div{ 
+    width:100%;
+    height:calc(100% / 4 );
+    background:#ddd;
+   padding-left:40px;
+    color:#888;
+    font-weight:600;
+    font-size:14px;
+    text-transform:uppercase;
+    display:flex;
+    align-items:center;
+    text-align: left;
     
+
+}
+
+.tabs .tab-header > div.active{ 
+    border-left:5px solid lightpink;
+    color:lightpink;
+
+    background:#eee;
+}
+
+.tabs .tab-content > div{
+    padding:20px 30px;
+    position:absolute;
+    top:-50vh;
+    left:100px;
+    opacity:0;
+    transition:opacity 200ms ease-in-out 0ms,
+                left 300ms ease-in-out 0ms,
+                top 0ms ease-in-out 3000ms;
+}
+.tabs .tab-content > div.active{ 
+    top:20px;
+    left:20px;
+    opacity:1;
+    transition:opacity 200ms ease-in-out 0ms,
+                left 300ms ease-in-out 0ms,
+                top 0ms ease-in-out 0ms;
+}
+
+.tabs .tab-header > div.active + .tab-content > div {
+    display: block; /* Display corresponding tab content when header is active */
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .tabs {
+        top: 46em; /* Adjust positioning for smaller screens */
+        height: 1500px; /* Allow the container to adjust its height based on content */
+       
+    }
+
+    .tabs .tab-content > div{
+        padding:20px 20px;
+    }
+
+   
 }
 
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-    .tab-btns li {
-        height: 40px; /* Adjust height for smaller screens */
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-    .tab-btns{ 
-        position:relative;
-        z-index:1;
-        left:2em;
-        top:-5em;
-    }
-    .tabs-box{ 
-        position:relative;
-        left:-5em;
-    }
-}
+
+/* about page google maps */

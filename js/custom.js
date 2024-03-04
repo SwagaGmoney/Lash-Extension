@@ -336,3 +336,24 @@
             $('#' + targetTabId).addClass('show active');
         });
     });
+
+// js - tabs -> about page
+
+
+let tabHeaders = document.querySelectorAll(".tabs .tab-header > div");
+let tabContents = document.querySelectorAll(".tabs .tab-content > div");
+
+for(let i = 0; i < tabHeaders.length; i++) {
+    tabHeaders[i].addEventListener("click", function(){
+        // Remove "active" class from all tab headers
+        document.querySelector(".tabs .tab-header > .active").classList.remove("active");
+        // Add "active" class to clicked tab header
+        tabHeaders[i].classList.add("active");
+
+        // Remove "active" class from all tab contents
+        document.querySelector(".tabs .tab-content > .active").classList.remove("active");
+        // Add "active" class to corresponding tab content
+        tabContents[i].classList.add("active");
+    });
+}
+
