@@ -132,88 +132,98 @@ get_header();
 </section> <!-- END ABOUT-1 -->
 <section class="">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d221947.2863494473!2d-95.5524262!3d29.6348823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1709578706052!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62218.30104560249!2d-95.44882514660382!3d29.737487475765658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3dc28651501%3A0xadeba21ea109d191!2sParking%20lot%2C%202400%20Augusta%20Dr%20%23110%2C%20Houston%2C%20TX%2077057!5e0!3m2!1sen!2sus!4v1709578617124!5m2!1sen!2sus"
         width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <section>
-        <section id="about-1" class="bg-color-01 wide-60 about-section division">
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <!-- IMAGE BLOCK -->
-                    <div class="col-md-5 col-lg-6">
-                        <div class="img-block left-column pc-10 mb-40">
 
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
-                                alt="about-image">
+        <section>
+            <section id="about-1" class="bg-color-01 wide-60 about-section division">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <!-- IMAGE BLOCK -->
+                        <div class="col-md-5 col-lg-6">
+                            <div class="img-block left-column pc-10 mb-40">
+
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                                    alt="about-image">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-7 col-lg-6">
-                        <div class="txt-block right-column pc-15 mb-40">
-                            <!-- Title -->
-                            <span class="txt-color-06 bolder ">Why choose us? </span>
-                            <h2 class="h3-md txt-color-01">Why should you visit our Galleria location?</h2>
-                            <!-- Text -->
-                            <p class="txt-color-05 custom-height p-lg">When you're looking for a customized experience
-                                and look, you go to the professionals. And what better professional is there than one
-                                that looks after you? No matter what reason you want to change your lashes or brows, our
-                                Galleria location has the experience, medical-grade equipment, and space to help you
-                                achieve the effect you're looking for.</p>
+                        <div class="col-md-7 col-lg-6">
+                            <div class="txt-block right-column pc-15 mb-40">
+                                <!-- Title -->
+                                <span class="txt-color-06 bolder ">Why choose us? </span>
+                                <h2 class="h3-md txt-color-01">Why should you visit our Galleria location?</h2>
+                                <!-- Text -->
+                                <p class="txt-color-05 custom-height p-lg">When you're looking for a customized
+                                    experience
+                                    and look, you go to the professionals. And what better professional is there than
+                                    one
+                                    that looks after you? No matter what reason you want to change your lashes or brows,
+                                    our
+                                    Galleria location has the experience, medical-grade equipment, and space to help you
+                                    achieve the effect you're looking for.</p>
 
 
-                            <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
-                                class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                                <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
+                                    class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                            </div>
+                        </div> <!-- END TEXT BLOCK -->
+                    </div> <!-- End row -->
+                </div> <!-- End container -->
+            </section> <!-- END ABOUT-1 -->
+            <section id="about-1" class="bg-color-01 about-section division wide-60">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <!-- TEXT BLOCK -->
+                        <div class="col-md-7 col-lg-6">
+                            <div class="txt-block right-column pc-15 mb-40">
+
+                                <!-- Title -->
+                                <span class="txt-color-06 bolder">About our studio</span>
+                                <h3 class="h3-md txt-color-01">What does our Galleria location offer?
+                                </h3>
+                                <!-- Text -->
+                                <p class="txt-color-05 custom-height p-lg">Of course, we have nothing but the best for
+                                    all
+                                    of our clients.
+                                </p>
+
+
+                                <p class="txt-color-05">When you schedule your free consultation, you'll speak with one
+                                    of
+                                    our experienced lash stylists, who will help you decide on a design and style for
+                                    your
+                                    lash or brows.
+
+                                </p>
+                                <p class="txt-color-05">We'll customize our services to match your preferences and
+                                    facial
+                                    structure, so no matter what your choices will bring out the best in you.
+
+                                </p>
+                                <p class="txt-color-05">You can choose between lash extensions, lash tinting, eyebrow
+                                    waxing, and microblading to get started. Everyone deserves to achieve their best
+                                    look,
+                                    and our team would love to help bring out your inner beauty!
+                            </div>
+
+                        </div> <!-- END TEXT BLOCK -->
+                        <!-- IMAGE BLOCK -->
+                        <div class="col-md-5 col-lg-6">
+                            <div class="img-block left-column pc-10 mb-40">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/collage-03.png'; ?>"
+                                    alt="about-image">
+                            </div>
                         </div>
-                    </div> <!-- END TEXT BLOCK -->
-                </div> <!-- End row -->
-            </div> <!-- End container -->
-        </section> <!-- END ABOUT-1 -->
-        <section id="about-1" class="bg-color-01 about-section division wide-60">
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <!-- TEXT BLOCK -->
-                    <div class="col-md-7 col-lg-6">
-                        <div class="txt-block right-column pc-15 mb-40">
 
-                            <!-- Title -->
-                            <span class="txt-color-06 bolder">About our studio</span>
-                            <h3 class="h3-md txt-color-01">What does our Galleria location offer?
-                            </h3>
-                            <!-- Text -->
-                            <p class="txt-color-05 custom-height p-lg">Of course, we have nothing but the best for all
-                                of our clients.
-                            </p>
+                    </div> <!-- End row -->
+                </div> <!-- End container -->
+            </section> <!-- END ABOUT-1 -->
+            <!-- BANNER-5 ============================================= -->
+            <?php get_template_part( 'template-parts/content', 'banner' ); ?>
 
 
-                            <p class="txt-color-05">When you schedule your free consultation, you'll speak with one of
-                                our experienced lash stylists, who will help you decide on a design and style for your
-                                lash or brows.
-
-                            </p>
-                            <p class="txt-color-05">We'll customize our services to match your preferences and facial
-                                structure, so no matter what your choices will bring out the best in you.
-
-                            </p>
-                            <p class="txt-color-05">You can choose between lash extensions, lash tinting, eyebrow
-                                waxing, and microblading to get started. Everyone deserves to achieve their best look,
-                                and our team would love to help bring out your inner beauty!
-                        </div>
-
-                    </div> <!-- END TEXT BLOCK -->
-                    <!-- IMAGE BLOCK -->
-                    <div class="col-md-5 col-lg-6">
-                        <div class="img-block left-column pc-10 mb-40">
-                            <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri() . '/images/collage-03.png'; ?>"
-                                alt="about-image">
-                        </div>
-                    </div>
-
-                </div> <!-- End row -->
-            </div> <!-- End container -->
-        </section> <!-- END ABOUT-1 -->
-        <!-- BANNER-5 ============================================= -->
-        <?php get_template_part( 'template-parts/content', 'banner' ); ?>
-
-
-        <?php get_footer(); ?>
+            <?php get_footer(); ?>
