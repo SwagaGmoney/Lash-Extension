@@ -14,19 +14,15 @@ get_header();
 <?php get_template_part('template-parts/content', 'page'); ?>
 
 
-<!-- SERVICES-16
-				============================================= -->
+<!-- SERVICES-16 -->
 <section id="services-16" class="bg-color-01 pt-80  services-section division">
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
-
                     <!-- Transparent Header -->
                     <span class="txt-color-06 bolder">Our Services</span>
-
-
                     <!-- Title 	-->
                     <h3 class="h3-xl txt-color-01">The Art Of Natural Beauty</h3>
 
@@ -46,13 +42,15 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/serv-20.jpg'; ?>" alt="service-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri() . '/images/2148846014.jpg'; ?>"
+                                alt="service-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/" class="h-link">
+                                    <a href="/services/eyebrow-waxing/" class="h-link">
                                         <h5 class="h5-md">Eyebrow Waxing Services </h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
@@ -68,13 +66,15 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-03.jpg'; ?>" alt="gallery-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/serv-03.jpg'; ?>"
+                                alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionsbyfiona.com/services/microblading" class="h-link">
+                                    <a href="/services/microblading" class="h-link">
                                         <h5 class="h5-md">Microblading Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
@@ -90,13 +90,15 @@ get_header();
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/brow.webp'; ?>" alt="gallery-imagee" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/brow.webp'; ?>"
+                                alt="gallery-imagee" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionsbyfiona.com/services/lash-extensions" class="h-link">
+                                    <a href="/services/lash-extensions" class="h-link">
                                         <h5 class="h5-md">Lash Extensions Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
@@ -106,19 +108,20 @@ get_header();
                         </div>
                     </div> <!-- END SERVICE BOX #3 -->
 
-
                     <!-- SERVICE BOX #4 -->
                     <div class="masonry-item sbox-16">
                         <div class="hover-overlay">
 
                             <!-- Image -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>" alt="gallery-image" />
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>"
+                                alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
                             <!-- Image Description -->
                             <div class="sbox-16-img-meta white-color">
                                 <div class="sbox-16-txt">
-                                    <a href="https://lashextensionsbyfiona.com/services/lash-tinting" class="h-link">
+                                    <a href="/services/lash-tinting" class="h-link">
                                         <h5 class="h5-md">Lash Tinting Services</h5>
                                         <p class="p-lg">Lash Extension By Fiona</p>
                                     </a>
@@ -239,7 +242,8 @@ get_header();
                         <span>9:00 AM - 7:30 PM</span>
 
                         <!-- Button -->
-                        <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true" class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
+                        <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?pId=548394&allOffer=true"
+                            class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
 
                     </div>
                 </div>
@@ -248,7 +252,8 @@ get_header();
                 <!-- IMAGE BLOCK -->
                 <div id="pb-img" class="col-lg-4">
                     <div class="pricing-2-img text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/long.jpg'; ?>" alt="pricing-image" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/long.jpg'; ?>"
+                            alt="pricing-image" />
                     </div>
                 </div>
 
