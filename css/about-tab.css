@@ -16,6 +16,8 @@
 
 .tabs .tab-header{ 
     width:200px;
+    cursor:pointer;
+
 }
 
 .tabs .tab-content{ 
@@ -75,9 +77,17 @@
 /* For smaller screens */
 @media (max-width: 768px) {
     .tabs {
-        top: 50em; /* Adjust positioning for smaller screens */
-        height: 1600px; /* Allow the container to adjust its height based on content */
-       
+        flex-direction: column; /* Display tabs in a column layout */
+        height: 1200px; 
+        top:40em;
+    }
+    .tabs .tab-header {
+        flex-direction: row; /* Display tab headers in a row layout */
+        width: 100%; /* Set the width to full for smaller screens */
+        height: 200px; /* Allow the container to adjust its height based on content */
+    }
+    .tabs .tab-content {
+        width: 100%; /* Set the width to full for smaller screens */
     }
     
 
@@ -85,7 +95,7 @@
         padding:20px 20px;
     }
     .tab-content p {
-        font-size: 10px; /* Adjust the font size as needed */
+        font-size: 15px; /* Adjust the font size as needed */
     }
 
    
