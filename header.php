@@ -63,7 +63,7 @@
                                 <i class="fas fa-envelope mr-1"></i>fiona160715@yahoo.com
                             </span>
                             <span class="top-bar-item ml-3">
-                                <i class="fas fa-map-marker-alt mr-1"></i> Sugar Land, TX | Galleria, TX
+                                <i class="fas fa-map-marker-alt mr-1"></i> <a href="https://lashextensionsbyfiona.com/locations/sugar-land/" style="cursor: pointer; color:white;" onm> Sugar Land, TX </a> | <a href="https://lashextensionsbyfiona.com/locations/galleria/" style="cursor: pointer; color:white;">Galleria, TX </a> 
                             </span>
                         </div>
                         <div class="col-md-6 text-right text-white">

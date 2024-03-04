@@ -19,7 +19,7 @@
                     </div>
 
                     <!-- Button -->
-                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
                 </div>
             </div> <!-- END TEXT BLOCK -->

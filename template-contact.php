@@ -32,7 +32,7 @@ get_header();
                     You can contact us through the form below, through phone, email, or in person, and our team will gladly help you with our expertise.
                     </p>
 
-                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
                 </div>

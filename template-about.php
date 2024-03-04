@@ -79,15 +79,15 @@ get_header();
 
             <!-- Image (visible on larger screens) -->
             <div class="col-md-5 col-lg-6 d-none d-md-block">
-                <img src="<?php echo get_template_directory_uri(). '\images\image-02-2-2.png';?>" class="img-fluid  ml-md-5" alt="Responsive Image">
+                <img src="<?php echo get_template_directory_uri() . '/images/image-02-2-2.png'; ?>" class="img-fluid  ml-md-5" alt="Responsive Image">
             </div>
         </div>
 
         <div class="row d-md-none">
-        <div class="col-12">
-            <img src=" <?php echo get_template_directory_uri(). '\images\image-02-2-2.png';?>" class="img-fluid" alt="Responsive Image">
+            <div class="col-12">
+                <img src=" <?php echo get_template_directory_uri() . '/images/image-02-2-2.png'; ?>" class="img-fluid" alt="Responsive Image">
+            </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -98,18 +98,39 @@ get_header();
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our Team</h2>
-                    <!-- Title -->
-                    <h3 class="h3-xl txt-color-01">Relax, You're In Good Hands</h3>
+
+                    <!-- Title 	-->
+                    <span class="txt-color-06 bolder">Our Purpose </span>
+
+                    <h3 class="h3-xl txt-color-01"> Studio Design Focused on Client Needs
+                    </h3>
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">Our team will go the distance to ensure you're comfortable and enjoying your experience.</p>
+                    <p class="p-lg txt-color-05">Our lash stylists different expertise comes together to meet the needs of all our clients.
+                    </p>
+
                 </div>
             </div>
+
+
+            <!-- Main Content -->
+            <div class="tabs">
+                <div class="tab-header">
+                   <div>Client Needs</div>
+                   <div>Team Work</div>
+                   <div>client</div>
+                   <div>Clients</div>
+                </div>
+                <div class="tab-content bg-light">
+                    <!-- Tab content -->
+                  <div></div>
+                </div>
+            </div>
+
+
+            <!--   End of Tabs-box -->
         </div>
 
-       
-
+        <!-- End of Main Content -->
     </div> <!-- End container -->
 </section> <!-- END TEAM-1 -->
 
@@ -207,47 +228,3 @@ get_header();
 
 
 <?php get_footer(); ?>
-
-
-<script>
-    $(document).ready(function() {
-        var quoteBlock = $('.quote-block');
-        var quoteDisplayed = false;
-
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 100 && !quoteDisplayed) { // Adjust the scroll threshold as needed
-                quoteBlock.addClass('scrolled');
-                quoteDisplayed = true;
-            }
-        });
-    });
-
-
-    function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    // Function to handle scrolling
-    function handleScroll() {
-        const imageBlock = document.querySelector('.img-block');
-        const infoBlock = document.querySelector('.info-block');
-
-        if (isInViewport(imageBlock, infoBlock)) {
-            imageBlock.classList.add('image-visible');
-            infoBlock.classList.add('visible');
-            window.removeEventListener('scroll', handleScroll);
-
-        }
-    }
-
-    // Listen for scroll events
-    window.addEventListener('scroll', handleScroll);
-</script>

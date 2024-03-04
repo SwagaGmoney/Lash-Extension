@@ -873,7 +873,7 @@ get_header();
                     </p>
 
                     <!-- Button -->
-                    <a href="booking.html" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true" class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
                 </div>
             </div> <!-- END TEXT BLOCK -->

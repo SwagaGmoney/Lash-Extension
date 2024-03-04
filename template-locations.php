@@ -125,7 +125,7 @@ get_header();
                     
 
                     <!-- Button -->
-                    <a href="pricing.html" class="btn btn-md btn-left btn-color-02 tra-white-hover  ">Find Out More</a>
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true">Find Out More</a>
 
                 </div>
             </div> <!-- END BANNER TEXT -->

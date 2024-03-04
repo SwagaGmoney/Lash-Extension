@@ -1,45 +1,119 @@
+/* Tabs Box */
+.tabs-box {
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    top: 2em;
+    max-width: 100%;
+    background: #ebeced;
+    
+}
 
-.tab-vertical .nav.nav-tabs {
-    float: left;
+
+
+.tabs-box .tab.active-tab {
     display: block;
-    margin-right: 0px;
-    border-bottom: 0;
 }
 
-.tab-vertical .nav.nav-tabs .nav-item {
-    margin-bottom: 6px;
+/* Tab Buttons */
+.tab-btns {
+    position:relative;
+    left:-5em;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width:200px;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.tab-vertical .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
+.tab-btns li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1; /* Ensure equal width for all buttons */
+    height: 60px; /* Set desired height for smaller screens */
     background: #fff;
-    padding: 17px 49px;
-    color: #71748d;
-    background-color: #dddde8;
-    -webkit-border-radius: 4px 0px 0px 4px;
-    -moz-border-radius: 4px 0px 0px 4px;
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add margin between buttons */
+    z-index: 1;
+    overflow: hidden;
+    /* Ensure gradient overflow is hidden */
+    transition: background-color 0.3s ease, background-position 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    /* Adjust transition for smoothness */
 }
 
-.tab-vertical .nav-tabs .nav-link.active {
-    color: #5969ff;
-    background-color: lightpink !important;
-    border-color: transparent !important;
+.tab-btns li.active-btn {
+    background: #d6aadb;
+    /* Set active tab background color */
+    color: #fff;
+    /* Set text color to white */
 }
 
-.tab-vertical .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 0px !important;
+.tab-btns li:hover,
+.tab-btns li.active-btn {
+    background: linear-gradient(to bottom, #7982d5);
+    transition-duration: 950ms;
+    background-size: 100% 200%;
+    /* Double the height for smooth animation */
+    background-position: 0 -100%;
+    /* Start background position from top */
+    box-shadow: 0 8px 12px rgba(132, 91, 255, 0.2);
+    /* Adjust box shadow on hover/active */
 }
 
-.tab-vertical .tab-content {
-    overflow: auto;
-    -webkit-border-radius: 0px 4px 4px 4px;
-    -moz-border-radius: 0px 4px 4px 4px;
-    border-radius: 0px 4px 4px 4px;
-    background: #fff;
-    padding: 30px;
+.tab-btns li.active-btn:before,
+.tab-btns li:hover:before {
+    height: 100%;
+}
+
+.tab-btns li.active-btn:after,
+.tab-btns li:hover:after {
+    opacity: 1;
+    bottom: -7px;
+    transition-delay: .4s;
+    /* Simplify transition delay */
+}
+
+
+/* tab-content */
+.tab-content{ 
+    position: relative;
+    left:10em;
+    text-align: center;
+    bottom:15em;
+    padding:20px 100px;
+    width:100%;
+    height:auto;
+    box-shadow: 0 8px 12px rgba(132, 91, 255, 0.2);
+
+    
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .tab-btns li {
+        height: 40px; /* Adjust height for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    .tab-btns{ 
+        position:relative;
+        z-index:1;
+        left:2em;
+        top:-5em;
+    }
+    .tabs-box{ 
+        position:relative;
+        left:-5em;
+    }
 }

@@ -11,7 +11,6 @@
 get_header();
 
 ?>
-<?php get_template_part('template-parts/content', 'page'); ?>
 
 
 <section id="about-4" class="bg-color-02 wide-100 about-section division p-relative ">
@@ -19,25 +18,7 @@ get_header();
 
 
         <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center mt-40">
-
-                    <!-- Transparent Header -->
-                    <h2 class="tra-header txt-color-02">Our Galleria Location</h2>
-
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01"> Lash Extensions By Fiona </h3>
-
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05">Here in Houston, the Galleria is where you want to go when you want a major upgrade to your style or appearance. 
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
+        
 
     <div class="container">
         <div class="row">
@@ -124,7 +105,7 @@ get_header();
                     
 
                     <!-- Button -->
-                    <a href="pricing.html" class="btn btn-md btn-left btn-color-02 tra-white-hover  ">Find Out More</a>
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true ">Find Out More</a>
 
                 </div>
             </div> <!-- END BANNER TEXT -->
