@@ -356,3 +356,11 @@ for(let i = 0; i < tabHeaders.length; i++) {
         tabContents[i].classList.add("active");
     });
 }
+// home page pricing table 
+$(document).ready(function() {
+    // Add click event listener to .main-title and .caret-down elements
+    $('.main-title').click(function() {
+        // Toggle the visibility of the pricing list within the same container
+        $(this).closest('.container').find('.pricing-container').slideToggle();
+    });
+});
