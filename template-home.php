@@ -912,51 +912,10 @@ get_header();
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const tabButtons = document.querySelectorAll('.tab-btn');
-    const tabs = document.querySelectorAll('.tab');
 
-    tabButtons.forEach(function(tabButton, index) {
-        tabButton.addEventListener('click', function() {
-            // Remove active class from all tab buttons
-            tabButtons.forEach(function(btn) {
-                btn.classList.remove('active-btn');
-            });
-
-            // Add active class to clicked tab button
-            tabButton.classList.add('active-btn');
-
-            // Hide all tabs
-            tabs.forEach(function(tab) {
-                tab.style.display = 'none';
-                // Immediate color change upon clicking each tab
-                tabButton.addEventListener('click', function() {
-                    tabButton.style.backgroundImage =
-                        'linear-gradient(to bottom,#d6aadb 0%, #7982d5 100%  )';
-                    setTimeout(function() {
-                        tabButton.style.backgroundImage = '';
-                    }, 500);
-                });
-
-                // Display the corresponding tab content
-                const tabId = tabButton.getAttribute('data-tab');
-                document.querySelector(tabId).style.display = 'block';
-            });
-
-            // Immediate color change upon clicking each tab
-            tabButton.addEventListener('click', function() {
-                tabButton.style.backgroundImage =
-                    'linear-gradient(to bottom, #ebeced 50%, #ff0000 50%)';
-                setTimeout(function() {
-                    tabButton.style.backgroundImage = '';
-                }, 500);
-            });
-        });
-    })
-});
 $(document).ready(function() {
     // Add click event listener to .main-title and .caret-down elements
-    $('.main-title, .caret-down').click(function() {
+    $('.main-title').click(function() {
         // Toggle the visibility of the pricing list within the same container
         $(this).closest('.container').find('.pricing-container').slideToggle();
     });

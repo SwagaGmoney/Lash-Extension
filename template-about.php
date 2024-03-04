@@ -142,7 +142,7 @@ get_header();
                     </div>
 
                     <div>
-                        <h2 class="txt-color-05 " >Embracing the Future</h2>
+                        <h2 class="txt-color-05 ">Embracing the Future</h2>
                         <p class=" p-md txt-color-05">Continuing to challenge the status quo in the beauty industry, we prioritize client satisfaction, team growth, and community engagement. Our studio exemplifies the potential when passion is combined with professionalism. Meanwhile, our vision of a unified lash extension community promises a brighter future for all beauty professionals.</p>
                         <p class=" p-md txt-color-05">In the meantime, a better future for beauty professionals worldwide appears to be in store thanks to our idea of a single, cohesive lash extension community. Our ambitious vision for a united lash extension community offers hope for beauty professionals worldwide.</p>
                         <p class=" p-md txt-color-05">Ultimately, Fiona's transition from a skilled marketer to an innovative beauty entrepreneur mirrors her strong dedication to the beauty sector and her pursuit of high standards. With her expertise, visionary team, client-centered studio design, and ambitious plans for uniting eyelash extension artists, Fiona is not just enhancing individual beauty; she is fostering a culture of collaboration, growth, and transformation. By revolutionizing the lash extension service, our team is also empowering a community of artists to unlock their full potential. Our narrative highlights the influence of having a clear vision, unwavering commitment, and the significant role of beauty services in boosting personal confidence and fostering community empowerment.</p>
@@ -165,9 +165,9 @@ get_header();
         <div class="row d-flex align-items-center">
 
             <div class="col-md-5 col-lg-6">
-                <div class="google-map mb-80">
-                   <iframe src="https://www.google.com/maps/d/embed?mid=1800IpdXLDbLaT4uC-1IegTruTECenz4&hl=en&ehbc=2E312F"  width="100%" height="480"></iframe>
-               </div>
+                <div class="img-block left-column pc-10 mb-40 ">
+                    <img class="img-fluid shadow " src="<?php echo get_template_directory_uri() . '/images/img-la.jpg'; ?>" alt="about-image">
+                </div>
             </div>
             <div class="col-md-7 col-lg-6">
                 <div class="txt-block right-column pc-15 mb-40 ml-20">
