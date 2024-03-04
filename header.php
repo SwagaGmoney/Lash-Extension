@@ -1,25 +1,20 @@
 <?php
-
 /**
  * 
  * Main header theme
  * 
- * @package LashExtension
+ * @package Lash Extension
  */
 ?>
 <!DOCTYPE html>
-
 <html <?php language_attributes(); ?>>
-
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="lashextension" />
 
 <head>
-    <!-- SITE TITLE -->
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>
-    <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/favicon.ico'); ?>"
         type="image/x-icon">
     <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/favicon.ico'); ?>"
@@ -34,18 +29,13 @@
         href="<?php echo esc_url(get_template_directory_uri() . '/images/apple-touch-icon.png'); ?>">
     <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/apple-touch-icon.png'); ?>"
         type="image/x-icon">
-    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-    <!-- Enqueue stylesheets -->
     <?php wp_head(); ?>
 </head>
 
 <body>
-    <!-- PAGE CONTENT
-		============================================= -->
-
     <!-- HEADER -->
     <header id="header" class="header white-menu navbar-dark">
         <div class="header-wrapper">
@@ -79,18 +69,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- NAVIGATION MENU -->
             <div class="wsmainfull menu clearfix">
                 <div class="wsmainwp clearfix">
@@ -98,19 +76,15 @@
                     <div class="desktoplogo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-black">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/logo-01.png" width="170"
-                                height="50" alt="header-logo">
-                        </a>
+                                height="50" alt="header-logo"></a>
                     </div>
                     <div class="desktoplogo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-white">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" width="170"
-                                height="50" alt="header-logo">
-                        </a>
+                                height="50" alt="header-logo"></a>
                     </div>
-                    <!-- MAIN MENU -->
                     <nav class="wsmenu clearfix">
                         <?php
-                    // Output WordPress menu
                     wp_nav_menu(array(
                         'theme_location' => 'primary',
                         'container' => 'ul',
