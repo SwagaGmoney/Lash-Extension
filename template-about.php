@@ -102,7 +102,7 @@ get_header();
                     <!-- Title 	-->
                     <span class="txt-color-06 bolder">Our Purpose </span>
 
-                    <h3 class="h3-xl txt-color-01"> Studio Design Focused on Client Needs
+                    <h3 class="h3-xl txt-color-01">A Studio Designed for You
                     </h3>
                     <!-- Text -->
                     <p class="p-lg txt-color-05">Our lash stylists different expertise comes together to meet the needs of all our clients.
@@ -115,34 +115,34 @@ get_header();
             <!-- Main Content -->
             <div class="tabs">
                 <div class="tab-header ">
-                    <div class="active">Client Needs</div>
-                    <div>Growth Vision</div>
+                    <div class="active">Your Comfort</div>
+                    <div>Vision of Community</div>
                     <div>Potential Transformation</div>
                     <div>Embracing the Future</div>
                 </div>
                 <div class="tab-content  ">
 
                     <div class="active ">
-                        <h2 class="h2-lg txt-color-01">Clients need</h2>
+                        <h2 class=" txt-color-05">Studio Design Focused on Client Needs</h2>
                         <p class="p-lg txt-color-05">When creating our studio, we prioritized client comfort and accessibility. Recognizing the varied needs of her clients, from those dealing with back pain and post-surgical issues to pregnant women and individuals with claustrophobia, we have established a sanctuary that provides more than just a beauty treatment. </p>
                         <p class=" p-lg txt-color-05">Every detail, from the seating to the ambient lighting, has been carefully selected to guarantee that clients feel at ease, appreciated, and well taken care of during their lash extension session. This meticulous focus on details goes beyond just appearances, showcasing our profound grasp of delivering exceptional customer service.</p>
                     </div>
 
                     <div>
-                        <h2 class="h2-lg txt-color-01">Growth</h2>
+                        <h2 class=" txt-color-05">Uniting the Craft: A Vision for Growth</h2>
                         <p class=" p-lg txt-color-05">Our ambitions extend well beyond the success of the studio. We dream of a future in which independent lash grafters come together to create a strong alliance, providing growth opportunities and skill enhancement for each member. </p>
                         <p class=" p-lg txt-color-05">This collaborative endeavor strives to elevate industry norms, promote solidarity, and establish a foundation for collective achievement. We are confident that dedication and a strong support system are key to success for any lash artist. We focus on more than just personal development; our goal is to elevate the entire beauty professionals' community. </p>
                     </div>
 
                     <div>
-                        <h2 class="txt-color-01 h2-lg">Transformation</h2>
+                        <h2 class="txt-color-05 ">Unleashing the Potential of Transformation</h2>
                         <p class=" p-md txt-color-05">Our philosophy revolves around the transformative power of beauty services. We see every client as distinct and worthy of customized care that accentuates their unique beauty. Fiona frequently emphasizes her dedication to ensuring that every client feels special, confident, and beautiful by stating, "Every woman is God’s darling." It is because of this conviction that our work has the ability to change lives. Fiona and her team strive to provide services that not only meet but also surpass the expectations of their clients. </p>
                         <p class=" p-md txt-color-05">Our team here at Lash Extensions by Fiona is driven by a strong belief in the power of our work to bring about transformation, pushing them to excel and go above and beyond to exceed client expectations. </p>
                         <p class=" p-md txt-color-05">Just like a visionary, we encounter challenges as we strives to bring together the world of eyelash extension artists. Managing the diversity in skill levels, cultural backgrounds, and business practices among potential alliance members can be challenging. Nevertheless, Fiona views these distinctions as chances for development, education, and enhancement. We envision overcoming challenges by promoting open communication, shared learning, and mutual respect to strengthen the community.</p>
                     </div>
 
                     <div>
-                        <h2 class="txt-color-01 h2-lg" >Embrace Future</h2>
+                        <h2 class="txt-color-05 " >Embracing the Future</h2>
                         <p class=" p-md txt-color-05">Continuing to challenge the status quo in the beauty industry, we prioritize client satisfaction, team growth, and community engagement. Our studio exemplifies the potential when passion is combined with professionalism. Meanwhile, our vision of a unified lash extension community promises a brighter future for all beauty professionals.</p>
                         <p class=" p-md txt-color-05">In the meantime, a better future for beauty professionals worldwide appears to be in store thanks to our idea of a single, cohesive lash extension community. Our ambitious vision for a united lash extension community offers hope for beauty professionals worldwide.</p>
                         <p class=" p-md txt-color-05">Ultimately, Fiona's transition from a skilled marketer to an innovative beauty entrepreneur mirrors her strong dedication to the beauty sector and her pursuit of high standards. With her expertise, visionary team, client-centered studio design, and ambitious plans for uniting eyelash extension artists, Fiona is not just enhancing individual beauty; she is fostering a culture of collaboration, growth, and transformation. By revolutionizing the lash extension service, our team is also empowering a community of artists to unlock their full potential. Our narrative highlights the influence of having a clear vision, unwavering commitment, and the significant role of beauty services in boosting personal confidence and fostering community empowerment.</p>
@@ -166,7 +166,8 @@ get_header();
 
             <div class="col-md-5 col-lg-6">
                 <div class="google-map mb-80">
-                <iframe src="https://www.google.com/maps/d/embed?mid=1800IpdXLDbLaT4uC-1IegTruTECenz4&ehbc=2E312F" width="100%" height="480"></iframe>                </div>
+                   <iframe src="https://www.google.com/maps/d/embed?mid=1800IpdXLDbLaT4uC-1IegTruTECenz4&hl=en&ehbc=2E312F"  width="100%" height="480"></iframe>
+               </div>
             </div>
             <div class="col-md-7 col-lg-6">
                 <div class="txt-block right-column pc-15 mb-40 ml-20">

@@ -356,4 +356,3 @@ for(let i = 0; i < tabHeaders.length; i++) {
         tabContents[i].classList.add("active");
     });
 }
-
