@@ -55,26 +55,36 @@
                         width="170" height="50" alt="mobile-logo" /></span>
                 <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
             </div>
-            <div class="top-bar bg-color-06 text-white py-2">
+            <div class="top-bar bg-color-06 text-white py-2 font-weight-bold">
                 <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-md-6">
+                    <div class="row align-items-center justify-content-end">
+                        <div class="col-md-5">
                             <span class="top-bar-item">
-                                <i class="fas fa-envelope mr-1"></i>fiona160715@yahoo.com
-                            </span>
-                            <span class="top-bar-item ml-3">
-                                <i class="fas fa-map-marker-alt mr-1"></i> <a href="https://lashextensionsbyfiona.com/locations/sugar-land/" style="cursor: pointer; color:white;" onm> Sugar Land, TX </a> | <a href="https://lashextensionsbyfiona.com/locations/galleria/" style="cursor: pointer; color:white;">Galleria, TX </a> 
+                                <i class="fas fa-envelope mr-1"></i> <a class="text-white"
+                                    href="mailto:contact@ashextensionsbyfiona.com">contact@ashextensionsbyfiona.com</a>
                             </span>
                         </div>
-                        <div class="col-md-6 text-right text-white">
-                            <span class="top-bar-item mr-3">
-                                <a class="text-white" href="tel:+1(713)-392-0281"><i class="fas fa-phone">
-                                        +1(713)-392-0281</i></a>
+                        <div class="col-md-4 text-right">
+                            <span class="top-bar-item">
+                                <i class="fas fa-phone mr-1"></i> <a class="text-white"
+                                    href="tel:+17133920281">(713)-392-0281</a> | Sugar Land, TX
+                            </span>
+                        </div>
+                        <div class="col-md-3 text-right">
+                            <span class="top-bar-item">
+                                <i class="fas fa-phone mr-1"></i> <a class="text-white"
+                                    href="tel:(281)-690-3563">(281)-690-3563</a> | Galleria, TX
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
 
 
 
