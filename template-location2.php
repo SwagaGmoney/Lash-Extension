@@ -179,10 +179,55 @@ get_header();
 
 
 <section class="pt-60 ">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62218.30104560249!2d-95.44882514660382!3d29.737487475765658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3dc28651501%3A0xadeba21ea109d191!2sParking%20lot%2C%202400%20Augusta%20Dr%20%23110%2C%20Houston%2C%20TX%2077057!5e0!3m2!1sen!2sus!4v1709578617124!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<section>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62218.30104560249!2d-95.44882514660382!3d29.737487475765658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3dc28651501%3A0xadeba21ea109d191!2sParking%20lot%2C%202400%20Augusta%20Dr%20%23110%2C%20Houston%2C%20TX%2077057!5e0!3m2!1sen!2sus!4v1709578617124!5m2!1sen!2sus"
+        width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section>
+
+        <section id="about-1" class="bg-color-01 about-section division wide-60">
+            <div class="container">
+                <div class="row d-flex align-items-center">
 
 
+                    <!-- IMAGE BLOCK -->
+                    <div class="col-md-5 col-lg-6">
+                        <div class="img-block left-column pc-10 mb-40">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
+                                alt="about-image">
+                        </div>
+                    </div>
 
 
-<?php get_footer(); ?>
+                    <!-- TEXT BLOCK -->
+                    <div class="col-md-7 col-lg-6">
+                        <div class="txt-block right-column pc-15 mb-40">
+
+                            <!-- Title -->
+                            <span class="txt-color-06 bolder ">About our studio</span>
+
+                            <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
+
+                            <!-- Text -->
+                            <p class="txt-color-05 custom-height p-lg">Would you like longer, thicker, fuller eyelashes?
+                                Take
+                                your
+                                morning put-on
+                                routine to the next level by saying goodbye to mascara and welcome to a quick morning
+                                routine!
+                                Our mission is to deliver flawlessly applied eyelash extensions that embody elegance,
+                                sophistication, and the epitome of lash perfection.
+
+
+                            </p>
+                        </div>
+                    </div> <!-- END TEXT BLOCK -->
+
+
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section> <!-- END ABOUT-1 -->
+
+
+        <?php get_footer(); ?>
