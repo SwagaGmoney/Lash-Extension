@@ -20,7 +20,7 @@
 
                         <p class="txt-color-05 mt-40 bold-title">Galleria Location</p>
                         <!-- Email -->
-                        <p><i class="fa-solid fa-map">&nbsp;</i> Augusta Dr Houston, TX 77057
+                        <p><i class="fa-solid fa-map">&nbsp;</i> 2400 Augusta Dr Suite #110 Houston, TX 77057
                         <p class="foo-phone"><i class="fa-solid fa-envelope"> &nbsp;</i> <a
                                 href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
                             <!-- Phone -->
