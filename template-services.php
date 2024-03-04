@@ -14,15 +14,18 @@ get_header();
 <?php get_template_part('template-parts/content', 'page'); ?>
 
 
-<!-- SERVICES-16 -->
+<!-- SERVICES- -->
 <section id="services-16" class="bg-color-01 pt-80  services-section division">
     <div class="container">
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
+
                     <!-- Transparent Header -->
                     <span class="txt-color-06 bolder">Our Services</span>
+
+
                     <!-- Title 	-->
                     <h3 class="h3-xl txt-color-01">The Art Of Natural Beauty</h3>
 
@@ -43,7 +46,7 @@ get_header();
 
                             <!-- Image -->
                             <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri() . '/images/2148846014.jpg'; ?>"
+                                src="<?php echo get_template_directory_uri() . '/images/serv-04.jpg'; ?>"
                                 alt="service-image" />
                             <div class="sbox-16-overlay"></div>
 
@@ -108,13 +111,14 @@ get_header();
                         </div>
                     </div> <!-- END SERVICE BOX #3 -->
 
+
                     <!-- SERVICE BOX #4 -->
                     <div class="masonry-item sbox-16">
                         <div class="hover-overlay">
 
                             <!-- Image -->
                             <img class="img-fluid"
-                                src="<?php echo get_template_directory_uri()  . '/images/serv-01.jpg'; ?>"
+                                src="<?php echo get_template_directory_uri()  . '/images/serv-05.jpg'; ?>"
                                 alt="gallery-image" />
                             <div class="sbox-16-overlay"></div>
 
@@ -242,7 +246,7 @@ get_header();
                         <span>9:00 AM - 7:30 PM</span>
 
                         <!-- Button -->
-                        <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?pId=548394&allOffer=true"
+                        <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                             class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
 
                     </div>
