@@ -8,7 +8,8 @@
         <p class="txt-color-05 pb-10">When you love the way you look, your confidence grows. The
             moment you come to us, you will get the high-quality personal attention you deserve.
         </p>
-        <a href="https://lashextensionsbyfiona.com/booking" class="btn btn-md btn-color-02 color-01-hover">Make an
+        <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
+            class="btn btn-md btn-color-02 color-01-hover">Make an
             Appointment</a>
     </div> <!-- End Text Widget -->
     <!-- SEARCH FIELD -->
