@@ -23,35 +23,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- BREADCRUMB -->
-                <div id="breadcrumb">
-                    <div class="row">
-                        <div class="col">
-                            <div class="breadcrumb-nav">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a
-                                                href="<?php echo esc_url(home_url('/')); ?>">Home</a>
-                                        </li>
-                                        <?php if (is_single()) : ?>
-                                        <li class="breadcrumb-item"><a
-                                                href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">Blog</a>
-                                        </li>
-                                        <li class="breadcrumb-item active" aria-current="page">
-                                            <?php single_post_title(); ?>
-                                        </li>
-                                        <?php elseif (is_page()) : ?>
-                                        <li class="breadcrumb-item active" aria-current="page">
-                                            <?php single_post_title(); ?>
-                                        </li>
-                                        <?php endif; ?>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- END BREADCRUMB -->
             </div> <!-- End container -->
         </section> <!-- END PAGE HERO -->
         <!--End Page Title-->

@@ -24,7 +24,7 @@ get_header();
                     <!-- Text -->
                     <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->
-                    <a href="https://www.fresha.com/a/ilash-health-spa-galleria-houston-parking-lot-2400-augusta-drive-erp902mg/all-offer?venue=true"
+                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
             </div>
