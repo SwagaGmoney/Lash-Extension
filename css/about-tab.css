@@ -72,13 +72,15 @@
 /* For smaller screens */
 @media (max-width: 768px) {
     .tabs {
-        top: 46em; /* Adjust positioning for smaller screens */
-        height: 1500px; /* Allow the container to adjust its height based on content */
+        top: 50em; /* Adjust positioning for smaller screens */
+        height: 1600px; /* Allow the container to adjust its height based on content */
        
     }
+    
 
     .tabs .tab-content > div{
         padding:20px 20px;
+        font-size:5px;
     }
 
    
