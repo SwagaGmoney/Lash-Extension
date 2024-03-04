@@ -168,13 +168,10 @@ function lash_extension_scripts() {
     wp_enqueue_script( 'jquery.flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array(), null, true );
     wp_enqueue_script( 'owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true );
     wp_enqueue_script( 'jquery.magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true );
-    wp_enqueue_script( 'hero-form', get_template_directory_uri() . '/js/hero-form.js', array(), null, true );
     
     wp_enqueue_script( 'jquery.datetimepicker.full', get_template_directory_uri() . '/js/jquery.datetimepicker.full.js', array(), null, true );
     wp_enqueue_script( 'jquery.validate', get_template_directory_uri() . '/js/jquery.validate.min.js', array(), null, true );
     wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true );
-    wp_enqueue_script( 'changer', get_template_directory_uri() . '/js/changer.js', array(), null, true );
-    wp_enqueue_script( 'styleswitch', get_template_directory_uri() . '/js/styleswitch.js', array(), null, true );
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -234,7 +231,7 @@ function discard_menu_classes($classes, $item) {
 
 
 
-	/**
+/**
  * Adds classes to all the tags in the content.
  *
  * @param  string $content The post content.
@@ -317,6 +314,12 @@ if (is_admin_bar_showing()) {
 }
 });
 
+
+/*
+*
+* Creates a TOC
+* 
+*/
 
 add_filter('the_content', function ($content) {
     global $tableOfContents, $headings_order;
