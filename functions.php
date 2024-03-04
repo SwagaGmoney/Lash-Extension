@@ -164,10 +164,8 @@ function lash_extension_scripts() {
     wp_enqueue_script( 'materialize', get_template_directory_uri() . '/js/materialize.js', array(), null, true );
     wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), null, true );
     wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), null, true );
-    wp_enqueue_script( 'jquery.flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array(), null, true );
     wp_enqueue_script( 'owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), null, true );
     wp_enqueue_script( 'jquery.magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array(), null, true );
-    wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array(), null, true );
     wp_enqueue_script( 'jquery.datetimepicker.full', get_template_directory_uri() . '/js/jquery.datetimepicker.full.js', array(), null, true );
     wp_enqueue_script( 'jquery.validate', get_template_directory_uri() . '/js/jquery.validate.min.js', array(), null, true );
     wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), null, true );
