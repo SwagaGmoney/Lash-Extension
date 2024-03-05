@@ -4837,9 +4837,22 @@ select:-webkit-autofill:focus {
   height: 100%;
   border:0;
 }
+/* footer map  */
 
+.gmap{ 
+  position:relative;
+  bottom:18em;
+  left:45em;
+  width:400px;
+}
+@media (max-width: 768px) {
+.gmap{ 
+  position:relative;
+  bottom:0;
+  left:0;
+}
 
-
+}
 
 /* ==========================================================================
   21. BOOKING FORM
@@ -4985,6 +4998,22 @@ select:-webkit-autofill:focus {
 
 .footer-contacts p {
   margin-bottom: 3px;
+  cursor:pointer;
+  position: relative;
+}
+.footer-contacts p::after{
+  content: ''; 
+    position: absolute; 
+    bottom:0.2rem; 
+    left: 3%; 
+    width: 45%; 
+    height: 4px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    background-color: lightpink;
+}
+.footer-contacts p:hover::after{
+   opacity: 1;
 }
 
 p.foo-email a {
@@ -5002,13 +5031,44 @@ p.foo-email a {
   vertical-align: top;
   clear: none !important;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 
 .footer-links li p {
   margin-bottom: 10px;
 }
 
+
+.footer-links ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Adjust as needed */
+  padding: 10px;
+
+  border: 1px solid #ccc; /* Adjust as needed */
+}
+.footer-links ul li.has-dropdown ul li {
+  list-style: none; /* Remove default bullet points */
+  position: relative; /* Add relative positioning for pseudo-element */
+}
+/* Add arrow bullet point using a pseudo-element */
+.footer-links ul li.has-dropdown ul li::before {
+  content: "\f105";
+ font-family: "Font Awesome 5 free"; 
+  margin-right:5px;
+  font-weight: 900; 
+  display: inline-block;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; 
+  color:lightpink;
+}
+
+/* Show arrow on hover */
+.footer-links ul li.has-dropdown ul li:hover::before {
+  opacity: 1; /* Show the arrow */
+ 
+}
 .bg-brown .footer-links li a {
   color: rgba(255, 248, 245, .7);
 }
@@ -5248,7 +5308,7 @@ p.foo-email a {
 
 .bottom-footer {
   border-top: 1px solid #ddd;
-  margin-top: 30px;
+  margin-top: -220px;
   padding-top: 30px;
 }
 
@@ -6025,5 +6085,6 @@ nav a#pull {
   opacity: 0.8;
 }
 
-
-
+.main-title{ 
+  cursor:pointer;
+}
