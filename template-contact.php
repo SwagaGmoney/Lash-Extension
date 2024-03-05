@@ -32,7 +32,6 @@ get_header();
                         You can contact us through the form below, through phone, email, or in person, and our team will
                         gladly help you with our expertise.
                     </p>
-                    <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 4 ) ); ?>
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
@@ -70,6 +69,7 @@ get_header();
                 <!-- Form -->
                 <div class="form-holder">
 
+                    <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 4 ) ); ?>
 
                 </div>
             </div> <!-- END CONTACT FORM -->
