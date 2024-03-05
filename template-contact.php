@@ -29,9 +29,10 @@ get_header();
 
                     <!-- Text -->
                     <p class="p-lg txt-color-05">
-                    You can contact us through the form below, through phone, email, or in person, and our team will gladly help you with our expertise.
+                        You can contact us through the form below, through phone, email, or in person, and our team will
+                        gladly help you with our expertise.
                     </p>
-
+                    <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 4 ) ); ?>
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
 
@@ -82,7 +83,8 @@ get_header();
                     <h4 class="h4-xs txt-color-01">Contact Details</h4>
 
                     <!-- Text -->
-                    <p class="txt-color-05">We have two bustling locations within the Houston area. Choose whichever is more convenient or closer to you.
+                    <p class="txt-color-05">We have two bustling locations within the Houston area. Choose whichever is
+                        more convenient or closer to you.
                     </p>
 
                     <!-- LOCATION -->
@@ -105,13 +107,13 @@ get_header();
                     <!-- WORKING HOURS -->
                     <div class="cbox-1">
                         <h5 class="h5-xs txt-color-01">Working Hours</h5>
-                        <p class="txt-color-05"><span>Monday    :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Tuesday   :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Monday :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Tuesday :</span> 8:00 AM - 9:00 PM</p>
                         <p class="txt-color-05"><span>Wednesday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Thursday  :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Friday    :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Saturday  :</span> 9:00 AM - 7:30 PM</p>
-                        <p class="txt-color-05"><span>Sunday    :</span> 9:00 AM - 7:30 PM</p>
+                        <p class="txt-color-05"><span>Thursday :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Friday :</span> 8:00 AM - 9:00 PM</p>
+                        <p class="txt-color-05"><span>Saturday :</span> 9:00 AM - 7:30 PM</p>
+                        <p class="txt-color-05"><span>Sunday :</span> 9:00 AM - 7:30 PM</p>
                     </div>
 
                 </div>
@@ -131,7 +133,7 @@ get_header();
 				============================================= -->
 <section id="banner-5" class="bg-fixed bg-image banner-section division">
     <div>
-    <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+        <?php get_template_part( 'template-parts/content', 'banner' ); ?>
     </div>
 </section> <!-- END BANNER-5 -->
 
