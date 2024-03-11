@@ -13,7 +13,7 @@
                         your lashes, making your eyes appear more open and youthful.</p>
                     <div class="txt-color-05">
                         <p class="txt-color-05 mt-40 bold-title">Sugar Land Location</p>
-                        <p class=""><i class="fa-solid fa-map">&nbsp;</i>4131 Highway 6 Sugar Land, 77478</p>
+                        <p class=""><i class="fa-solid fa-map">&nbsp;</i>4131 Highway 6 Suite #9 Sugar Land, 77478</p>
                         <p class="foo-phone"><i class="fa-solid fa-phone"> &nbsp;</i><a href="tel:+ +1(713)-392-0281">
                                 +1(713)-392-0281</a></p>
 
