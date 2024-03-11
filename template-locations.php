@@ -60,7 +60,7 @@ get_header();
 
                     <div style="cursor:pointer;" class="d-flex align-items-center mb-3">
                         <i class="fa-solid fa-phone-volume" style="color: red;"></i>
-                        <p class="mb-0 ml-4">+1(281)-690-3563</p>
+                        <p class="mb-0 ml-4">+1(713)-392-0281</p>
                     </div>
 
                     <div class="post-share-list">
@@ -223,8 +223,8 @@ get_header();
                             <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                             <!-- Text -->
-                            <p class="p-xl txt-color-01"> <a href="tel:+1(281)-690-3563"> Call us :
-                                    <span>+1(281)-690-3563</span>
+                            <p class="p-xl txt-color-01"> <a href="tel:+1(713)-392-0281"> Call us :
+                                    <span>+1(713)-392-0281</span>
                                 </a> or fill out our online booking & inquiry
                                 form and we will contact you
                             </p>
