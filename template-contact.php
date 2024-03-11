@@ -33,24 +33,11 @@ get_header();
                         gladly help you with our expertise.
                     </p>
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
-                        class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+                        class="btn btn-md btn-color-02 color-01-hover p-4">Make an Appointment</a>
 
                 </div>
             </div>
         </div>
-
-        <!-- GOOGLE MAP -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="google-map mb-80">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.6079765327563!2d-95.5889299!3d29.5860076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1708635965212!5m2!1sen!2sus"
-                        width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" title="mycontact"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-
 
 
 
