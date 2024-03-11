@@ -862,12 +862,19 @@ get_header();
                     <!-- Title -->
                     <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
-                    <!-- Text -->
-                    <p class="p-xl txt-color-01"> <a href="tel:+1(281)-690-3563"> Call us :
-                            <span>+1(281)-690-3563</span>
-                        </a> or fill out our online booking & inquiry
-                        form and we will contact you
-                    </p>
+
+                    <p class="p-xl txt-color-01">Don't wait any longer – schedule your appointment now! Whether it's for
+                        a special occasion or
+                        simply to treat yourself, our team is dedicated to providing you with a luxurious
+                        experience.</p>
+                    <ul class="ul-xl simple-list txt-color-01">
+                        <li>Galleria Location: <span><a class="bold" href="tel:2816903563">1(281)-690-3563</a></span>
+                        </li>
+                        <li>Sugar Land Location: <span><a class="bold"
+                                    href="tel:(713)-392-0281">(713)-392-0281</a></span></li>
+                    </ul>
+
+
 
                     <!-- Button -->
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
