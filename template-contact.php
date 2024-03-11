@@ -28,10 +28,9 @@ get_header();
                     <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
 
                     <!-- Text -->
-                    <p class="p-lg txt-color-05">
+                    <p class="p-lg txt-color-05 pb-30">
                         You can contact us through the form below, through phone, email, or in person, and our team will
-                        gladly help you with our expertise.
-                    </p>
+                        gladly help you with our expertise.</p><br>
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 color-01-hover p-4">Make an Appointment</a>
 
@@ -51,7 +50,7 @@ get_header();
                 <h4 class="h4-xs txt-color-01">Send A Message</h4>
 
                 <!-- Text -->
-                <p class="txt-color-05">If you want to ask anything just fill in the form below and send us.</p>
+                <p class="txt-color-05">If you want to ask anything just fill in the form below.</p>
 
                 <!-- Form -->
                 <div class="form-holder">
@@ -76,21 +75,22 @@ get_header();
 
                     <!-- LOCATION -->
                     <div class="cbox-1 mt-25 mb-25">
-                        <h5 class="h5-xs txt-color-01">Our Location</h5>
-                        <p class="txt-color-05">4131 Highway 6 Suite #9 Sugar Land, TX 77478</p>
+                        <h5 class="h5-xs txt-color-01">Galleria Location</h5>
                         <p class="txt-color-05">2400 Augusta Dr Suite #110 Houston, TX 77057 </p>
-                    </div>
-
-                    <!-- PHONES -->
-                    <div class="cbox-1 mb-25">
-                        <h5 class="h5-xs txt-color-01">Contact Info</h5>
-                        <p class="txt-color-05"><span>Galleria Location:- </span> +1(281)-690-3563</p>
-                        <p class="txt-color-05"><span>Sugar Land Location:- </span> +1(713)-392-0281</p>
+                        <p class="txt-color-05"><span>Phone: </span> +1(281)-690-3563</p>
                         <p class="txt-color-05"><span>Email </span> <a
-                                href="mailto:booking@lashextensionsbyfiona.com">fiona160715@yahoo.com</a>
+                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
                         </p>
                     </div>
-
+                    <!-- PHONES -->
+                    <div class="cbox-1 mb-25">
+                        <h5 class="h5-xs txt-color-01">Sugar Land Location</h5>
+                        <p class="txt-color-05">4131 Highway 6 Sugar Land, TX 77478</p>
+                        <p class="txt-color-05"><span>Phone: </span> +1(713)-392-0281</p>
+                        <p class="txt-color-05"><span>Email </span> <a
+                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
+                        </p>
+                    </div>
                     <!-- WORKING HOURS -->
                     <div class="cbox-1">
                         <h5 class="h5-xs txt-color-01">Working Hours</h5>
