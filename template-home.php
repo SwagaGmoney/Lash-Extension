@@ -20,7 +20,7 @@ get_header();
             <div class="col-lg-6 ">
                 <div class="caption-txt white-color">
                     <!-- Title -->
-                    <h1 class="d-inline-block ">Lash Extensions By Fiona </h1>
+                    <h1 class="d-inline-block h1-title">Lash Extensions By Fiona </h1>
                     <!-- Text -->
                     <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->
