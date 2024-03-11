@@ -85,7 +85,7 @@ get_header();
                     <!-- PHONES -->
                     <div class="cbox-1 mb-25">
                         <h5 class="h5-xs txt-color-01">Sugar Land Location</h5>
-                        <p class="txt-color-05">4131 Highway 6 Sugar Land Suite #9, TX 77478</p>
+                        <p class="txt-color-05">4131 Highway 6 Suite #9 SugarLand, TX 77478</p>
                         <p class="txt-color-05"><span>Phone: </span> +1(713)-392-0281</p>
                         <p class="txt-color-05"><span>Email </span> <a
                                 href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
