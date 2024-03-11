@@ -77,15 +77,15 @@ get_header();
                     <!-- LOCATION -->
                     <div class="cbox-1 mt-25 mb-25">
                         <h5 class="h5-xs txt-color-01">Our Location</h5>
-                        <p class="txt-color-05">4131 Highway 6 Sugar Land, TX 77478</p>
-                        <p class="txt-color-05">2400 Augusta DrHouston, TX 77057 </p>
+                        <p class="txt-color-05">4131 Highway 6 Suite #9 Sugar Land, TX 77478</p>
+                        <p class="txt-color-05">2400 Augusta Dr Suite #110 Houston, TX 77057 </p>
                     </div>
 
                     <!-- PHONES -->
                     <div class="cbox-1 mb-25">
                         <h5 class="h5-xs txt-color-01">Contact Info</h5>
-                        <p class="txt-color-05"><span>Phone </span> +1(281)-690-3563</p>
-                        <p class="txt-color-05"><span>Phone </span> +1(713)-392-0281</p>
+                        <p class="txt-color-05"><span>Galleria Location:- </span> +1(281)-690-3563</p>
+                        <p class="txt-color-05"><span>Sugar Land Location:- </span> +1(713)-392-0281</p>
                         <p class="txt-color-05"><span>Email </span> <a
                                 href="mailto:booking@lashextensionsbyfiona.com">fiona160715@yahoo.com</a>
                         </p>
