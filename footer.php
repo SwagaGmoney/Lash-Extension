@@ -8,21 +8,26 @@
                 <div class="footer-info mb-20">
                     <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
 									displayed (e.g 416 x 120  pixels) -->
-                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" alt="logo" width="204">
+                    <img src="<?php echo get_template_directory_uri() . '/images/logo-01.png'; ?>" alt="logo"
+                        width="204">
                     <p class="txt-color-05 mt-20">Enjoy a semi-permanent curling treatment that enhances the shape of
                         your lashes, making your eyes appear more open and youthful.</p>
                     <div class="txt-color-05">
                         <p class="txt-color-05 mt-40 bold-title">Sugar Land Location</p>
-                        <p class=""><i class="fa-solid fa-map">&nbsp;</i>4131 Highway 6 Suite #9 Sugar Land, 77478</p>
-                        <p class="foo-phone"><i class="fa-solid fa-phone"> &nbsp;</i><a href="tel:+ +1(713)-392-0281">
-                                +1(713)-392-0281</a></p>
+                        <p class=""><i class="fa-solid fa-location-dot">&nbsp;</i> 4131 Highway 6 Suite #9 Sugar Land,
+                            77478</p>
+                        <p class="foo-phone"><i class="fa-solid fa-phone"> &nbsp;</i><a href="tel:+1(713)-392-0281">
+                                +1(713) 392-0281</a></p>
 
                         <p class="txt-color-05 mt-40 bold-title">Galleria Location</p>
                         <!-- Email -->
-                        <p><i class="fa-solid fa-map">&nbsp;</i> 2400 Augusta Dr Suite #110 Houston, TX 77057
-                        <p class="foo-phone"><i class="fa-solid fa-envelope"> &nbsp;</i> <a href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
+                        <p><i class="fa-solid fa-location-dot">&nbsp;</i> 2400 Augusta Dr Suite #110 Houston, TX 77057
+                        <p class="foo-phone"><i class="fa-solid fa-envelope"> &nbsp;</i> <a
+                                href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
                             <!-- Phone -->
-                        <p class="foo-email"><i class="fa-solid fa-phone"> &nbsp;</i><a href="tel:+1(281)-690-3563">+1(281)-690-3563</a></p>
+                        <p class="foo-phone"><i class="fa-solid fa-phone"> &nbsp;</i><a
+                                href="tel:+1(281)-690-3563">+1(281) 690-3563</a></p>
+
                     </div>
                 </div>
             </div>
@@ -102,7 +107,10 @@
 
             <div class="col-md-8 col-lg-4 col-xl-3">
                 <div class="gmap ">
-                <iframe title="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235098.09685553284!2d-95.72135181717756!3d29.654948458407556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1709654764264!5m2!1sen!2sus" width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title="gmap"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235098.09685553284!2d-95.72135181717756!3d29.654948458407556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1709654764264!5m2!1sen!2sus"
+                        width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div> <!-- END FOOTER CONTENT -->
@@ -119,11 +127,13 @@
                 <div class="col-lg-6">
                     <ul class="bottom-footer-list text-right clearfix">
                         <li>
-                            <p class="first-list-link"><a href="https://www.facebook.com/ilashfiona"><i class="fab fa-facebook-f"></i>
+                            <p class="first-list-link"><a href="https://www.facebook.com/ilashfiona"><i
+                                        class="fab fa-facebook-f"></i>
                                     Facebook</a></p>
                         </li>
                         <li>
-                            <p><a href="https://www.instagram.com/lashextensionbyfiona_galleria"><i class="fab fa-instagram"></i> Instagram</a></p>
+                            <p><a href="https://www.instagram.com/lashextensionbyfiona_galleria"><i
+                                        class="fab fa-instagram"></i> Instagram</a></p>
                         </li>
                         <li>
                             <p><a href="https://www.tiktok.com/@lashextension.by"><i class=" fab fa-tiktok"></i>

@@ -10,7 +10,7 @@ html {
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #283034;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1.h1-title {
@@ -1306,7 +1306,7 @@ ol.digit-list p {
 .txt-color-06 li, 
 .txt-color-06 i,
 .txt-color-06 span, 
-.white-color .txt-color-06 { color: #fe6d70; }
+.white-color .txt-color-06 { color: #c6585a; }
 
 
 
@@ -2213,7 +2213,7 @@ ol.digit-list p {
 
 #hero-9 .caption p {
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 35px;

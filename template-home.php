@@ -59,7 +59,7 @@ get_header();
                     <!-- Title -->
                     <span class="txt-color-06 bolder ">About our studio</span>
 
-                    <h3 class="h3-md txt-color-01">Your Beauty and Success Starts Here</h3>
+                    <h2 class="h2-xs txt-color-01">Your Beauty and Success Starts Here</h2>
 
                     <!-- Text -->
                     <p class="txt-color-05 custom-height p-lg">Would you like longer, thicker, fuller eyelashes? Take
