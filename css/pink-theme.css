@@ -410,7 +410,7 @@ h2.wp-block-heading {
 
 .bg-01 { background-image: url(../images/bg-01.jpg); }
 .bg-02 { background-image: url(../images/bg-02.jpg); }
-.bg-03 { background-image: url(https://jthemes.net/themes/html/spamagic/files/images/bg-03.jpg); }
+.bg-03 { background-image: url(/images/tenth.png); }
 
 /*------------------------------------------*/
 /*. BORDER SETTINGS FOR DEMOS
@@ -2238,119 +2238,6 @@ ol.digit-list p {
 }
 
 /*------------------------------------------*/
-/*  HERO FORM 
-/*------------------------------------------*/
-
-.hero-form { 
-  padding: 45px 25px 40px;
-  margin: 0 15px 0 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-
-.hero-form .col-md-12 { 
-  padding: 0; 
-}
-
-/*------------------------------------------*/
-/*  Hero Form Text
-/*------------------------------------------*/
-
-.hero-form h5 { 
-  line-height: 1;
-  margin-bottom: 30px;
-}
-
-/*------------------------------------------*/
-/*  Hero Form Input
-/*------------------------------------------*/
-
-.hero-form .form-control,
-.hero-form .custom-select {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  color: #727475;
-  height: 54px;
-  font-size: 17px;
-  line-height: 1;
-  font-weight: 300;
-  padding: 0 15px;
-  margin-bottom: 22px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; 
-  box-shadow: none; 
-}
-
-.hero-form .custom-select {
-  display: inline-block;
-  width: 100%;
-  color: #5f5842;
-  margin-bottom: 22px;
-}
-
-/*------------------------------------------*/
-/*  Contact Form Placeholder
-/*------------------------------------------*/
-
-.hero-form .form-control::-moz-placeholder { color: #727475; } 
-.hero-form .custom-select::-moz-placeholder { color: #727475; } 
-.hero-form .form-control:-ms-input-placeholder { color: #727475; }
-.hero-form .custom-select:-ms-input-placeholder { color: #727475; }
-.hero-form .form-control::-webkit-input-placeholder { color: #727475; }
-.heroe-form .custom-select::-webkit-input-placeholder { color: #727475; }
-
-/*------------------------------------------*/
-/*  Hero Form Input Focus
-/*------------------------------------------*/
-
-.hero-form .form-control:focus {
-  outline: 0px none;
-  box-shadow: none;
-  border-color: #ccc;
-}
-
-/*------------------------------------------*/
-/*  Hero Form Button
-/*------------------------------------------*/
-
-.hero-form .btn {
-  display: block;
-  width: 100%;
-  height: 54px;
-  margin-top: 0;
-}
-
-/*------------------------------------------*/
-/*  Hero Form Message
-/*------------------------------------------*/
-
-.hero-form-msg {
-  width: 100%!important;
-  display: block;
-  margin-top: 10px;
-  padding-left: 0;
-}
-
-.hero-form .loading {
-  color: #00b2e4;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.hero-form .error {
-  color: #e74c3c;
-  font-size: 14.5px;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
-
-.hero-form .form-control.error {
-  font-size: 17px!important;
-}
-
-/*------------------------------------------*/
 /*  HERO IMAGE
 /*------------------------------------------*/
 
@@ -2369,8 +2256,6 @@ ol.digit-list p {
 .hero-5-img img {
   border: 2px solid rgba(255, 255, 255, .85);
 }
-
-
 
 
 /* ==========================================================================
@@ -3006,7 +2891,7 @@ ol.digit-list p {
   position: absolute;
   width: 130px;
   height: 120px;
-  background-image: url(https://jthemes.net/themes/html/spamagic/files/images/sbox-bg-pink.png);
+  background-image: url('/images/bg-01.jpg');
   opacity: .4;
   transform: rotate(40deg);
   z-index: -1;
@@ -4829,44 +4714,6 @@ select:-webkit-autofill:focus {
   20. GOOGLE MAP
   =========================================================================== */
 
-.google-map {
-  position: relative;
-  padding: 0px 0px 62%;
-  height: 0px;
-  overflow: hidden;
-}
-
-#gmap .google-map,
-#contacts-3 .google-map {
-  padding: 0px 0px 36%;
-}
-
-.google-map iframe, 
-.google-map object, 
-.google-map embed {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border:0;
-}
-/* footer map  */
-
-.gmap{ 
-  position:relative;
-  bottom:18em;
-  left:45em;
-  width:400px;
-}
-@media (max-width: 768px) {
-.gmap{ 
-  position:relative;
-  bottom:0;
-  left:0;
-}
-
-}
 
 /* ==========================================================================
   21. BOOKING FORM
@@ -4979,10 +4826,13 @@ select:-webkit-autofill:focus {
 /* ==========================================================================
   22. FOOTER
   =========================================================================== */
+.footer {
+  font-weight: 300 !important;
+}
 
 .footer {
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 } 
 
 .footer-contacts {
@@ -5035,6 +4885,24 @@ p.foo-email a {
   text-decoration: underline;
 }
 
+*------------------------------------------*/
+/*   FOOTER TYPOGRAPHY
+/*------------------------------------------*/
+
+.footer h6 {
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.footer-contacts p {
+  margin-bottom: 3px;
+}
+
+p.foo-email a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 /*------------------------------------------*/
 /*   FOOTER LINKS
 /*------------------------------------------*/
@@ -5045,44 +4913,13 @@ p.foo-email a {
   vertical-align: top;
   clear: none !important;
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 
 .footer-links li p {
   margin-bottom: 10px;
 }
 
-
-.footer-links ul li ul {
-  display: none;
-  position: absolute;
-  background-color: #fff; /* Adjust as needed */
-  padding: 10px;
-
-  border: 1px solid #ccc; /* Adjust as needed */
-}
-.footer-links ul li.has-dropdown ul li {
-  list-style: none; /* Remove default bullet points */
-  position: relative; /* Add relative positioning for pseudo-element */
-}
-/* Add arrow bullet point using a pseudo-element */
-.footer-links ul li.has-dropdown ul li::before {
-  content: "\f105";
- font-family: "Font Awesome 5 free"; 
-  margin-right:5px;
-  font-weight: 900; 
-  display: inline-block;
-
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out; 
-  color:lightpink;
-}
-
-/* Show arrow on hover */
-.footer-links ul li.has-dropdown ul li:hover::before {
-  opacity: 1; /* Show the arrow */
- 
-}
 .bg-brown .footer-links li a {
   color: rgba(255, 248, 245, .7);
 }
@@ -5095,6 +4932,7 @@ p.foo-email a {
 .bg-sangria .footer-links li a:hover {
   color: rgba(255, 255, 255, .95);
 }
+
 
 /*------------------------------------------*/
 /*   FOOTER SOCIAL LINKS
@@ -5241,88 +5079,12 @@ p.foo-email a {
 }
 
 /*------------------------------------------*/
-/*. Newsletter Form Input Focus
-/*------------------------------------------*/
-
-.footer-form .form-control:focus {
-  border: 1px solid #ccc;
-  border-right: none;
-  outline: 0;
-  box-shadow: none;
-}
-
-.bg-sangria .footer-form .form-control:focus {
-  border-color: #a48b73;
-}
-
-/*------------------------------------------*/
-/*. Newsletter Form Button
-/*------------------------------------------*/
-
-.footer-form .btn {
-  height: 50px;
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-left: none;
-  font-size: 1.45rem;
-  line-height: 1!important;
-  padding: 0 10px;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
-}
-
-.bg-sangria .footer-form .btn {
-  border-color: #a48b73;
-}
-
-.footer-form .btn i {
-  font-size: 1.5rem;
-  margin-top: -4px;
-}
-
-/*------------------------------------------*/
-/*  Newsletter Form Notification
-/*------------------------------------------*/
-
-.footer-form .form-notification {
-  font-size: 0.925rem;
-  font-weight: 400;
-  line-height: 1.3;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
-.footer-form .form-notification.error {
-  color: #f6412d!important;
-}
-
-.footer-form .form-notification.valid {
-  color: #48af4b!important;
-}
-
-/*------------------------------------------*/
-/*  FOOTER INSTAGRAM IMAGES
-/*------------------------------------------*/
-
-.footer-img img.insta-img {
-  float: left;
-  width: 75px;
-  height: 75px;
-  margin: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-/*------------------------------------------*/
 /*  BOTTOM FOOTER
 /*------------------------------------------*/
 
 .bottom-footer {
   border-top: 1px solid #ddd;
-  margin-top: -220px;
+  margin-top: 30px;
   padding-top: 30px;
 }
 
@@ -5339,7 +5101,6 @@ p.foo-email a {
   line-height: 1;
   margin-bottom: 0;
 }
-
 /*------------------------------------------*/
 /*  BOOTOM FOOTER LINKS
 /*------------------------------------------*/
@@ -5395,10 +5156,6 @@ p.foo-email a {
   content: " "; 
   padding-left: 0; 
 }
-
-
-
-
 /* ==========================================================================
   23. INNER PAGE WRAPPER
   =========================================================================== */
@@ -5908,6 +5665,13 @@ img.insta-img {
 .sidebar-table .table .last-tr td, 
 .sidebar-table .table .last-tr th {
   border-bottom: none;
+}
+
+
+.footer-table td, 
+.footer-table .table th {
+  border-top: none;
+  border-bottom: 1px dashed #aaa;
 }
 
 /*------------------------------------------*/
