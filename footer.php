@@ -15,6 +15,7 @@
                     <p class="foo-mail txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
 
+                    <h6 class="h6-xs txt-color-01">Working Hours</h6>
                     <table class="footer-table txt-color-05">
                         <tbody>
                             <tr>
@@ -64,6 +65,7 @@
                     <p class="foo-phone txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                         <!-- Phone -->
+                    <h6 class="h6-xs txt-color-01">Working Hours</h6>
 
                     <table class="footer-table txt-color-05">
                         <tbody>

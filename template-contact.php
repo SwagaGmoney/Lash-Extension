@@ -75,19 +75,24 @@ get_header();
 
                     <!-- LOCATION -->
                     <div class="cbox-1 mt-25 mb-25">
-                        <h5 class="h5-xs txt-color-01">Galleria Location</h5>
+                        <h5 class="h5-xs txt-color-01">Galleria - Location</h5>
                         <p class="txt-color-05">2400 Augusta Dr Suite #110 Houston, TX 77057 </p>
-                        <p class="txt-color-05"><span>Phone: </span> +1(281)-690-3563</p>
-                        <p class="txt-color-05"><span>Email </span> <a
-                                href="mailto:info@lashextensionsbyfiona.com">infog@lashextensionsbyfiona.com</a>
+                        <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
+                                href="tel:+1(281)-690-3563">+1(281)
+                                690-3563</a></p>
+                        <p class="foo-phone txt-color-05"><a
+                                href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
+                            <!-- Phone -->
                         </p>
                     </div>
                     <!-- PHONES -->
                     <div class="cbox-1 mb-25">
-                        <h5 class="h5-xs txt-color-01">Sugar Land Location</h5>
+                        <h5 class="h5-xs txt-color-01">Sugar Land - Location</h5>
                         <p class="txt-color-05">4131 Highway 6 Suite #9 SugarLand, TX 77478</p>
-                        <p class="txt-color-05"><span>Phone: </span> +1(713)-392-0281</p>
-                        <p class="txt-color-05"><span>Email </span> <a
+                        <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
+                                href="tel:+1(713)-392-0281">+1(713)
+                                392-0281</a></p>
+                        <p class="foo-mail txt-color-05"><a
                                 href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                         </p>
                     </div>
