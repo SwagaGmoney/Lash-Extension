@@ -79,7 +79,7 @@ get_header();
                         <p class="txt-color-05">2400 Augusta Dr Suite #110 Houston, TX 77057 </p>
                         <p class="txt-color-05"><span>Phone: </span> +1(281)-690-3563</p>
                         <p class="txt-color-05"><span>Email </span> <a
-                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
+                                href="mailto:info@lashextensionsbyfiona.com">infog@lashextensionsbyfiona.com</a>
                         </p>
                     </div>
                     <!-- PHONES -->
@@ -88,7 +88,7 @@ get_header();
                         <p class="txt-color-05">4131 Highway 6 Suite #9 SugarLand, TX 77478</p>
                         <p class="txt-color-05"><span>Phone: </span> +1(713)-392-0281</p>
                         <p class="txt-color-05"><span>Email </span> <a
-                                href="mailto:booking@lashextensionsbyfiona.com">booking@lashextensionsbyfiona.com</a>
+                                href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                         </p>
                     </div>
                     <!-- WORKING HOURS -->

@@ -51,7 +51,7 @@
                         <div class="col-md-5">
                             <span class="top-bar-item">
                                 <i class="fas fa-envelope mr-1"></i> <a class="text-white"
-                                    href="mailto:fiona160715@yahoo.com">fiona160715@yahoo.com</a>
+                                    href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                             </span>
                         </div>
                         <div class="col-md-4 text-right">
