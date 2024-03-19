@@ -14,7 +14,6 @@
                             392-0281</a></p>
                     <p class="foo-mail txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
-
                     <h6 class="h6-xs txt-color-01">Working Hours</h6>
                     <table class="footer-table txt-color-05">
                         <tbody>
@@ -128,7 +127,7 @@
                     <a href="/sitemap/">
                         <p class="txt-color-05 p-2">Site Map</p>
                     </a>
-                    <a href="/contact-us/">
+                    <a href="/contact">
                         <p class="txt-color-05 p-2">Contact</p>
                     </a>
                 </div>
