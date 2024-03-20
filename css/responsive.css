@@ -2581,7 +2581,6 @@
   .bottom-footer-list li p.first-list-link { margin-left: 4px; }
 
   .bottom-footer-list p:after { padding-left: 7px; }
-
   /* Page Hero */
   .page-hero-section { padding-top: 60px; padding-bottom: 60px; }
   .page-hero-section h2 { margin-bottom: 15px; }
@@ -2602,8 +2601,6 @@
   #sidebar #sb-box h5.h5-sm { font-size: 1.5rem; margin-bottom: 15px; }
   .sidebar-table .table td, .sidebar-table .table th { font-size: 1.1rem; }
 
-   h1.h1-xs { font-size: 1.33rem; }  
-   h1.h1-sm { font-size: 1.68rem; }  
    h1.h1-md { font-size: 0.78rem; }  
    h1.h1-lg { font-size: 1.11rem; }  
    h1.h1-xl { font-size: 2rem; }
