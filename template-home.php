@@ -13,14 +13,13 @@ get_header();
 
 <!-- HERO-1
 			============================================= -->
-<section id="hero-1" class="hero-section division hero-custom-overlay"
-    style="background-image: url('<?php echo get_template_directory_uri() . '/images/tenth.jpg'; ?>'); background-repeat: no-repeat; background-size: cover; height: 750px;">
+<section id="hero-1" class="hero-section division hero-custom-overlay">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
                 <div class="caption-txt white-color">
                     <!-- Title -->
-                    <h1 class="d-inline-block h1-title">Lash Extensions By Fiona </h1>
+                    <h1 class="d-inline-block h1-title h1-xl">Lash Extensions By Fiona </h1>
                     <!-- Text -->
                     <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
                     <!-- Button -->

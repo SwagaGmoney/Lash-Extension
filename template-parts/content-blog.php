@@ -8,12 +8,12 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Blog/h3>
+                    <h3 class="h3-xl txt-color-01">Blog</h3>
 
-                        <!-- Text -->
-                        <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                            primis libero tempus, blandit a cursus varius at magna tempor
-                        </p>
+                    <!-- Text -->
+                    <p class="p-lg txt-color-05">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
+                        primis libero tempus, blandit a cursus varius at magna tempor
+                    </p>
 
                 </div>
             </div>

@@ -76,7 +76,9 @@ get_header();
                     <!-- LOCATION -->
                     <div class="cbox-1 mt-25 mb-25">
                         <h5 class="h5-xs txt-color-01">Galleria - Location</h5>
-                        <p class="txt-color-05">2400 Augusta Dr Suite #110 Houston, TX 77057 </p>
+                        <p class="txt-color-05 p-1"><i class="fa-solid fa-location-dot">&nbsp;</i>2400 Augusta Dr Suite
+                            #110
+                            Houston, TX 77057 </p>
                         <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
                                 href="tel:+1(281)-690-3563">+1(281)
                                 690-3563</a></p>
@@ -88,7 +90,8 @@ get_header();
                     <!-- PHONES -->
                     <div class="cbox-1 mb-25">
                         <h5 class="h5-xs txt-color-01">Sugar Land - Location</h5>
-                        <p class="txt-color-05">4131 Highway 6 Suite #9 SugarLand, TX 77478</p>
+                        <p class="txt-color-05 p-1"><i class="fa-solid fa-location-dot">&nbsp;</i>4131 Highway 6 Suite
+                            #9 SugarLand, TX 77478</p>
                         <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
                                 href="tel:+1(713)-392-0281">+1(713)
                                 392-0281</a></p>

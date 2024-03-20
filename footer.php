@@ -6,9 +6,10 @@
             <div class="col-md-12 col-lg-3">
                 <div class="footer-info mb-20">
                     <h6 class="h6-lg txt-color-01 ">Sugar Land - Location</h6>
-                    <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i> 4131 Highway 6 Suite #9 Sugar
-                        Land,
-                        77478</p>
+                    <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a
+                            href="/locations/sugar-land"> 4131 Highway 6 Suite #9 Sugar
+                            Land,
+                            77478</a></p>
                     <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
                             href="tel:+1(713)-392-0281">+1(713)
                             392-0281</a></p>
@@ -56,8 +57,9 @@
                     <!-- Title -->
                     <h6 class="h6-lg txt-color-01">Galleria - Location</h6>
                     <!-- Email -->
-                    <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i> 2400 Augusta Dr Suite #110
-                        Houston, TX 77057
+                    <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a href="/locations/galleria">
+                            2400 Augusta Dr Suite #110
+                            Houston, TX 77057</a></p>
                     <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
                             href="tel:+1(281)-690-3563">+1(281)
                             690-3563</a></p>
@@ -129,6 +131,9 @@
                     </a>
                     <a href="/contact">
                         <p class="txt-color-05 p-2">Contact</p>
+                    </a>
+                    <a href="/privacy-policy/">
+                        <p class="txt-color-05 p-2">Privacy Policy</p>
                     </a>
                 </div>
             </div>

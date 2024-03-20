@@ -14,8 +14,6 @@ body {
 }
 
 h1.h1-title {
-  font-size: 4.8rem;
-  line-height: 1.15;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -1805,6 +1803,13 @@ ol.digit-list p {
   padding-bottom: 400px;
   position: relative;
   z-index: 3;
+}
+
+#hero-1 {
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 750px;
+  background-image: url(../images/tenth.jpg);
 }
 
 #hero-6 {

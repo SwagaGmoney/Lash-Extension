@@ -36,7 +36,6 @@
 </head>
 
 <body>
-    <!-- HEADER -->
     <header id="header" class="header white-menu navbar-dark">
         <div class="header-wrapper">
             <!-- MOBILE HEADER -->
@@ -72,7 +71,6 @@
             <!-- NAVIGATION MENU -->
             <div class="wsmainfull menu clearfix">
                 <div class="wsmainwp clearfix">
-                    <!-- LOGO IMAGE -->
                     <div class="desktoplogo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-black">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/logo-01.png" width="170"
@@ -92,8 +90,8 @@
                         'menu_class' => 'wsmenu-list'
                     ));
                     ?>
-                    </nav><!-- END MAIN MENU -->
+                    </nav>
                 </div>
-            </div><!-- END NAVIGATION MENU -->
-        </div><!-- End header-wrapper -->
-    </header><!-- END HEADER -->
+            </div>
+        </div>
+    </header>
