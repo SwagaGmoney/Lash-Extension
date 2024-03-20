@@ -12,6 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="lashextension" />
+<link rel="preload" fetchpriority="high" as="image" href="/images/tenth-small.jpg" type="image/jpeg">
 
 <head>
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>

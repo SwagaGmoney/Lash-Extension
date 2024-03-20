@@ -15,7 +15,20 @@
                             392-0281</a></p>
                     <p class="foo-mail txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
-                    <h6 class="h6-xs txt-color-01">Working Hours</h6>
+                    <ul class="bottom-footer-list clearfix pb-15">
+                        <li>
+                            <p class="first-list-link"><a href="https://www.facebook.com/lashextensionbyfionasl/"><i
+                                        class="fab fa-facebook-f"></i></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://www.instagram.com/lashextensionbyfionasl/"><i
+                                        class="fab fa-instagram"></i></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://www.tiktok.com/@lashextension.by"><i class=" fab fa-tiktok"></i></a></p>
+                        </li>
+                    </ul>
+                    <h6 class="h6-xs txt-color-01 pt-10">Working Hours</h6>
                     <table class="footer-table txt-color-05">
                         <tbody>
                             <tr>
@@ -55,7 +68,7 @@
             <div class="col-md-12 col-lg-3">
                 <div class="footer-img mb-20">
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01">Galleria - Location</h6>
+                    <h6 class="h6-lg txt-color-01 pt-10">Galleria - Location</h6>
                     <!-- Email -->
                     <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a href="/locations/galleria">
                             2400 Augusta Dr Suite #110
@@ -66,6 +79,20 @@
                     <p class="foo-phone txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                         <!-- Phone -->
+                    <ul class="bottom-footer-list clearfix pb-15">
+                        <li>
+                            <p class="first-list-link"><a
+                                    href="https://www.facebook.com/lashextensionbyfionagalleria/"><i
+                                        class="fab fa-facebook-f"></i></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://www.instagram.com/lashextensionbyfionasl/"><i
+                                        class="fab fa-instagram"></i></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://www.tiktok.com/@lashextension.by"><i class=" fab fa-tiktok"></i></a></p>
+                        </li>
+                    </ul>
                     <h6 class="h6-xs txt-color-01">Working Hours</h6>
 
                     <table class="footer-table txt-color-05">
@@ -163,19 +190,9 @@
 
                 <div class="col-lg-6">
                     <ul class="bottom-footer-list text-right clearfix">
-                        <li>
-                            <p class="first-list-link"><a href="https://www.facebook.com/ilashfiona"><i
-                                        class="fab fa-facebook-f"></i>
-                                    Facebook</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://www.instagram.com/lashextensionbyfiona_tableia"><i
-                                        class="fab fa-instagram"></i> Instagram</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://www.tiktok.com/@lashextension.by"><i class=" fab fa-tiktok"></i>
-                                    Tiktok</a></p>
-                        </li>
+                        <li><a href="/sitemap">Sitemap | </a></li>
+                        <li><a href="/privacy-policy/">Privacy Policy
+                            </a></li>
                     </ul>
                 </div>
             </div> <!-- End row -->

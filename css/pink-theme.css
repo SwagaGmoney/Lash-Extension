@@ -18,6 +18,10 @@ h1.h1-title {
   margin-bottom: 15px;
 }
 
+.fa-solid {
+    font-size: 0.975rem;
+}
+
 div.single-post-txt p, div.single-post-txt ul li {
   margin-bottom: 1rem !important;
   font-weight: 300;
@@ -5150,12 +5154,6 @@ p.foo-email a {
   margin-bottom: 0;
 }
 
-.bottom-footer-list p:after { 
-  content: "|"; 
-  padding-left: 11px; 
-  position: relative;
-  top: -1px;
-}
 
 .bottom-footer-list p.last-li:after { 
   content: " "; 
