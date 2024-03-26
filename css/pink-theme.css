@@ -1,7 +1,6 @@
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
-
 html {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
@@ -69,8 +68,6 @@ h2.single-post-txt, h3.single-post-txt  {
 
 .bold {
     font-weight: 700;
-
-
 }
 
 .custom-height {
@@ -97,6 +94,11 @@ h2.wp-block-heading, h3.wp-block-headin {
 
 h2.wp-block-heading {
   font-size: 1.625rem;
+}
+
+.underline:hover {
+  font-weight: 500;
+  text-decoration: underline !important;
 }
 
 /*------------------------------------------------------------------*/
@@ -491,7 +493,6 @@ p.p-xl { font-size: 1.25rem; }     /* 20px */
 
 a {
   color: #333;
-  text-decoration: none;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -501,7 +502,8 @@ a {
 
 a:hover {
   color: #666;
-  text-decoration: none;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 a:focus {
@@ -5397,8 +5399,6 @@ p.foo-email a {
 .terms-box a {
   font-weight: 500;
 }
-
-
 
 
 /* ==========================================================================

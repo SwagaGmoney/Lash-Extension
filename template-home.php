@@ -10,19 +10,13 @@
 get_header();
 
 ?>
-
-<!-- HERO-1
-			============================================= -->
 <section id="hero-1" class="hero-section division hero-custom-overlay">
     <div class="container d-flex align-items-center justify-content-center h-100">
         <div class="row">
             <div class="col-lg-6 ">
                 <div class="caption-txt white-color">
-                    <!-- Title -->
                     <h1 class="d-inline-block h1-title h1-xl">Lash Extensions By Fiona </h1>
-                    <!-- Text -->
                     <p>Welcome to Lash Extensions by Fiona, the beginning of your journey into effortless beauty. </p>
-                    <!-- Button -->
                     <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
                         class="btn btn-md btn-color-02 tra-white-hover">Book an Appointment</a>
                 </div>
@@ -30,36 +24,19 @@ get_header();
         </div>
     </div>
 </section>
-
-
-
-
-<!-- ABOUT-1
-			============================================= -->
-<!-- <section id="about-1" class="bg-color-01 wide-60 about-section division"> -->
 <section id="about-1" class="bg-color-01 about-section division wide-60">
     <div class="container">
         <div class="row d-flex align-items-center">
-
-
-            <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="img-block left-column pc-10 mb-40">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/image-01.png'; ?>"
                         alt="about-image">
                 </div>
             </div>
-
-
-            <!-- TEXT BLOCK -->
             <div class="col-md-7 col-lg-6">
                 <div class="txt-block right-column pc-15 mb-40">
-
-                    <!-- Title -->
                     <span class="txt-color-06 bolder ">About our studio</span>
-
                     <h2 class="h2-xs txt-color-01">Your Beauty and Success Starts Here</h2>
-
                     <!-- Text -->
                     <p class="txt-color-05 custom-height p-lg">Would you like longer, thicker, fuller eyelashes? Take
                         your
@@ -67,49 +44,32 @@ get_header();
                         routine to the next level by saying goodbye to mascara and welcome to a quick morning routine!
                         Our mission is to deliver flawlessly applied eyelash extensions that embody elegance,
                         sophistication, and the epitome of lash perfection.
-
-
                     </p>
                 </div>
-            </div> <!-- END TEXT BLOCK -->
+            </div>
+        </div>
+    </div>
+</section>
 
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-1 -->
-
-<!-- SERVICES-10  -->
 <section id="services-10" class="bg-color-02 wide-60 services-section division">
     <div class="container">
-
-        <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
 
-                    <!-- Title 	-->
                     <span class="txt-color-06 bolder">Our Services</span>
-
-                    <h3 class="h3-xl txt-color-01">Precision and Craftsmanship
-                    </h3>
-                    <!-- Text -->
+                    <h3 class="h3-xl txt-color-01">Precision and Craftsmanship</h3>
                     <p class="p-lg txt-color-05">Take your morning put-on routine to the next level by saying goodbye to
                         mascara and welcome to a quick morning routine!
-
                     </p>
 
                 </div>
             </div>
         </div>
-
-        <!-- SERVICES-10 WRAPPER -->
         <div class="sbox-10-wrapper">
             <div class="row justify-content-center">
-                <!-- SERVICE BOX #1 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="sbox-10 bg-white text-center">
-
-                        <!-- Image -->
                         <div class="sbox-10-img">
                             <div class="hover-overlay">
                                 <img class="img-fluid"
@@ -117,27 +77,15 @@ get_header();
                                     alt="service-image" />
                             </div>
                         </div>
-
-                        <!-- Text -->
                         <div class="sbox-10-txt">
-
                             <a href="https://lashextensionsbyfiona.com/services/lash-extensions/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Lash Extensions</h5>
                             </a>
-
-                            <!-- Text -->
                             <p class="txt-color-05">From subtle enhancements to dramatic flair, our skilled technicians
                                 craft the perfect look just you!</p>
-
-
-
                         </div>
-
                     </div>
                 </div>
-
-
-                <!-- SERVICE BOX #2 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="sbox-10 bg-white text-center">
 
@@ -150,11 +98,7 @@ get_header();
                             </div>
                         </div>
 
-                        <!-- Text -->
                         <div class="sbox-10-txt">
-
-
-                            <!-- Title -->
                             <a href="/services/microblading/" class="h5-link">
                                 <h5 class="h5-sm txt-color-01">Microblading</h5>
                             </a>
@@ -222,23 +166,14 @@ get_header();
                             <!-- Text -->
                             <p class="txt-color-05">Darken and define your
                                 lashes for a mascara-free, effortless enhancement that lasts.</p>
-
-
                         </div>
-
                     </div>
                 </div>
-
-
-
             </div> <!-- End row -->
         </div> <!-- END SERVICES-10 WRAPPER -->
-
-
     </div> <!-- End container -->
 </section> <!-- END SERVICES-10 -->
-
-<!-- PRICING-1============================================= -->
+<!-- PRICING-1 -->
 <section id="pricing-1" class="bg-color-01 wide-60 pricing-section division">
     <div class="container">
 

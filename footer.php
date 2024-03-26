@@ -1,8 +1,6 @@
 <footer id="footer-4" class="bg-color-01 footer division">
     <div class="container">
-        <!-- FOOTER CONTENT -->
         <div class="row">
-            <!-- FOOTER INFO -->
             <div class="col-md-12 col-lg-3">
                 <div class="footer-info mb-20">
                     <h6 class="h6-lg txt-color-01 ">Sugar Land - Location</h6>
@@ -14,7 +12,7 @@
                             href="tel:+1(713)-392-0281">+1(713)
                             392-0281</a></p>
                     <p class="foo-mail txt-color-05"><a
-                            href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
+                            href="mailto:info@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
                     <ul class="bottom-footer-list clearfix pb-15">
                         <li>
                             <p class="first-list-link"><a href="https://www.facebook.com/lashextensionbyfionasl/"><i
@@ -195,12 +193,12 @@
                             </a></li>
                     </ul>
                 </div>
-            </div> <!-- End row -->
-        </div> <!-- END BOTTOM FOOTER -->
-    </div> <!-- End container -->
-</footer> <!-- END FOOTER-4 -->
-</div> <!-- End Inner Page Wrapper -->
-</div> <!-- END PAGE CONTENT -->
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
 <?php wp_footer(); ?>
 </body>
 
