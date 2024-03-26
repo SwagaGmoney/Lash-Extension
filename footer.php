@@ -11,8 +11,8 @@
                     <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
                             href="tel:+1(713)-392-0281">+1(713)
                             392-0281</a></p>
-                    <p class="foo-mail txt-color-05"><a
-                            href="mailto:info@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
+                    <p class="foo-mail txt-color-05 underline"><a
+                            href="mailto:fiona@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
                     <ul class="bottom-footer-list clearfix pb-15">
                         <li>
                             <p class="first-list-link"><a href="https://www.facebook.com/lashextensionbyfionasl/"><i

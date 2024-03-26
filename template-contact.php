@@ -14,19 +14,15 @@ get_header();
 <?php get_template_part('template-parts/content', 'page'); ?>
 
 
-<!-- CONTACTS-3
-				============================================= -->
+<!-- CONTACTS--->
 <section id="contacts-3" class="bg-color-01 wide-60 contacts-section division">
     <div class="container">
-
-
         <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
                     <!-- Title 	-->
                     <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
-
                     <!-- Text -->
                     <p class="p-lg txt-color-05 pb-30">
                         You can contact us through the form below, through phone, email, or in person, and our team will
@@ -37,12 +33,7 @@ get_header();
                 </div>
             </div>
         </div>
-
-
-
         <div class="row">
-
-
             <!-- CONTACT FORM -->
             <div class="col-md-7 col-lg-8">
 
@@ -96,7 +87,7 @@ get_header();
                                 href="tel:+1(713)-392-0281">+1(713)
                                 392-0281</a></p>
                         <p class="foo-mail txt-color-05"><a
-                                href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
+                                href="mailto:fiona@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
                         </p>
                     </div>
                     <!-- WORKING HOURS -->
@@ -110,29 +101,15 @@ get_header();
                         <p class="txt-color-05"><span>Saturday :</span> 9:00 AM - 7:30 PM</p>
                         <p class="txt-color-05"><span>Sunday :</span> 9:00 AM - 7:30 PM</p>
                     </div>
-
                 </div>
             </div> <!-- END CONTACTS INFO -->
-
-
         </div> <!-- End row -->
-
-
     </div> <!-- End container -->
 </section> <!-- END CONTACTS-3 -->
-
-
-
-
-<!-- BANNER-5
-				============================================= -->
+<!-- BANNER-5 -->
 <section id="banner-5" class="bg-fixed bg-image banner-section division">
     <div>
         <?php get_template_part( 'template-parts/content', 'banner' ); ?>
     </div>
 </section> <!-- END BANNER-5 -->
-
-
-
-
 <?php get_footer(); ?>
