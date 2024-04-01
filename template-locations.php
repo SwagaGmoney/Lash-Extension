@@ -130,8 +130,8 @@ get_header();
 </section> <!-- END ABOUT-1 -->
 <section class="">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d221947.2863494473!2d-95.5524262!3d29.6348823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e67142272cd5%3A0x5ec332cec0a26b38!2s4131%20Hwy%206%2C%20Sugar%20Land%2C%20TX%2077478!5e0!3m2!1sen!2sus!4v1709578706052!5m2!1sen!2sus"
-        width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" title="sugarland"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13878.431906131025!2d-95.5889299!3d29.5860076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e770adfbb779%3A0x401481d8d3a3a79f!2sLash%20Extensions%20by%20Fiona%20Sugar%20land!5e0!3m2!1sen!2sus!4v1711989043767!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <section>
         <section id="about-1" class="bg-color-01 wide-60 about-section division">
