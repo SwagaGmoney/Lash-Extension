@@ -8,9 +8,9 @@
                             href="/locations/sugar-land"> 4131 Highway 6 Suite #9 Sugar
                             Land,
                             77478</a></p>
-                    <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
-                            href="tel:+1(713)-392-0281">+1(713)
-                            392-0281</a></p>
+                    <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
+                            href="tel:+1(281)-690-3563">+1(281)
+                            690-3563</a></p>
                     <p class="foo-mail txt-color-05 underline"><a
                             href="mailto:fiona@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
                     <ul class="bottom-footer-list clearfix pb-15">
@@ -71,9 +71,10 @@
                     <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a href="/locations/galleria">
                             2400 Augusta Dr Suite #110
                             Houston, TX 77057</a></p>
-                    <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
-                            href="tel:+1(281)-690-3563">+1(281)
-                            690-3563</a></p>
+
+                    <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
+                            href="tel:+1(713)-392-0281">+1(713)
+                            392-0281</a></p>
                     <p class="foo-phone txt-color-05"><a
                             href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                         <!-- Phone -->
