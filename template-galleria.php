@@ -132,8 +132,8 @@ get_header();
 </section> <!-- END ABOUT-1 -->
 <section class="">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62218.30104560249!2d-95.44882514660382!3d29.737487475765658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3dc28651501%3A0xadeba21ea109d191!2sParking%20lot%2C%202400%20Augusta%20Dr%20%23110%2C%20Houston%2C%20TX%2077057!5e0!3m2!1sen!2sus!4v1709578617124!5m2!1sen!2sus"
-        width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" title="galleria"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.24031232003!2d-95.48612582367946!3d29.741757532847245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c36205a0101f%3A0xca2115c1760ffb5b!2sLash%20Extensions%20By%20Fiona!5e0!3m2!1sen!2sus!4v1711989497930!5m2!1sen!2sus"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <section>
 

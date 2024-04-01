@@ -12,7 +12,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="lashextension" />
-<link rel="preload" fetchpriority="high" as="image" href="/images/tenth-small.jpg" type="image/jpeg">
 
 <head>
     <title><?php bloginfo('name'); ?> <?php wp_title('|', true, 'left'); ?></title>
@@ -57,13 +56,13 @@
                         <div class="col-md-4 text-right">
                             <span class="top-bar-item">
                                 <i class="fas fa-phone mr-1"></i> <a class="text-white"
-                                    href="tel:+17133920281">(713)-392-0281</a> | Sugar Land, TX
+                                    href="tel:+17133920281">(713)-392-0281</a> | Galleria
                             </span>
                         </div>
                         <div class="col-md-3 text-right">
                             <span class="top-bar-item">
                                 <i class="fas fa-phone mr-1"></i> <a class="text-white"
-                                    href="tel:(281)-690-3563">(281)-690-3563</a> | Galleria, TX
+                                    href="tel:(281)-690-3563">(281)-690-3563</a> | Sugar Land
                             </span>
                         </div>
                     </div>
