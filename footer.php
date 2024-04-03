@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-3">
                 <div class="footer-info mb-20">
-                    <h6 class="h6-lg txt-color-01 ">Sugar Land - Location</h6>
+                    <h6 class="h6-lg txt-color-01">Sugar Land - Location</h6>
                     <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a
                             href="/locations/sugar-land"> 4131 Highway 6 Suite #9 Sugar
                             Land,
@@ -65,8 +65,7 @@
             </div>
             <div class="col-md-12 col-lg-3">
                 <div class="footer-img mb-20">
-                    <!-- Title -->
-                    <h6 class="h6-lg txt-color-01 pt-10">Galleria - Location</h6>
+                    <h6 class="h6-lg txt-color-01">Galleria - Location</h6>
                     <!-- Email -->
                     <p class="txt-color-05"><i class="fa-solid fa-location-dot">&nbsp;</i><a href="/locations/galleria">
                             2400 Augusta Dr Suite #110
@@ -137,29 +136,29 @@
             <div class="col-md-4 col-lg-3 col-xl-3">
                 <div class="footer-contacts mb-20 ml-20">
                     <!-- Title -->
-                    <h6 class="h6-lg txt-color-01 ">Services</h6>
+                    <h6 class="h6-lg txt-color-01">Services</h6>
                     <!-- Services -->
                     <a href="/services/lash-extensions/">
-                        <p class="txt-color-05 p-2 ">Lash Extensions</p>
+                        <p class="txt-color-05">Lash Extensions</p>
                     </a>
                     <a href="/services/microblading/">
-                        <p class="txt-color-05 p-2 ">Microblading</p>
+                        <p class="txt-color-05">Microblading</p>
                     </a>
                     <a href="/services/eyebrow-waxing/">
-                        <p class="txt-color-05 p-2 ">Eyebrow Waxing</p>
+                        <p class="txt-color-05">Eyebrow Waxing</p>
                     </a>
                     <a href="/services/lash-tinting/">
-                        <p class="txt-color-05 p-2 ">Lash Tinting</p>
+                        <p class="txt-color-05">Lash Tinting</p>
                     </a>
                     <h6 class="h6-lg txt-color-01 mt-20">Quick Links</h6>
                     <a href="/sitemap/">
-                        <p class="txt-color-05 p-2">Site Map</p>
+                        <p class="txt-color-05">Site Map</p>
                     </a>
                     <a href="/contact">
-                        <p class="txt-color-05 p-2">Contact</p>
+                        <p class="txt-color-05">Contact</p>
                     </a>
                     <a href="/privacy-policy/">
-                        <p class="txt-color-05 p-2">Privacy Policy</p>
+                        <p class="txt-color-05">Privacy Policy</p>
                     </a>
                 </div>
             </div>

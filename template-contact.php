@@ -50,60 +50,6 @@ get_header();
 
                 </div>
             </div> <!-- END CONTACT FORM -->
-
-
-            <!-- CONTACTS INFO -->
-            <div class="col-md-5 col-lg-4">
-                <div class="contacts-info mb-40">
-
-                    <!-- Title -->
-                    <h4 class="h4-xs txt-color-01">Contact Details</h4>
-
-                    <!-- Text -->
-                    <p class="txt-color-05">We have two bustling locations within the Houston area. Choose whichever is
-                        more convenient or closer to you.
-                    </p>
-
-                    <!-- LOCATION -->
-                    <div class="cbox-1 mt-25 mb-25">
-                        <h5 class="h5-xs txt-color-01">Galleria - Location</h5>
-                        <p class="txt-color-05 p-1"><i class="fa-solid fa-location-dot">&nbsp;</i>2400 Augusta Dr Suite
-                            #110
-                            Houston, TX 77057 </p>
-
-                        <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone">&nbsp;</i><a
-                                href="tel:+1(713)-392-0281">+1(713)
-                                392-0281</a></p>
-                        <p class="foo-phone txt-color-05"><a
-                                href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
-                            <!-- Phone -->
-                        </p>
-                    </div>
-                    <!-- PHONES -->
-                    <div class="cbox-1 mb-25">
-                        <h5 class="h5-xs txt-color-01">Sugar Land - Location</h5>
-                        <p class="txt-color-05 p-1"><i class="fa-solid fa-location-dot">&nbsp;</i>4131 Highway 6 Suite
-                            #9 SugarLand, TX 77478</p>
-                        <p class="foo-phone txt-color-05"><i class="fa-solid fa-phone"> &nbsp;</i><a
-                                href="tel:+1(281)-690-3563">+1(281)
-                                690-3563</a></p>
-                        <p class="foo-mail txt-color-05"><a
-                                href="mailto:fiona@lashextensionsbyfiona.com">fiona@lashextensionsbyfiona.com</a>
-                        </p>
-                    </div>
-                    <!-- WORKING HOURS -->
-                    <div class="cbox-1">
-                        <h5 class="h5-xs txt-color-01">Working Hours</h5>
-                        <p class="txt-color-05"><span>Monday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Tuesday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Wednesday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Thursday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Friday :</span> 8:00 AM - 9:00 PM</p>
-                        <p class="txt-color-05"><span>Saturday :</span> 9:00 AM - 7:30 PM</p>
-                        <p class="txt-color-05"><span>Sunday :</span> 9:00 AM - 7:30 PM</p>
-                    </div>
-                </div>
-            </div> <!-- END CONTACTS INFO -->
         </div> <!-- End row -->
     </div> <!-- End container -->
 </section> <!-- END CONTACTS-3 -->

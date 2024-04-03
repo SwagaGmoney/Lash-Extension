@@ -233,21 +233,11 @@ get_header();
                     <div class="pricing-2-banner bg-color-09 white-color">
 
                         <!-- Title -->
-                        <h5 class="h5-xl">Open Hours:</h5>
-
-
-                        <h6 class="h6-xl">Monday – Friday</h6>
-                        <span>8:00 AM - 9:00 PM</span>
-
-                        <h6 class="h6-xl">Saturday</h6>
-                        <span>9:00 AM - 7:30 PM</span>
-
-                        <h6 class="h6-xl">Sunday</h6>
-                        <span>9:00 AM - 7:30 PM</span>
-
+                        <p><em>Join us for a journey into beauty perfection at Lash Extensions by Fiona. Your initial
+                                appointment is more than just a visit it's a life-changing experience</em></p>
                         <!-- Button -->
                         <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
-                            class="btn btn-md btn-tra-white white-hover mt-5">Book Now</a>
+                            class="btn btn-md btn-tra-white white-hover mt-20">Book Now</a>
 
                     </div>
                 </div>

@@ -69,15 +69,11 @@ get_header();
                     <div class="post-share-list">
                         <ul class="list-unstyled d-flex justify-content-start">
                             <li class="mr-3">
-                                <a href="https://www.facebook.com/ilashfiona" class="share-ico ico-facebook"><i
-                                        class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.facebook.com/lashextensionbyfionagalleria/"
+                                    class="share-ico ico-facebook"><i class="fab fa-facebook-square"></i></a>
                             </li>
                             <li class="mr-3">
-                                <a href="https://www.tiktok.com/@lashextension.by" class="share-ico ico-tiktok"><i
-                                        class="fab fa-tiktok"></i></a>
-                            </li>
-                            <li class="mr-3">
-                                <a href="https://www.instagram.com/lashextensionbyfiona_galleria/"
+                                <a href="https://www.instagram.com/lashextensionbyfionasl/"
                                     class="share-ico ico-instagram"><i class="fab fa-instagram"></i></a>
                             </li>
                         </ul>
@@ -224,7 +220,37 @@ get_header();
                 </div> <!-- End container -->
             </section> <!-- END ABOUT-1 -->
             <!-- BANNER-5 ============================================= -->
-            <?php get_template_part( 'template-parts/content', 'banner' ); ?>
+            <section id="about-6" class="bg-01 about-section division">
+                <div class="container">
+                    <div class="row d-flex align-items-center ">
 
+
+                        <!-- TEXT BLOCK -->
+                        <div class="col-md-7 col-lg-6 pb-80 pt-80">
+                            <div class="txt-block ">
+
+                                <!-- Title -->
+                                <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
+                                <!-- Text -->
+                                <p class="p-xl txt-color-01"> <a href="tel:+1(713) 392-0281"> Call us :
+                                        <span>+1(713) 392-0281</span>
+                                    </a> or fill out our online booking & inquiry
+                                    form and we will contact you
+                                </p>
+
+                                <!-- Button -->
+                                <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
+                                    class="btn btn-md btn-color-02 color-01-hover">Make an Appointment</a>
+
+                            </div>
+                        </div> <!-- END TEXT BLOCK -->
+
+
+                        <!-- IMAGE BLOCK -->
+
+
+                    </div> <!-- End row -->
+                </div> <!-- End container -->
+            </section> <!-- END ABOUT-6 -->
 
             <?php get_footer(); ?>

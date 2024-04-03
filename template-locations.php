@@ -59,20 +59,17 @@ get_header();
                     </div>
 
                     <div style="cursor:pointer;" class="d-flex align-items-center mb-3">
-                        <i class="fas fa-phone"></i> <a class="mb-0 ml-4" href="tel:(281)-690-3563">(281)-690-3563</a>
+                        <i class="fas fa-phone"></i> <a class="mb-0 ml-4" href="tel:(281)-690-3563">+1(281)-690-3563</a>
                     </div>
                     <div class="post-share-list">
                         <ul class="list-unstyled d-flex justify-content-start">
                             <li class="mr-3">
-                                <a href="https://www.facebook.com/ilashfiona" class="share-ico ico-facebook"><i
-                                        class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.facebook.com/lashextensionbyfionasl/"
+                                    class="share-ico ico-facebook"><i class="fab fa-facebook-square"></i></a>
                             </li>
+
                             <li class="mr-3">
-                                <a href="https://www.tiktok.com/@lashextension.by" class="share-ico ico-tiktok"><i
-                                        class="fab fa-tiktok"></i></a>
-                            </li>
-                            <li class="mr-3">
-                                <a href="https://www.instagram.com/lashextensionbyfiona_galleria/"
+                                <a href=https://www.instagram.com/lashextensionbyfionasl/"
                                     class="share-ico ico-instagram"><i class="fab fa-instagram"></i></a>
                             </li>
                         </ul>
@@ -221,8 +218,8 @@ get_header();
                             <h3 class="h3-lg txt-color-01">Want to Make a Booking or Have a Question?</h3>
 
                             <!-- Text -->
-                            <p class="p-xl txt-color-01"> <a href="tel:+1(713)-392-0281"> Call us :
-                                    <span>+1(713)-392-0281</span>
+                            <p class="p-xl txt-color-01"> <a href="tel:+1(281)-690-3563"> Call us :
+                                    <span>+1(281)-690-3563</span>
                                 </a> or fill out our online booking & inquiry
                                 form and we will contact you
                             </p>

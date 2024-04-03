@@ -50,129 +50,149 @@ get_header();
         </div>
     </div>
 </section>
-
-<section id="services-10" class="bg-color-02 wide-60 services-section division">
+<section id="about-4" class="wide-100 about-section division">
     <div class="container">
+
+
+        <!-- SECTION TITLE -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-60 text-center">
 
-                    <span class="txt-color-06 bolder">Our Services</span>
-                    <h3 class="h3-xl txt-color-01">Precision and Craftsmanship</h3>
-                    <p class="p-lg txt-color-05">Take your morning put-on routine to the next level by saying goodbye to
-                        mascara and welcome to a quick morning routine!
-                    </p>
+                    <!-- Transparent Header -->
+                    <span class="txt-color-06 bolder">Our Values</span>
+                    <!-- Title 	-->
+                    <h3 class="h3-xl txt-color-01">Client-Centric Approach </h3>
+
+                    <!-- Text -->
+                    <p class="p-lg txt-color-05">We create captivating looks that reflect individual personality and
+                        radiate self-assured beauty.
 
                 </div>
             </div>
         </div>
-        <div class="sbox-10-wrapper">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-3">
-                    <div class="sbox-10 bg-white text-center">
-                        <div class="sbox-10-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-002.jpg'; ?>"
-                                    alt="service-image" />
+
+
+        <!-- ABOUT BOX #1 -->
+        <!-- ABOUT BOXES WRAPPER -->
+        <div class="abox-2-wrapper">
+            <div class="row d-flex align-items-center">
+                <!-- ABOUT BOX #2 -->
+                <div class="col-lg-6 bg-color-03 white-color">
+                    <div class="row d-flex align-items-center">
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-2" class="abox-2">
+                                <h5 class="h5-md">Classic Set</h5>
+                                <p>Enjoy a semi-permanent curling treatment that enhances the shape of your lashes,
+                                    making your eyes appear more open and youthful.
+                                </p>
                             </div>
                         </div>
-                        <div class="sbox-10-txt">
-                            <a href="https://lashextensionsbyfiona.com/services/lash-extensions/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Lash Extensions</h5>
-                            </a>
-                            <p class="txt-color-05">From subtle enhancements to dramatic flair, our skilled technicians
-                                craft the perfect look just you!</p>
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/classic.png'; ?>"
+                                    alt="about-image" />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="sbox-10 bg-white text-center">
-
-                        <!-- Image -->
-                        <div class="sbox-10-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-03.jpg'; ?>"
-                                    alt="service-image" />
-                            </div>
-                        </div>
-
-                        <div class="sbox-10-txt">
-                            <a href="/services/microblading/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Microblading</h5>
-                            </a>
-                            <!-- Text -->
-                            <p class="txt-color-05">Rediscover confidence and redefine beauty with flawless brows that
-                                speak volumes. </p>
 
 
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="sbox-10 bg-white text-center">
-
-                        <!-- Image -->
-                        <div class="sbox-10-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/serv-02.jpg'; ?>"
-                                    alt="service-image" />
-                            </div>
-                        </div>
+                <!-- ABOUT BOX #3 -->
+                <div class="col-lg-6 bg-color-04 white-color">
+                    <div class="row d-flex align-items-center">
 
                         <!-- Text -->
-                        <div class="sbox-10-txt">
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-3" class="abox-2">
+                                <h5 class="h5-md">Eyebrow Waxing</h5>
+                                <p>Say goodbye to unruly brows and hello to a refined look. Our skilled team shapes with
+                                    care.
+                                </p>
 
-
-                            <a href="https://lashextensionsbyfiona.com/services/eyebrow-waxing/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Eyebrow Waxing</h5>
-                            </a>
-                            <!-- Text -->
-                            <p class="txt-color-05">Discover our premier featured service, tailored to elevate your
-                                beauty and enhance your confidence.</p>
-
-
-
+                            </div>
                         </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="sbox-10 bg-white text-center">
-
                         <!-- Image -->
-                        <div class="sbox-10-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" alt=""
-                                    src="<?php echo get_template_directory_uri() . '/images/hero-06.webp'; ?>"
-                                    alt="service-image" />
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/6461.jpg'; ?>"
+                                    alt="about-image" />
                             </div>
                         </div>
 
-                        <!-- Text -->
-                        <div class="sbox-10-txt">
 
-
-                            <!-- Title -->
-                            <a href="https://lashextensionsbyfiona.com/services/lash-tinting/" class="h5-link">
-                                <h5 class="h5-sm txt-color-01">Lash Tinting</h5>
-                            </a>
-                            <!-- Text -->
-                            <p class="txt-color-05">Darken and define your
-                                lashes for a mascara-free, effortless enhancement that lasts.</p>
-                        </div>
                     </div>
                 </div>
+
+
             </div> <!-- End row -->
-        </div> <!-- END SERVICES-10 WRAPPER -->
+            <div class="row d-flex align-items-center">
+                <!-- ABOUT BOX #2 -->
+                <div class="col-lg-6 bg-color-03 white-color">
+                    <div class="row d-flex align-items-center">
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/microblading-02.jpg'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-2" class="abox-2">
+                                <h5 class="h5-md">Microblading</h5>
+                                <p>Say hello to effortless beauty and wake up to perfectly shaped brows every day.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- ABOUT BOX #3 -->
+                <div class="col-lg-6 bg-color-04 white-color">
+                    <div class="row d-flex align-items-center">
+
+                        <!-- Image -->
+                        <div class="col-md-5 col-lg-6 a4-img">
+                            <div class="img-block">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri() . '/images/tinting-02.jpg'; ?>"
+                                    alt="about-image" />
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="col-md-7 col-lg-6">
+                            <div id="a4-3" class="abox-2">
+                                <h5 class="h5-md">Eyelash tinting</h5>
+                                <p>Darken and define your lashes for a mascara-free, effortless enhancement that lasts.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div> <!-- End row -->
+        </div> <!-- END ABOUT BOXES WRAPPER -->
+
+
     </div> <!-- End container -->
-</section> <!-- END SERVICES-10 -->
+</section> <!-- END ABOUT-4 -->
+
+
 <!-- PRICING-1 -->
 <section id="pricing-1" class="bg-color-01 wide-60 pricing-section division">
     <div class="container">
@@ -441,148 +461,6 @@ get_header();
 
 
 <!-- More services -->
-<section id="about-4" class="wide-100 about-section division">
-    <div class="container">
-
-
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
-
-                    <!-- Transparent Header -->
-                    <span class="txt-color-06 bolder">Our Values</span>
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Client-Centric Approach </h3>
-
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05">We create captivating looks that reflect individual personality and
-                        radiate self-assured beauty.
-
-                </div>
-            </div>
-        </div>
-
-
-        <!-- ABOUT BOX #1 -->
-        <!-- ABOUT BOXES WRAPPER -->
-        <div class="abox-2-wrapper">
-            <div class="row d-flex align-items-center">
-                <!-- ABOUT BOX #2 -->
-                <div class="col-lg-6 bg-color-03 white-color">
-                    <div class="row d-flex align-items-center">
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-2" class="abox-2">
-                                <h5 class="h5-md">Classic Set</h5>
-                                <p>Enjoy a semi-permanent curling treatment that enhances the shape of your lashes,
-                                    making your eyes appear more open and youthful.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/classic.png'; ?>"
-                                    alt="about-image" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- ABOUT BOX #3 -->
-                <div class="col-lg-6 bg-color-04 white-color">
-                    <div class="row d-flex align-items-center">
-
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-3" class="abox-2">
-                                <h5 class="h5-md">Eyebrow Waxing</h5>
-                                <p>Say goodbye to unruly brows and hello to a refined look. Our skilled team shapes with
-                                    care.
-                                </p>
-
-                            </div>
-                        </div>
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/6461.jpg'; ?>"
-                                    alt="about-image" />
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-            </div> <!-- End row -->
-            <div class="row d-flex align-items-center">
-                <!-- ABOUT BOX #2 -->
-                <div class="col-lg-6 bg-color-03 white-color">
-                    <div class="row d-flex align-items-center">
-
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/microblading-02.jpg'; ?>"
-                                    alt="about-image" />
-                            </div>
-                        </div>
-
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-2" class="abox-2">
-                                <h5 class="h5-md">Microblading</h5>
-                                <p>Say hello to effortless beauty and wake up to perfectly shaped brows every day.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- ABOUT BOX #3 -->
-                <div class="col-lg-6 bg-color-04 white-color">
-                    <div class="row d-flex align-items-center">
-
-                        <!-- Image -->
-                        <div class="col-md-5 col-lg-6 a4-img">
-                            <div class="img-block">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri() . '/images/tinting-02.jpg'; ?>"
-                                    alt="about-image" />
-                            </div>
-                        </div>
-
-                        <!-- Text -->
-                        <div class="col-md-7 col-lg-6">
-                            <div id="a4-3" class="abox-2">
-                                <h5 class="h5-md">Eyelash tinting</h5>
-                                <p>Darken and define your lashes for a mascara-free, effortless enhancement that lasts.
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div> <!-- End row -->
-        </div> <!-- END ABOUT BOXES WRAPPER -->
-
-
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-4 -->
-
 
 
 
@@ -802,10 +680,11 @@ get_header();
                         simply to treat yourself, our team is dedicated to providing you with a luxurious
                         experience.</p>
                     <ul class="ul-xl simple-list txt-color-01">
-                        <li>Galleria Location: <span><a class="bold" href="tel:2816903563">1(281)-690-3563</a></span>
+                        <li>Galleria Location: <span><a class="bold"
+                                    href="tel:(713)-392-0281">+1(713)-392-0281</a></span>
                         </li>
-                        <li>Sugar Land Location: <span><a class="bold"
-                                    href="tel:(713)-392-0281">(713)-392-0281</a></span></li>
+                        <li>Sugar Land Location: <span><a class="bold" href="tel:2816903563">+1(281)-690-3563</a></span>
+                        </li>
                     </ul>
 
 
