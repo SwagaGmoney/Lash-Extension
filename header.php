@@ -44,24 +44,25 @@
                         width="170" height="50" alt="mobile-logo" /></span>
                 <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
             </div>
-            <div class="top-bar bg-color-06 text-white py-2 font-weight-bold">
+            <div class="top-bar bg-color-10 py-2">
                 <div class="container">
                     <div class="row align-items-center justify-content-end">
                         <div class="col-md-5">
                             <span class="top-bar-item">
-                                <i class="fas fa-envelope mr-1"></i> <a class="text-white"
-                                    href="mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
+                                <i class="fas fa-envelope mr-1"></i> <a class="txt-color-10"
+                                    href=" mailto:info@lashextensionsbyfiona.com">info@lashextensionsbyfiona.com</a>
                             </span>
                         </div>
                         <div class="col-md-4 text-right">
                             <span class="top-bar-item">
-                                <i class="fas fa-phone mr-1"></i> <a class="text-white"
-                                    href="tel:+17133920281">(713)-392-0281</a> | Galleria
+                                <i class="fas fa-phone mr-1"></i> <a class="txt-color-10"
+                                    href="tel:+17133920281">(713)-392-0281</a> |
+                                Galleria
                             </span>
                         </div>
                         <div class="col-md-3 text-right">
                             <span class="top-bar-item">
-                                <i class="fas fa-phone mr-1"></i> <a class="text-white"
+                                <i class="fas fa-phone mr-1"></i> <a class="txt-color-10"
                                     href="tel:(281)-690-3563">(281)-690-3563</a> | Sugar Land
                             </span>
                         </div>
