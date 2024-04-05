@@ -17,22 +17,6 @@ get_header();
 <!-- CONTACTS--->
 <section id="contacts-3" class="bg-color-01 wide-60 contacts-section division">
     <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
-                    <!-- Title 	-->
-                    <h3 class="h3-xl txt-color-01">Have Any Questions?</h3>
-                    <!-- Text -->
-                    <p class="p-lg txt-color-05 pb-30">
-                        You can contact us through the form below, through phone, email, or in person, and our team will
-                        gladly help you with our expertise.</p><br>
-                    <a href="https://www.fresha.com/providers/ilash-health-spa-u92j25pw?dppub=true"
-                        class="btn btn-md btn-color-02 color-01-hover p-4">Make an Appointment</a>
-
-                </div>
-            </div>
-        </div>
         <div class="row">
             <!-- CONTACT FORM -->
             <div class="col-md-7 col-lg-8">
